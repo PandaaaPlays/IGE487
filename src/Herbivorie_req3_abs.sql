@@ -41,21 +41,21 @@ WITH N as (
     FROM Plant
     GROUP BY placette
     )
-SELECT peup, placette, nombre_de_plants
+SELECT peuplement, placette, nombre_de_plants
 FROM N JOIN Placette ON (placette = plac)
-ORDER BY peup, placette
+ORDER BY peuplement, placette
 ;
 -- -- v2
-SELECT peup, placette, count (*) AS nombre_de_plants
+SELECT peuplement, placette, count (*) AS nombre_de_plants
 FROM Plant JOIN Placette ON (placette = plac)
-GROUP BY placette, peup
-ORDER BY peup, placette
+GROUP BY placette, peuplement
+ORDER BY peuplement, placette
 ;
 -- -- v3
-SELECT MAX(peup), placette, count (*) AS nombre_de_plants
+SELECT MAX(peuplement), placette, count (*) AS nombre_de_plants
 FROM Plant JOIN Placette ON (placette = plac)
 GROUP BY placette
-ORDER BY MAX(peup), placette
+ORDER BY MAX(peuplement), placette
 ;
 
 -- X02.

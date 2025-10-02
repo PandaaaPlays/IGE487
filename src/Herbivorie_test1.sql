@@ -36,19 +36,19 @@ INSERT INTO Etat (etat, description)
   VALUES -- état erroné
   ('$', 'vivante');
 
-INSERT INTO Peuplement (peup, description)
+INSERT INTO Peuplement (peuplement, description)
   VALUES -- peup trop court
   ('ERH', 'érablière à hêtre');
 
-INSERT INTO Peuplement (peup, description)
-  VALUES -- peup trop long
+INSERT INTO Peuplement (peuplement, description)
+  VALUES -- peuplement trop long
   ('ERHET', 'érablière à hêtre');
 
-INSERT INTO Peuplement (peup, description)
+INSERT INTO Peuplement (peuplement, description)
   VALUES -- description trop courte
   ('XXSS', '');
 
-INSERT INTO Peuplement (peup, description)
+INSERT INTO Peuplement (peuplement, description)
   VALUES -- description trop longue
   ('XXLL', '123456789012345678901234567890123456789012345678901234567890x');
 
@@ -61,7 +61,7 @@ INSERT INTO Arbre (arbre, description)
   ('12345678901234567890x', 'def ABIBAL');
 
 INSERT INTO Placette
-  (plac, peup, obs_F1, obs_F2, obs_C1, obs_C2, obs_T1, obs_C2, graminees, mousses, fougeres, arb_P1, arb_P2, arb_P3, date)
+  (plac, peuplement, obs_F1, obs_F2, obs_C1, obs_C2, obs_T1, obs_C2, graminees, mousses, fougeres, arb_P1, arb_P2, arb_P3, date)
   VALUES -- qui était là en 1492 ?
   ('A9', 'ERHE', 'E', 'E', 'F', 'F', 'D', 'E', 'D', 'F', 'C', 'ACESAC', 'FAGGRA', 'BETALL', '1492-01-01');
 

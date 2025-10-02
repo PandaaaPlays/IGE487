@@ -145,21 +145,21 @@ INSERT INTO obsdimension (id, longueur, largeur, date, note) VALUES ('MMB7087', 
 INSERT INTO obsdimension (id, longueur, largeur, date, note) VALUES ('MMC1085', 61, 56, '2017-05-17', '');
 INSERT INTO obsdimension (id, longueur, largeur, date, note) VALUES ('MMC1085', 99, 94, '2017-06-05', '');
 
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMA1040', true, '2017-05-08', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMB1305', false, '2017-06-04', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMB7103', false, '2017-06-01', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMA1122', false, '2017-05-12', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMB1009', true, '2017-05-13', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMA5041', false, '2017-05-27', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMA5186', false, '2017-05-27', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMA5051', false, '2017-05-27', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMB5103', false, '2017-05-23', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMA7092', true, '2017-05-31', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMC1185', false, '2017-05-17', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMB5213', false, '2017-05-23', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMA1197', true, '2017-05-12', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMB7087', false, '2017-06-01', '');
-INSERT INTO obsfloraison (id, fleur, date, note) VALUES ('MMC1085', false, '2017-05-17', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMA1040', '2017-05-08', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMB1305', '2017-06-04', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMB7103', '2017-06-01', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMA1122', '2017-05-12', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMB1009', '2017-05-13', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMA5041', '2017-05-27', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMA5186', '2017-05-27', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMA5051', '2017-05-27', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMB5103', '2017-05-23', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMA7092', '2017-05-31', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMC1185', '2017-05-17', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMB5213', '2017-05-23', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMA1197', '2017-05-12', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMB7087', '2017-06-01', '');
+INSERT INTO obsfloraison (id, date, note) VALUES ('MMC1085', '2017-05-17', '');
 
 INSERT INTO obsetat (id, etat, date, note) VALUES ('MMA1040', 'O', '2017-06-08', '');
 INSERT INTO obsetat (id, etat, date, note) VALUES ('MMB1305', 'O', '2017-07-04', '');

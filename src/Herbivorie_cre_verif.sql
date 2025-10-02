@@ -45,22 +45,38 @@ Par exemple, la table suivante est valide :
   ('F', 0, 0)
 ....
 
-
 */
 
-create or replace function Test_Taux_compacite (sMin Taux_val, sMax Taux_val) returns Boolean
-  immutable
-return
-  (select min(tMin) from Taux) = sMin and
-  (select max(tMax) from Taux) = sMax and
-  not exists (
-    select tMin
-    from Taux as tr
-    where (tr.tMax+1) <> (
-      select min(tMin) as x
-      from Taux as ts
-      where tr.tMin < ts.tMin)
-    )
+CREATE OR REPLACE FUNCTION check_interval_compact(new_min Taux_val, new_max Taux_val)
+    RETURNS BOOLEAN AS $$
+BEGIN
+    IF EXISTS (
+        SELECT 1
+        FROM Taux
+        WHERE tMin <= new_max AND tMax >= new_min
+    ) THEN
+        RETURN FALSE;
+    END IF;
+
+    RETURN TRUE;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION verifier_compacite_taux()
+    RETURNS TRIGGER AS $$
+BEGIN
+    IF NOT check_interval_compact(NEW.tMin, NEW.tMax) THEN
+        RAISE EXCEPTION 'Compactness of Taux violated: table must cover 0..100 without gaps.';
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE TRIGGER trg_compacite_taux
+    BEFORE INSERT OR UPDATE ON Taux
+    FOR EACH ROW
+EXECUTE FUNCTION verifier_compacite_taux();
+
 /*
   -- ce qui suit est redondant si les trois conditions précédentes sont vérifiées
   and exists (
@@ -70,3 +86,13 @@ return
     )
 */
 ;
+
+INSERT INTO Taux
+VALUES
+    ('F', 0, 4),
+    ('M', 5, 7),
+    ('D', 7, 25),
+    ('Y', 26, 50),
+    ('X', 51, 75),
+    ('T', 76, 100);
+

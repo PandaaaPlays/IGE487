@@ -49,14 +49,14 @@ WITH N as (
     FROM Plant
     GROUP BY placette
     )
-SELECT Placette.peup as peuplement, Placette.plac as placette, N.nb as nombre_de_plants
+SELECT Placette.peuplement as peuplement, Placette.plac as placette, N.nb as nombre_de_plants
 FROM N JOIN Placette ON (N.placette = Placette.plac)
 ORDER BY peuplement, placette
 ;
 -- X01.V2 Intégration de la V1
-SELECT Placette.peup as peuplement, Placette.plac as placette, count (*) AS nombre_de_plants
+SELECT Placette.peuplement as peuplement, Placette.plac as placette, count (*) AS nombre_de_plants
 FROM Plant JOIN Placette ON (Plant.placette = Placette.plac)
-GROUP BY Placette.peup, placette.plac
+GROUP BY Placette.peuplement, placette.plac
 ORDER BY peuplement, placette
 ;
 -- X01.V3 Simplification de V2
@@ -71,7 +71,7 @@ ORDER BY peuplement, placette
 -- X01.V4 Adaptation de la V3 pour SGBD dotés de la fonction any_value
 -- Lorsque le SGBD n’induit pas les dépendances fonctionnelles, il fournit parfois
 -- une fonction d’agrégation (any_value) pour pallier cette insuffisance
-SELECT any_value (Placette.peup) as peuplement, Placette.plac as placette, count (*) AS nombre_de_plants
+SELECT any_value (Placette.peuplement) as peuplement, Placette.plac as placette, count (*) AS nombre_de_plants
 FROM Plant JOIN Placette ON (Plant.placette = Placette.plac)
 GROUP BY Placette.plac
 ORDER BY peuplement, placette
@@ -79,7 +79,7 @@ ORDER BY peuplement, placette
 -- X01.V5 Adaptation de la V3 pour SGBD minimalistes
 -- En dernier recours, il est possible d’utiliser une autre fonction agrégation
 -- standard, tel que MIN ou MAX
-SELECT MAX(Placette.peup) as peuplement, Placette.plac as placette, count (*) AS nombre_de_plants
+SELECT MAX(Placette.peuplement) as peuplement, Placette.plac as placette, count (*) AS nombre_de_plants
 FROM Plant JOIN Placette ON (Plant.placette = Placette.plac)
 GROUP BY Placette.plac
 ORDER BY peuplement, placette
@@ -87,11 +87,11 @@ ORDER BY peuplement, placette
 /*
 -- Finalement, la déduction de la dépendance fonctionnelle peut souvent
 -- être déficiente, comme illustré ici en PostgreSQL v13, 14, 15, 17...
-SELECT Placette.peup as peuplement, Plant.placette as placette, count (*) AS nombre_de_plants
+SELECT Placette.peuplement as peuplement, Plant.placette as placette, count (*) AS nombre_de_plants
 FROM Plant JOIN Placette ON (Plant.placette = Placette.plac)
 GROUP BY Plant.placette
 ORDER BY peuplement, placette ;
-** [42803] ERROR: column "placette.peup" must appear in the GROUP BY clause or be used in an aggregate function
+** [42803] ERROR: column "placette.peuplement" must appear in the GROUP BY clause or be used in an aggregate function
 ** Position : 8
 -- PostgresQL ne prend pas en compte qu'en vertu de l’égalité
 --   « ON (Plant.placette = Placette.plac) »
