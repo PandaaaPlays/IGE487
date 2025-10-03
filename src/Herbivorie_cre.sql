@@ -124,36 +124,10 @@ CREATE TABLE Peuplement
   CONSTRAINT Peuplement_cc0 PRIMARY KEY (peuplement)
 );
 
-CREATE DOMAIN Taux_val
- -- Valeur correspondant à la proportion d’une couverture à un centième près.
+CREATE DOMAIN Taux
+ -- Valeur correspondant à la proportion d’une couverture en pourcentage.
   INTEGER
   CHECK (VALUE BETWEEN 0 AND 100);
-
-CREATE DOMAIN Taux_id
- -- Code identifiant uniquement un intervalle de couverture communément appelé «taux».
- -- Ces codes sont utilisés notamment lors de la mesure de l’obstruction latérale de la surface au sol.
-  TEXT
-  CHECK (VALUE SIMILAR TO '[A-Z]{1}');
-
-CREATE TABLE Taux
- -- Répertoire des codes de couverture communément appelés «taux».
- -- PRÉDICAT : Le code de couverture identifié par "tCat" correspond à l’intervalle
- --   de couverture [tMin..tMax].
- -- NOTE : Le choix d’une représentation discrète pour Taux_val a conduit
- --   naturellement à définir le taux de la catégorie tCat par un intervalle
- --   fermé-fermé [compris entre tMin (inclusivement) et tMax (inclusivement)].
- -- CONTRAINTE : Compacité sur [0..100]
- --   Il ne doit y avoir aucun recoupement entre les intervalles associés
- --   aux codes définis et l’union des intervalles définis doit couvrir la totalité
- --   du spectre 0..100.
- -- TODO 2025-01-29 LL01. Mettre en oeuvre la contrainte de compacité.
-(
-  tCat Taux_id  NOT NULL,
-  tMin Taux_val NOT NULL,
-  tMax Taux_val NOT NULL,
-  CONSTRAINT Taux_cc0 PRIMARY KEY (tCat),
-  CONSTRAINT Taux_inter CHECK (tMin <= tMax)
-);
 
 CREATE DOMAIN Placette_id
  -- Code identifiant uniquement une placette.
@@ -172,15 +146,12 @@ CREATE TABLE Placette
 (
   plac      Placette_id   NOT NULL, -- désignation de la placette
   peuplement Peuplement_id NOT NULL, -- type de peuplement de la placette
-  graminees Taux_id       NOT NULL, -- taux d’occupation au sol des graminées dans la placette
-  mousses   Taux_id       NOT NULL, -- taux d’occupation au sol des mousses dans la placette
-  fougeres  Taux_id       NOT NULL, -- taux d’occupation au sol des fougères dans la placette
+  graminees Taux          NOT NULL, -- taux d’occupation au sol des graminées dans la placette
+  mousses   Taux          NOT NULL, -- taux d’occupation au sol des mousses dans la placette
+  fougeres  Taux          NOT NULL, -- taux d’occupation au sol des fougères dans la placette
   date      Date_eco      NOT NULL, -- date à laquelle la description a été établie
   CONSTRAINT Placette_cc0 PRIMARY KEY (plac),
-  CONSTRAINT Placette_cr_pe FOREIGN KEY (peuplement) REFERENCES Peuplement (peuplement),
-  CONSTRAINT Placette_cr_gr FOREIGN KEY (graminees) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_mo FOREIGN KEY (mousses) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_fo FOREIGN KEY (fougeres) REFERENCES Taux (tCat)
+  CONSTRAINT Placette_cr_pe FOREIGN KEY (peuplement) REFERENCES Peuplement (peuplement)
  -- NOTE : Comment vérifier que obs_T1.tMin >= obs_F1.tMin + obs_C1.tMin ?
  -- NOTE : Comment vérifier que obs_T2.tMin >= obs_F2.tMin + obs_C2.tMin ?
  -- NOTE : Que faudrait-il faire pour les tMax ?
@@ -192,7 +163,7 @@ CREATE TABLE Placette_Obstruction (
     placette Placette_id NOT NULL,
     hauteur  INTEGER NOT NULL,     -- 1 or 2 meters
     type_obs TEXT NOT NULL,        -- 'Feuillu', 'Conifer', 'Total', 'Graminees', 'Mousses', 'Fougeres'
-    taux     Taux_id NOT NULL,
+    taux     Taux NOT NULL,
     CONSTRAINT pk_placette_obs PRIMARY KEY (placette, hauteur, type_obs),
     CONSTRAINT fk_placette_obs FOREIGN KEY (placette) REFERENCES Placette(plac)
 );
