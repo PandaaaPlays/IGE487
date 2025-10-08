@@ -146,9 +146,6 @@ CREATE TABLE Placette
 (
   plac      Placette_id   NOT NULL, -- désignation de la placette
   peuplement Peuplement_id NOT NULL, -- type de peuplement de la placette
-  graminees Taux          NOT NULL, -- taux d’occupation au sol des graminées dans la placette
-  mousses   Taux          NOT NULL, -- taux d’occupation au sol des mousses dans la placette
-  fougeres  Taux          NOT NULL, -- taux d’occupation au sol des fougères dans la placette
   date      Date_eco      NOT NULL, -- date à laquelle la description a été établie
   CONSTRAINT Placette_cc0 PRIMARY KEY (plac),
   CONSTRAINT Placette_cr_pe FOREIGN KEY (peuplement) REFERENCES Peuplement (peuplement)
@@ -159,18 +156,41 @@ CREATE TABLE Placette
  -- NOTE : Quels outils pourrions-nous leur fournir ?
 );
 
+CREATE DOMAIN Couverture
+ -- Type de couverture pour les placette.
+  TEXT
+  CHECK (VALUE IN('graminees', 'fougeres', 'mousses'));
+
+CREATE TABLE Placette_couverture(
+    placette        Placette_id NOT NULL,
+    type_couverture Couverture  NOT NULL,
+    taux            Taux        NOT NULL,
+    CONSTRAINT pk_placette_couv PRIMARY KEY (placette, type_couverture),
+    CONSTRAINT fk_placette_couv FOREIGN KEY (placette) REFERENCES Placette (plac)
+);
+
+CREATE DOMAIN Hauteur
+ -- Hauteur (en mètres) des obstructions.
+  INTEGER
+  CHECK (VALUE >= 1 AND VALUE <= 2);
+
 CREATE TABLE Placette_Obstruction (
     placette Placette_id NOT NULL,
-    hauteur  INTEGER NOT NULL,     -- 1 or 2 meters
+    hauteur  Hauteur NOT NULL,     -- 1 or 2 meters
     type_obs TEXT NOT NULL,        -- 'Feuillu', 'Conifer', 'Total', 'Graminees', 'Mousses', 'Fougeres'
     taux     Taux NOT NULL,
     CONSTRAINT pk_placette_obs PRIMARY KEY (placette, hauteur, type_obs),
     CONSTRAINT fk_placette_obs FOREIGN KEY (placette) REFERENCES Placette(plac)
 );
 
+CREATE DOMAIN Rang
+ -- Rang d'un arbre dans une placette.
+  INTEGER
+  CHECK (VALUE >= 1 AND VALUE <= 3);
+
 CREATE TABLE Placette_Arbre (
     placette Placette_id NOT NULL,
-    rang     INTEGER NOT NULL,      -- 1, 2, 3
+    rang     Rang NOT NULL,      -- 1, 2, 3
     arbre    Arbre_id NOT NULL,
     CONSTRAINT pk_placette_arbre PRIMARY KEY (placette, rang),
     CONSTRAINT fk_placette_arbre FOREIGN KEY (placette) REFERENCES Placette(plac),
@@ -199,10 +219,18 @@ CREATE TABLE Plant
   id       Plant_id    NOT NULL, -- identifiant unique de chaque trille
   placette Placette_id NOT NULL, -- placette dans laquelle est le trille
   parcelle Parcelle    NOT NULL, -- parcelle dans laquelle se trouve le trille
-  date     Date_eco    NOT NULL, -- date de la prise de données
-  note     TEXT        NOT NULL, -- note supplémentaire à propos du trille
+  date     date_eco    NOT NULL, -- date de découverte du plan dans la parcelle de la placette
   CONSTRAINT Plant_cc0 PRIMARY KEY (id),
   CONSTRAINT Plant_cr0 FOREIGN KEY (placette) REFERENCES Placette (plac)
+);
+
+CREATE TABLE Plant_Note(
+    id       SERIAL      NOT NULL, -- identifiant unique de chaque prise de note
+    id_plant Plant_id    NOT NULL, -- identifiant unique de chaque trille
+    date     Date_eco    NOT NULL, -- date de la prise de note (possiblement plusieurs la même journée)
+    note     TEXT        NOT NULL, -- note supplémentaire à propos du trille
+    CONSTRAINT Plant_iden_cc0 PRIMARY KEY (id),
+    CONSTRAINT Plant_iden_cr0 FOREIGN KEY (id_plant) REFERENCES Plant (id)
 );
 
 CREATE DOMAIN Dim_mm
