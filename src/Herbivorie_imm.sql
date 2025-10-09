@@ -1,3 +1,18 @@
+/*
+////
+-- =========================================================================== A
+-- Herbivorie_imm.sql
+-- ---------------------------------------------------------------------------
+Activité : IGE487_2025-3
+Encodage : UTF-8, sans BOM; fin de ligne Unix (LF)
+Plateforme : PostgreSQL 9.4 à 17
+Responsable : luc.lavoie@usherbrooke.ca
+Version : 1.0.0
+Statut : Liste de base des IMM de herbivorie.
+Résumé : Ajout des principaux IMM pour la gestion des tables herbivorie.
+-- =========================================================================== A
+*/
+
 --
 -- PLACETTE
 --
@@ -543,3 +558,28 @@ BEGIN
     DELETE FROM Plant_Note WHERE id = p_id;
 END;
 $$;
+
+/*
+-- =========================================================================== Z
+////
+.Contributeurs
+* Équipe du projet (Étienne, Imène, Mathieu et Mikael)
+
+.Tâches réalisées
+* 2025-10-08.
+  - Création des IMM pour herbivorie.
+
+.Adresse, droits d’auteur et copyright
+  Groupe Metis
+  Département d’informatique
+  Faculté des sciences
+  Université de Sherbrooke
+  Sherbrooke (Québec)  J1K 2R1
+  Canada
+  http://info.usherbrooke.ca/llavoie/
+  [CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0)]
+
+-- -----------------------------------------------------------------------------
+-- fin de {CoFELI}/src/Herbivorie_imm.sql
+-- =========================================================================== Z
+*/

@@ -1,3 +1,18 @@
+/*
+////
+-- =========================================================================== A
+-- Herbivorie_imm_test.sql
+-- ---------------------------------------------------------------------------
+Activité : IGE487_2025-3
+Encodage : UTF-8, sans BOM; fin de ligne Unix (LF)
+Plateforme : PostgreSQL 9.4 à 17
+Responsable : luc.lavoie@usherbrooke.ca
+Version : 1.0.0
+Statut : Tests de base complets et fonctionnels.
+Résumé : Ajout de tests pour les différents IMM de herbivorie.
+-- =========================================================================== A
+*/
+
 BEGIN;
 
 SET client_min_messages TO NOTICE;
@@ -140,3 +155,28 @@ END;
 $$;
 
 ROLLBACK;
+
+/*
+-- =========================================================================== Z
+////
+.Contributeurs
+* Équipe du projet (Étienne, Imène, Mathieu et Mikael)
+
+.Tâches réalisées
+* 2025-10-08.
+  - Création des test des IMM de herbivorie.
+
+.Adresse, droits d’auteur et copyright
+  Groupe Metis
+  Département d’informatique
+  Faculté des sciences
+  Université de Sherbrooke
+  Sherbrooke (Québec)  J1K 2R1
+  Canada
+  http://info.usherbrooke.ca/llavoie/
+  [CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0)]
+
+-- -----------------------------------------------------------------------------
+-- fin de {CoFELI}/src/Herbivorie_imm_test.sql
+-- =========================================================================== Z
+*/
