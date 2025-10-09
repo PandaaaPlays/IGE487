@@ -24,18 +24,6 @@ BEGIN
 END;
 $$;
 
--- Supression d'une placette complete.
-CREATE OR REPLACE PROCEDURE imm_delete_full_placette(p_plac Placette_id)
-LANGUAGE plpgsql AS $$
-BEGIN
-    DELETE FROM Placette_Arbre WHERE placette = p_plac;
-    DELETE FROM Placette_Couverture WHERE placette = p_plac;
-    DELETE FROM Placette_Obstruction WHERE placette = p_plac;
-    DELETE FROM Plant WHERE placette = p_plac;
-    DELETE FROM Placette WHERE plac = p_plac;
-END;
-$$;
-
 /*
 -- =========================================================================== Z
 ////
