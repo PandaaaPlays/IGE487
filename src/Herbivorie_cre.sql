@@ -159,7 +159,7 @@ CREATE TABLE Placette
 CREATE DOMAIN Couverture
  -- Type de couverture pour les placette.
   TEXT
-  CHECK (VALUE IN('graminees', 'fougeres', 'mousses'));
+  CHECK (UPPER(VALUE) IN ('GRAMINEES', 'FOUGERES', 'MOUSSES'));
 
 CREATE TABLE Placette_couverture(
     placette        Placette_id NOT NULL,
