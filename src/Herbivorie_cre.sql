@@ -119,41 +119,15 @@ CREATE TABLE Peuplement
  -- Répertoire des types de peuplement végétal d’une parcelle.
  -- PRÉDICAT : Le type de peuplement identifié par "peup" correspond à la description "description".
 (
-  peup        Peuplement_id NOT NULL,
+  peuplement  Peuplement_id NOT NULL,
   description Description   NOT NULL,
-  CONSTRAINT Peuplement_cc0 PRIMARY KEY (peup)
+  CONSTRAINT Peuplement_cc0 PRIMARY KEY (peuplement)
 );
 
-CREATE DOMAIN Taux_val
- -- Valeur correspondant à la proportion d’une couverture à un centième près.
+CREATE DOMAIN Taux
+ -- Valeur correspondant à la proportion d’une couverture en pourcentage.
   INTEGER
   CHECK (VALUE BETWEEN 0 AND 100);
-
-CREATE DOMAIN Taux_id
- -- Code identifiant uniquement un intervalle de couverture communément appelé «taux».
- -- Ces codes sont utilisés notamment lors de la mesure de l’obstruction latérale de la surface au sol.
-  TEXT
-  CHECK (VALUE SIMILAR TO '[A-Z]{1}');
-
-CREATE TABLE Taux
- -- Répertoire des codes de couverture communément appelés «taux».
- -- PRÉDICAT : Le code de couverture identifié par "tCat" correspond à l’intervalle
- --   de couverture [tMin..tMax].
- -- NOTE : Le choix d’une représentation discrète pour Taux_val a conduit
- --   naturellement à définir le taux de la catégorie tCat par un intervalle
- --   fermé-fermé [compris entre tMin (inclusivement) et tMax (inclusivement)].
- -- CONTRAINTE : Compacité sur [0..100]
- --   Il ne doit y avoir aucun recoupement entre les intervalles associés
- --   aux codes définis et l’union des intervalles définis doit couvrir la totalité
- --   du spectre 0..100.
- -- TODO 2025-01-29 LL01. Mettre en oeuvre la contrainte de compacité.
-(
-  tCat Taux_id  NOT NULL,
-  tMin Taux_val NOT NULL,
-  tMax Taux_val NOT NULL,
-  CONSTRAINT Taux_cc0 PRIMARY KEY (tCat),
-  CONSTRAINT Taux_inter CHECK (tMin <= tMax)
-);
 
 CREATE DOMAIN Placette_id
  -- Code identifiant uniquement une placette.
@@ -171,39 +145,56 @@ CREATE TABLE Placette
  --   faites en date du "date" et consignées grâce aux autres attributs décrits ci-après.
 (
   plac      Placette_id   NOT NULL, -- désignation de la placette
-  peup      Peuplement_id NOT NULL, -- type de peuplement de la placette
-  obs_F1    Taux_id       NOT NULL, -- taux d’obstruction latérale feuillue moyenne à 1 m de hauteur
-  obs_F2    Taux_id       NOT NULL, -- taux d’obstruction latérale feuillue moyenne à 2 m de hauteur
-  obs_C1    Taux_id       NOT NULL, -- taux d’obstruction latérale coniférienne moyenne à 1 m de hauteur
-  obs_C2    Taux_id       NOT NULL, -- taux d’obstruction latérale coniférienne moyenne à 2 m de hauteur
-  obs_T1    Taux_id       NOT NULL, -- taux d’obstruction latérale totale moyenne à 1 m de hauteur
-  obs_T2    Taux_id       NOT NULL, -- taux d’obstruction latérale totale moyenne à 2 m de hauteur
-  graminees Taux_id       NOT NULL, -- taux d’occupation au sol des graminées dans la placette
-  mousses   Taux_id       NOT NULL, -- taux d’occupation au sol des mousses dans la placette
-  fougeres  Taux_id       NOT NULL, -- taux d’occupation au sol des fougères dans la placette
-  arb_P1    Arbre_id      NOT NULL, -- arbre dominant de la placette (1er rang)
-  arb_P2    Arbre_id      NOT NULL, -- arbre dominant de la placette (2e rang)
-  arb_P3    Arbre_id      NOT NULL, -- arbre dominant de la placette (3e rang)
+  peuplement Peuplement_id NOT NULL, -- type de peuplement de la placette
   date      Date_eco      NOT NULL, -- date à laquelle la description a été établie
   CONSTRAINT Placette_cc0 PRIMARY KEY (plac),
-  CONSTRAINT Placette_cr_pe FOREIGN KEY (peup) REFERENCES Peuplement (peup),
-  CONSTRAINT Placette_cr_f1 FOREIGN KEY (obs_F1) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_f2 FOREIGN KEY (obs_F2) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_c1 FOREIGN KEY (obs_C1) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_c2 FOREIGN KEY (obs_C2) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_t1 FOREIGN KEY (obs_T1) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_t2 FOREIGN KEY (obs_T2) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_gr FOREIGN KEY (graminees) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_mo FOREIGN KEY (mousses) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_fo FOREIGN KEY (fougeres) REFERENCES Taux (tCat),
-  CONSTRAINT Placette_cr_p1 FOREIGN KEY (arb_P1) REFERENCES Arbre (arbre),
-  CONSTRAINT Placette_cr_p2 FOREIGN KEY (arb_P2) REFERENCES Arbre (arbre),
-  CONSTRAINT Placette_cr_p3 FOREIGN KEY (arb_P3) REFERENCES Arbre (arbre)
+  CONSTRAINT Placette_cr_pe FOREIGN KEY (peuplement) REFERENCES Peuplement (peuplement)
  -- NOTE : Comment vérifier que obs_T1.tMin >= obs_F1.tMin + obs_C1.tMin ?
  -- NOTE : Comment vérifier que obs_T2.tMin >= obs_F2.tMin + obs_C2.tMin ?
  -- NOTE : Que faudrait-il faire pour les tMax ?
  -- NOTE : Que faudrait-il suggérer aux collègues écologistes ?
  -- NOTE : Quels outils pourrions-nous leur fournir ?
+);
+
+CREATE DOMAIN Couverture
+ -- Type de couverture pour les placette.
+  TEXT
+  CHECK (UPPER(VALUE) IN ('GRAMINEES', 'FOUGERES', 'MOUSSES'));
+
+CREATE TABLE Placette_couverture(
+    placette        Placette_id NOT NULL,
+    type_couverture Couverture  NOT NULL,
+    taux            Taux        NOT NULL,
+    CONSTRAINT pk_placette_couv PRIMARY KEY (placette, type_couverture),
+    CONSTRAINT fk_placette_couv FOREIGN KEY (placette) REFERENCES Placette (plac)
+);
+
+CREATE DOMAIN Hauteur
+ -- Hauteur (en mètres) des obstructions.
+  INTEGER
+  CHECK (VALUE >= 1 AND VALUE <= 2);
+
+CREATE TABLE Placette_Obstruction (
+    placette Placette_id NOT NULL,
+    hauteur  Hauteur NOT NULL,     -- 1 or 2 meters
+    type_obs TEXT NOT NULL,        -- 'Feuillu', 'Conifer', 'Total', 'Graminees', 'Mousses', 'Fougeres'
+    taux     Taux NOT NULL,
+    CONSTRAINT pk_placette_obs PRIMARY KEY (placette, hauteur, type_obs),
+    CONSTRAINT fk_placette_obs FOREIGN KEY (placette) REFERENCES Placette(plac)
+);
+
+CREATE DOMAIN Rang
+ -- Rang d'un arbre dans une placette.
+  INTEGER
+  CHECK (VALUE >= 1 AND VALUE <= 3);
+
+CREATE TABLE Placette_Arbre (
+    placette Placette_id NOT NULL,
+    rang     Rang NOT NULL,      -- 1, 2, 3
+    arbre    Arbre_id NOT NULL,
+    CONSTRAINT pk_placette_arbre PRIMARY KEY (placette, rang),
+    CONSTRAINT fk_placette_arbre FOREIGN KEY (placette) REFERENCES Placette(plac),
+    CONSTRAINT fk_placette_arbre_arbre FOREIGN KEY (arbre) REFERENCES Arbre(arbre)
 );
 
 --
@@ -228,10 +219,18 @@ CREATE TABLE Plant
   id       Plant_id    NOT NULL, -- identifiant unique de chaque trille
   placette Placette_id NOT NULL, -- placette dans laquelle est le trille
   parcelle Parcelle    NOT NULL, -- parcelle dans laquelle se trouve le trille
-  date     Date_eco    NOT NULL, -- date de la prise de données
-  note     TEXT        NOT NULL, -- note supplémentaire à propos du trille
+  date     date_eco    NOT NULL, -- date de découverte du plan dans la parcelle de la placette
   CONSTRAINT Plant_cc0 PRIMARY KEY (id),
   CONSTRAINT Plant_cr0 FOREIGN KEY (placette) REFERENCES Placette (plac)
+);
+
+CREATE TABLE Plant_Note(
+    id       SERIAL      NOT NULL, -- identifiant unique de chaque prise de note
+    id_plant Plant_id    NOT NULL, -- identifiant unique de chaque trille
+    date     Date_eco    NOT NULL, -- date de la prise de note (possiblement plusieurs la même journée)
+    note     TEXT        NOT NULL, -- note supplémentaire à propos du trille
+    CONSTRAINT Plant_iden_cc0 PRIMARY KEY (id),
+    CONSTRAINT Plant_iden_cr0 FOREIGN KEY (id_plant) REFERENCES Plant (id)
 );
 
 CREATE DOMAIN Dim_mm
@@ -260,10 +259,9 @@ CREATE TABLE ObsFloraison
  --   À cette occasion, l’observateur a consigné le commentaire "note".
 (
   id       Plant_id NOT NULL, -- identifiant unique de chaque trille
-  fleur    BOOLEAN  NOT NULL, -- présence de fleur
-  date     Date_eco NOT NULL, -- date de l’observation
+  date     Date_eco NOT NULL, -- date de l’observation (LA PREMIÈRE!)
   note     TEXT     NOT NULL, -- note supplémentaire à propos du trille
-  CONSTRAINT ObsFloraison_cc0 PRIMARY KEY (id, date),
+  CONSTRAINT ObsFloraison_cc0 PRIMARY KEY (id), -- Garder uniquement la première fois qu'elle est inséré.
   CONSTRAINT ObsFloraison_cr0 FOREIGN KEY (id) REFERENCES Plant (id)
 );
 
@@ -325,7 +323,7 @@ CREATE TABLE ObsEtat
   - La constitution d’un dictionnaire de données et l’utilisation d’une terminologie
     rigoureuse sont fortement recommandées.
   - Entre autres exemples : obs -> obstruction latérale, taux -> pourcentage,
-    arb -> variété d’arbres, peup, plac, etc.
+    arb -> variété d’arbres, peuplement, plac, etc.
 
 .Tâches réalisées
 * 2025-02-03 LL01. Fusion des fichiers Herbivorie_def et Herbivorie_cre.

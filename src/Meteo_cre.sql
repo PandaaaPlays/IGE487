@@ -125,7 +125,8 @@ CREATE TABLE ObsPrecipitations
   date      Date_eco NOT NULL,
   prec_tot  HNP NOT NULL,
   prec_nat  Code_P NOT NULL,
-  CONSTRAINT ObsPrecipitations_cc0 PRIMARY KEY (date, prec_nat)
+  CONSTRAINT ObsPrecipitations_cc0 PRIMARY KEY (date, prec_nat),
+  CONSTRAINT ObsPrecipitations_cr_co FOREIGN KEY (prec_nat) REFERENCES TypePrecipitations(code)
 );
 
 CREATE TABLE CarnetMeteo
