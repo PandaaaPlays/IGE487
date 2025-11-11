@@ -110,9 +110,8 @@ CREATE TABLE Zone (
     code_site   Code_site        NOT NULL,
     nom         Nom_zone         NOT NULL,
     description Description_zone NOT NULL,
-    date        Date_eco         NOT NULL, -- date à laquelle la description a été établie
     CONSTRAINT Zone_cc0 PRIMARY KEY (code),
-    CONSTRAINT Zone_cr0 FOREIGN KEY (code) REFERENCES Site (code)
+    CONSTRAINT Zone_cr0 FOREIGN KEY (code_site) REFERENCES Site (code)
 );
 
 CREATE TABLE Placette
@@ -122,6 +121,7 @@ CREATE TABLE Placette
 (
   plac       Placette_id   NOT NULL, -- désignation de la placette
   zone       Code_zone     NOT NULL,
+  date       Date_eco      NOT NULL,
   CONSTRAINT Placette_cc0 PRIMARY KEY (plac),
   CONSTRAINT fk_pacette_zone  FOREIGN KEY (zone) REFERENCES Zone (code)
  -- NOTE : Comment vérifier que obs_T1.tMin >= obs_F1.tMin + obs_C1.tMin ?

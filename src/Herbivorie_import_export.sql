@@ -16,15 +16,73 @@ COPY Etat TO '/tmp/Etat.csv' WITH CSV HEADER;
 COPY ObsEtat TO '/tmp/ObsEtat.csv' WITH CSV HEADER;
 
 COPY (
-    SELECT pa.peuplement AS "Allo",
-           pa.position,
-           pl.date,
-           pl.zone
-    FROM Parcelle pa
-        LEFT JOIN Placette pl ON pa.placette_id = Placette.plac
-        LEFT JOIN
-    )
-TO '/tmp/Herbivorie_Placette.csv' WITH CSV HEADER;
+    SELECT
+        -- Placette info
+        pl.plac AS placette_id,
+        pl.zone AS zone,
+        pl.date AS placette_date,
+
+        -- Zone & Site info
+        z.code AS zone_code,
+        z.nom AS zone_nom,
+        z.description AS zone_desc,
+        s.code AS site_code,
+        s.nom AS site_nom,
+
+        -- Placette coverage
+        pc.type_couverture,
+        pc.taux,
+
+        -- Placette obstruction
+        po.hauteur,
+        po.type_obs AS obstruction_type,
+        po.taux AS obstruction_taux,
+
+        -- Placette arbres
+        pa.rang AS arbre_rang,
+        a.arbre AS arbre_variete,
+        a.description AS arbre_desc,
+
+        -- Parcelle info
+        parc.parcelle_id,
+        parc.position AS parcelle_position,
+        parc.peuplement AS parcelle_peuplement,
+
+        -- Plant info
+        p.id AS plant_id,
+        p.date AS plant_date,
+
+        -- Plant notes
+        pn.note AS plant_note,
+
+        -- Observations
+        od.longueur AS feuille_longueur,
+        od.largeur AS feuille_largeur,
+        od.date AS dimension_date,
+        ofl.date AS floraison_date,
+        ofl.note AS floraison_note,
+        oe.etat AS plant_etat,
+        oe.date AS etat_date
+
+    FROM Placette pl
+    LEFT JOIN Zone z ON pl.zone = z.code
+    LEFT JOIN Site s ON z.code_site = s.code
+
+    LEFT JOIN Placette_couverture pc ON pl.plac = pc.placette
+    LEFT JOIN Placette_Obstruction po ON pl.plac = po.placette
+    LEFT JOIN Placette_Arbre pa ON pl.plac = pa.placette
+    LEFT JOIN Arbre a ON pa.arbre = a.arbre
+
+    LEFT JOIN Parcelle parc ON pl.plac = parc.placette_id
+    LEFT JOIN Peuplement pe ON parc.peuplement = pe.peuplement
+    LEFT JOIN Plant p ON parc.parcelle_id = p.parcelle_id
+    LEFT JOIN Plant_Note pn ON p.id = pn.id_plant
+    LEFT JOIN ObsDimension od ON p.id = od.id
+    LEFT JOIN ObsFloraison ofl ON p.id = ofl.id
+    LEFT JOIN ObsEtat oe ON p.id = oe.id
+)
+TO '/tmp/Herbivorie.csv' WITH CSV HEADER;
+
 
 -- Meteo schema
 COPY ObsTemperature TO '/tmp/ObsTemperature.csv' WITH CSV HEADER;
