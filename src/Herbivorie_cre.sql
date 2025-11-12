@@ -13,73 +13,6 @@ Résumé : Création modèle logique du schéma Herbivorie.
 -- =========================================================================== A
 */
 
-/*
--- =========================================================================== B
-////
-Création du schéma SQL correspondant au modèle logique proposé pour la collecte
-des données de terrain du projet Herbivorie dans le document de modélisation [SML].
-
-Pour rappel, l’esquisse initiale du modèle logique est la suivante :
-
-    Etat (etat, description)
-      cle {etat};
-    Peuplement (peuplement, description)
-      cle {peuplement};
-    Arbre (arbre, description)
-      cle {arbre};
-    Taux {tCat, tMin, tMax}
-      cle {tCat}
-    Placette {placette, peuplement,
-      obs_F1, obs_F2, obs_C1, obs_C2, obs_T1, obs_T2,
-      graminees, mousses, fougeres,
-      arb_P1, arb_P2, arb_P3,
-      date, note}
-      clé {placette}
-      ref {obs_F1} -> Taux {tCat}
-      ref {obs_F2} -> Taux {tCat}
-      ref {obs_C1} -> Taux {tCat}
-      ref {obs_C2} -> Taux {tCat}
-      ref {obs_T1} -> Taux {tCat}
-      ref {obs_T2} -> Taux {tCat}
-      ref {graminees} -> Taux {tCat}
-      ref {mousses} -> Taux {tCat}
-      ref {fougeres} -> Taux {tCat}
-      ref {arb_P1} -> Arbre {arbre}
-      ref {arb_P2} -> Arbre {arbre}
-      ref {arb_P2} -> Arbre {arbre};
-    Plant {id, placette, parcelle, date, note}
-      cle {id}
-      ref id -> Plant
-      ref placette -> Placette;
-    Observation {id, largeur, longueur, floraison, etat, date, note}
-      clé {id, date}
-      ref id -> Plant
-      ref etat -> Etat;
-
-.Précisions
- a. Obstruction latérale : prend en compte les obstructions sur une distance de
-    10 m, à des hauteurs de 1 et 2 mètres.
- b. Floraison : vrai ssi le plant porte une fleur (qu’elle soit ouverte ou pas)
-    ou un fruit ; permet de déterminer si un plant est (potentiellement)
-    reproducteur ou pas.
- c. Une parcelle est une subdivision de la placette qui permet de faciliter le
-    repérage des plants.
- d. Les conventions relatives aux codes (plants, placettes, parcelles, etc.) sont
-    celles qui nous ont été communiquées au 2017-09-17.
- e. On présume qu’aucune donnée n’a été consignée antérieurement au 20 décembre 1582,
-    ce qui légitime l’usage exclusif du calendrier grégorien (en vigueur en France
-    et en Nouvelle-France depuis cette date).
- f. Pour plus de détails, voir [EPP, SML].
-
-.Notes de mise en oeuvre
- a. Les descriptions ont été arbitrairement limitées à 60 caractères ;
-    il conviendrait sans doute d’augmenter cette limite substantiellement.
- b. Les observations sont décomposées en trois tables afin de permettre un
-    meilleur traitement des données manquantes.
-////
--- =========================================================================== B
-*/
-
 --
 -- Création du schéma
 --
@@ -129,6 +62,16 @@ CREATE DOMAIN Taux
   INTEGER
   CHECK (VALUE BETWEEN 0 AND 100);
 
+CREATE DOMAIN Incertitude
+ -- Taux d'incertitude en pourcentage.
+  INTEGER
+  CHECK (VALUE BETWEEN 0 AND 100);
+
+CREATE TYPE TauxAvecIncertitude AS (
+    taux Taux,
+    incertitude Incertitude
+);
+
 CREATE DOMAIN Placette_id
  -- Code identifiant uniquement une placette.
   TEXT
@@ -139,16 +82,48 @@ CREATE DOMAIN Date_eco
   DATE
   CHECK (VALUE >= '1582-12-20');
 
+-- Code
+CREATE DOMAIN Code_site
+    TEXT
+    CHECK (VALUE SIMILAR TO '[A-Z]{2}');
+
+CREATE DOMAIN Nom_site
+    TEXT;
+
+CREATE TABLE Site (
+    code Code_site NOT NULL,
+    nom  Nom_site NOT NULL,
+    CONSTRAINT Site_cc0 PRIMARY KEY (code)
+);
+
+CREATE DOMAIN Code_zone
+    TEXT;
+
+CREATE DOMAIN Nom_zone
+    TEXT;
+
+CREATE DOMAIN Description_zone
+    TEXT;
+
+CREATE TABLE Zone (
+    code        Code_zone        NOT NULL,
+    code_site   Code_site        NOT NULL,
+    nom         Nom_zone         NOT NULL,
+    description Description_zone NOT NULL,
+    CONSTRAINT Zone_cc0 PRIMARY KEY (code),
+    CONSTRAINT Zone_cr0 FOREIGN KEY (code_site) REFERENCES Site (code)
+);
+
 CREATE TABLE Placette
  -- Description de la placette
  -- PRÉDICAT : La placette identifiée par "plac" a été caractérisée grâce aux observations
  --   faites en date du "date" et consignées grâce aux autres attributs décrits ci-après.
 (
-  plac      Placette_id   NOT NULL, -- désignation de la placette
-  peuplement Peuplement_id NOT NULL, -- type de peuplement de la placette
-  date      Date_eco      NOT NULL, -- date à laquelle la description a été établie
+  plac       Placette_id   NOT NULL, -- désignation de la placette
+  zone       Code_zone     NOT NULL,
+  date       Date_eco      NOT NULL,
   CONSTRAINT Placette_cc0 PRIMARY KEY (plac),
-  CONSTRAINT Placette_cr_pe FOREIGN KEY (peuplement) REFERENCES Peuplement (peuplement)
+  CONSTRAINT fk_pacette_zone  FOREIGN KEY (zone) REFERENCES Zone (code)
  -- NOTE : Comment vérifier que obs_T1.tMin >= obs_F1.tMin + obs_C1.tMin ?
  -- NOTE : Comment vérifier que obs_T2.tMin >= obs_F2.tMin + obs_C2.tMin ?
  -- NOTE : Que faudrait-il faire pour les tMax ?
@@ -164,7 +139,7 @@ CREATE DOMAIN Couverture
 CREATE TABLE Placette_couverture(
     placette        Placette_id NOT NULL,
     type_couverture Couverture  NOT NULL,
-    taux            Taux        NOT NULL,
+    taux            TauxAvecIncertitude NOT NULL,
     CONSTRAINT pk_placette_couv PRIMARY KEY (placette, type_couverture),
     CONSTRAINT fk_placette_couv FOREIGN KEY (placette) REFERENCES Placette (plac)
 );
@@ -175,10 +150,11 @@ CREATE DOMAIN Hauteur
   CHECK (VALUE >= 1 AND VALUE <= 2);
 
 CREATE TABLE Placette_Obstruction (
-    placette Placette_id NOT NULL,
-    hauteur  Hauteur NOT NULL,     -- 1 or 2 meters
-    type_obs TEXT NOT NULL,        -- 'Feuillu', 'Conifer', 'Total', 'Graminees', 'Mousses', 'Fougeres'
-    taux     Taux NOT NULL,
+    placette    Placette_id NOT NULL,
+    hauteur     Hauteur NOT NULL,     -- 1 or 2 meters
+    type_obs    TEXT NOT NULL,        -- 'Feuillu', 'Conifer', 'Total', 'Graminees', 'Mousses', 'Fougeres'
+    taux        TauxAvecIncertitude NOT NULL,
+    incertitude Incertitude NOT NULL,
     CONSTRAINT pk_placette_obs PRIMARY KEY (placette, hauteur, type_obs),
     CONSTRAINT fk_placette_obs FOREIGN KEY (placette) REFERENCES Placette(plac)
 );
@@ -205,10 +181,21 @@ CREATE DOMAIN Plant_id
   TEXT
   CHECK (VALUE SIMILAR TO 'MM[A-C][0-9]{4}');
 
-CREATE DOMAIN Parcelle
+CREATE DOMAIN Position_parcelle
  -- La parcelle est une subdivision de la placette.
   INTEGER
   CHECK (VALUE BETWEEN 0 AND 99);
+
+CREATE TABLE Parcelle (
+    parcelle_id SERIAL            NOT NULL,  -- identifiant de la parcelle du plant UNIQUE
+    placette_id Placette_id       NOT NULL,  -- identifiant de la placette
+    peuplement  Peuplement_id     NOT NULL, -- type de peuplement de la placette
+    position    Position_parcelle NOT NULL, -- 0, 1, 2, 99
+    CONSTRAINT Parcelle_cc PRIMARY KEY (parcelle_id),
+    CONSTRAINT Placette_cr FOREIGN KEY (placette_id) REFERENCES Placette (plac),
+    CONSTRAINT Placette_cr_pe FOREIGN KEY (peuplement) REFERENCES Peuplement (peuplement),
+    CONSTRAINT Parcelle_unique_placette_pos UNIQUE (placette_id, position)
+);
 
 CREATE TABLE Plant
  -- Répertoire des plants de trille et de leur emplacement.
@@ -216,12 +203,11 @@ CREATE TABLE Plant
  --   placette "placette" en date du "date".
  --   À cette occasion, l’observateur a consigné le commentaire "note".
 (
-  id       Plant_id    NOT NULL, -- identifiant unique de chaque trille
-  placette Placette_id NOT NULL, -- placette dans laquelle est le trille
-  parcelle Parcelle    NOT NULL, -- parcelle dans laquelle se trouve le trille
-  date     date_eco    NOT NULL, -- date de découverte du plan dans la parcelle de la placette
-  CONSTRAINT Plant_cc0 PRIMARY KEY (id),
-  CONSTRAINT Plant_cr0 FOREIGN KEY (placette) REFERENCES Placette (plac)
+    id          Plant_id    NOT NULL, -- identifiant unique de chaque trille
+    parcelle_id INTEGER     NOT NULL, -- identifiant de la parcelle du plant
+    date        date_eco    NOT NULL, -- date de découverte du plan dans la parcelle de la placette
+    CONSTRAINT  Plant_cc0 PRIMARY KEY (id),
+    CONSTRAINT  Plant_cr0 FOREIGN KEY (parcelle_id) REFERENCES Parcelle (parcelle_id)
 );
 
 CREATE TABLE Plant_Note(
