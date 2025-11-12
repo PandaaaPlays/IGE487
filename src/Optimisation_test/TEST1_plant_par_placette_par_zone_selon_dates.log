@@ -1,0 +1,186 @@
+TEST #1: Combien de plants par placette / par zone / dans une plage de dates ?
+Pour les dates '2017-06-01' et '2017-06-15'
+
+1.a) Par PLACETTE
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|QUERY PLAN                                                                                                                                                                           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Sort  (cost=273.63..274.28 rows=260 width=11) (actual time=16.903..16.907 rows=78.00 loops=1)                                                                                        |
+|  Sort Key: pl.plac                                                                                                                                                                  |
+|  Sort Method: quicksort  Memory: 27kB                                                                                                                                               |
+|  Buffers: shared hit=44                                                                                                                                                             |
+|  ->  HashAggregate  (cost=260.60..263.20 rows=260 width=11) (actual time=16.689..16.709 rows=78.00 loops=1)                                                                         |
+|        Group Key: pl.plac                                                                                                                                                           |
+|        Batches: 1  Memory Usage: 48kB                                                                                                                                               |
+|        Buffers: shared hit=44                                                                                                                                                       |
+|        ->  Hash Join  (cost=194.60..257.48 rows=623 width=11) (actual time=15.447..16.454 rows=602.00 loops=1)                                                                      |
+|              Hash Cond: ((pa.placette_id)::text = (pl.plac)::text)                                                                                                                  |
+|              Buffers: shared hit=44                                                                                                                                                 |
+|              ->  Hash Join  (cost=186.75..247.98 rows=623 width=11) (actual time=15.383..16.105 rows=602.00 loops=1)                                                                |
+|                    Hash Cond: (pa.parcelle_id = p.parcelle_id)                                                                                                                      |
+|                    Buffers: shared hit=42                                                                                                                                           |
+|                    ->  Seq Scan on parcelle pa  (cost=0.00..39.23 rows=2523 width=7) (actual time=0.006..0.166 rows=2523.00 loops=1)                                                |
+|                          Buffers: shared hit=14                                                                                                                                     |
+|                    ->  Hash  (cost=178.96..178.96 rows=623 width=12) (actual time=15.364..15.365 rows=602.00 loops=1)                                                               |
+|                          Buckets: 1024  Batches: 1  Memory Usage: 34kB                                                                                                              |
+|                          Buffers: shared hit=28                                                                                                                                     |
+|                          ->  Seq Scan on plant p  (cost=0.00..178.96 rows=623 width=12) (actual time=0.027..15.219 rows=602.00 loops=1)                                             |
+|                                Filter: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))|
+|                                Rows Removed by Filter: 4430                                                                                                                         |
+|                                Buffers: shared hit=28                                                                                                                               |
+|              ->  Hash  (cost=4.60..4.60 rows=260 width=3) (actual time=0.060..0.060 rows=260.00 loops=1)                                                                            |
+|                    Buckets: 1024  Batches: 1  Memory Usage: 17kB                                                                                                                    |
+|                    Buffers: shared hit=2                                                                                                                                            |
+|                    ->  Seq Scan on placette pl  (cost=0.00..4.60 rows=260 width=3) (actual time=0.018..0.031 rows=260.00 loops=1)                                                   |
+|                          Buffers: shared hit=2                                                                                                                                      |
+|Planning:                                                                                                                                                                            |
+|  Buffers: shared hit=32                                                                                                                                                             |
+|Planning Time: 1.437 ms                                                                                                                                                              |
+|Execution Time: 16.947 ms                                                                                                                                                            |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+
+-- 1.b) Par ZONE
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|QUERY PLAN                                                                                                                                                                                 |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Sort  (cost=264.85..264.86 rows=5 width=11) (actual time=15.114..15.116 rows=5.00 loops=1)                                                                                                 |
+|  Sort Key: z.code                                                                                                                                                                         |
+|  Sort Method: quicksort  Memory: 25kB                                                                                                                                                     |
+|  Buffers: shared hit=45                                                                                                                                                                   |
+|  ->  HashAggregate  (cost=264.74..264.79 rows=5 width=11) (actual time=15.104..15.106 rows=5.00 loops=1)                                                                                  |
+|        Group Key: z.code                                                                                                                                                                  |
+|        Batches: 1  Memory Usage: 32kB                                                                                                                                                     |
+|        Buffers: shared hit=45                                                                                                                                                             |
+|        ->  Hash Join  (cost=195.71..261.62 rows=623 width=11) (actual time=14.545..15.029 rows=602.00 loops=1)                                                                            |
+|              Hash Cond: ((pl.zone)::text = (z.code)::text)                                                                                                                                |
+|              Buffers: shared hit=45                                                                                                                                                       |
+|              ->  Hash Join  (cost=194.60..257.48 rows=623 width=11) (actual time=14.529..14.931 rows=602.00 loops=1)                                                                      |
+|                    Hash Cond: ((pa.placette_id)::text = (pl.plac)::text)                                                                                                                  |
+|                    Buffers: shared hit=44                                                                                                                                                 |
+|                    ->  Hash Join  (cost=186.75..247.98 rows=623 width=11) (actual time=14.472..14.777 rows=602.00 loops=1)                                                                |
+|                          Hash Cond: (pa.parcelle_id = p.parcelle_id)                                                                                                                      |
+|                          Buffers: shared hit=42                                                                                                                                           |
+|                          ->  Seq Scan on parcelle pa  (cost=0.00..39.23 rows=2523 width=7) (actual time=0.006..0.091 rows=2523.00 loops=1)                                                |
+|                                Buffers: shared hit=14                                                                                                                                     |
+|                          ->  Hash  (cost=178.96..178.96 rows=623 width=12) (actual time=14.454..14.455 rows=602.00 loops=1)                                                               |
+|                                Buckets: 1024  Batches: 1  Memory Usage: 34kB                                                                                                              |
+|                                Buffers: shared hit=28                                                                                                                                     |
+|                                ->  Seq Scan on plant p  (cost=0.00..178.96 rows=623 width=12) (actual time=0.023..14.313 rows=602.00 loops=1)                                             |
+|                                      Filter: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))|
+|                                      Rows Removed by Filter: 4430                                                                                                                         |
+|                                      Buffers: shared hit=28                                                                                                                               |
+|                    ->  Hash  (cost=4.60..4.60 rows=260 width=6) (actual time=0.053..0.053 rows=260.00 loops=1)                                                                            |
+|                          Buckets: 1024  Batches: 1  Memory Usage: 18kB                                                                                                                    |
+|                          Buffers: shared hit=2                                                                                                                                            |
+|                          ->  Seq Scan on placette pl  (cost=0.00..4.60 rows=260 width=6) (actual time=0.006..0.023 rows=260.00 loops=1)                                                   |
+|                                Buffers: shared hit=2                                                                                                                                      |
+|              ->  Hash  (cost=1.05..1.05 rows=5 width=3) (actual time=0.014..0.014 rows=5.00 loops=1)                                                                                      |
+|                    Buckets: 1024  Batches: 1  Memory Usage: 9kB                                                                                                                           |
+|                    Buffers: shared hit=1                                                                                                                                                  |
+|                    ->  Seq Scan on zone z  (cost=0.00..1.05 rows=5 width=3) (actual time=0.010..0.011 rows=5.00 loops=1)                                                                  |
+|                          Buffers: shared hit=1                                                                                                                                            |
+|Planning:                                                                                                                                                                                  |
+|  Buffers: shared hit=26                                                                                                                                                                   |
+|Planning Time: 0.486 ms                                                                                                                                                                    |
+|Execution Time: 15.193 ms                                                                                                                                                                  |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+-- 3.a) Par PLACETTE — avec index
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|QUERY PLAN                                                                                                                                                                                     |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Sort  (cost=156.04..156.69 rows=260 width=11) (actual time=0.859..0.862 rows=78.00 loops=1)                                                                                                    |
+|  Sort Key: pl.plac                                                                                                                                                                            |
+|  Sort Method: quicksort  Memory: 27kB                                                                                                                                                         |
+|  Buffers: shared hit=43 read=3                                                                                                                                                                |
+|  ->  HashAggregate  (cost=143.01..145.61 rows=260 width=11) (actual time=0.764..0.773 rows=78.00 loops=1)                                                                                     |
+|        Group Key: pl.plac                                                                                                                                                                     |
+|        Batches: 1  Memory Usage: 48kB                                                                                                                                                         |
+|        Buffers: shared hit=43 read=3                                                                                                                                                          |
+|        ->  Hash Join  (cost=77.01..139.90 rows=623 width=11) (actual time=0.297..0.684 rows=602.00 loops=1)                                                                                   |
+|              Hash Cond: ((pa.placette_id)::text = (pl.plac)::text)                                                                                                                            |
+|              Buffers: shared hit=43 read=3                                                                                                                                                    |
+|              ->  Hash Join  (cost=69.16..130.39 rows=623 width=11) (actual time=0.236..0.534 rows=602.00 loops=1)                                                                             |
+|                    Hash Cond: (pa.parcelle_id = p.parcelle_id)                                                                                                                                |
+|                    Buffers: shared hit=41 read=3                                                                                                                                              |
+|                    ->  Seq Scan on parcelle pa  (cost=0.00..39.23 rows=2523 width=7) (actual time=0.007..0.092 rows=2523.00 loops=1)                                                          |
+|                          Buffers: shared hit=14                                                                                                                                               |
+|                    ->  Hash  (cost=61.37..61.37 rows=623 width=12) (actual time=0.220..0.220 rows=602.00 loops=1)                                                                             |
+|                          Buckets: 1024  Batches: 1  Memory Usage: 34kB                                                                                                                        |
+|                          Buffers: shared hit=27 read=3                                                                                                                                        |
+|                          ->  Bitmap Heap Scan on plant p  (cost=14.68..61.37 rows=623 width=12) (actual time=0.083..0.160 rows=602.00 loops=1)                                                |
+|                                Recheck Cond: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))    |
+|                                Heap Blocks: exact=27                                                                                                                                          |
+|                                Buffers: shared hit=27 read=3                                                                                                                                  |
+|                                ->  Bitmap Index Scan on idx_plant_date_parcelle  (cost=0.00..14.53 rows=623 width=0) (actual time=0.071..0.071 rows=602.00 loops=1)                           |
+|                                      Index Cond: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))|
+|                                      Index Searches: 1                                                                                                                                        |
+|                                      Buffers: shared read=3                                                                                                                                   |
+|              ->  Hash  (cost=4.60..4.60 rows=260 width=3) (actual time=0.054..0.055 rows=260.00 loops=1)                                                                                      |
+|                    Buckets: 1024  Batches: 1  Memory Usage: 17kB                                                                                                                              |
+|                    Buffers: shared hit=2                                                                                                                                                      |
+|                    ->  Seq Scan on placette pl  (cost=0.00..4.60 rows=260 width=3) (actual time=0.013..0.028 rows=260.00 loops=1)                                                             |
+|                          Buffers: shared hit=2                                                                                                                                                |
+|Planning:                                                                                                                                                                                      |
+|  Buffers: shared hit=49 read=5                                                                                                                                                                |
+|Planning Time: 0.601 ms                                                                                                                                                                        |
+|Execution Time: 0.914 ms                                                                                                                                                                       |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+-- 3.b) Par ZONE — avec index
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|QUERY PLAN                                                                                                                                                                                           |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Sort  (cost=147.26..147.27 rows=5 width=11) (actual time=1.037..1.039 rows=5.00 loops=1)                                                                                                             |
+|  Sort Key: z.code                                                                                                                                                                                   |
+|  Sort Method: quicksort  Memory: 25kB                                                                                                                                                               |
+|  Buffers: shared hit=47                                                                                                                                                                             |
+|  ->  HashAggregate  (cost=147.15..147.20 rows=5 width=11) (actual time=1.018..1.022 rows=5.00 loops=1)                                                                                              |
+|        Group Key: z.code                                                                                                                                                                            |
+|        Batches: 1  Memory Usage: 32kB                                                                                                                                                               |
+|        Buffers: shared hit=47                                                                                                                                                                       |
+|        ->  Hash Join  (cost=78.12..144.04 rows=623 width=11) (actual time=0.363..0.924 rows=602.00 loops=1)                                                                                         |
+|              Hash Cond: ((pl.zone)::text = (z.code)::text)                                                                                                                                          |
+|              Buffers: shared hit=47                                                                                                                                                                 |
+|              ->  Hash Join  (cost=77.01..139.90 rows=623 width=11) (actual time=0.333..0.793 rows=602.00 loops=1)                                                                                   |
+|                    Hash Cond: ((pa.placette_id)::text = (pl.plac)::text)                                                                                                                            |
+|                    Buffers: shared hit=46                                                                                                                                                           |
+|                    ->  Hash Join  (cost=69.16..130.39 rows=623 width=11) (actual time=0.229..0.583 rows=602.00 loops=1)                                                                             |
+|                          Hash Cond: (pa.parcelle_id = p.parcelle_id)                                                                                                                                |
+|                          Buffers: shared hit=44                                                                                                                                                     |
+|                          ->  Seq Scan on parcelle pa  (cost=0.00..39.23 rows=2523 width=7) (actual time=0.011..0.110 rows=2523.00 loops=1)                                                          |
+|                                Buffers: shared hit=14                                                                                                                                               |
+|                          ->  Hash  (cost=61.37..61.37 rows=623 width=12) (actual time=0.209..0.210 rows=602.00 loops=1)                                                                             |
+|                                Buckets: 1024  Batches: 1  Memory Usage: 34kB                                                                                                                        |
+|                                Buffers: shared hit=30                                                                                                                                               |
+|                                ->  Bitmap Heap Scan on plant p  (cost=14.68..61.37 rows=623 width=12) (actual time=0.056..0.138 rows=602.00 loops=1)                                                |
+|                                      Recheck Cond: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))    |
+|                                      Heap Blocks: exact=27                                                                                                                                          |
+|                                      Buffers: shared hit=30                                                                                                                                         |
+|                                      ->  Bitmap Index Scan on idx_plant_date_parcelle  (cost=0.00..14.53 rows=623 width=0) (actual time=0.043..0.043 rows=602.00 loops=1)                           |
+|                                            Index Cond: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))|
+|                                            Index Searches: 1                                                                                                                                        |
+|                                            Buffers: shared hit=3                                                                                                                                    |
+|                    ->  Hash  (cost=4.60..4.60 rows=260 width=6) (actual time=0.096..0.097 rows=260.00 loops=1)                                                                                      |
+|                          Buckets: 1024  Batches: 1  Memory Usage: 18kB                                                                                                                              |
+|                          Buffers: shared hit=2                                                                                                                                                      |
+|                          ->  Seq Scan on placette pl  (cost=0.00..4.60 rows=260 width=6) (actual time=0.022..0.049 rows=260.00 loops=1)                                                             |
+|                                Buffers: shared hit=2                                                                                                                                                |
+|              ->  Hash  (cost=1.05..1.05 rows=5 width=3) (actual time=0.023..0.023 rows=5.00 loops=1)                                                                                                |
+|                    Buckets: 1024  Batches: 1  Memory Usage: 9kB                                                                                                                                     |
+|                    Buffers: shared hit=1                                                                                                                                                            |
+|                    ->  Seq Scan on zone z  (cost=0.00..1.05 rows=5 width=3) (actual time=0.016..0.017 rows=5.00 loops=1)                                                                            |
+|                          Buffers: shared hit=1                                                                                                                                                      |
+|Planning:                                                                                                                                                                                            |
+|  Buffers: shared hit=29                                                                                                                                                                             |
+|Planning Time: 0.698 ms                                                                                                                                                                              |
+|Execution Time: 1.148 ms                                                                                                                                                                             |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
