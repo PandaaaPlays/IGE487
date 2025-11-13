@@ -1,28 +1,44 @@
-SET myvars.start_date = '2017-06-01';
-SET myvars.end_date   = '2017-06-15';
-
-DROP INDEX IF EXISTS idx_obsetat_date_etat_plant;
-DROP INDEX IF EXISTS idx_placette_zone;
-
-EXPLAIN (ANALYZE, BUFFERS)
-SELECT z.code, oe.etat, COUNT(*) as nb_plants
-FROM ObsEtat oe
-JOIN Plant pl ON oe.id = pl.id
-JOIN Parcelle p ON pl.parcelle_id = p.parcelle_id
-JOIN Placette plct ON p.placette_id = plct.plac
-JOIN Zone z ON plct.zone = z.code
-WHERE oe.date BETWEEN current_setting('myvars.start_date')::date AND current_setting('myvars.end_date')::date
-GROUP BY z.code, oe.etat;
-
-CREATE INDEX idx_obsetat_date_etat_plant ON ObsEtat(date, etat, id);
-CREATE INDEX idx_placette_zone ON Placette(zone);
-
-EXPLAIN (ANALYZE, BUFFERS)
-SELECT z.code, oe.etat, COUNT(*) as nb_plants
-FROM ObsEtat oe
-JOIN Plant pl ON oe.id = pl.id
-JOIN Parcelle p ON pl.parcelle_id = p.parcelle_id
-JOIN Placette plct ON p.placette_id = plct.plac
-JOIN Zone z ON plct.zone = z.code
-WHERE oe.date BETWEEN current_setting('myvars.start_date')::date AND current_setting('myvars.end_date')::date
-GROUP BY z.code, oe.etat;
+HashAggregate  (cost=720.30..720.70 rows=40 width=13) (actual time=13.908..13.921 rows=40 loops=1)
+"  Group Key: z.code, oe.etat"
+  Batches: 1  Memory Usage: 24kB
+  Buffers: shared hit=129
+  ->  Hash Join  (cost=221.76..707.16 rows=1752 width=5) (actual time=2.463..13.403 rows=1701 loops=1)
+        Hash Cond: ((plct.zone)::text = (z.code)::text)
+        Buffers: shared hit=129
+        ->  Hash Join  (cost=220.65..697.55 rows=1752 width=5) (actual time=2.437..12.967 rows=1701 loops=1)
+              Hash Cond: ((p.placette_id)::text = (plct.plac)::text)
+              Buffers: shared hit=128
+              ->  Hash Join  (cost=212.80..685.03 rows=1752 width=5) (actual time=2.163..12.253 rows=1701 loops=1)
+                    Hash Cond: (pl.parcelle_id = p.parcelle_id)
+                    Buffers: shared hit=126
+                    ->  Hash Join  (cost=142.03..609.65 rows=1752 width=6) (actual time=1.516..11.093 rows=1701 loops=1)
+                          Hash Cond: ((oe.id)::text = (pl.id)::text)
+                          Buffers: shared hit=112
+                          ->  Seq Scan on obsetat oe  (cost=0.00..463.02 rows=1752 width=10) (actual time=0.013..8.946 rows=1701 loops=1)
+                                Filter: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))
+                                Rows Removed by Filter: 10933
+                                Buffers: shared hit=84
+                          ->  Hash  (cost=78.68..78.68 rows=5068 width=12) (actual time=1.490..1.491 rows=5068 loops=1)
+                                Buckets: 8192  Batches: 1  Memory Usage: 282kB
+                                Buffers: shared hit=28
+                                ->  Seq Scan on plant pl  (cost=0.00..78.68 rows=5068 width=12) (actual time=0.004..0.616 rows=5068 loops=1)
+                                      Buffers: shared hit=28
+                    ->  Hash  (cost=39.23..39.23 rows=2523 width=7) (actual time=0.637..0.638 rows=2523 loops=1)
+                          Buckets: 4096  Batches: 1  Memory Usage: 129kB
+                          Buffers: shared hit=14
+                          ->  Seq Scan on parcelle p  (cost=0.00..39.23 rows=2523 width=7) (actual time=0.006..0.294 rows=2523 loops=1)
+                                Buffers: shared hit=14
+              ->  Hash  (cost=4.60..4.60 rows=260 width=6) (actual time=0.100..0.101 rows=260 loops=1)
+                    Buckets: 1024  Batches: 1  Memory Usage: 18kB
+                    Buffers: shared hit=2
+                    ->  Seq Scan on placette plct  (cost=0.00..4.60 rows=260 width=6) (actual time=0.012..0.057 rows=260 loops=1)
+                          Buffers: shared hit=2
+        ->  Hash  (cost=1.05..1.05 rows=5 width=3) (actual time=0.018..0.019 rows=5 loops=1)
+              Buckets: 1024  Batches: 1  Memory Usage: 9kB
+              Buffers: shared hit=1
+              ->  Seq Scan on zone z  (cost=0.00..1.05 rows=5 width=3) (actual time=0.012..0.013 rows=5 loops=1)
+                    Buffers: shared hit=1
+Planning:
+  Buffers: shared hit=48
+Planning Time: 0.870 ms
+Execution Time: 14.029 ms

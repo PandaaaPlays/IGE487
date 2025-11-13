@@ -1,7 +1,5 @@
--- Requiert un path valide.
--- Requiert les IMM déjà créées (Herbivorie_imm.sql).
-
-CREATE OR REPLACE PROCEDURE "Herbivorie".pr_import_placette_csv(p_path text)
+-- Les différentes procédures suivantes sont des copiés collés de la première!
+CREATE OR REPLACE PROCEDURE pr_import_placette_csv(p_path text)
 LANGUAGE plpgsql
 SECURITY DEFINER
 AS $func$

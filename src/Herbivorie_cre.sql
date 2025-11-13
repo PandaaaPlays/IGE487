@@ -288,8 +288,6 @@ CREATE INDEX IF NOT EXISTS idx_plant_date_parcelle
   ON "Herbivorie".Plant(date, parcelle_id);
 CREATE INDEX IF NOT EXISTS idx_ObsDim_date
   ON "Herbivorie".obsdimension(date);
-CREATE INDEX IF NOT EXISTS idx_Plant_id
-  ON "Herbivorie".Plant(id);
 CREATE INDEX idx_obsetat_date_etat_plant
   ON ObsEtat(date, etat, id);
 CREATE INDEX idx_placette_zone

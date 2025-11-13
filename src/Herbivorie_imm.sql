@@ -299,16 +299,20 @@ BEGIN
 END;
 $$;
 
-CREATE OR REPLACE FUNCTION imm_get_parcelle(p_parcelle_id INTEGER)
-RETURNS TABLE(
-    parcelle_id INTEGER,
-    placette_id Placette_id,
-    peuplement Peuplement_id,
-    position Position_parcelle
-) LANGUAGE plpgsql AS $$
+CREATE OR REPLACE PROCEDURE imm_insert_update_parcelle(
+    p_parcelle_id INTEGER,
+    p_placette_id Placette_id,
+    p_peuplement Peuplement_id,
+    p_position Position_parcelle
+)
+LANGUAGE plpgsql AS $$
 BEGIN
-    RETURN QUERY
-    SELECT pa.parcelle_id, pa.placette_id, pa.peuplement, pa.position FROM Parcelle pa WHERE pa.parcelle_id = p_parcelle_id;
+    INSERT INTO Parcelle (parcelle_id, placette_id, peuplement, position)
+    VALUES (p_parcelle_id, p_placette_id, p_peuplement, p_position)
+    ON CONFLICT (parcelle_id) DO UPDATE
+    SET placette_id = EXCLUDED.placette_id,
+        peuplement = EXCLUDED.peuplement,
+        position = EXCLUDED.position;
 END;
 $$;
 
@@ -451,7 +455,7 @@ $$;
 -- OBSERVATION FLORAISON
 -- (clé primaire id : on conserve la PREMIERE date insérée)
 -- ============================================================================
-CREATE OR REPLACE PROCEDURE imm_insert_obsfloraison(
+CREATE OR REPLACE PROCEDURE imm_insert_update_obsfloraison(
     p_id Plant_id,
     p_date Date_eco,
     p_note TEXT
