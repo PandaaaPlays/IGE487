@@ -89,13 +89,13 @@ $$;
 -- PLACETTE
 -- ============================================================================
 CREATE OR REPLACE PROCEDURE imm_insert_update_placette(
-    p_plac Placette_id,
-    p_zone Code_zone,
-    p_date Date_eco
+    p_plac "Herbivorie".Placette_id,
+    p_zone "Herbivorie".Code_zone,
+    p_date "Herbivorie".Date_eco
 )
 LANGUAGE plpgsql AS $$
 BEGIN
-    INSERT INTO Placette (plac, zone, date)
+    INSERT INTO "Herbivorie".Placette (plac, zone, date)
     VALUES (p_plac, p_zone, p_date)
     ON CONFLICT (plac) DO UPDATE
     SET zone = EXCLUDED.zone,
