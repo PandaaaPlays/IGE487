@@ -198,13 +198,12 @@ $$;
 CREATE OR REPLACE PROCEDURE imm_insert_update_placette_couverture(
     p_placette Placette_id,
     p_type Couverture,
-    p_taux Taux,
-    p_incertitude Incertitude
+    p_taux tauxavecincertitude
 )
 LANGUAGE plpgsql AS $$
 BEGIN
     INSERT INTO Placette_couverture (placette, type_couverture, taux)
-    VALUES (p_placette, p_type, ROW(p_taux, p_incertitude)::TauxAvecIncertitude)
+    VALUES (p_placette, p_type, p_taux)
     ON CONFLICT (placette, type_couverture) DO UPDATE
     SET taux = EXCLUDED.taux;
 END;
@@ -242,16 +241,14 @@ CREATE OR REPLACE PROCEDURE imm_insert_update_placette_obstruction(
     p_placette Placette_id,
     p_hauteur Hauteur,
     p_type TEXT,
-    p_taux Taux,
-    p_incertitude Incertitude
+    p_taux tauxavecincertitude
 )
 LANGUAGE plpgsql AS $$
 BEGIN
-    INSERT INTO Placette_Obstruction (placette, hauteur, type_obs, taux, incertitude)
-    VALUES (p_placette, p_hauteur, p_type, ROW(p_taux, p_incertitude)::TauxAvecIncertitude, p_incertitude)
+    INSERT INTO Placette_Obstruction (placette, hauteur, type_obs, taux)
+    VALUES (p_placette, p_hauteur, p_type, p_taux)
     ON CONFLICT (placette, hauteur, type_obs) DO UPDATE
-    SET taux = EXCLUDED.taux,
-        incertitude = EXCLUDED.incertitude;
+    SET taux = EXCLUDED.taux;
 END;
 $$;
 
@@ -283,18 +280,16 @@ $$;
 -- PARCELLE
 -- ============================================================================
 CREATE OR REPLACE PROCEDURE imm_insert_update_parcelle(
-    p_parcelle_id INTEGER,
     p_placette_id Placette_id,
     p_peuplement Peuplement_id,
     p_position Position_parcelle
 )
 LANGUAGE plpgsql AS $$
 BEGIN
-    INSERT INTO Parcelle (parcelle_id, placette_id, peuplement, position)
-    VALUES (p_parcelle_id, p_placette_id, p_peuplement, p_position)
+    INSERT INTO Parcelle (placette_id, peuplement, position)
+    VALUES (p_placette_id, p_peuplement, p_position)
     ON CONFLICT (parcelle_id) DO UPDATE
-    SET placette_id = EXCLUDED.placette_id,
-        peuplement = EXCLUDED.peuplement,
+    SET peuplement = EXCLUDED.peuplement,
         position = EXCLUDED.position;
 END;
 $$;

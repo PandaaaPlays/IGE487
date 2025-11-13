@@ -215,7 +215,6 @@ SECURITY DEFINER
 AS $func$
 DECLARE
   r RECORD;
-  v_parcelle_id int;
   v_plac Placette_id;
   v_peuplement Peuplement_id;
   v_pos Position_parcelle;
@@ -223,18 +222,17 @@ DECLARE
   n_skip integer := 0;
 BEGIN
   IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_parcelle_import (parcelle_id TEXT, placette_id TEXT, peuplement TEXT, position TEXT) ON COMMIT DROP;
+  CREATE TEMP TABLE tmp_parcelle_import (placette_id TEXT, peuplement TEXT, position TEXT) ON COMMIT DROP;
   EXECUTE format('COPY tmp_parcelle_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
   FOR r IN SELECT * FROM tmp_parcelle_import LOOP
-    IF r.parcelle_id IS NULL OR r.parcelle_id !~ '^[0-9]+$' THEN RAISE WARNING 'Parcelle ignorée (id invalide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    IF r.placette_id IS NULL OR btrim(r.placette_id) = '' THEN RAISE WARNING 'Parcelle % ignorée (placette vide): %', r.parcelle_id, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    IF r.position IS NULL OR r.position !~ '^[0-9]+$' THEN RAISE WARNING 'Parcelle % ignorée (position invalide): %', r.parcelle_id, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    v_parcelle_id := r.parcelle_id::int; v_plac := r.placette_id::Placette_id; v_peuplement := COALESCE(r.peuplement,'')::Peuplement_id; v_pos := r.position::int::Position_parcelle;
+    IF r.placette_id IS NULL OR btrim(r.placette_id) = '' THEN RAISE WARNING 'Parcelle ignorée (placette vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
+    IF r.position IS NULL OR r.position !~ '^[0-9]+$' THEN RAISE WARNING 'Parcelle ignorée (position invalide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
+    v_plac := r.placette_id::Placette_id; v_peuplement := COALESCE(r.peuplement,'')::Peuplement_id; v_pos := r.position::int::Position_parcelle;
     BEGIN
-      CALL imm_insert_update_parcelle(v_parcelle_id, v_plac, v_peuplement, v_pos);
+      CALL imm_insert_update_parcelle(v_plac, v_peuplement, v_pos);
       n_ok := n_ok + 1;
     EXCEPTION WHEN others THEN
-      RAISE WARNING 'Erreur IMM pour parcelle % : %', r.parcelle_id, SQLERRM; n_skip := n_skip + 1;
+      RAISE WARNING 'Erreur IMM pour parcelle : %', SQLERRM; n_skip := n_skip + 1;
     END;
   END LOOP;
   RAISE NOTICE 'Import Parcelle terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
@@ -248,21 +246,28 @@ AS $func$
 DECLARE
   r RECORD;
   v_id Plant_id;
-  v_parcelle int;
+  v_placette placette_id;
+  v_position position_parcelle;
   v_date Date_eco;
+  v_parcelle_id integer;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
   IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_plant_import (id TEXT, parcelle_id TEXT, date TEXT) ON COMMIT DROP;
+  CREATE TEMP TABLE tmp_plant_import (id TEXT, placette_id TEXT, position TEXT, date TEXT) ON COMMIT DROP;
   EXECUTE format('COPY tmp_plant_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
   FOR r IN SELECT * FROM tmp_plant_import LOOP
     IF r.id IS NULL OR btrim(r.id) = '' THEN RAISE WARNING 'Plant ignoré (id vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    IF r.parcelle_id IS NULL OR r.parcelle_id !~ '^[0-9]+$' THEN RAISE WARNING 'Plant % ignoré (parcelle invalide): %', r.id, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
     BEGIN v_date := r.date::date; EXCEPTION WHEN others THEN RAISE WARNING 'Plant % ignoré (date invalide: %): %', r.id, r.date, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    v_id := r.id::Plant_id; v_parcelle := r.parcelle_id::int;
+    v_id := r.id::Plant_id; v_placette := r.placette_id::placette_id; v_position := r.position::position_parcelle;
     BEGIN
-      CALL imm_insert_update_plant(v_id, v_parcelle, v_date);
+      SELECT parcelle_id
+      INTO v_parcelle_id
+      FROM parcelle
+      WHERE placette_id = v_placette
+        AND position = v_position;
+
+      CALL imm_insert_update_plant(v_id, v_parcelle_id, v_date);
       n_ok := n_ok + 1;
     EXCEPTION WHEN others THEN
       RAISE WARNING 'Erreur IMM pour plant % : %', r.id, SQLERRM; n_skip := n_skip + 1;
@@ -280,18 +285,21 @@ DECLARE
   r RECORD;
   v_plac Placette_id;
   v_type Couverture;
+  v_taux_val Taux;
+  v_inc_val Incertitude;
   v_taux TauxAvecIncertitude;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
   IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_pcouv_import (placette TEXT, type_couverture TEXT, taux TEXT) ON COMMIT DROP;
+  CREATE TEMP TABLE tmp_pcouv_import (placette TEXT, type_couverture TEXT, taux TEXT, incertitude TEXT) ON COMMIT DROP;
   EXECUTE format('COPY tmp_pcouv_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
   FOR r IN SELECT * FROM tmp_pcouv_import LOOP
     IF r.placette IS NULL OR btrim(r.placette) = '' THEN RAISE WARNING 'Couverture ignorée (placette vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
     IF r.type_couverture IS NULL OR btrim(r.type_couverture) = '' THEN RAISE WARNING 'Couverture % ignorée (type vide): %', r.placette, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    BEGIN v_taux := r.taux::TauxAvecIncertitude; EXCEPTION WHEN others THEN RAISE WARNING 'Couverture % ignorée (taux invalide: %): %', r.placette, r.taux, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    v_plac := r.placette::Placette_id; v_type := r.type_couverture::Couverture;
+    BEGIN v_taux_val := r.taux::int::Taux; EXCEPTION WHEN others THEN RAISE WARNING 'Couverture % ignorée (taux invalide: %): %', r.placette, r.taux, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
+    BEGIN v_inc_val := r.incertitude::int::Incertitude; EXCEPTION WHEN others THEN RAISE WARNING 'Couverture % ignorée (incertitude invalide: %): %', r.placette, r.incertitude, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
+    v_plac := r.placette::Placette_id; v_type := r.type_couverture::Couverture; v_taux := ROW(v_taux_val, v_inc_val)::TauxAvecIncertitude;
     BEGIN
       CALL imm_insert_update_placette_couverture(v_plac, v_type, v_taux);
       n_ok := n_ok + 1;
@@ -312,19 +320,22 @@ DECLARE
   v_plac Placette_id;
   v_hauteur Hauteur;
   v_type_obs text;
+  v_taux_val Taux;
+  v_inc_val Incertitude;
   v_taux TauxAvecIncertitude;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
   IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_pobs_import (placette TEXT, hauteur TEXT, type_obs TEXT, taux TEXT) ON COMMIT DROP;
+  CREATE TEMP TABLE tmp_pobs_import (placette TEXT, hauteur TEXT, type_obs TEXT, taux TEXT, incertitude TEXT) ON COMMIT DROP;
   EXECUTE format('COPY tmp_pobs_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
   FOR r IN SELECT * FROM tmp_pobs_import LOOP
     IF r.placette IS NULL OR btrim(r.placette) = '' THEN RAISE WARNING 'Obstruction ignorée (placette vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
     IF r.hauteur IS NULL OR r.hauteur !~ '^[12]$' THEN RAISE WARNING 'Obstruction % ignorée (hauteur invalide): %', r.placette, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
     IF r.type_obs IS NULL OR btrim(r.type_obs) = '' THEN RAISE WARNING 'Obstruction % ignorée (type_obs vide): %', r.placette, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    BEGIN v_taux := r.taux::TauxAvecIncertitude; EXCEPTION WHEN others THEN RAISE WARNING 'Obstruction % ignorée (taux invalide: %): %', r.placette, r.taux, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    v_plac := r.placette::Placette_id; v_hauteur := r.hauteur::int::Hauteur; v_type_obs := r.type_obs;
+    BEGIN v_taux_val := r.taux::int::Taux; EXCEPTION WHEN others THEN RAISE WARNING 'Obstruction % ignorée (taux invalide: %): %', r.placette, r.taux, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
+    BEGIN v_inc_val := r.incertitude::int::Incertitude; EXCEPTION WHEN others THEN RAISE WARNING 'Obstruction % ignorée (incertitude invalide: %): %', r.placette, r.incertitude, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
+    v_plac := r.placette::Placette_id; v_hauteur := r.hauteur::int::Hauteur; v_type_obs := r.type_obs; v_taux := ROW(v_taux_val, v_inc_val)::TauxAvecIncertitude;
     BEGIN
       CALL imm_insert_update_placette_obstruction(v_plac, v_hauteur, v_type_obs, v_taux);
       n_ok := n_ok + 1;
@@ -459,6 +470,35 @@ BEGIN
     END;
   END LOOP;
   RAISE NOTICE 'Import ObsEtat terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
+END;
+$func$;
+
+CREATE OR REPLACE PROCEDURE pr_import_etat_csv(p_path text)
+LANGUAGE plpgsql
+SECURITY DEFINER
+AS $func$
+DECLARE
+  r RECORD;
+  v_etat Etat_id;
+  v_desc Description;
+  n_ok integer := 0;
+  n_skip integer := 0;
+BEGIN
+  IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
+  CREATE TEMP TABLE tmp_etat_import (etat TEXT, description TEXT) ON COMMIT DROP;
+  EXECUTE format('COPY tmp_etat_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
+  FOR r IN SELECT * FROM tmp_etat_import LOOP
+    IF r.etat IS NULL OR btrim(r.etat) = '' THEN RAISE WARNING 'Etat ignoré (etat vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
+    v_etat := r.etat::Etat_id;
+    v_desc := COALESCE(r.description,'')::Description;
+    BEGIN
+      CALL imm_insert_update_etat(v_etat, v_desc);
+      n_ok := n_ok + 1;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'Erreur IMM pour etat % : %', r.etat, SQLERRM; n_skip := n_skip + 1;
+    END;
+  END LOOP;
+  RAISE NOTICE 'Import Etat terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
 END;
 $func$;
 

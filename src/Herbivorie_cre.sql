@@ -154,7 +154,6 @@ CREATE TABLE Placette_Obstruction (
     hauteur     Hauteur NOT NULL,     -- 1 or 2 meters
     type_obs    TEXT NOT NULL,        -- 'Feuillu', 'Conifer', 'Total', 'Graminees', 'Mousses', 'Fougeres'
     taux        TauxAvecIncertitude NOT NULL,
-    incertitude Incertitude NOT NULL,
     CONSTRAINT pk_placette_obs PRIMARY KEY (placette, hauteur, type_obs),
     CONSTRAINT fk_placette_obs FOREIGN KEY (placette) REFERENCES Placette(plac)
 );
@@ -196,6 +195,7 @@ CREATE TABLE Parcelle (
     CONSTRAINT Placette_cr_pe FOREIGN KEY (peuplement) REFERENCES Peuplement (peuplement),
     CONSTRAINT Parcelle_unique_placette_pos UNIQUE (placette_id, position)
 );
+
 
 CREATE TABLE Plant
  -- Répertoire des plants de trille et de leur emplacement.
