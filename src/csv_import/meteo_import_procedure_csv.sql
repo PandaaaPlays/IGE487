@@ -8,24 +8,66 @@ DECLARE
   v_tmin Temperature;
   v_tmax Temperature;
   v_note text;
+  v_zone code_zone;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
-  IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_obstemp_import (date TEXT, temp_min TEXT, temp_max TEXT, note TEXT) ON COMMIT DROP;
+  IF p_path IS NULL OR btrim(p_path) = '' THEN
+    RAISE EXCEPTION 'Chemin CSV requis';
+  END IF;
+
+  CREATE TEMP TABLE tmp_obstemp_import (
+    date TEXT,
+    temp_min TEXT,
+    temp_max TEXT,
+    note TEXT,
+    zone TEXT
+  ) ON COMMIT DROP;
+
   EXECUTE format('COPY tmp_obstemp_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
+
   FOR r IN SELECT * FROM tmp_obstemp_import LOOP
-    BEGIN v_date := r.date::date; EXCEPTION WHEN others THEN RAISE WARNING 'ObsTemperature ignorée (date invalide: %): %', r.date, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    IF r.temp_min IS NULL OR r.temp_min !~ '^-?[0-9]+$' OR r.temp_max IS NULL OR r.temp_max !~ '^-?[0-9]+$' THEN RAISE WARNING 'ObsTemperature ignorée (températures invalides): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    v_tmin := r.temp_min::int::Temperature; v_tmax := r.temp_max::int::Temperature; v_note := COALESCE(r.note,'');
+
     BEGIN
-      CALL imm_insert_update_obstemperature(v_date, v_tmin, v_tmax, v_note);
+      v_date := r.date::date;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsTemperature ignorée (date invalide: %): %', r.date, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    IF r.temp_min !~ '^-?[0-9]+$' OR r.temp_max !~ '^-?[0-9]+$' THEN
+      RAISE WARNING 'ObsTemperature ignorée (températures invalides): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    v_tmin := r.temp_min::int::Temperature;
+    v_tmax := r.temp_max::int::Temperature;
+
+    v_note := COALESCE(r.note,'');
+
+    IF r.zone IS NULL OR btrim(r.zone) = '' THEN
+      RAISE WARNING 'ObsTemperature ignorée (zone manquante): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    BEGIN
+      v_zone := r.zone::code_zone;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsTemperature ignorée (zone invalide: %): %', r.zone, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    BEGIN
+      CALL imm_insert_update_obstemperature(v_date, v_tmin, v_tmax, v_note, v_zone);
       n_ok := n_ok + 1;
     EXCEPTION WHEN others THEN
-      RAISE WARNING 'Erreur IMM pour obstemperature % : %', r.date, SQLERRM; n_skip := n_skip + 1;
+      RAISE WARNING 'Erreur IMM obstemperature % : %', r.date, SQLERRM;
+      n_skip := n_skip + 1;
     END;
+
   END LOOP;
-  RAISE NOTICE 'Import ObsTemperature terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
+
+  RAISE NOTICE 'Import ObsTemperature : % ok, % ignorées.', n_ok, n_skip;
 END;
 $func$;
 
@@ -38,24 +80,62 @@ DECLARE
   v_date Date_eco;
   v_hmin Humidite;
   v_hmax Humidite;
+  v_zone code_zone;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
-  IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_obshum_import (date TEXT, hum_min TEXT, hum_max TEXT) ON COMMIT DROP;
+  IF p_path IS NULL OR btrim(p_path) = '' THEN
+    RAISE EXCEPTION 'Chemin CSV requis';
+  END IF;
+
+  CREATE TEMP TABLE tmp_obshum_import (
+    date TEXT,
+    hum_min TEXT,
+    hum_max TEXT,
+    zone TEXT
+  ) ON COMMIT DROP;
+
   EXECUTE format('COPY tmp_obshum_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
+
   FOR r IN SELECT * FROM tmp_obshum_import LOOP
-    BEGIN v_date := r.date::date; EXCEPTION WHEN others THEN RAISE WARNING 'ObsHumidite ignorée (date invalide: %): %', r.date, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    IF r.hum_min IS NULL OR r.hum_min !~ '^[0-9]+$' OR r.hum_max IS NULL OR r.hum_max !~ '^[0-9]+$' THEN RAISE WARNING 'ObsHumidite ignorée (humidité invalide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    v_hmin := r.hum_min::int::Humidite; v_hmax := r.hum_max::int::Humidite;
+
+    BEGIN v_date := r.date::date;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsHumidite ignorée (date invalide: %): %', r.date, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    IF r.hum_min !~ '^[0-9]+$' OR r.hum_max !~ '^[0-9]+$' THEN
+      RAISE WARNING 'ObsHumidite ignorée (humidité invalide): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    v_hmin := r.hum_min::int::Humidite;
+    v_hmax := r.hum_max::int::Humidite;
+
+    IF r.zone IS NULL OR btrim(r.zone) = '' THEN
+      RAISE WARNING 'ObsHumidite ignorée (zone manquante): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
     BEGIN
-      CALL imm_insert_update_obshumidite(v_date, v_hmin, v_hmax);
+      v_zone := r.zone::code_zone;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsHumidite ignorée (zone invalide: %): %', r.zone, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    BEGIN
+      CALL imm_insert_update_obshumidite(v_date, v_hmin, v_hmax, v_zone);
       n_ok := n_ok + 1;
     EXCEPTION WHEN others THEN
-      RAISE WARNING 'Erreur IMM pour obshumidite % : %', r.date, SQLERRM; n_skip := n_skip + 1;
+      RAISE WARNING 'Erreur IMM obshumidite % : %', r.date, SQLERRM;
+      n_skip := n_skip + 1;
     END;
+
   END LOOP;
-  RAISE NOTICE 'Import ObsHumidite terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
+
+  RAISE NOTICE 'Import ObsHumidite : % ok, % ignorées.', n_ok, n_skip;
 END;
 $func$;
 
@@ -68,24 +148,62 @@ DECLARE
   v_date Date_eco;
   v_vmin Vitesse;
   v_vmax Vitesse;
+  v_zone code_zone;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
-  IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_obsvent_import (date TEXT, vent_min TEXT, vent_max TEXT) ON COMMIT DROP;
+  IF p_path IS NULL OR btrim(p_path) = '' THEN
+    RAISE EXCEPTION 'Chemin CSV requis';
+  END IF;
+
+  CREATE TEMP TABLE tmp_obsvent_import (
+    date TEXT,
+    vent_min TEXT,
+    vent_max TEXT,
+    zone TEXT
+  ) ON COMMIT DROP;
+
   EXECUTE format('COPY tmp_obsvent_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
+
   FOR r IN SELECT * FROM tmp_obsvent_import LOOP
-    BEGIN v_date := r.date::date; EXCEPTION WHEN others THEN RAISE WARNING 'ObsVents ignorée (date invalide: %): %', r.date, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    IF r.vent_min IS NULL OR r.vent_min !~ '^[0-9]+$' OR r.vent_max IS NULL OR r.vent_max !~ '^[0-9]+$' THEN RAISE WARNING 'ObsVents ignorée (vitesse invalide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    v_vmin := r.vent_min::int::Vitesse; v_vmax := r.vent_max::int::Vitesse;
+
+    BEGIN v_date := r.date::date;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsVents ignorée (date invalide: %): %', r.date, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    IF r.vent_min !~ '^[0-9]+$' OR r.vent_max !~ '^[0-9]+$' THEN
+      RAISE WARNING 'ObsVents ignorée (vitesses invalides): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    v_vmin := r.vent_min::int::Vitesse;
+    v_vmax := r.vent_max::int::Vitesse;
+
+    IF r.zone IS NULL OR btrim(r.zone) = '' THEN
+      RAISE WARNING 'ObsVents ignorée (zone manquante): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
     BEGIN
-      CALL imm_insert_update_obsvents(v_date, v_vmin, v_vmax);
+      v_zone := r.zone::code_zone;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsVents ignorée (zone invalide: %): %', r.zone, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    BEGIN
+      CALL imm_insert_update_obsvents(v_date, v_vmin, v_vmax, v_zone);
       n_ok := n_ok + 1;
     EXCEPTION WHEN others THEN
-      RAISE WARNING 'Erreur IMM pour obsvents % : %', r.date, SQLERRM; n_skip := n_skip + 1;
+      RAISE WARNING 'Erreur IMM obsvents % : %', r.date, SQLERRM;
+      n_skip := n_skip + 1;
     END;
+
   END LOOP;
-  RAISE NOTICE 'Import ObsVents terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
+
+  RAISE NOTICE 'Import ObsVents : % ok, % ignorées.', n_ok, n_skip;
 END;
 $func$;
 
@@ -98,26 +216,66 @@ DECLARE
   v_date Date_eco;
   v_pmin Pression;
   v_pmax Pression;
+  v_zone code_zone;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
-  IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_obspres_import (date TEXT, pres_min TEXT, pres_max TEXT) ON COMMIT DROP;
+  IF p_path IS NULL OR btrim(p_path) = '' THEN
+    RAISE EXCEPTION 'Chemin CSV requis';
+  END IF;
+
+  CREATE TEMP TABLE tmp_obspres_import (
+    date TEXT,
+    pres_min TEXT,
+    pres_max TEXT,
+    zone TEXT
+  ) ON COMMIT DROP;
+
   EXECUTE format('COPY tmp_obspres_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
+
   FOR r IN SELECT * FROM tmp_obspres_import LOOP
-    BEGIN v_date := r.date::date; EXCEPTION WHEN others THEN RAISE WARNING 'ObsPression ignorée (date invalide: %): %', r.date, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    IF r.pres_min IS NULL OR r.pres_min !~ '^[0-9]+$' OR r.pres_max IS NULL OR r.pres_max !~ '^[0-9]+$' THEN RAISE WARNING 'ObsPression ignorée (pression invalide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    v_pmin := r.pres_min::int::Pression; v_pmax := r.pres_max::int::Pression;
+
     BEGIN
-      CALL imm_insert_update_obspression(v_date, v_pmin, v_pmax);
+      v_date := r.date::date;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsPression ignorée (date invalide: %): %', r.date, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    IF r.pres_min IS NULL OR r.pres_min !~ '^[0-9]+$' OR r.pres_max IS NULL OR r.pres_max !~ '^[0-9]+$' THEN
+      RAISE WARNING 'ObsPression ignorée (pression invalide): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    v_pmin := r.pres_min::int::Pression;
+    v_pmax := r.pres_max::int::Pression;
+
+    IF r.zone IS NULL OR btrim(r.zone) = '' THEN
+      RAISE WARNING 'ObsPression ignorée (zone manquante): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    BEGIN
+      v_zone := r.zone::code_zone;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsPression ignorée (zone invalide: %): %', r.zone, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    BEGIN
+      CALL imm_insert_update_obspression(v_date, v_pmin, v_pmax, v_zone);
       n_ok := n_ok + 1;
     EXCEPTION WHEN others THEN
-      RAISE WARNING 'Erreur IMM pour obspression % : %', r.date, SQLERRM; n_skip := n_skip + 1;
+      RAISE WARNING 'Erreur IMM pour obspression % : %', r.date, SQLERRM;
+      n_skip := n_skip + 1;
     END;
+
   END LOOP;
+
   RAISE NOTICE 'Import ObsPression terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
 END;
 $func$;
+
 
 CREATE OR REPLACE PROCEDURE pr_import_typeprecipitations_csv(p_path text)
 LANGUAGE plpgsql
@@ -156,24 +314,73 @@ DECLARE
   v_date Date_eco;
   v_prec HNP;
   v_nat Code_P;
+  v_zone code_zone;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
-  IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
-  CREATE TEMP TABLE tmp_obsprec_import (date TEXT, prec_tot TEXT, prec_nat TEXT) ON COMMIT DROP;
+  IF p_path IS NULL OR btrim(p_path) = '' THEN
+    RAISE EXCEPTION 'Chemin CSV requis';
+  END IF;
+
+  CREATE TEMP TABLE tmp_obsprec_import (
+    date TEXT,
+    prec_tot TEXT,
+    prec_nat TEXT,
+    zone TEXT
+  ) ON COMMIT DROP;
+
   EXECUTE format('COPY tmp_obsprec_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
+
   FOR r IN SELECT * FROM tmp_obsprec_import LOOP
-    BEGIN v_date := r.date::date; EXCEPTION WHEN others THEN RAISE WARNING 'ObsPrecipitations ignorée (date invalide: %): %', r.date, row_to_json(r); n_skip := n_skip + 1; CONTINUE; END;
-    IF r.prec_tot IS NULL OR r.prec_tot !~ '^[0-9]+$' THEN RAISE WARNING 'ObsPrecipitations ignorée (prec_tot invalide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    IF r.prec_nat IS NULL OR btrim(r.prec_nat) = '' THEN RAISE WARNING 'ObsPrecipitations ignorée (prec_nat vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
-    v_prec := r.prec_tot::int::HNP; v_nat := r.prec_nat::Code_P;
+
     BEGIN
-      CALL imm_insert_update_obsprecipitations(v_date, v_prec, v_nat);
+      v_date := r.date::date;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsPrecipitations ignorée (date invalide: %): %', r.date, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    IF r.prec_tot IS NULL OR r.prec_tot !~ '^[0-9]+$' THEN
+      RAISE WARNING 'ObsPrecipitations ignorée (prec_tot invalide): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    IF r.prec_nat IS NULL OR btrim(r.prec_nat) = '' THEN
+      RAISE WARNING 'ObsPrecipitations ignorée (prec_nat vide): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    IF r.zone IS NULL OR btrim(r.zone) = '' THEN
+      RAISE WARNING 'ObsPrecipitations ignorée (zone manquante): %', row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END IF;
+
+    v_prec := r.prec_tot::int::HNP;
+
+    BEGIN
+      v_nat := r.prec_nat::Code_P;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsPrecipitations ignorée (prec_nat invalide: %): %', r.prec_nat, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    BEGIN
+      v_zone := r.zone::code_zone;
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'ObsPrecipitations ignorée (zone invalide: %): %', r.zone, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
+    END;
+
+    BEGIN
+      CALL imm_insert_update_obsprecipitations(v_date, v_prec, v_nat, v_zone);
       n_ok := n_ok + 1;
     EXCEPTION WHEN others THEN
-      RAISE WARNING 'Erreur IMM pour obsprecipitations % : %', r.date, SQLERRM; n_skip := n_skip + 1;
+      RAISE WARNING 'Erreur IMM pour obsprecipitations % : %', r.date, SQLERRM;
+      n_skip := n_skip + 1;
     END;
+
   END LOOP;
+
   RAISE NOTICE 'Import ObsPrecipitations terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
 END;
 $func$;
@@ -184,10 +391,14 @@ SECURITY DEFINER
 AS $func$
 DECLARE
   r RECORD;
+  v_zone code_zone;
   n_ok integer := 0;
   n_skip integer := 0;
 BEGIN
-  IF p_path IS NULL OR btrim(p_path) = '' THEN RAISE EXCEPTION 'Chemin CSV requis'; END IF;
+  IF p_path IS NULL OR btrim(p_path) = '' THEN
+    RAISE EXCEPTION 'Chemin CSV requis';
+  END IF;
+
   CREATE TEMP TABLE tmp_carnetmeteo_import (
     temp_min  text,
     temp_max  text,
@@ -200,19 +411,60 @@ BEGIN
     pres_min  text,
     pres_max  text,
     date      text,
-    note      text
+    note      text,
+    zone      text
   ) ON COMMIT DROP;
+
   EXECUTE format('COPY tmp_carnetmeteo_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
+
   FOR r IN SELECT * FROM tmp_carnetmeteo_import LOOP
-    IF r.date IS NULL OR btrim(r.date) = '' THEN RAISE WARNING 'CarnetMeteo ignoré (date vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
+
+    IF r.date IS NULL OR btrim(r.date) = '' THEN
+      RAISE WARNING 'CarnetMeteo ignoré (date vide): %', row_to_json(r);
+      n_skip := n_skip + 1;
+      CONTINUE;
+    END IF;
+
+    IF r.zone IS NULL OR btrim(r.zone) = '' THEN
+      RAISE WARNING 'CarnetMeteo ignoré (zone absente) : %', row_to_json(r);
+      n_skip := n_skip + 1;
+      CONTINUE;
+    END IF;
+
     BEGIN
-      INSERT INTO CarnetMeteo(temp_min,temp_max,hum_min,hum_max,prec_tot,prec_nat,vent_min,vent_max,pres_min,pres_max,date,note)
-      VALUES (r.temp_min,r.temp_max,r.hum_min,r.hum_max,r.prec_tot,r.prec_nat,r.vent_min,r.vent_max,r.pres_min,r.pres_max,r.date,r.note);
-      n_ok := n_ok + 1;
+      v_zone := r.zone::code_zone;
     EXCEPTION WHEN others THEN
-      RAISE WARNING 'Erreur pour CarnetMeteo % : %', r.date, SQLERRM; n_skip := n_skip + 1;
+      RAISE WARNING 'CarnetMeteo ignoré (zone invalide: %): %', r.zone, row_to_json(r);
+      n_skip := n_skip + 1; CONTINUE;
     END;
+
+    BEGIN
+      INSERT INTO CarnetMeteo(
+        temp_min, temp_max,
+        hum_min, hum_max,
+        prec_tot, prec_nat,
+        vent_min, vent_max,
+        pres_min, pres_max,
+        date, note, zone
+      )
+      VALUES (
+        r.temp_min, r.temp_max,
+        r.hum_min, r.hum_max,
+        r.prec_tot, r.prec_nat,
+        r.vent_min, r.vent_max,
+        r.pres_min, r.pres_max,
+        r.date, r.note, v_zone
+      );
+
+      n_ok := n_ok + 1;
+
+    EXCEPTION WHEN others THEN
+      RAISE WARNING 'Erreur pour CarnetMeteo % : %', r.date, SQLERRM;
+      n_skip := n_skip + 1;
+    END;
+
   END LOOP;
+
   RAISE NOTICE 'Import CarnetMeteo terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
 END;
 $func$;

@@ -44,7 +44,9 @@ CREATE TABLE ObsTemperature
   temp_min  Temperature NOT NULL,
   temp_max  Temperature NOT NULL,
   note      TEXT NOT NULL,
-  CONSTRAINT ObsTemperature_cc0 PRIMARY KEY (date)
+  zone      Code_zone NOT NULL,
+  CONSTRAINT ObsTemperature_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
 CREATE DOMAIN Humidite
@@ -60,7 +62,9 @@ CREATE TABLE ObsHumidite
   date      Date_eco NOT NULL,
   hum_min   Humidite NOT NULL,
   hum_max   Humidite NOT NULL,
-  CONSTRAINT ObsHumidite_cc0 PRIMARY KEY (date)
+  zone      Code_zone NOT NULL,
+  CONSTRAINT ObsHumidite_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
 CREATE DOMAIN Vitesse
@@ -76,7 +80,9 @@ CREATE TABLE ObsVents
   date      Date_eco NOT NULL,
   vent_min  Vitesse NOT NULL,
   vent_max  Vitesse NOT NULL,
-  CONSTRAINT ObsVents_cc0 PRIMARY KEY (date)
+  zone      Code_zone NOT NULL,
+  CONSTRAINT ObsVents_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
 CREATE DOMAIN Pression
@@ -92,7 +98,9 @@ CREATE TABLE ObsPression
   date      Date_eco NOT NULL,
   pres_min  Pression NOT NULL,
   pres_max  Pression NOT NULL,
-  CONSTRAINT ObsPression_cc0 PRIMARY KEY (date)
+  zone      Code_zone NOT NULL,
+  CONSTRAINT ObsPression_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
 CREATE DOMAIN HNP
@@ -125,8 +133,10 @@ CREATE TABLE ObsPrecipitations
   date      Date_eco NOT NULL,
   prec_tot  HNP NOT NULL,
   prec_nat  Code_P NOT NULL,
+  zone      Code_zone NOT NULL,
   CONSTRAINT ObsPrecipitations_cc0 PRIMARY KEY (date, prec_nat),
-  CONSTRAINT ObsPrecipitations_cr_co FOREIGN KEY (prec_nat) REFERENCES TypePrecipitations(code)
+  CONSTRAINT ObsPrecipitations_cr_co FOREIGN KEY (prec_nat) REFERENCES TypePrecipitations(code),
+  CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
 CREATE TABLE CarnetMeteo
@@ -146,7 +156,8 @@ CREATE TABLE CarnetMeteo
   pres_max  text,   -- la pression atmosphérique maximale (en hPa),
   date      text,   -- date de la prise de données
   -- JJ     text,   -- jour julien de la prise de données ; inutilisé dans le présent contexte
-  note      text    -- note supplémentaire à propos des conditions du jour
+  note      text,   -- note supplémentaire à propos des conditions du jour
+  zone      text
 );
 
 
