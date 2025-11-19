@@ -178,7 +178,7 @@ CREATE TABLE Placette_Arbre (
 CREATE DOMAIN Plant_id
  -- Code identifiant uniquement un plant de trille.
   TEXT
-  CHECK (VALUE SIMILAR TO 'MM[A-C][0-9]{4}');
+  CHECK (VALUE SIMILAR TO 'MC[A-C][0-9]{4}');
 
 CREATE DOMAIN Position_parcelle
  -- La parcelle est une subdivision de la placette.
