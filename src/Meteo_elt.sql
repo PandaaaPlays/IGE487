@@ -155,20 +155,21 @@ begin
   ------------------------------------------------------------
   -- Pression (ajout zone)
   ------------------------------------------------------------
-  insert into ObsPression(date,pres_min,pres_max,zone)
+  insert into ObsPression(date, pres_min, pres_max, zone)
     with T as (
-      select
-        date_eco_conv(date),
-        Pression_conv(pres_min),
-        Pression_conv(pres_max),
-        Conv_zone(zone)
-      from CarnetMeteo
-      where date_eco_verif(date)
-        and Pression_verif(pres_min)
-        and Pression_verif(pres_max)
-        and Zone_verif(zone)
-    )
-    select * from T where pres_min <= pres_max;
+    select
+        date_eco_conv(date)    as date,
+        Pression_conv(pres_min) as pres_min,
+        Pression_conv(pres_max) as pres_max,
+        Conv_zone(zone) as zone
+    from CarnetMeteo
+        where date_eco_verif(date)
+            and Pression_verif(pres_min)
+            and Pression_verif(pres_max)
+            and Zone_verif(zone)
+        )
+    select * from T
+    where pres_min <= pres_max;
 
 end;
 $$;

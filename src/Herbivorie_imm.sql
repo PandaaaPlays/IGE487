@@ -261,7 +261,7 @@ RETURNS TABLE(
 ) LANGUAGE plpgsql AS $$
 BEGIN
     RETURN QUERY
-    SELECT po.placette, po.hauteur, po.type_obs, po.taux, po.incertitude FROM Placette_Obstruction po WHERE po.placette = p_placette;
+    SELECT po.placette, po.hauteur, po.type_obs, po.taux FROM Placette_Obstruction po WHERE po.placette = p_placette;
 END;
 $$;
 

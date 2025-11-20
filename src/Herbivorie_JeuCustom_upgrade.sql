@@ -131,7 +131,7 @@ BEGIN
       FOREACH v_type_obs IN ARRAY ARRAY['Feuillu','Conifer','Total'] LOOP
         v_taux := (random()*100)::INT;
         v_inc  := (random()*20)::INT;
-        INSERT INTO "Herbivorie".Placette_Obstruction(placette, hauteur, type_obs, taux, incertitude)
+        INSERT INTO "Herbivorie".Placette_Obstruction(placette, hauteur, type_obs, taux)
         VALUES (v_plac_id, v_ha, v_type_obs, ROW(v_taux, v_inc), v_inc);
       END LOOP;
     END LOOP;

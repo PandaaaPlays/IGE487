@@ -45,7 +45,7 @@ CREATE TABLE ObsTemperature
   temp_max  Temperature NOT NULL,
   note      TEXT NOT NULL,
   zone      Code_zone NOT NULL,
-  CONSTRAINT ObsTemperature_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsTemperature_cc0 PRIMARY KEY (date, zone),
   CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
@@ -63,7 +63,7 @@ CREATE TABLE ObsHumidite
   hum_min   Humidite NOT NULL,
   hum_max   Humidite NOT NULL,
   zone      Code_zone NOT NULL,
-  CONSTRAINT ObsHumidite_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsHumidite_cc0 PRIMARY KEY (date, zone),
   CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
@@ -81,7 +81,7 @@ CREATE TABLE ObsVents
   vent_min  Vitesse NOT NULL,
   vent_max  Vitesse NOT NULL,
   zone      Code_zone NOT NULL,
-  CONSTRAINT ObsVents_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsVents_cc0 PRIMARY KEY (date, zone),
   CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
@@ -99,7 +99,7 @@ CREATE TABLE ObsPression
   pres_min  Pression NOT NULL,
   pres_max  Pression NOT NULL,
   zone      Code_zone NOT NULL,
-  CONSTRAINT ObsPression_cc0 PRIMARY KEY (date),
+  CONSTRAINT ObsPression_cc0 PRIMARY KEY (date, zone),
   CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );
 
@@ -134,7 +134,7 @@ CREATE TABLE ObsPrecipitations
   prec_tot  HNP NOT NULL,
   prec_nat  Code_P NOT NULL,
   zone      Code_zone NOT NULL,
-  CONSTRAINT ObsPrecipitations_cc0 PRIMARY KEY (date, prec_nat),
+  CONSTRAINT ObsPrecipitations_cc0 PRIMARY KEY (date, prec_nat, zone),
   CONSTRAINT ObsPrecipitations_cr_co FOREIGN KEY (prec_nat) REFERENCES TypePrecipitations(code),
   CONSTRAINT ObsZone_cr FOREIGN KEY (zone) REFERENCES zone(code)
 );

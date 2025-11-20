@@ -21,7 +21,7 @@ VALUES ('N1', 'VN', DATE('2025-08-11')),
        ('N3', 'VN', DATE('2025-10-11')),
        ('N4', 'VN', DATE('2025-11-11'));
 
--- Peuplement (1 par placette)
+-- Peuplements
 INSERT INTO peuplement (peuplement, description)
 VALUES ('SABB', 'Sapinière à bouleau blanc'),
        ('EABJ', 'Érablière à bouleau jaune'),
@@ -50,6 +50,7 @@ BEGIN
         END LOOP;
     END LOOP;
 END $$;
+
 
 -- Plant (1 à 2 par parcelle)
 DO $$
@@ -144,11 +145,82 @@ VALUES ('A', 'Excellent'),
        ('D', 'Mauvais'),
        ('E', 'Très mauvais');
 
--- TODO Plant_note
+-- Note d'un plant
+DO $$
+DECLARE
+    plant_rec RECORD;
+    n_notes INT;
+    obs_date DATE;
+    notes TEXT[] := ARRAY[
+        'Plante en bonne santé',
+        'Feuilles abîmées',
+        'Signes de stress hydrique',
+        'Croissance rapide',
+        'Insectes observés'
+    ];
+    idx INT;
+    used_dates DATE[];
+BEGIN
+    FOR plant_rec IN SELECT id FROM plant LOOP
+        n_notes := 1 + floor(random() * 5)::INT;
+        used_dates := ARRAY[]::DATE[];
 
--- TODO placette_couv et obstr
+        FOR i IN 1..n_notes LOOP
+            LOOP
+                obs_date := DATE '2025-06-01' + floor(random() * 213)::INT;
+                EXIT WHEN NOT (obs_date = ANY(used_dates));
+            END LOOP;
+            used_dates := array_append(used_dates, obs_date);
 
--- Observation de dimension (au moins 2000)
+            idx := floor(random() * array_length(notes,1))::INT + 1;
+
+            INSERT INTO plant_note (id_plant, date, note)
+            VALUES (plant_rec.id, obs_date, notes[idx]);
+        END LOOP;
+    END LOOP;
+END $$;
+
+-- Couverture de placette
+DO $$
+DECLARE
+    placette_rec TEXT;
+    types_couverture TEXT[] := ARRAY['GRAMINEES', 'FOUGERES', 'MOUSSES'];
+    taux INT;
+    incertitude INT;
+    idx INT;
+BEGIN
+    FOR placette_rec IN SELECT plac FROM placette LOOP
+        idx := floor(random() * array_length(types_couverture,1))::INT + 1;
+        taux := floor(random() * 100)::INT;
+        incertitude := floor(random() * 10)::INT;
+
+        INSERT INTO placette_couverture (placette, type_couverture, taux)
+        VALUES (placette_rec, types_couverture[idx], (taux, incertitude)::tauxavecincertitude);
+    END LOOP;
+END $$;
+
+-- Obstruction de placette
+DO $$
+DECLARE
+    placette_rec TEXT;
+    types_obs TEXT[] := ARRAY['Buissons', 'Arbres', 'Rochers', 'Débris'];
+    hauteur INT;
+    taux INT;
+    incertitude INT;
+    idx INT;
+BEGIN
+    FOR placette_rec IN SELECT plac FROM placette LOOP
+        hauteur := 1 + floor(random() * 2)::INT;
+        idx := floor(random() * array_length(types_obs,1))::INT + 1;
+        taux := floor(random() * 100)::INT;
+        incertitude := floor(random() * 10)::INT;
+
+        INSERT INTO placette_obstruction (placette, hauteur, type_obs, taux)
+        VALUES (placette_rec, hauteur, types_obs[idx], (taux, incertitude)::tauxavecincertitude);
+    END LOOP;
+END $$;
+
+-- Observation de dimension
 DO $$
 DECLARE
     plant_rec RECORD;
@@ -164,7 +236,7 @@ DECLARE
 BEGIN
     FOR plant_rec IN SELECT id FROM plant LOOP
 
-        n_obs := 1 + floor(random() * 5)::INT;
+        n_obs := 1 + floor(random() * 7)::INT;
         used_dates := ARRAY[]::DATE[];
 
         FOR i IN 1..n_obs LOOP
@@ -187,7 +259,7 @@ BEGIN
     END LOOP;
 END $$;
 
--- Observation des états (au moins 2000)
+-- Observation des états
 DO $$
 DECLARE
     plant_rec RECORD;
@@ -198,7 +270,7 @@ DECLARE
     used_dates DATE[];
 BEGIN
     FOR plant_rec IN SELECT id FROM plant LOOP
-        n_obs := 1 + floor(random() * 5)::INT;
+        n_obs := 1 + floor(random() * 7)::INT;
         used_dates := ARRAY[]::DATE[];
 
         FOR i IN 1..n_obs LOOP
@@ -230,123 +302,56 @@ BEGIN
     END LOOP;
 END $$;
 
--- Observation de humidité
-DO $$
-DECLARE
-    obs_date DATE;
-    zone TEXT;
-BEGIN
-    FOR i IN 1..2000 LOOP
-        obs_date := DATE '2025-06-01' + floor(random() * 213)::INT;
-        zone := (ARRAY['VN','VS'])[floor(random() * 2 + 1)::int];
-        BEGIN
-            INSERT INTO obshumidite (date, hum_min, hum_max, zone)
-            VALUES (
-                obs_date,
-                floor(random()*50)::int,
-                50 + floor(random()*50)::int,
-                zone
-            );
-        EXCEPTION WHEN unique_violation THEN
-            -- skip duplicate
-        END;
-    END LOOP;
-END $$;
+-- Type de précipitations
+INSERT INTO typeprecipitations (code, libelle)
+VALUES ('G', 'Grèle'),
+       ('P', 'Pluie'),
+       ('N', 'Neige');
 
--- Observation des précipitations
+-- Carnet Météo
 DO $$
 DECLARE
     obs_date DATE;
-    zone TEXT;
+    obs_zone TEXT;
     prec_code CHAR(1);
 BEGIN
     FOR i IN 1..2000 LOOP
-        obs_date := DATE '2025-06-01' + floor(random() * 213)::INT;
-        zone := (ARRAY['VN','VS'])[floor(random() * 2 + 1)::int];
+        obs_date := DATE '2025-06-01' + floor(random() * 213)::int;
+        obs_zone := (ARRAY['VN','VS'])[floor(random() * 2 + 1)::int];
         prec_code := (ARRAY['G','N','P'])[floor(random()*3 + 1)::int];
-        BEGIN
-            INSERT INTO obsprecipitations (date, prec_nat, prec_tot, zone)
+
+        -- Only insert if (date, zone) is not already in CarnetMeteo
+        IF NOT EXISTS (
+            SELECT 1
+            FROM CarnetMeteo
+            WHERE date::DATE = obs_date  -- cast if date is a domain
+              AND zone = obs_zone
+        ) THEN
+            INSERT INTO CarnetMeteo(
+                date, temp_min, temp_max, hum_min, hum_max,
+                prec_tot, prec_nat, vent_min, vent_max, pres_min, pres_max,
+                note, zone
+            )
             VALUES (
                 obs_date,
-                prec_code,
-                floor(random()*501)::int,
-                zone
+                -50 + floor(random()*51)::int,        -- temp_min
+                floor(random()*51)::int,              -- temp_max
+                floor(random()*50)::int,              -- hum_min
+                50 + floor(random()*50)::int,         -- hum_max
+                floor(random()*501)::int,             -- prec_tot
+                prec_code,                             -- prec_nat
+                floor(random()*151)::int,             -- vent_min
+                150 + floor(random()*151)::int,       -- vent_max
+                900 + floor(random()*201)::int,       -- pres_min
+                900 + floor(random()*201)::int,       -- pres_max
+                'Observation automatique',            -- note
+                obs_zone
             );
-        EXCEPTION WHEN unique_violation THEN
-            -- skip duplicate
-        END;
+        END IF;
     END LOOP;
 END $$;
 
--- Observation de pression
-DO $$
-DECLARE
-    obs_date DATE;
-    zone TEXT;
-BEGIN
-    FOR i IN 1..2000 LOOP
-        obs_date := DATE '2025-06-01' + floor(random() * 213)::INT;
-        zone := (ARRAY['VN','VS'])[floor(random() * 2 + 1)::int];
-        BEGIN
-            INSERT INTO obspression (date, pres_min, pres_max, zone)
-            VALUES (
-                obs_date,
-                900 + floor(random()*201)::int,
-                900 + floor(random()*201)::int,
-                zone
-            );
-        EXCEPTION WHEN unique_violation THEN
-            -- skip duplicate
-        END;
-    END LOOP;
-END $$;
-
--- Observation de température
-DO $$
-DECLARE
-    obs_date DATE;
-    zone TEXT;
-BEGIN
-    FOR i IN 1..2000 LOOP
-        obs_date := DATE '2025-06-01' + floor(random() * 213)::INT;
-        zone := (ARRAY['VN','VS'])[floor(random() * 2 + 1)::int];
-        BEGIN
-            INSERT INTO obstemperature (date, temp_min, temp_max, note, zone)
-            VALUES (
-                obs_date,
-                -50 + floor(random()*51)::int,
-                floor(random()*51)::int,
-                'Observation automatique',
-                zone
-            );
-        EXCEPTION WHEN unique_violation THEN
-            -- skip duplicate
-        END;
-    END LOOP;
-END $$;
-
--- Observation de vents
-DO $$
-DECLARE
-    obs_date DATE;
-    zone TEXT;
-BEGIN
-    FOR i IN 1..2000 LOOP
-        obs_date := DATE '2025-06-01' + floor(random() * 213)::INT;
-        zone := (ARRAY['VN','VS'])[floor(random() * 2 + 1)::int];
-        BEGIN
-            INSERT INTO obsvents (date, vent_min, vent_max, zone)
-            VALUES (
-                obs_date,
-                floor(random()*151)::int,
-                150 + floor(random()*151)::int,
-                zone
-            );
-        EXCEPTION WHEN unique_violation THEN
-            -- skip duplicate
-        END;
-    END LOOP;
-END $$;
+CALL Meteo_ELT();
 
 -- Calcul du total d'observations
 SELECT
@@ -356,19 +361,4 @@ SELECT
     'ObsEtat', COUNT(*) FROM ObsEtat
 UNION ALL
 SELECT
-    'ObsFloraison', COUNT(*) FROM ObsFloraison
-UNION ALL
-SELECT
-    'ObsTemperature', COUNT(*) FROM ObsTemperature
-UNION ALL
-SELECT
-    'ObsHumidite', COUNT(*) FROM ObsHumidite
-UNION ALL
-SELECT
-    'ObsVents', COUNT(*) FROM ObsVents
-UNION ALL
-SELECT
-    'ObsPression', COUNT(*) FROM ObsPression
-UNION ALL
-SELECT
-    'ObsPrecipitations', COUNT(*) FROM ObsPrecipitations;
+    'ObsFloraison', COUNT(*) FROM ObsFloraison;
