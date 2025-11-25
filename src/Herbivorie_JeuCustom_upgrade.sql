@@ -5,7 +5,7 @@ SET SCHEMA 'Herbivorie';
 -- Jeu de données massif pour tests (version robuste)
 -- - Ajoute des placettes A0..Z9 manquantes
 -- - Remplit parcelles, plants, obs (dimension, floraison, état, notes)
--- - Ajoute données de base minimales si absentes (Site/Zone/Arbre/Peuplement/Etat)
+-- - Ajoute données de base minimales si absentes (Site/Zone/Arbre/Peuplement/Etat.csv)
 -- ==================================================================
 
 DO $$

@@ -31,7 +31,7 @@ INSERT INTO Peuplement VALUES
 ('PINM', 'pineraie mixte');
 
 -- ===================================================================
--- Etat
+-- Etat.csv
 -- ===================================================================
 INSERT INTO Etat VALUES
 ('O', 'vivante'),

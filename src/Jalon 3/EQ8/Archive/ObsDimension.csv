@@ -1,0 +1,2401 @@
+plantid,dateobservation,longueur,largeur,note
+MMA1002,2017-05-15,105.61,95.58,Condition normale pour la saison.
+MMA1002,2017-06-15,67.76,73.87,Condition normale pour la saison.
+MMA1002,2017-07-15,80.63,58.94,Légère variabilité observée.
+MMA1002,2017-08-15,155.64,168.42,Condition normale pour la saison.
+MMA1002,2017-09-15,109.12,61.01,Condition normale pour la saison.
+MMA1002,2017-10-15,177.82,66.20,Rien à signaler.
+MMA1004,2017-05-15,73.96,148.49,Condition normale pour la saison.
+MMA1004,2017-06-15,52.27,109.81,Condition normale pour la saison.
+MMA1004,2017-07-15,196.27,170.35,Condition normale pour la saison.
+MMA1004,2017-08-15,77.69,111.47,Condition normale pour la saison.
+MMA1004,2017-09-15,199.91,73.30,Condition normale pour la saison.
+MMA1004,2017-10-15,121.33,64.79,Rien à signaler.
+MMA1006,2017-05-15,111.05,91.05,Rien à signaler.
+MMA1006,2017-06-15,53.72,138.42,Rien à signaler.
+MMA1006,2017-07-15,65.69,86.00,Rien à signaler.
+MMA1006,2017-08-15,104.61,192.84,Condition normale pour la saison.
+MMA1006,2017-09-15,144.45,150.22,Condition normale pour la saison.
+MMA1006,2017-10-15,148.19,84.73,Légère variabilité observée.
+MMA1008,2017-05-15,142.38,178.66,Condition normale pour la saison.
+MMA1008,2017-06-15,177.81,55.84,Condition normale pour la saison.
+MMA1008,2017-07-15,59.63,144.14,Légère variabilité observée.
+MMA1008,2017-08-15,113.93,156.13,Condition normale pour la saison.
+MMA1008,2017-09-15,116.99,168.29,Légère variabilité observée.
+MMA1008,2017-10-15,130.88,122.56,Condition normale pour la saison.
+MMA1010,2017-05-15,124.29,80.69,Rien à signaler.
+MMA1010,2017-06-15,80.48,52.68,Légère variabilité observée.
+MMA1010,2017-07-15,133.39,189.07,Rien à signaler.
+MMA1010,2017-08-15,53.45,171.34,Condition normale pour la saison.
+MMA1010,2017-09-15,75.49,163.06,Légère variabilité observée.
+MMA1010,2017-10-15,85.04,189.11,Condition normale pour la saison.
+MMA1012,2017-05-15,89.31,60.78,Légère variabilité observée.
+MMA1012,2017-06-15,136.52,159.98,Condition normale pour la saison.
+MMA1012,2017-07-15,98.25,86.74,Rien à signaler.
+MMA1012,2017-08-15,115.29,137.02,Légère variabilité observée.
+MMA1012,2017-09-15,130.25,189.84,Condition normale pour la saison.
+MMA1012,2017-10-15,128.20,117.70,Rien à signaler.
+MMA1014,2017-05-15,189.55,62.10,Rien à signaler.
+MMA1014,2017-06-15,60.16,163.46,Condition normale pour la saison.
+MMA1014,2017-07-15,52.46,65.89,Légère variabilité observée.
+MMA1014,2017-08-15,162.87,132.10,Condition normale pour la saison.
+MMA1014,2017-09-15,137.54,108.37,Rien à signaler.
+MMA1014,2017-10-15,76.80,183.77,Condition normale pour la saison.
+MMA1016,2017-05-15,96.95,94.27,Condition normale pour la saison.
+MMA1016,2017-06-15,145.88,132.94,Légère variabilité observée.
+MMA1016,2017-07-15,120.34,83.96,Légère variabilité observée.
+MMA1016,2017-08-15,171.98,189.84,Condition normale pour la saison.
+MMA1016,2017-09-15,124.02,92.88,Rien à signaler.
+MMA1016,2017-10-15,56.99,133.59,Légère variabilité observée.
+MMA1018,2017-05-15,62.56,193.75,Condition normale pour la saison.
+MMA1018,2017-06-15,87.28,192.55,Condition normale pour la saison.
+MMA1018,2017-07-15,194.83,169.36,Condition normale pour la saison.
+MMA1018,2017-08-15,59.59,199.39,Rien à signaler.
+MMA1018,2017-09-15,124.10,131.05,Condition normale pour la saison.
+MMA1018,2017-10-15,130.16,70.11,Condition normale pour la saison.
+MMA1020,2017-05-15,108.89,66.71,Condition normale pour la saison.
+MMA1020,2017-06-15,108.55,141.77,Condition normale pour la saison.
+MMA1020,2017-07-15,103.94,167.93,Légère variabilité observée.
+MMA1020,2017-08-15,94.74,131.93,Légère variabilité observée.
+MMA1020,2017-09-15,94.67,166.65,Légère variabilité observée.
+MMA1020,2017-10-15,138.90,170.05,Condition normale pour la saison.
+MMA1022,2017-05-15,61.57,183.80,Condition normale pour la saison.
+MMA1022,2017-06-15,168.87,126.58,Condition normale pour la saison.
+MMA1022,2017-07-15,149.86,163.86,Rien à signaler.
+MMA1022,2017-08-15,54.66,76.67,Rien à signaler.
+MMA1022,2017-09-15,139.00,144.19,Légère variabilité observée.
+MMA1022,2017-10-15,100.04,183.54,Condition normale pour la saison.
+MMA1024,2017-05-15,85.29,59.65,Légère variabilité observée.
+MMA1024,2017-06-15,54.29,158.87,Rien à signaler.
+MMA1024,2017-07-15,145.92,191.71,Rien à signaler.
+MMA1024,2017-08-15,119.92,99.24,Condition normale pour la saison.
+MMA1024,2017-09-15,151.57,176.92,Rien à signaler.
+MMA1024,2017-10-15,170.83,89.48,Condition normale pour la saison.
+MMA1026,2017-05-15,188.12,108.35,Rien à signaler.
+MMA1026,2017-06-15,187.77,111.67,Légère variabilité observée.
+MMA1026,2017-07-15,119.08,56.34,Rien à signaler.
+MMA1026,2017-08-15,195.95,82.02,Rien à signaler.
+MMA1026,2017-09-15,106.63,77.02,Condition normale pour la saison.
+MMA1026,2017-10-15,158.20,194.83,Condition normale pour la saison.
+MMA1028,2017-05-15,87.16,83.59,Condition normale pour la saison.
+MMA1028,2017-06-15,186.41,77.69,Condition normale pour la saison.
+MMA1028,2017-07-15,69.70,190.41,Légère variabilité observée.
+MMA1028,2017-08-15,68.44,88.35,Rien à signaler.
+MMA1028,2017-09-15,77.80,152.36,Condition normale pour la saison.
+MMA1028,2017-10-15,157.44,167.26,Rien à signaler.
+MMA1030,2017-05-15,84.67,151.37,Condition normale pour la saison.
+MMA1030,2017-06-15,58.51,158.04,Condition normale pour la saison.
+MMA1030,2017-07-15,141.88,65.81,Légère variabilité observée.
+MMA1030,2017-08-15,107.96,170.50,Condition normale pour la saison.
+MMA1030,2017-09-15,52.20,80.88,Condition normale pour la saison.
+MMA1030,2017-10-15,143.67,81.71,Légère variabilité observée.
+MMA1032,2017-05-15,121.27,134.08,Condition normale pour la saison.
+MMA1032,2017-06-15,116.57,160.66,Condition normale pour la saison.
+MMA1032,2017-07-15,54.51,145.53,Rien à signaler.
+MMA1032,2017-08-15,153.19,138.79,Légère variabilité observée.
+MMA1032,2017-09-15,84.29,146.13,Condition normale pour la saison.
+MMA1032,2017-10-15,91.63,65.79,Condition normale pour la saison.
+MMA1034,2017-05-15,112.06,197.18,Légère variabilité observée.
+MMA1034,2017-06-15,63.66,58.92,Condition normale pour la saison.
+MMA1034,2017-07-15,84.55,152.90,Légère variabilité observée.
+MMA1034,2017-08-15,99.33,191.86,Légère variabilité observée.
+MMA1034,2017-09-15,173.15,91.75,Condition normale pour la saison.
+MMA1034,2017-10-15,153.77,87.76,Condition normale pour la saison.
+MMA1036,2017-05-15,166.80,98.92,Légère variabilité observée.
+MMA1036,2017-06-15,130.54,162.45,Condition normale pour la saison.
+MMA1036,2017-07-15,171.13,94.40,Condition normale pour la saison.
+MMA1036,2017-08-15,109.83,130.63,Légère variabilité observée.
+MMA1036,2017-09-15,114.62,95.28,Rien à signaler.
+MMA1036,2017-10-15,129.48,172.13,Légère variabilité observée.
+MMA1038,2017-05-15,110.61,101.29,Légère variabilité observée.
+MMA1038,2017-06-15,73.03,116.26,Légère variabilité observée.
+MMA1038,2017-07-15,199.71,99.39,Rien à signaler.
+MMA1038,2017-08-15,99.70,193.68,Condition normale pour la saison.
+MMA1038,2017-09-15,111.95,130.51,Condition normale pour la saison.
+MMA1038,2017-10-15,97.58,199.15,Condition normale pour la saison.
+MMA1040,2017-05-15,66.13,175.11,Condition normale pour la saison.
+MMA1040,2017-06-15,64.45,192.37,Condition normale pour la saison.
+MMA1040,2017-07-15,86.31,97.91,Condition normale pour la saison.
+MMA1040,2017-08-15,147.20,127.59,Légère variabilité observée.
+MMA1040,2017-09-15,197.39,137.86,Condition normale pour la saison.
+MMA1040,2017-10-15,187.03,99.17,Condition normale pour la saison.
+MMA1042,2017-05-15,125.64,89.92,Rien à signaler.
+MMB4094,2017-08-15,87.52,100.59,Rien à signaler.
+MMA1042,2017-06-15,159.69,161.97,Légère variabilité observée.
+MMA1042,2017-07-15,143.72,84.63,Rien à signaler.
+MMA1042,2017-08-15,79.65,51.34,Condition normale pour la saison.
+MMA1042,2017-09-15,165.36,60.15,Condition normale pour la saison.
+MMA1042,2017-10-15,119.80,72.45,Rien à signaler.
+MMA1044,2017-05-15,112.88,144.65,Condition normale pour la saison.
+MMA1044,2017-06-15,117.56,54.40,Condition normale pour la saison.
+MMA1044,2017-07-15,176.38,68.42,Condition normale pour la saison.
+MMA1044,2017-08-15,101.04,62.60,Condition normale pour la saison.
+MMA1044,2017-09-15,58.23,113.52,Condition normale pour la saison.
+MMA1044,2017-10-15,187.09,125.79,Légère variabilité observée.
+MMA1046,2017-05-15,188.56,95.27,Rien à signaler.
+MMA1046,2017-06-15,98.44,105.27,Condition normale pour la saison.
+MMA1046,2017-07-15,110.75,103.76,Condition normale pour la saison.
+MMA1046,2017-08-15,160.69,163.98,Légère variabilité observée.
+MMA1046,2017-09-15,125.34,179.89,Condition normale pour la saison.
+MMA1046,2017-10-15,105.36,97.75,Condition normale pour la saison.
+MMA1048,2017-05-15,105.90,118.08,Condition normale pour la saison.
+MMA1048,2017-06-15,67.72,199.03,Rien à signaler.
+MMA1048,2017-07-15,135.54,184.75,Condition normale pour la saison.
+MMA1048,2017-08-15,52.74,156.53,Condition normale pour la saison.
+MMA1048,2017-09-15,129.92,92.65,Légère variabilité observée.
+MMA1048,2017-10-15,121.87,169.19,Rien à signaler.
+MMA1050,2017-05-15,87.85,151.70,Condition normale pour la saison.
+MMA1050,2017-06-15,156.80,167.31,Rien à signaler.
+MMA1050,2017-07-15,67.37,123.93,Condition normale pour la saison.
+MMA1050,2017-08-15,133.53,184.68,Condition normale pour la saison.
+MMA1050,2017-09-15,82.98,164.94,Condition normale pour la saison.
+MMA1050,2017-10-15,101.22,93.93,Condition normale pour la saison.
+MMA1052,2017-05-15,78.59,101.41,Légère variabilité observée.
+MMA1052,2017-06-15,108.57,164.02,Légère variabilité observée.
+MMA1052,2017-07-15,197.54,141.52,Légère variabilité observée.
+MMA1052,2017-08-15,188.97,59.30,Condition normale pour la saison.
+MMA1052,2017-09-15,69.12,67.91,Rien à signaler.
+MMA1052,2017-10-15,90.05,195.25,Rien à signaler.
+MMA1054,2017-05-15,99.76,95.20,Légère variabilité observée.
+MMA1054,2017-06-15,71.82,172.99,Condition normale pour la saison.
+MMA1054,2017-07-15,102.22,123.02,Condition normale pour la saison.
+MMA1054,2017-08-15,181.52,96.92,Condition normale pour la saison.
+MMA1054,2017-09-15,171.86,96.97,Condition normale pour la saison.
+MMA1054,2017-10-15,140.74,105.48,Condition normale pour la saison.
+MMA1056,2017-05-15,133.40,199.17,Condition normale pour la saison.
+MMA1056,2017-06-15,68.56,106.28,Légère variabilité observée.
+MMA1056,2017-07-15,107.10,112.03,Condition normale pour la saison.
+MMA1056,2017-08-15,125.82,75.71,Rien à signaler.
+MMA1056,2017-09-15,131.07,180.52,Condition normale pour la saison.
+MMA1056,2017-10-15,192.80,126.52,Condition normale pour la saison.
+MMA1058,2017-05-15,61.39,159.38,Rien à signaler.
+MMA1058,2017-06-15,135.28,109.04,Condition normale pour la saison.
+MMA1058,2017-07-15,119.59,98.28,Rien à signaler.
+MMA1058,2017-08-15,132.38,122.28,Condition normale pour la saison.
+MMA1058,2017-09-15,158.71,92.49,Condition normale pour la saison.
+MMA1058,2017-10-15,61.24,198.86,Légère variabilité observée.
+MMA1060,2017-05-15,88.85,94.47,Condition normale pour la saison.
+MMA1060,2017-06-15,75.65,152.14,Condition normale pour la saison.
+MMA1060,2017-07-15,182.39,149.31,Légère variabilité observée.
+MMA1060,2017-08-15,199.52,131.24,Condition normale pour la saison.
+MMA1060,2017-09-15,64.75,194.61,Condition normale pour la saison.
+MMA1060,2017-10-15,198.42,63.20,Légère variabilité observée.
+MMA1062,2017-05-15,78.90,162.21,Condition normale pour la saison.
+MMA1062,2017-06-15,191.41,121.76,Rien à signaler.
+MMA1062,2017-07-15,171.30,72.98,Rien à signaler.
+MMA1062,2017-08-15,153.81,64.74,Rien à signaler.
+MMA1062,2017-09-15,126.88,111.73,Condition normale pour la saison.
+MMA1062,2017-10-15,182.68,170.44,Rien à signaler.
+MMA1064,2017-05-15,75.74,87.13,Condition normale pour la saison.
+MMA1064,2017-06-15,107.15,177.32,Condition normale pour la saison.
+MMA1064,2017-07-15,110.90,93.00,Condition normale pour la saison.
+MMA1064,2017-08-15,71.56,103.14,Condition normale pour la saison.
+MMA1064,2017-09-15,132.45,100.45,Légère variabilité observée.
+MMA1064,2017-10-15,110.16,158.16,Légère variabilité observée.
+MMA1066,2017-05-15,198.04,135.41,Légère variabilité observée.
+MMA1066,2017-06-15,178.69,96.12,Condition normale pour la saison.
+MMA1066,2017-07-15,181.65,68.64,Rien à signaler.
+MMA1066,2017-08-15,68.71,127.84,Rien à signaler.
+MMA1066,2017-09-15,153.85,151.79,Légère variabilité observée.
+MMA1066,2017-10-15,170.70,69.74,Condition normale pour la saison.
+MMA1068,2017-05-15,106.16,140.25,Condition normale pour la saison.
+MMA1068,2017-06-15,180.75,95.06,Condition normale pour la saison.
+MMA1068,2017-07-15,61.16,180.94,Condition normale pour la saison.
+MMA1068,2017-08-15,166.32,187.98,Rien à signaler.
+MMA1068,2017-09-15,62.59,104.48,Légère variabilité observée.
+MMA1068,2017-10-15,126.94,85.69,Légère variabilité observée.
+MMA1070,2017-05-15,121.64,67.54,Condition normale pour la saison.
+MMA1070,2017-06-15,182.98,68.86,Condition normale pour la saison.
+MMA1070,2017-07-15,107.44,125.14,Condition normale pour la saison.
+MMA1070,2017-08-15,87.05,149.81,Rien à signaler.
+MMA1070,2017-09-15,178.56,82.93,Rien à signaler.
+MMA1070,2017-10-15,51.32,186.97,Condition normale pour la saison.
+MMA1072,2017-05-15,132.49,109.77,Légère variabilité observée.
+MMA1072,2017-06-15,65.70,157.12,Légère variabilité observée.
+MMA1072,2017-07-15,119.72,102.03,Condition normale pour la saison.
+MMA1072,2017-08-15,194.21,173.63,Condition normale pour la saison.
+MMA1072,2017-09-15,158.79,61.76,Rien à signaler.
+MMA1072,2017-10-15,111.63,195.55,Rien à signaler.
+MMA1074,2017-05-15,187.22,86.16,Condition normale pour la saison.
+MMA1074,2017-06-15,139.30,129.84,Condition normale pour la saison.
+MMA1074,2017-07-15,156.27,114.18,Légère variabilité observée.
+MMA1074,2017-08-15,142.91,129.09,Condition normale pour la saison.
+MMA1074,2017-09-15,184.92,50.57,Condition normale pour la saison.
+MMA1074,2017-10-15,127.55,104.30,Rien à signaler.
+MMA1076,2017-05-15,146.97,175.15,Rien à signaler.
+MMA1076,2017-06-15,108.34,109.41,Condition normale pour la saison.
+MMA1076,2017-07-15,187.88,160.22,Condition normale pour la saison.
+MMA1076,2017-08-15,129.03,111.54,Légère variabilité observée.
+MMA1076,2017-09-15,109.53,176.99,Rien à signaler.
+MMA1076,2017-10-15,105.29,145.30,Condition normale pour la saison.
+MMA1078,2017-05-15,147.04,175.10,Légère variabilité observée.
+MMA1078,2017-06-15,91.62,70.93,Rien à signaler.
+MMA1078,2017-07-15,179.66,199.15,Condition normale pour la saison.
+MMA1078,2017-08-15,73.72,135.17,Condition normale pour la saison.
+MMA1078,2017-09-15,143.74,198.63,Rien à signaler.
+MMA1078,2017-10-15,152.49,172.61,Condition normale pour la saison.
+MMA1080,2017-05-15,54.00,191.20,Condition normale pour la saison.
+MMA1080,2017-06-15,193.06,118.65,Condition normale pour la saison.
+MMA1080,2017-07-15,127.64,92.25,Rien à signaler.
+MMA1080,2017-08-15,152.58,149.65,Légère variabilité observée.
+MMA1080,2017-09-15,116.17,119.63,Condition normale pour la saison.
+MMA1080,2017-10-15,91.40,70.57,Condition normale pour la saison.
+MMA1082,2017-05-15,184.89,110.95,Rien à signaler.
+MMA1082,2017-06-15,156.90,158.98,Rien à signaler.
+MMA1082,2017-07-15,198.72,188.06,Condition normale pour la saison.
+MMA1082,2017-08-15,184.88,194.06,Condition normale pour la saison.
+MMA1082,2017-09-15,198.18,177.77,Rien à signaler.
+MMA1082,2017-10-15,92.14,147.22,Condition normale pour la saison.
+MMA1084,2017-05-15,177.71,80.07,Légère variabilité observée.
+MMA1084,2017-06-15,68.76,78.02,Légère variabilité observée.
+MMA1084,2017-07-15,161.58,119.33,Rien à signaler.
+MMA1084,2017-08-15,186.50,73.84,Rien à signaler.
+MMA1084,2017-09-15,60.36,188.09,Condition normale pour la saison.
+MMA1084,2017-10-15,175.05,112.39,Condition normale pour la saison.
+MMA1086,2017-05-15,86.23,196.24,Condition normale pour la saison.
+MMA1086,2017-06-15,69.25,183.61,Légère variabilité observée.
+MMA1086,2017-07-15,85.78,88.23,Condition normale pour la saison.
+MMA1086,2017-08-15,56.16,185.66,Rien à signaler.
+MMA1086,2017-09-15,92.30,199.46,Rien à signaler.
+MMA1086,2017-10-15,186.51,148.33,Rien à signaler.
+MMA1088,2017-05-15,137.50,110.14,Légère variabilité observée.
+MMA1088,2017-06-15,112.17,146.09,Rien à signaler.
+MMA1088,2017-07-15,183.82,170.76,Rien à signaler.
+MMA1088,2017-08-15,182.62,198.92,Rien à signaler.
+MMA1088,2017-09-15,138.32,114.70,Condition normale pour la saison.
+MMA1088,2017-10-15,192.82,193.77,Condition normale pour la saison.
+MMA1090,2017-05-15,162.24,183.67,Condition normale pour la saison.
+MMA1090,2017-06-15,161.35,106.76,Condition normale pour la saison.
+MMA1090,2017-07-15,151.06,160.60,Légère variabilité observée.
+MMA1090,2017-08-15,98.93,161.24,Rien à signaler.
+MMA1090,2017-09-15,91.00,96.80,Rien à signaler.
+MMA1090,2017-10-15,167.82,68.70,Rien à signaler.
+MMA1092,2017-05-15,96.14,110.52,Condition normale pour la saison.
+MMA1092,2017-06-15,189.52,165.51,Rien à signaler.
+MMA1092,2017-07-15,169.29,88.60,Condition normale pour la saison.
+MMA1092,2017-08-15,89.97,158.92,Rien à signaler.
+MMA1092,2017-09-15,159.54,124.95,Rien à signaler.
+MMA1092,2017-10-15,127.33,198.28,Légère variabilité observée.
+MMA1094,2017-05-15,171.77,66.80,Rien à signaler.
+MMA1094,2017-06-15,53.72,191.21,Condition normale pour la saison.
+MMA1094,2017-07-15,122.66,84.99,Condition normale pour la saison.
+MMA1094,2017-08-15,76.87,79.94,Condition normale pour la saison.
+MMA1094,2017-09-15,70.77,107.83,Légère variabilité observée.
+MMA1094,2017-10-15,184.11,68.71,Condition normale pour la saison.
+MMA1096,2017-05-15,149.13,110.83,Condition normale pour la saison.
+MMA1096,2017-06-15,56.08,85.45,Rien à signaler.
+MMA1096,2017-07-15,197.25,79.12,Condition normale pour la saison.
+MMA1096,2017-08-15,158.66,87.26,Condition normale pour la saison.
+MMA1096,2017-09-15,119.77,140.20,Condition normale pour la saison.
+MMA1096,2017-10-15,57.53,85.45,Condition normale pour la saison.
+MMA1098,2017-05-15,135.62,129.04,Condition normale pour la saison.
+MMA1098,2017-06-15,51.95,89.80,Légère variabilité observée.
+MMA1098,2017-07-15,165.84,109.29,Condition normale pour la saison.
+MMA1098,2017-08-15,75.85,166.35,Condition normale pour la saison.
+MMA1098,2017-09-15,146.67,152.13,Rien à signaler.
+MMA1098,2017-10-15,130.93,125.75,Condition normale pour la saison.
+MMA1100,2017-05-15,164.37,53.56,Légère variabilité observée.
+MMA1100,2017-06-15,83.07,139.47,Légère variabilité observée.
+MMA1100,2017-07-15,103.26,105.47,Rien à signaler.
+MMA1100,2017-08-15,103.47,132.99,Condition normale pour la saison.
+MMA1100,2017-09-15,104.53,164.60,Condition normale pour la saison.
+MMA1100,2017-10-15,163.34,190.17,Condition normale pour la saison.
+MMA2002,2017-05-15,67.21,124.28,Légère variabilité observée.
+MMA2002,2017-06-15,186.67,152.55,Condition normale pour la saison.
+MMA2002,2017-07-15,65.16,133.58,Condition normale pour la saison.
+MMA2002,2017-08-15,115.91,122.93,Condition normale pour la saison.
+MMA2002,2017-09-15,132.36,53.86,Rien à signaler.
+MMA2002,2017-10-15,95.27,199.47,Légère variabilité observée.
+MMA2004,2017-05-15,141.72,166.87,Condition normale pour la saison.
+MMA2004,2017-06-15,178.63,128.52,Condition normale pour la saison.
+MMA2004,2017-07-15,91.42,62.30,Condition normale pour la saison.
+MMA2004,2017-08-15,144.71,193.73,Condition normale pour la saison.
+MMA2004,2017-09-15,74.60,57.48,Condition normale pour la saison.
+MMA2004,2017-10-15,76.82,93.78,Légère variabilité observée.
+MMA2006,2017-05-15,153.89,124.77,Condition normale pour la saison.
+MMA2006,2017-06-15,133.46,148.58,Légère variabilité observée.
+MMA2006,2017-07-15,143.97,88.73,Rien à signaler.
+MMA2006,2017-08-15,120.54,112.06,Condition normale pour la saison.
+MMA2006,2017-09-15,101.89,182.26,Légère variabilité observée.
+MMA2006,2017-10-15,77.77,51.02,Condition normale pour la saison.
+MMA2008,2017-05-15,96.13,96.32,Condition normale pour la saison.
+MMA2008,2017-06-15,159.73,163.90,Condition normale pour la saison.
+MMA2008,2017-07-15,167.73,83.19,Condition normale pour la saison.
+MMA2008,2017-08-15,51.77,76.79,Condition normale pour la saison.
+MMA2008,2017-09-15,142.39,121.97,Légère variabilité observée.
+MMA2008,2017-10-15,161.81,59.54,Légère variabilité observée.
+MMA2010,2017-05-15,99.46,157.01,Condition normale pour la saison.
+MMA2010,2017-06-15,82.21,191.39,Condition normale pour la saison.
+MMA2010,2017-07-15,103.12,87.58,Condition normale pour la saison.
+MMA2010,2017-08-15,129.36,59.29,Condition normale pour la saison.
+MMA2010,2017-09-15,68.38,186.23,Condition normale pour la saison.
+MMA2010,2017-10-15,79.85,74.45,Légère variabilité observée.
+MMA2012,2017-05-15,182.90,157.82,Condition normale pour la saison.
+MMA2012,2017-06-15,158.61,99.17,Condition normale pour la saison.
+MMA2012,2017-07-15,154.82,56.68,Condition normale pour la saison.
+MMA2012,2017-08-15,133.78,198.02,Condition normale pour la saison.
+MMA2012,2017-09-15,159.54,96.05,Légère variabilité observée.
+MMA2012,2017-10-15,118.94,148.97,Condition normale pour la saison.
+MMA2014,2017-05-15,167.67,118.31,Condition normale pour la saison.
+MMA2014,2017-06-15,78.80,140.13,Condition normale pour la saison.
+MMA2014,2017-07-15,99.70,154.66,Rien à signaler.
+MMA2014,2017-08-15,121.74,87.54,Légère variabilité observée.
+MMA2014,2017-09-15,133.03,110.59,Condition normale pour la saison.
+MMA2014,2017-10-15,168.95,130.56,Rien à signaler.
+MMA2016,2017-05-15,113.80,194.92,Légère variabilité observée.
+MMA2016,2017-06-15,179.33,51.79,Rien à signaler.
+MMA2016,2017-07-15,126.20,77.40,Rien à signaler.
+MMA2016,2017-08-15,186.53,161.79,Légère variabilité observée.
+MMA2016,2017-09-15,50.79,56.69,Rien à signaler.
+MMA2016,2017-10-15,157.56,183.29,Rien à signaler.
+MMA2018,2017-05-15,67.17,171.67,Légère variabilité observée.
+MMA2018,2017-06-15,164.87,183.45,Condition normale pour la saison.
+MMA2018,2017-07-15,175.07,148.95,Condition normale pour la saison.
+MMA2018,2017-08-15,155.30,171.80,Légère variabilité observée.
+MMA2018,2017-09-15,144.31,148.80,Condition normale pour la saison.
+MMA2018,2017-10-15,198.22,56.33,Condition normale pour la saison.
+MMA2020,2017-05-15,198.38,172.53,Condition normale pour la saison.
+MMA2020,2017-06-15,104.97,73.92,Légère variabilité observée.
+MMA2020,2017-07-15,91.26,89.85,Légère variabilité observée.
+MMA2020,2017-08-15,168.86,107.79,Condition normale pour la saison.
+MMA2020,2017-09-15,77.00,141.38,Rien à signaler.
+MMA2020,2017-10-15,60.45,121.01,Condition normale pour la saison.
+MMA2022,2017-05-15,101.92,92.59,Condition normale pour la saison.
+MMA2022,2017-06-15,91.91,122.43,Condition normale pour la saison.
+MMA2022,2017-07-15,152.68,144.05,Rien à signaler.
+MMA2022,2017-08-15,152.98,110.08,Condition normale pour la saison.
+MMA2022,2017-09-15,183.64,115.19,Condition normale pour la saison.
+MMA2022,2017-10-15,187.72,116.71,Rien à signaler.
+MMA2024,2017-05-15,61.71,182.31,Condition normale pour la saison.
+MMA2024,2017-06-15,129.51,54.51,Condition normale pour la saison.
+MMA2024,2017-07-15,150.06,111.10,Condition normale pour la saison.
+MMA2024,2017-08-15,149.85,72.96,Condition normale pour la saison.
+MMA2024,2017-09-15,123.27,194.31,Condition normale pour la saison.
+MMA2024,2017-10-15,131.68,163.76,Condition normale pour la saison.
+MMA2026,2017-05-15,56.21,168.90,Condition normale pour la saison.
+MMA2026,2017-06-15,80.34,156.76,Rien à signaler.
+MMA2026,2017-07-15,195.19,155.84,Condition normale pour la saison.
+MMA2026,2017-08-15,92.90,180.25,Condition normale pour la saison.
+MMA2026,2017-09-15,176.76,160.14,Condition normale pour la saison.
+MMA2026,2017-10-15,98.85,81.35,Rien à signaler.
+MMA2028,2017-05-15,68.99,71.57,Condition normale pour la saison.
+MMA2028,2017-06-15,129.63,98.89,Condition normale pour la saison.
+MMA2028,2017-07-15,87.71,149.86,Condition normale pour la saison.
+MMA2028,2017-08-15,65.33,54.19,Condition normale pour la saison.
+MMA2028,2017-09-15,90.19,67.52,Condition normale pour la saison.
+MMA2028,2017-10-15,82.24,100.69,Légère variabilité observée.
+MMA2030,2017-05-15,149.42,131.85,Condition normale pour la saison.
+MMA2030,2017-06-15,52.13,75.01,Rien à signaler.
+MMA2030,2017-07-15,167.73,147.84,Condition normale pour la saison.
+MMA2030,2017-08-15,106.56,76.12,Rien à signaler.
+MMA2030,2017-09-15,59.08,194.32,Légère variabilité observée.
+MMA2030,2017-10-15,94.90,116.11,Condition normale pour la saison.
+MMA2032,2017-05-15,90.57,73.17,Condition normale pour la saison.
+MMA2032,2017-06-15,77.38,137.46,Rien à signaler.
+MMA2032,2017-07-15,66.80,82.01,Condition normale pour la saison.
+MMA2032,2017-08-15,100.27,56.86,Légère variabilité observée.
+MMA2032,2017-09-15,84.94,103.83,Rien à signaler.
+MMA2032,2017-10-15,167.16,135.48,Rien à signaler.
+MMA2034,2017-05-15,58.10,190.81,Condition normale pour la saison.
+MMA2034,2017-06-15,124.32,86.25,Condition normale pour la saison.
+MMA2034,2017-07-15,137.41,97.04,Rien à signaler.
+MMA2034,2017-08-15,105.99,179.03,Rien à signaler.
+MMA2034,2017-09-15,147.67,60.28,Condition normale pour la saison.
+MMA2034,2017-10-15,135.22,197.64,Condition normale pour la saison.
+MMA2036,2017-05-15,71.61,109.62,Condition normale pour la saison.
+MMA2036,2017-06-15,174.72,187.08,Condition normale pour la saison.
+MMA2036,2017-07-15,177.59,58.22,Légère variabilité observée.
+MMA2036,2017-08-15,118.87,72.57,Condition normale pour la saison.
+MMA2036,2017-09-15,98.22,147.94,Condition normale pour la saison.
+MMA2036,2017-10-15,189.12,112.60,Condition normale pour la saison.
+MMA2038,2017-05-15,99.54,59.41,Rien à signaler.
+MMA2038,2017-06-15,87.93,119.84,Condition normale pour la saison.
+MMA2038,2017-07-15,101.40,91.59,Condition normale pour la saison.
+MMA2038,2017-08-15,100.21,63.48,Rien à signaler.
+MMA2038,2017-09-15,58.93,142.83,Condition normale pour la saison.
+MMA2038,2017-10-15,70.80,82.82,Légère variabilité observée.
+MMA2040,2017-05-15,187.64,161.87,Condition normale pour la saison.
+MMA2040,2017-06-15,149.19,138.30,Rien à signaler.
+MMA2040,2017-07-15,183.64,150.26,Légère variabilité observée.
+MMA2040,2017-08-15,125.44,197.74,Condition normale pour la saison.
+MMA2040,2017-09-15,199.37,167.15,Légère variabilité observée.
+MMA2040,2017-10-15,88.13,114.02,Condition normale pour la saison.
+MMA2042,2017-05-15,124.95,177.25,Condition normale pour la saison.
+MMA2042,2017-06-15,160.76,69.87,Condition normale pour la saison.
+MMA2042,2017-07-15,59.20,131.85,Légère variabilité observée.
+MMA2042,2017-08-15,92.60,85.38,Condition normale pour la saison.
+MMA2042,2017-09-15,103.48,168.45,Rien à signaler.
+MMA2042,2017-10-15,53.22,196.00,Condition normale pour la saison.
+MMA2044,2017-05-15,102.76,171.80,Condition normale pour la saison.
+MMA2044,2017-06-15,143.06,162.13,Condition normale pour la saison.
+MMA2044,2017-07-15,59.17,69.67,Condition normale pour la saison.
+MMA2044,2017-08-15,106.06,176.29,Légère variabilité observée.
+MMA2044,2017-09-15,67.63,179.64,Légère variabilité observée.
+MMA2044,2017-10-15,137.49,116.20,Légère variabilité observée.
+MMA2046,2017-05-15,182.43,123.20,Rien à signaler.
+MMA2046,2017-06-15,146.50,116.54,Condition normale pour la saison.
+MMA2046,2017-07-15,88.51,174.54,Condition normale pour la saison.
+MMA2046,2017-08-15,117.83,149.89,Condition normale pour la saison.
+MMA2046,2017-09-15,116.31,58.85,Condition normale pour la saison.
+MMA2046,2017-10-15,169.34,168.39,Rien à signaler.
+MMA2048,2017-05-15,133.08,79.32,Condition normale pour la saison.
+MMA2048,2017-06-15,141.17,53.45,Condition normale pour la saison.
+MMA2048,2017-07-15,59.42,60.46,Condition normale pour la saison.
+MMA2048,2017-08-15,70.31,159.06,Légère variabilité observée.
+MMA2048,2017-09-15,176.87,193.75,Rien à signaler.
+MMA2048,2017-10-15,162.95,152.19,Rien à signaler.
+MMA2050,2017-05-15,107.41,86.48,Rien à signaler.
+MMA2050,2017-06-15,122.78,66.44,Légère variabilité observée.
+MMA2050,2017-07-15,89.04,51.03,Rien à signaler.
+MMA2050,2017-08-15,185.42,74.68,Condition normale pour la saison.
+MMA2050,2017-09-15,66.36,92.25,Condition normale pour la saison.
+MMA2050,2017-10-15,166.43,190.66,Condition normale pour la saison.
+MMA2052,2017-05-15,154.33,85.28,Condition normale pour la saison.
+MMA2052,2017-06-15,180.27,96.19,Condition normale pour la saison.
+MMA2052,2017-07-15,132.74,167.42,Condition normale pour la saison.
+MMA2052,2017-08-15,109.00,188.57,Condition normale pour la saison.
+MMA2052,2017-09-15,195.81,143.35,Condition normale pour la saison.
+MMA2052,2017-10-15,124.96,84.01,Légère variabilité observée.
+MMA2054,2017-05-15,105.42,113.88,Condition normale pour la saison.
+MMA2054,2017-06-15,143.13,90.69,Rien à signaler.
+MMA2054,2017-07-15,181.50,125.21,Rien à signaler.
+MMA2054,2017-08-15,119.83,190.89,Condition normale pour la saison.
+MMA2054,2017-09-15,58.73,121.61,Condition normale pour la saison.
+MMA2054,2017-10-15,111.13,163.91,Condition normale pour la saison.
+MMA2056,2017-05-15,136.41,180.35,Condition normale pour la saison.
+MMA2056,2017-06-15,163.48,149.09,Condition normale pour la saison.
+MMA2056,2017-07-15,122.43,151.69,Condition normale pour la saison.
+MMA2056,2017-08-15,52.06,197.11,Rien à signaler.
+MMA2056,2017-09-15,72.38,177.99,Condition normale pour la saison.
+MMA2056,2017-10-15,192.44,89.96,Condition normale pour la saison.
+MMA2058,2017-05-15,74.82,156.14,Condition normale pour la saison.
+MMA2058,2017-06-15,165.67,106.34,Condition normale pour la saison.
+MMA2058,2017-07-15,54.99,108.79,Rien à signaler.
+MMA2058,2017-08-15,58.15,182.20,Condition normale pour la saison.
+MMA2058,2017-09-15,61.16,149.50,Condition normale pour la saison.
+MMA2058,2017-10-15,82.96,184.17,Rien à signaler.
+MMA2060,2017-05-15,181.57,116.64,Condition normale pour la saison.
+MMA2060,2017-06-15,155.01,130.37,Condition normale pour la saison.
+MMA2060,2017-07-15,101.87,161.72,Rien à signaler.
+MMA2060,2017-08-15,62.90,157.12,Condition normale pour la saison.
+MMA2060,2017-09-15,98.36,124.62,Rien à signaler.
+MMA2060,2017-10-15,105.94,168.92,Condition normale pour la saison.
+MMA2062,2017-05-15,102.16,50.28,Rien à signaler.
+MMA2062,2017-06-15,149.99,157.16,Rien à signaler.
+MMA2062,2017-07-15,134.66,181.94,Légère variabilité observée.
+MMA2062,2017-08-15,143.61,115.64,Condition normale pour la saison.
+MMA2062,2017-09-15,117.25,91.66,Légère variabilité observée.
+MMA2062,2017-10-15,103.81,108.53,Légère variabilité observée.
+MMA2064,2017-05-15,148.65,147.98,Rien à signaler.
+MMA2064,2017-06-15,195.06,113.09,Légère variabilité observée.
+MMA2064,2017-07-15,171.18,141.57,Rien à signaler.
+MMA2064,2017-08-15,107.50,162.55,Condition normale pour la saison.
+MMA2064,2017-09-15,84.39,147.87,Condition normale pour la saison.
+MMA2064,2017-10-15,141.36,168.38,Condition normale pour la saison.
+MMA2066,2017-05-15,171.98,98.44,Légère variabilité observée.
+MMA2066,2017-06-15,116.14,191.01,Condition normale pour la saison.
+MMA2066,2017-07-15,99.99,134.93,Condition normale pour la saison.
+MMA2066,2017-08-15,117.74,161.70,Légère variabilité observée.
+MMA2066,2017-09-15,136.97,69.04,Condition normale pour la saison.
+MMA2066,2017-10-15,72.67,125.37,Condition normale pour la saison.
+MMA2068,2017-05-15,92.67,148.86,Condition normale pour la saison.
+MMA2068,2017-06-15,193.80,150.70,Condition normale pour la saison.
+MMA2068,2017-07-15,182.12,195.89,Condition normale pour la saison.
+MMA2068,2017-08-15,84.90,107.13,Condition normale pour la saison.
+MMA2068,2017-09-15,72.18,135.75,Condition normale pour la saison.
+MMA2068,2017-10-15,67.42,73.23,Condition normale pour la saison.
+MMA2070,2017-05-15,199.51,102.18,Rien à signaler.
+MMA2070,2017-06-15,57.60,113.28,Rien à signaler.
+MMA2070,2017-07-15,162.79,87.36,Condition normale pour la saison.
+MMA2070,2017-08-15,64.29,76.75,Légère variabilité observée.
+MMA2070,2017-09-15,157.61,89.78,Légère variabilité observée.
+MMA2070,2017-10-15,120.38,130.34,Rien à signaler.
+MMA2072,2017-05-15,189.18,72.62,Condition normale pour la saison.
+MMA2072,2017-06-15,166.57,99.20,Condition normale pour la saison.
+MMA2072,2017-07-15,88.21,56.75,Légère variabilité observée.
+MMA2072,2017-08-15,193.21,99.72,Condition normale pour la saison.
+MMA2072,2017-09-15,116.00,198.88,Condition normale pour la saison.
+MMA2072,2017-10-15,80.81,147.93,Condition normale pour la saison.
+MMA2074,2017-05-15,68.58,157.81,Légère variabilité observée.
+MMA2074,2017-06-15,146.84,177.00,Condition normale pour la saison.
+MMA2074,2017-07-15,151.37,106.06,Condition normale pour la saison.
+MMA2074,2017-08-15,140.56,60.51,Condition normale pour la saison.
+MMA2074,2017-09-15,188.81,184.75,Rien à signaler.
+MMA2074,2017-10-15,168.00,199.04,Légère variabilité observée.
+MMA2076,2017-05-15,68.99,101.83,Condition normale pour la saison.
+MMA2076,2017-06-15,116.67,189.67,Condition normale pour la saison.
+MMA2076,2017-07-15,184.92,50.19,Condition normale pour la saison.
+MMA2076,2017-08-15,110.68,90.23,Légère variabilité observée.
+MMA2076,2017-09-15,123.93,185.20,Condition normale pour la saison.
+MMA2076,2017-10-15,124.54,116.00,Condition normale pour la saison.
+MMA2078,2017-05-15,101.02,176.08,Condition normale pour la saison.
+MMA2078,2017-06-15,155.07,113.22,Condition normale pour la saison.
+MMA2078,2017-07-15,176.17,77.15,Rien à signaler.
+MMA2078,2017-08-15,121.19,104.50,Condition normale pour la saison.
+MMA2078,2017-09-15,94.56,82.83,Rien à signaler.
+MMA2078,2017-10-15,148.92,102.69,Légère variabilité observée.
+MMA2080,2017-05-15,110.65,55.89,Légère variabilité observée.
+MMA2080,2017-06-15,77.23,144.39,Rien à signaler.
+MMA2080,2017-07-15,151.31,186.32,Rien à signaler.
+MMA2080,2017-08-15,184.94,74.52,Légère variabilité observée.
+MMA2080,2017-09-15,160.95,133.23,Rien à signaler.
+MMA2080,2017-10-15,187.65,73.92,Rien à signaler.
+MMA2082,2017-05-15,86.62,190.31,Condition normale pour la saison.
+MMA2082,2017-06-15,195.67,178.81,Légère variabilité observée.
+MMA2082,2017-07-15,183.93,84.74,Légère variabilité observée.
+MMA2082,2017-08-15,160.13,184.66,Condition normale pour la saison.
+MMA2082,2017-09-15,163.63,66.51,Légère variabilité observée.
+MMA2082,2017-10-15,57.36,192.50,Légère variabilité observée.
+MMA2084,2017-05-15,164.25,124.09,Condition normale pour la saison.
+MMA2084,2017-06-15,188.63,158.62,Condition normale pour la saison.
+MMA2084,2017-07-15,107.60,106.77,Légère variabilité observée.
+MMA2084,2017-08-15,131.33,151.34,Rien à signaler.
+MMA2084,2017-09-15,75.47,145.29,Légère variabilité observée.
+MMA2084,2017-10-15,124.73,196.34,Légère variabilité observée.
+MMA2086,2017-05-15,154.47,65.92,Condition normale pour la saison.
+MMA2086,2017-06-15,98.94,104.22,Condition normale pour la saison.
+MMA2086,2017-07-15,123.99,90.97,Condition normale pour la saison.
+MMA2086,2017-08-15,174.85,191.08,Condition normale pour la saison.
+MMA2086,2017-09-15,144.87,98.56,Légère variabilité observée.
+MMA2086,2017-10-15,93.16,105.28,Rien à signaler.
+MMA2088,2017-05-15,146.67,156.90,Condition normale pour la saison.
+MMA2088,2017-06-15,199.34,171.67,Légère variabilité observée.
+MMA2088,2017-07-15,197.70,60.40,Légère variabilité observée.
+MMA2088,2017-08-15,148.49,106.88,Légère variabilité observée.
+MMA2088,2017-09-15,67.31,78.13,Légère variabilité observée.
+MMA2088,2017-10-15,177.21,62.84,Condition normale pour la saison.
+MMA2090,2017-05-15,157.04,185.00,Légère variabilité observée.
+MMA2090,2017-06-15,66.64,156.08,Condition normale pour la saison.
+MMA2090,2017-07-15,160.19,144.11,Condition normale pour la saison.
+MMA2090,2017-08-15,126.80,80.71,Condition normale pour la saison.
+MMA2090,2017-09-15,112.50,87.95,Condition normale pour la saison.
+MMA2090,2017-10-15,77.60,195.61,Condition normale pour la saison.
+MMA2092,2017-05-15,167.67,149.40,Légère variabilité observée.
+MMA2092,2017-06-15,191.85,71.75,Condition normale pour la saison.
+MMA2092,2017-07-15,156.63,133.08,Condition normale pour la saison.
+MMA2092,2017-08-15,66.49,102.37,Condition normale pour la saison.
+MMA2092,2017-09-15,60.61,103.74,Condition normale pour la saison.
+MMA2092,2017-10-15,79.56,67.98,Condition normale pour la saison.
+MMA2094,2017-05-15,156.28,175.63,Condition normale pour la saison.
+MMA2094,2017-06-15,60.46,114.88,Légère variabilité observée.
+MMA2094,2017-07-15,117.07,112.68,Rien à signaler.
+MMA2094,2017-08-15,50.54,116.20,Légère variabilité observée.
+MMA2094,2017-09-15,80.18,155.13,Condition normale pour la saison.
+MMA2094,2017-10-15,190.85,127.48,Condition normale pour la saison.
+MMA2096,2017-05-15,114.56,64.13,Légère variabilité observée.
+MMA2096,2017-06-15,60.32,114.94,Condition normale pour la saison.
+MMA2096,2017-07-15,123.81,128.38,Rien à signaler.
+MMA2096,2017-08-15,99.97,93.62,Rien à signaler.
+MMA2096,2017-09-15,156.86,176.53,Condition normale pour la saison.
+MMA2096,2017-10-15,113.97,100.83,Rien à signaler.
+MMA2098,2017-05-15,159.46,152.34,Rien à signaler.
+MMA2098,2017-06-15,146.12,147.03,Condition normale pour la saison.
+MMA2098,2017-07-15,149.02,180.26,Condition normale pour la saison.
+MMA2098,2017-08-15,58.27,153.31,Rien à signaler.
+MMA2098,2017-09-15,126.62,182.99,Rien à signaler.
+MMA2098,2017-10-15,108.45,128.52,Rien à signaler.
+MMA2100,2017-05-15,146.20,130.17,Légère variabilité observée.
+MMA2100,2017-06-15,134.58,160.26,Condition normale pour la saison.
+MMA2100,2017-07-15,95.56,119.41,Condition normale pour la saison.
+MMA2100,2017-08-15,56.33,148.84,Condition normale pour la saison.
+MMA2100,2017-09-15,162.80,131.15,Rien à signaler.
+MMA2100,2017-10-15,147.15,163.60,Légère variabilité observée.
+MMA3002,2017-05-15,122.05,104.10,Condition normale pour la saison.
+MMA3002,2017-06-15,115.21,50.07,Condition normale pour la saison.
+MMA3002,2017-07-15,60.00,105.37,Condition normale pour la saison.
+MMA3002,2017-08-15,60.73,185.33,Légère variabilité observée.
+MMA3002,2017-09-15,97.13,138.66,Légère variabilité observée.
+MMA3002,2017-10-15,145.05,52.97,Condition normale pour la saison.
+MMA3004,2017-05-15,163.42,192.60,Condition normale pour la saison.
+MMA3004,2017-06-15,163.80,143.96,Condition normale pour la saison.
+MMA3004,2017-07-15,178.40,132.82,Rien à signaler.
+MMA3004,2017-08-15,184.67,94.74,Condition normale pour la saison.
+MMA3004,2017-09-15,148.42,192.44,Condition normale pour la saison.
+MMA3004,2017-10-15,104.72,161.79,Rien à signaler.
+MMA3006,2017-05-15,71.31,187.88,Condition normale pour la saison.
+MMA3006,2017-06-15,162.72,116.87,Rien à signaler.
+MMA3006,2017-07-15,123.01,79.98,Légère variabilité observée.
+MMA3006,2017-08-15,101.73,145.80,Rien à signaler.
+MMA3006,2017-09-15,102.67,101.68,Condition normale pour la saison.
+MMA3006,2017-10-15,88.46,164.86,Rien à signaler.
+MMA3008,2017-05-15,112.85,62.90,Rien à signaler.
+MMA3008,2017-06-15,122.10,69.53,Condition normale pour la saison.
+MMA3008,2017-07-15,91.61,153.63,Rien à signaler.
+MMA3008,2017-08-15,60.81,107.26,Condition normale pour la saison.
+MMA3008,2017-09-15,166.48,193.51,Condition normale pour la saison.
+MMA3008,2017-10-15,108.19,177.28,Rien à signaler.
+MMA3010,2017-05-15,187.51,131.10,Rien à signaler.
+MMA3010,2017-06-15,152.95,100.96,Condition normale pour la saison.
+MMA3010,2017-07-15,75.54,195.00,Légère variabilité observée.
+MMA3010,2017-08-15,105.05,135.98,Légère variabilité observée.
+MMA3010,2017-09-15,92.37,117.30,Condition normale pour la saison.
+MMA3010,2017-10-15,161.92,97.46,Condition normale pour la saison.
+MMA3012,2017-05-15,111.07,145.81,Condition normale pour la saison.
+MMA3012,2017-06-15,122.96,62.55,Rien à signaler.
+MMA3012,2017-07-15,147.62,56.05,Légère variabilité observée.
+MMA3012,2017-08-15,74.34,153.69,Légère variabilité observée.
+MMA3012,2017-09-15,188.09,160.90,Condition normale pour la saison.
+MMA3012,2017-10-15,61.28,163.27,Rien à signaler.
+MMA3014,2017-05-15,176.70,117.91,Légère variabilité observée.
+MMA3014,2017-06-15,104.39,93.97,Condition normale pour la saison.
+MMA3014,2017-07-15,176.94,94.31,Condition normale pour la saison.
+MMA3014,2017-08-15,133.30,119.96,Rien à signaler.
+MMA3014,2017-09-15,115.43,59.35,Condition normale pour la saison.
+MMA3014,2017-10-15,196.84,64.62,Condition normale pour la saison.
+MMA3016,2017-05-15,173.26,175.69,Condition normale pour la saison.
+MMA3016,2017-06-15,97.43,185.38,Condition normale pour la saison.
+MMA3016,2017-07-15,70.96,179.01,Rien à signaler.
+MMA3016,2017-08-15,75.59,50.87,Condition normale pour la saison.
+MMA3016,2017-09-15,100.18,106.40,Condition normale pour la saison.
+MMA3016,2017-10-15,61.67,156.15,Légère variabilité observée.
+MMA3018,2017-05-15,56.72,170.92,Condition normale pour la saison.
+MMA3018,2017-06-15,196.29,146.94,Condition normale pour la saison.
+MMA3018,2017-07-15,165.88,108.81,Condition normale pour la saison.
+MMA3018,2017-08-15,76.57,172.27,Condition normale pour la saison.
+MMA3018,2017-09-15,85.80,187.15,Rien à signaler.
+MMA3018,2017-10-15,143.49,167.57,Condition normale pour la saison.
+MMA3020,2017-05-15,187.43,89.14,Condition normale pour la saison.
+MMA3020,2017-06-15,50.42,86.18,Condition normale pour la saison.
+MMA3020,2017-07-15,135.24,117.33,Condition normale pour la saison.
+MMA3020,2017-08-15,53.64,113.49,Légère variabilité observée.
+MMA3020,2017-09-15,176.02,103.38,Condition normale pour la saison.
+MMA3020,2017-10-15,87.76,111.84,Condition normale pour la saison.
+MMA3022,2017-05-15,132.96,154.01,Condition normale pour la saison.
+MMA3022,2017-06-15,100.96,144.73,Légère variabilité observée.
+MMA3022,2017-07-15,53.41,194.93,Condition normale pour la saison.
+MMA3022,2017-08-15,169.00,179.83,Condition normale pour la saison.
+MMA3022,2017-09-15,105.43,178.28,Condition normale pour la saison.
+MMA3022,2017-10-15,112.64,102.04,Légère variabilité observée.
+MMA3024,2017-05-15,50.30,74.18,Rien à signaler.
+MMA3024,2017-06-15,182.04,196.64,Légère variabilité observée.
+MMA3024,2017-07-15,153.66,93.50,Légère variabilité observée.
+MMA3024,2017-08-15,164.47,88.76,Légère variabilité observée.
+MMA3024,2017-09-15,74.46,60.33,Condition normale pour la saison.
+MMA3024,2017-10-15,72.83,150.21,Condition normale pour la saison.
+MMA3026,2017-05-15,68.95,85.84,Condition normale pour la saison.
+MMA3026,2017-06-15,169.56,133.69,Condition normale pour la saison.
+MMA3026,2017-07-15,82.59,155.32,Condition normale pour la saison.
+MMA3026,2017-08-15,106.05,68.05,Condition normale pour la saison.
+MMA3026,2017-09-15,144.67,150.64,Condition normale pour la saison.
+MMA3026,2017-10-15,110.73,157.86,Condition normale pour la saison.
+MMA3028,2017-05-15,172.56,194.75,Condition normale pour la saison.
+MMA3028,2017-06-15,109.11,64.26,Légère variabilité observée.
+MMA3028,2017-07-15,146.60,104.41,Condition normale pour la saison.
+MMA3028,2017-08-15,137.77,52.32,Condition normale pour la saison.
+MMA3028,2017-09-15,59.36,79.58,Légère variabilité observée.
+MMA3028,2017-10-15,54.27,74.39,Condition normale pour la saison.
+MMA3030,2017-05-15,192.79,103.62,Condition normale pour la saison.
+MMA3030,2017-06-15,178.64,170.12,Condition normale pour la saison.
+MMA3030,2017-07-15,89.03,51.53,Rien à signaler.
+MMA3030,2017-08-15,120.38,71.19,Condition normale pour la saison.
+MMA3030,2017-09-15,173.72,142.24,Condition normale pour la saison.
+MMA3030,2017-10-15,100.40,181.58,Légère variabilité observée.
+MMA3032,2017-05-15,156.41,141.11,Condition normale pour la saison.
+MMA3032,2017-06-15,135.84,147.65,Condition normale pour la saison.
+MMA3032,2017-07-15,170.19,110.61,Rien à signaler.
+MMA3032,2017-08-15,157.63,110.13,Condition normale pour la saison.
+MMA3032,2017-09-15,199.94,168.66,Légère variabilité observée.
+MMA3032,2017-10-15,66.65,101.22,Légère variabilité observée.
+MMA3034,2017-05-15,163.37,68.50,Rien à signaler.
+MMA3034,2017-06-15,168.80,188.01,Condition normale pour la saison.
+MMA3034,2017-07-15,173.37,136.57,Rien à signaler.
+MMA3034,2017-08-15,187.35,156.89,Légère variabilité observée.
+MMA3034,2017-09-15,181.09,54.00,Condition normale pour la saison.
+MMA3034,2017-10-15,118.74,126.08,Légère variabilité observée.
+MMA3036,2017-05-15,170.31,113.42,Légère variabilité observée.
+MMA3036,2017-06-15,199.16,74.09,Rien à signaler.
+MMA3036,2017-07-15,111.21,86.73,Condition normale pour la saison.
+MMA3036,2017-08-15,89.91,188.48,Rien à signaler.
+MMA3036,2017-09-15,79.17,177.00,Légère variabilité observée.
+MMA3036,2017-10-15,117.46,113.18,Légère variabilité observée.
+MMA3038,2017-05-15,117.98,185.27,Condition normale pour la saison.
+MMA3038,2017-06-15,178.80,85.31,Condition normale pour la saison.
+MMA3038,2017-07-15,122.58,130.29,Rien à signaler.
+MMA3038,2017-08-15,162.01,128.28,Légère variabilité observée.
+MMA3038,2017-09-15,133.19,172.66,Condition normale pour la saison.
+MMA3038,2017-10-15,51.40,181.66,Légère variabilité observée.
+MMA3040,2017-05-15,52.39,97.25,Légère variabilité observée.
+MMA3040,2017-06-15,98.05,145.24,Condition normale pour la saison.
+MMA3040,2017-07-15,80.36,167.93,Rien à signaler.
+MMA3040,2017-08-15,102.47,104.75,Condition normale pour la saison.
+MMA3040,2017-09-15,79.08,109.42,Rien à signaler.
+MMA3040,2017-10-15,145.49,52.51,Condition normale pour la saison.
+MMA3042,2017-05-15,110.43,175.52,Condition normale pour la saison.
+MMA3042,2017-06-15,54.26,92.37,Condition normale pour la saison.
+MMA3042,2017-07-15,169.45,180.14,Rien à signaler.
+MMA3042,2017-08-15,167.03,120.67,Légère variabilité observée.
+MMA3042,2017-09-15,50.57,189.31,Légère variabilité observée.
+MMA3042,2017-10-15,114.29,123.14,Rien à signaler.
+MMA3044,2017-05-15,98.17,164.97,Légère variabilité observée.
+MMA3044,2017-06-15,84.47,67.02,Rien à signaler.
+MMA3044,2017-07-15,196.20,178.18,Rien à signaler.
+MMA3044,2017-08-15,113.60,187.14,Condition normale pour la saison.
+MMA3044,2017-09-15,185.24,145.47,Condition normale pour la saison.
+MMA3044,2017-10-15,130.37,140.96,Condition normale pour la saison.
+MMA3046,2017-05-15,76.91,57.12,Condition normale pour la saison.
+MMA3046,2017-06-15,98.25,100.81,Rien à signaler.
+MMA3046,2017-07-15,136.22,124.58,Légère variabilité observée.
+MMA3046,2017-08-15,97.27,155.17,Légère variabilité observée.
+MMA3046,2017-09-15,193.62,115.25,Condition normale pour la saison.
+MMA3046,2017-10-15,96.85,118.45,Condition normale pour la saison.
+MMA3048,2017-05-15,86.00,77.57,Rien à signaler.
+MMA3048,2017-06-15,110.67,194.94,Condition normale pour la saison.
+MMA3048,2017-07-15,53.02,167.54,Condition normale pour la saison.
+MMA3048,2017-08-15,59.39,99.84,Rien à signaler.
+MMA3048,2017-09-15,71.46,101.15,Condition normale pour la saison.
+MMA3048,2017-10-15,111.99,123.32,Légère variabilité observée.
+MMA3050,2017-05-15,157.33,81.19,Condition normale pour la saison.
+MMA3050,2017-06-15,144.77,194.08,Rien à signaler.
+MMA3050,2017-07-15,184.37,183.82,Condition normale pour la saison.
+MMA3050,2017-08-15,112.87,164.87,Légère variabilité observée.
+MMA3050,2017-09-15,147.08,172.65,Condition normale pour la saison.
+MMA3050,2017-10-15,186.09,99.56,Condition normale pour la saison.
+MMA3052,2017-05-15,197.65,148.10,Légère variabilité observée.
+MMA3052,2017-06-15,55.95,133.21,Légère variabilité observée.
+MMA3052,2017-07-15,56.36,142.76,Condition normale pour la saison.
+MMA3052,2017-08-15,126.60,63.93,Condition normale pour la saison.
+MMA3052,2017-09-15,179.94,92.04,Légère variabilité observée.
+MMA3052,2017-10-15,103.06,85.30,Légère variabilité observée.
+MMA3054,2017-05-15,59.03,199.84,Condition normale pour la saison.
+MMA3054,2017-06-15,52.74,177.91,Rien à signaler.
+MMA3054,2017-07-15,95.44,158.00,Condition normale pour la saison.
+MMA3054,2017-08-15,168.47,146.91,Condition normale pour la saison.
+MMA3054,2017-09-15,178.79,162.18,Condition normale pour la saison.
+MMA3054,2017-10-15,134.73,123.87,Condition normale pour la saison.
+MMA3056,2017-05-15,58.37,119.16,Légère variabilité observée.
+MMA3056,2017-06-15,190.28,179.68,Condition normale pour la saison.
+MMA3056,2017-07-15,143.03,179.30,Rien à signaler.
+MMA3056,2017-08-15,54.05,57.59,Condition normale pour la saison.
+MMA3056,2017-09-15,61.78,114.64,Rien à signaler.
+MMA3056,2017-10-15,198.00,67.95,Condition normale pour la saison.
+MMA3058,2017-05-15,133.16,110.19,Rien à signaler.
+MMA3058,2017-06-15,82.61,129.84,Rien à signaler.
+MMA3058,2017-07-15,125.00,88.87,Légère variabilité observée.
+MMA3058,2017-08-15,180.55,141.36,Légère variabilité observée.
+MMA3058,2017-09-15,118.66,199.81,Rien à signaler.
+MMA3058,2017-10-15,139.13,130.16,Condition normale pour la saison.
+MMA3060,2017-05-15,197.20,55.85,Légère variabilité observée.
+MMA3060,2017-06-15,163.55,98.17,Condition normale pour la saison.
+MMA3060,2017-07-15,194.65,117.98,Condition normale pour la saison.
+MMA3060,2017-08-15,96.07,94.09,Condition normale pour la saison.
+MMA3060,2017-09-15,162.72,78.82,Légère variabilité observée.
+MMA3060,2017-10-15,153.69,160.10,Condition normale pour la saison.
+MMA3062,2017-05-15,75.89,79.25,Condition normale pour la saison.
+MMA3062,2017-06-15,148.09,88.95,Légère variabilité observée.
+MMA3062,2017-07-15,194.54,133.64,Rien à signaler.
+MMA3062,2017-08-15,152.84,50.14,Condition normale pour la saison.
+MMA3062,2017-09-15,192.90,197.50,Condition normale pour la saison.
+MMA3062,2017-10-15,163.02,71.46,Condition normale pour la saison.
+MMA3064,2017-05-15,127.43,179.08,Légère variabilité observée.
+MMA3064,2017-06-15,88.85,64.21,Condition normale pour la saison.
+MMA3064,2017-07-15,181.90,75.78,Condition normale pour la saison.
+MMA3064,2017-08-15,72.82,91.28,Condition normale pour la saison.
+MMA3064,2017-09-15,123.61,101.86,Condition normale pour la saison.
+MMA3064,2017-10-15,189.34,138.10,Rien à signaler.
+MMA3066,2017-05-15,78.27,176.30,Rien à signaler.
+MMA3066,2017-06-15,120.73,183.66,Condition normale pour la saison.
+MMA3066,2017-07-15,155.56,125.63,Légère variabilité observée.
+MMA3066,2017-08-15,186.51,51.72,Condition normale pour la saison.
+MMA3066,2017-09-15,126.00,147.12,Légère variabilité observée.
+MMA3066,2017-10-15,159.68,150.77,Condition normale pour la saison.
+MMA3068,2017-05-15,146.20,139.53,Légère variabilité observée.
+MMA3068,2017-06-15,136.55,147.35,Condition normale pour la saison.
+MMA3068,2017-07-15,94.34,182.76,Légère variabilité observée.
+MMA3068,2017-08-15,160.78,93.26,Légère variabilité observée.
+MMA3068,2017-09-15,112.44,109.17,Rien à signaler.
+MMA3068,2017-10-15,81.98,161.20,Condition normale pour la saison.
+MMA3070,2017-05-15,59.98,179.59,Condition normale pour la saison.
+MMA3070,2017-06-15,61.64,169.75,Rien à signaler.
+MMA3070,2017-07-15,117.16,61.61,Rien à signaler.
+MMA3070,2017-08-15,199.29,73.63,Légère variabilité observée.
+MMA3070,2017-09-15,129.74,157.34,Légère variabilité observée.
+MMA3070,2017-10-15,164.38,65.81,Condition normale pour la saison.
+MMA3072,2017-05-15,97.30,148.76,Condition normale pour la saison.
+MMA3072,2017-06-15,107.91,62.88,Condition normale pour la saison.
+MMA3072,2017-07-15,160.51,135.40,Légère variabilité observée.
+MMA3072,2017-08-15,148.28,115.89,Rien à signaler.
+MMA3072,2017-09-15,188.02,130.11,Légère variabilité observée.
+MMA3072,2017-10-15,52.37,175.15,Rien à signaler.
+MMA3074,2017-05-15,171.73,75.70,Condition normale pour la saison.
+MMA3074,2017-06-15,179.42,148.22,Condition normale pour la saison.
+MMA3074,2017-07-15,57.84,93.26,Condition normale pour la saison.
+MMA3074,2017-08-15,155.69,140.37,Rien à signaler.
+MMA3074,2017-09-15,177.65,174.16,Condition normale pour la saison.
+MMA3074,2017-10-15,170.21,64.83,Condition normale pour la saison.
+MMA3076,2017-05-15,148.54,161.68,Condition normale pour la saison.
+MMA3076,2017-06-15,67.68,75.13,Condition normale pour la saison.
+MMA3076,2017-07-15,88.53,187.90,Légère variabilité observée.
+MMA3076,2017-08-15,174.85,189.50,Légère variabilité observée.
+MMA3076,2017-09-15,132.62,160.36,Légère variabilité observée.
+MMA3076,2017-10-15,89.23,51.80,Condition normale pour la saison.
+MMA3078,2017-05-15,92.55,199.18,Condition normale pour la saison.
+MMA3078,2017-06-15,178.80,154.41,Rien à signaler.
+MMA3078,2017-07-15,57.70,114.51,Légère variabilité observée.
+MMA3078,2017-08-15,122.33,102.95,Légère variabilité observée.
+MMA3078,2017-09-15,65.66,158.04,Rien à signaler.
+MMA3078,2017-10-15,87.70,95.87,Condition normale pour la saison.
+MMA3080,2017-05-15,181.90,90.05,Condition normale pour la saison.
+MMA3080,2017-06-15,75.83,128.94,Condition normale pour la saison.
+MMA3080,2017-07-15,164.96,172.75,Rien à signaler.
+MMA3080,2017-08-15,140.31,192.50,Condition normale pour la saison.
+MMA3080,2017-09-15,187.57,52.02,Condition normale pour la saison.
+MMA3080,2017-10-15,55.40,138.24,Condition normale pour la saison.
+MMA3082,2017-05-15,132.15,157.96,Condition normale pour la saison.
+MMA3082,2017-06-15,99.26,159.70,Condition normale pour la saison.
+MMA3082,2017-07-15,71.68,68.72,Condition normale pour la saison.
+MMA3082,2017-08-15,76.74,180.99,Rien à signaler.
+MMA3082,2017-09-15,110.08,191.70,Condition normale pour la saison.
+MMA3082,2017-10-15,136.43,185.21,Condition normale pour la saison.
+MMA3084,2017-05-15,162.28,156.59,Légère variabilité observée.
+MMA3084,2017-06-15,129.52,138.36,Condition normale pour la saison.
+MMA3084,2017-07-15,125.60,134.93,Légère variabilité observée.
+MMA3084,2017-08-15,103.10,91.56,Condition normale pour la saison.
+MMA3084,2017-09-15,127.16,78.46,Légère variabilité observée.
+MMA3084,2017-10-15,75.91,136.43,Condition normale pour la saison.
+MMA3086,2017-05-15,150.13,147.42,Condition normale pour la saison.
+MMA3086,2017-06-15,78.76,89.39,Condition normale pour la saison.
+MMA3086,2017-07-15,85.35,174.10,Légère variabilité observée.
+MMA3086,2017-08-15,143.14,155.67,Condition normale pour la saison.
+MMA3086,2017-09-15,90.63,97.06,Condition normale pour la saison.
+MMA3086,2017-10-15,154.69,162.23,Rien à signaler.
+MMA3088,2017-05-15,55.02,144.61,Condition normale pour la saison.
+MMA3088,2017-06-15,90.15,164.88,Légère variabilité observée.
+MMA3088,2017-07-15,192.50,158.78,Condition normale pour la saison.
+MMA3088,2017-08-15,97.89,68.58,Condition normale pour la saison.
+MMA3088,2017-09-15,60.11,124.70,Légère variabilité observée.
+MMA3088,2017-10-15,96.84,62.01,Légère variabilité observée.
+MMA3090,2017-05-15,105.99,82.99,Condition normale pour la saison.
+MMA3090,2017-06-15,143.81,117.68,Condition normale pour la saison.
+MMA3090,2017-07-15,133.41,118.73,Rien à signaler.
+MMA3090,2017-08-15,56.70,172.47,Condition normale pour la saison.
+MMA3090,2017-09-15,120.88,196.62,Condition normale pour la saison.
+MMA3090,2017-10-15,126.53,168.15,Légère variabilité observée.
+MMA3092,2017-05-15,131.58,134.16,Condition normale pour la saison.
+MMA3092,2017-06-15,58.30,121.51,Légère variabilité observée.
+MMA3092,2017-07-15,141.76,182.39,Condition normale pour la saison.
+MMA3092,2017-08-15,145.93,160.51,Légère variabilité observée.
+MMA3092,2017-09-15,117.79,50.06,Rien à signaler.
+MMA3092,2017-10-15,89.87,190.54,Rien à signaler.
+MMA3094,2017-05-15,178.99,79.51,Condition normale pour la saison.
+MMA3094,2017-06-15,75.82,176.39,Condition normale pour la saison.
+MMA3094,2017-07-15,160.32,50.37,Condition normale pour la saison.
+MMA3094,2017-08-15,100.73,138.87,Condition normale pour la saison.
+MMA3094,2017-09-15,107.50,186.41,Rien à signaler.
+MMA3094,2017-10-15,109.46,68.47,Condition normale pour la saison.
+MMA3096,2017-05-15,113.98,111.07,Rien à signaler.
+MMA3096,2017-06-15,157.40,92.11,Rien à signaler.
+MMA3096,2017-07-15,132.63,76.56,Condition normale pour la saison.
+MMA3096,2017-08-15,169.69,60.42,Condition normale pour la saison.
+MMA3096,2017-09-15,174.74,193.94,Légère variabilité observée.
+MMA3096,2017-10-15,177.19,59.01,Légère variabilité observée.
+MMA3098,2017-05-15,145.77,131.11,Condition normale pour la saison.
+MMA3098,2017-06-15,149.57,122.15,Condition normale pour la saison.
+MMA3098,2017-07-15,154.06,80.39,Rien à signaler.
+MMA3098,2017-08-15,193.70,127.45,Légère variabilité observée.
+MMA3098,2017-09-15,157.68,129.32,Rien à signaler.
+MMA3098,2017-10-15,94.00,128.43,Légère variabilité observée.
+MMA3100,2017-05-15,65.68,68.16,Légère variabilité observée.
+MMA3100,2017-06-15,138.90,88.63,Légère variabilité observée.
+MMA3100,2017-07-15,59.25,169.22,Rien à signaler.
+MMA3100,2017-08-15,133.93,84.90,Condition normale pour la saison.
+MMA3100,2017-09-15,191.47,192.17,Légère variabilité observée.
+MMA3100,2017-10-15,55.99,115.73,Rien à signaler.
+MMA4002,2017-05-15,150.62,107.27,Condition normale pour la saison.
+MMA4002,2017-06-15,175.12,70.45,Légère variabilité observée.
+MMA4002,2017-07-15,93.74,123.10,Condition normale pour la saison.
+MMA4002,2017-08-15,166.55,152.26,Condition normale pour la saison.
+MMA4002,2017-09-15,89.29,166.25,Condition normale pour la saison.
+MMA4002,2017-10-15,61.53,88.85,Légère variabilité observée.
+MMA4004,2017-05-15,89.89,180.18,Légère variabilité observée.
+MMA4004,2017-06-15,68.16,70.83,Condition normale pour la saison.
+MMA4004,2017-07-15,112.92,125.55,Légère variabilité observée.
+MMA4004,2017-08-15,118.56,131.98,Légère variabilité observée.
+MMA4004,2017-09-15,111.53,158.03,Légère variabilité observée.
+MMA4004,2017-10-15,58.20,148.93,Rien à signaler.
+MMA4006,2017-05-15,192.06,163.99,Condition normale pour la saison.
+MMA4006,2017-06-15,93.43,94.56,Condition normale pour la saison.
+MMA4006,2017-07-15,134.28,183.48,Condition normale pour la saison.
+MMA4006,2017-08-15,77.38,62.22,Condition normale pour la saison.
+MMA4006,2017-09-15,126.95,196.39,Condition normale pour la saison.
+MMA4006,2017-10-15,157.76,198.27,Condition normale pour la saison.
+MMA4008,2017-05-15,184.11,183.55,Rien à signaler.
+MMA4008,2017-06-15,184.15,51.51,Condition normale pour la saison.
+MMA4008,2017-07-15,107.57,89.75,Rien à signaler.
+MMA4008,2017-08-15,70.73,140.86,Légère variabilité observée.
+MMA4008,2017-09-15,141.84,82.97,Condition normale pour la saison.
+MMA4008,2017-10-15,182.23,165.65,Condition normale pour la saison.
+MMA4010,2017-05-15,121.36,138.73,Rien à signaler.
+MMA4010,2017-06-15,63.49,95.82,Rien à signaler.
+MMA4010,2017-07-15,187.28,115.65,Condition normale pour la saison.
+MMA4010,2017-08-15,128.28,76.53,Légère variabilité observée.
+MMA4010,2017-09-15,140.33,108.57,Condition normale pour la saison.
+MMA4010,2017-10-15,135.03,51.47,Rien à signaler.
+MMA4012,2017-05-15,80.67,164.30,Rien à signaler.
+MMA4012,2017-06-15,134.95,153.24,Condition normale pour la saison.
+MMA4012,2017-07-15,84.06,134.49,Rien à signaler.
+MMA4012,2017-08-15,178.05,166.15,Condition normale pour la saison.
+MMA4012,2017-09-15,194.50,198.42,Légère variabilité observée.
+MMA4012,2017-10-15,173.59,125.32,Condition normale pour la saison.
+MMA4014,2017-05-15,180.93,184.30,Légère variabilité observée.
+MMA4014,2017-06-15,77.68,99.38,Condition normale pour la saison.
+MMA4014,2017-07-15,133.67,107.28,Condition normale pour la saison.
+MMA4014,2017-08-15,125.53,136.64,Rien à signaler.
+MMA4014,2017-09-15,114.01,130.80,Légère variabilité observée.
+MMA4014,2017-10-15,81.93,116.48,Rien à signaler.
+MMA4016,2017-05-15,68.39,90.10,Condition normale pour la saison.
+MMA4016,2017-06-15,51.80,129.94,Condition normale pour la saison.
+MMA4016,2017-07-15,53.20,156.71,Légère variabilité observée.
+MMA4016,2017-08-15,159.66,51.31,Condition normale pour la saison.
+MMA4016,2017-09-15,190.08,163.06,Condition normale pour la saison.
+MMA4016,2017-10-15,170.13,165.75,Rien à signaler.
+MMA4018,2017-05-15,152.43,128.33,Légère variabilité observée.
+MMA4018,2017-06-15,105.81,182.33,Condition normale pour la saison.
+MMA4018,2017-07-15,180.84,176.23,Condition normale pour la saison.
+MMA4018,2017-08-15,55.11,168.03,Condition normale pour la saison.
+MMA4018,2017-09-15,144.21,78.48,Légère variabilité observée.
+MMA4018,2017-10-15,150.21,89.73,Légère variabilité observée.
+MMA4020,2017-05-15,124.68,160.70,Condition normale pour la saison.
+MMA4020,2017-06-15,63.40,50.06,Condition normale pour la saison.
+MMA4020,2017-07-15,148.32,81.67,Légère variabilité observée.
+MMA4020,2017-08-15,147.06,181.88,Légère variabilité observée.
+MMA4020,2017-09-15,169.58,173.38,Condition normale pour la saison.
+MMA4020,2017-10-15,179.88,133.27,Rien à signaler.
+MMA4022,2017-05-15,190.62,178.20,Légère variabilité observée.
+MMA4022,2017-06-15,182.16,88.84,Rien à signaler.
+MMA4022,2017-07-15,191.42,189.66,Condition normale pour la saison.
+MMA4022,2017-08-15,145.86,197.89,Rien à signaler.
+MMA4022,2017-09-15,122.80,129.50,Légère variabilité observée.
+MMA4022,2017-10-15,148.93,105.15,Condition normale pour la saison.
+MMA4024,2017-05-15,96.77,170.76,Condition normale pour la saison.
+MMA4024,2017-06-15,90.39,142.34,Rien à signaler.
+MMA4024,2017-07-15,106.64,77.29,Légère variabilité observée.
+MMA4024,2017-08-15,136.07,126.13,Légère variabilité observée.
+MMA4024,2017-09-15,156.69,104.12,Condition normale pour la saison.
+MMA4024,2017-10-15,148.71,153.06,Condition normale pour la saison.
+MMA4026,2017-05-15,78.59,188.25,Légère variabilité observée.
+MMA4026,2017-06-15,123.84,166.31,Condition normale pour la saison.
+MMA4026,2017-07-15,127.38,86.85,Condition normale pour la saison.
+MMA4026,2017-08-15,190.53,52.82,Rien à signaler.
+MMA4026,2017-09-15,181.23,173.21,Condition normale pour la saison.
+MMA4026,2017-10-15,74.18,194.74,Condition normale pour la saison.
+MMA4028,2017-05-15,116.68,179.78,Rien à signaler.
+MMA4028,2017-06-15,180.08,132.22,Condition normale pour la saison.
+MMA4028,2017-07-15,159.74,76.76,Légère variabilité observée.
+MMA4028,2017-08-15,96.57,97.51,Condition normale pour la saison.
+MMA4028,2017-09-15,106.66,56.82,Condition normale pour la saison.
+MMA4028,2017-10-15,110.50,150.29,Condition normale pour la saison.
+MMA4030,2017-05-15,95.26,100.52,Légère variabilité observée.
+MMA4030,2017-06-15,134.49,57.35,Condition normale pour la saison.
+MMA4030,2017-07-15,111.14,130.00,Rien à signaler.
+MMA4030,2017-08-15,71.20,176.05,Condition normale pour la saison.
+MMA4030,2017-09-15,181.03,166.59,Légère variabilité observée.
+MMA4030,2017-10-15,101.68,114.41,Rien à signaler.
+MMA4032,2017-05-15,146.39,69.23,Rien à signaler.
+MMA4032,2017-06-15,98.32,181.74,Condition normale pour la saison.
+MMA4032,2017-07-15,90.20,74.53,Rien à signaler.
+MMA4032,2017-08-15,108.82,167.37,Condition normale pour la saison.
+MMA4032,2017-09-15,172.21,103.40,Rien à signaler.
+MMA4032,2017-10-15,168.08,167.87,Condition normale pour la saison.
+MMA4034,2017-05-15,151.59,154.67,Condition normale pour la saison.
+MMA4034,2017-06-15,141.57,52.73,Rien à signaler.
+MMA4034,2017-07-15,90.05,65.18,Condition normale pour la saison.
+MMA4034,2017-08-15,78.12,54.98,Légère variabilité observée.
+MMA4034,2017-09-15,197.36,158.07,Légère variabilité observée.
+MMA4034,2017-10-15,193.95,74.84,Condition normale pour la saison.
+MMA4036,2017-05-15,139.66,78.13,Légère variabilité observée.
+MMA4036,2017-06-15,71.66,198.70,Condition normale pour la saison.
+MMA4036,2017-07-15,140.05,117.63,Condition normale pour la saison.
+MMA4036,2017-08-15,52.40,125.13,Condition normale pour la saison.
+MMA4036,2017-09-15,132.74,182.74,Légère variabilité observée.
+MMA4036,2017-10-15,138.43,117.70,Condition normale pour la saison.
+MMA4038,2017-05-15,134.27,182.21,Rien à signaler.
+MMA4038,2017-06-15,119.16,144.30,Condition normale pour la saison.
+MMA4038,2017-07-15,170.73,174.50,Condition normale pour la saison.
+MMA4038,2017-08-15,67.45,144.97,Condition normale pour la saison.
+MMA4038,2017-09-15,117.03,64.37,Condition normale pour la saison.
+MMA4038,2017-10-15,128.46,110.53,Légère variabilité observée.
+MMA4040,2017-05-15,111.88,111.24,Légère variabilité observée.
+MMA4040,2017-06-15,141.02,53.49,Condition normale pour la saison.
+MMA4040,2017-07-15,79.84,123.73,Condition normale pour la saison.
+MMA4040,2017-08-15,163.99,52.39,Condition normale pour la saison.
+MMA4040,2017-09-15,117.07,106.50,Légère variabilité observée.
+MMA4040,2017-10-15,60.75,192.30,Condition normale pour la saison.
+MMA4042,2017-05-15,123.42,82.92,Rien à signaler.
+MMA4042,2017-06-15,176.44,150.09,Légère variabilité observée.
+MMA4042,2017-07-15,76.06,60.33,Condition normale pour la saison.
+MMA4042,2017-08-15,183.88,86.52,Condition normale pour la saison.
+MMA4042,2017-09-15,161.78,152.12,Rien à signaler.
+MMA4042,2017-10-15,141.65,102.73,Condition normale pour la saison.
+MMA4044,2017-05-15,141.07,176.19,Rien à signaler.
+MMA4044,2017-06-15,107.75,151.10,Condition normale pour la saison.
+MMA4044,2017-07-15,164.55,83.30,Condition normale pour la saison.
+MMA4044,2017-08-15,82.20,179.84,Légère variabilité observée.
+MMA4044,2017-09-15,197.66,125.87,Légère variabilité observée.
+MMA4044,2017-10-15,196.48,141.34,Légère variabilité observée.
+MMA4046,2017-05-15,114.43,92.20,Condition normale pour la saison.
+MMA4046,2017-06-15,61.28,52.20,Condition normale pour la saison.
+MMA4046,2017-07-15,96.02,175.66,Condition normale pour la saison.
+MMA4046,2017-08-15,60.49,136.78,Condition normale pour la saison.
+MMA4046,2017-09-15,163.95,191.64,Condition normale pour la saison.
+MMA4046,2017-10-15,159.55,64.28,Rien à signaler.
+MMA4048,2017-05-15,112.53,108.41,Rien à signaler.
+MMA4048,2017-06-15,165.01,150.17,Condition normale pour la saison.
+MMA4048,2017-07-15,199.99,175.78,Condition normale pour la saison.
+MMA4048,2017-08-15,119.28,182.10,Rien à signaler.
+MMA4048,2017-09-15,194.62,168.22,Condition normale pour la saison.
+MMA4048,2017-10-15,181.25,116.68,Condition normale pour la saison.
+MMA4050,2017-05-15,129.15,106.51,Condition normale pour la saison.
+MMA4050,2017-06-15,191.27,127.42,Légère variabilité observée.
+MMA4050,2017-07-15,108.59,120.16,Rien à signaler.
+MMA4050,2017-08-15,153.29,82.37,Légère variabilité observée.
+MMA4050,2017-09-15,67.69,76.19,Légère variabilité observée.
+MMA4050,2017-10-15,74.03,67.89,Condition normale pour la saison.
+MMA4052,2017-05-15,80.73,86.11,Condition normale pour la saison.
+MMA4052,2017-06-15,62.62,70.63,Condition normale pour la saison.
+MMA4052,2017-07-15,167.29,70.71,Légère variabilité observée.
+MMA4052,2017-08-15,176.71,134.75,Condition normale pour la saison.
+MMA4052,2017-09-15,152.05,97.87,Rien à signaler.
+MMA4052,2017-10-15,122.53,165.67,Condition normale pour la saison.
+MMA4054,2017-05-15,69.35,155.34,Légère variabilité observée.
+MMA4054,2017-06-15,175.20,190.88,Condition normale pour la saison.
+MMA4054,2017-07-15,191.95,79.51,Légère variabilité observée.
+MMA4054,2017-08-15,126.10,63.27,Condition normale pour la saison.
+MMA4054,2017-09-15,154.43,62.17,Rien à signaler.
+MMA4054,2017-10-15,178.62,154.70,Rien à signaler.
+MMA4056,2017-05-15,101.70,188.38,Condition normale pour la saison.
+MMA4056,2017-06-15,166.18,177.24,Légère variabilité observée.
+MMA4056,2017-07-15,161.20,96.69,Légère variabilité observée.
+MMA4056,2017-08-15,100.00,195.56,Légère variabilité observée.
+MMA4056,2017-09-15,62.86,57.23,Condition normale pour la saison.
+MMA4056,2017-10-15,122.70,68.12,Rien à signaler.
+MMA4058,2017-05-15,63.75,162.18,Légère variabilité observée.
+MMA4058,2017-06-15,122.50,192.14,Condition normale pour la saison.
+MMA4058,2017-07-15,192.10,191.85,Condition normale pour la saison.
+MMA4058,2017-08-15,78.16,93.18,Condition normale pour la saison.
+MMA4058,2017-09-15,161.24,193.38,Condition normale pour la saison.
+MMA4058,2017-10-15,184.32,134.82,Condition normale pour la saison.
+MMA4060,2017-05-15,171.14,161.50,Condition normale pour la saison.
+MMA4060,2017-06-15,106.81,163.93,Condition normale pour la saison.
+MMA4060,2017-07-15,146.40,158.61,Condition normale pour la saison.
+MMA4060,2017-08-15,189.80,110.53,Légère variabilité observée.
+MMA4060,2017-09-15,90.35,118.77,Rien à signaler.
+MMA4060,2017-10-15,70.29,111.00,Condition normale pour la saison.
+MMA4062,2017-05-15,165.69,119.08,Rien à signaler.
+MMA4062,2017-06-15,171.27,157.04,Rien à signaler.
+MMA4062,2017-07-15,120.95,86.99,Condition normale pour la saison.
+MMA4062,2017-08-15,110.53,60.39,Légère variabilité observée.
+MMA4062,2017-09-15,66.32,170.23,Légère variabilité observée.
+MMA4062,2017-10-15,85.33,175.02,Rien à signaler.
+MMA4064,2017-05-15,127.13,130.46,Condition normale pour la saison.
+MMA4064,2017-06-15,52.19,133.06,Légère variabilité observée.
+MMA4064,2017-07-15,153.21,192.71,Condition normale pour la saison.
+MMA4064,2017-08-15,96.64,82.25,Condition normale pour la saison.
+MMA4064,2017-09-15,81.22,110.31,Condition normale pour la saison.
+MMA4064,2017-10-15,146.38,155.00,Condition normale pour la saison.
+MMA4066,2017-05-15,69.42,123.61,Condition normale pour la saison.
+MMA4066,2017-06-15,187.52,91.41,Condition normale pour la saison.
+MMA4066,2017-07-15,57.20,51.78,Rien à signaler.
+MMA4066,2017-08-15,118.87,118.18,Condition normale pour la saison.
+MMA4066,2017-09-15,95.93,141.70,Rien à signaler.
+MMA4066,2017-10-15,151.41,195.68,Légère variabilité observée.
+MMA4068,2017-05-15,132.71,126.94,Légère variabilité observée.
+MMA4068,2017-06-15,127.02,61.97,Condition normale pour la saison.
+MMA4068,2017-07-15,122.65,139.71,Condition normale pour la saison.
+MMA4068,2017-08-15,197.24,148.30,Rien à signaler.
+MMA4068,2017-09-15,100.37,83.95,Rien à signaler.
+MMA4068,2017-10-15,154.32,104.54,Condition normale pour la saison.
+MMA4070,2017-05-15,139.03,183.42,Condition normale pour la saison.
+MMA4070,2017-06-15,111.96,193.75,Légère variabilité observée.
+MMA4070,2017-07-15,161.89,195.54,Rien à signaler.
+MMA4070,2017-08-15,95.25,91.32,Légère variabilité observée.
+MMA4070,2017-09-15,149.06,129.84,Rien à signaler.
+MMA4070,2017-10-15,76.50,148.81,Rien à signaler.
+MMA4072,2017-05-15,151.00,144.67,Légère variabilité observée.
+MMA4072,2017-06-15,152.26,148.33,Rien à signaler.
+MMA4072,2017-07-15,112.09,158.30,Rien à signaler.
+MMA4072,2017-08-15,71.25,139.81,Condition normale pour la saison.
+MMA4072,2017-09-15,146.31,70.66,Condition normale pour la saison.
+MMA4072,2017-10-15,171.00,82.82,Rien à signaler.
+MMA4074,2017-05-15,95.77,178.00,Condition normale pour la saison.
+MMA4074,2017-06-15,117.90,100.00,Condition normale pour la saison.
+MMA4074,2017-07-15,114.72,131.69,Légère variabilité observée.
+MMA4074,2017-08-15,53.83,157.87,Condition normale pour la saison.
+MMA4074,2017-09-15,138.79,83.85,Rien à signaler.
+MMA4074,2017-10-15,164.77,147.28,Légère variabilité observée.
+MMA4076,2017-05-15,116.75,63.26,Légère variabilité observée.
+MMA4076,2017-06-15,145.69,63.66,Condition normale pour la saison.
+MMA4076,2017-07-15,92.27,166.61,Condition normale pour la saison.
+MMA4076,2017-08-15,61.74,71.21,Rien à signaler.
+MMA4076,2017-09-15,101.27,77.56,Condition normale pour la saison.
+MMA4076,2017-10-15,134.04,67.26,Condition normale pour la saison.
+MMA4078,2017-05-15,170.19,61.51,Rien à signaler.
+MMA4078,2017-06-15,95.83,133.81,Légère variabilité observée.
+MMA4078,2017-07-15,195.49,81.50,Condition normale pour la saison.
+MMA4078,2017-08-15,158.41,185.96,Rien à signaler.
+MMA4078,2017-09-15,51.38,53.86,Légère variabilité observée.
+MMA4078,2017-10-15,60.59,53.25,Condition normale pour la saison.
+MMA4080,2017-05-15,165.23,66.46,Rien à signaler.
+MMA4080,2017-06-15,193.80,143.65,Légère variabilité observée.
+MMA4080,2017-07-15,187.78,141.25,Condition normale pour la saison.
+MMA4080,2017-08-15,140.47,177.17,Légère variabilité observée.
+MMA4080,2017-09-15,127.08,64.94,Rien à signaler.
+MMA4080,2017-10-15,97.59,168.62,Condition normale pour la saison.
+MMA4082,2017-05-15,51.82,64.95,Condition normale pour la saison.
+MMA4082,2017-06-15,113.70,142.49,Condition normale pour la saison.
+MMA4082,2017-07-15,91.18,102.96,Rien à signaler.
+MMA4082,2017-08-15,70.66,96.97,Rien à signaler.
+MMA4082,2017-09-15,152.09,183.59,Rien à signaler.
+MMA4082,2017-10-15,127.86,57.51,Condition normale pour la saison.
+MMA4084,2017-05-15,124.97,171.96,Rien à signaler.
+MMA4084,2017-06-15,190.63,86.19,Condition normale pour la saison.
+MMA4084,2017-07-15,192.08,82.47,Rien à signaler.
+MMA4084,2017-08-15,94.63,186.97,Rien à signaler.
+MMA4084,2017-09-15,177.86,172.93,Condition normale pour la saison.
+MMA4084,2017-10-15,117.29,159.84,Condition normale pour la saison.
+MMA4086,2017-05-15,191.91,83.87,Condition normale pour la saison.
+MMA4086,2017-06-15,96.65,56.26,Condition normale pour la saison.
+MMA4086,2017-07-15,76.80,68.01,Rien à signaler.
+MMA4086,2017-08-15,163.15,176.49,Condition normale pour la saison.
+MMA4086,2017-09-15,96.60,111.18,Condition normale pour la saison.
+MMA4086,2017-10-15,162.57,150.90,Légère variabilité observée.
+MMA4088,2017-05-15,100.82,182.24,Condition normale pour la saison.
+MMA4088,2017-06-15,150.70,92.04,Condition normale pour la saison.
+MMA4088,2017-07-15,61.53,175.47,Condition normale pour la saison.
+MMA4088,2017-08-15,185.31,112.74,Légère variabilité observée.
+MMA4088,2017-09-15,103.89,72.01,Condition normale pour la saison.
+MMA4088,2017-10-15,156.03,78.20,Condition normale pour la saison.
+MMA4090,2017-05-15,68.07,82.31,Condition normale pour la saison.
+MMA4090,2017-06-15,139.35,128.26,Légère variabilité observée.
+MMA4090,2017-07-15,186.73,129.09,Condition normale pour la saison.
+MMA4090,2017-08-15,187.58,175.37,Rien à signaler.
+MMA4090,2017-09-15,138.11,178.59,Rien à signaler.
+MMA4090,2017-10-15,157.39,174.97,Condition normale pour la saison.
+MMA4092,2017-05-15,82.53,178.49,Condition normale pour la saison.
+MMA4092,2017-06-15,66.46,137.14,Condition normale pour la saison.
+MMA4092,2017-07-15,127.81,68.71,Condition normale pour la saison.
+MMA4092,2017-08-15,104.86,188.16,Rien à signaler.
+MMA4092,2017-09-15,159.64,154.36,Rien à signaler.
+MMA4092,2017-10-15,64.57,130.44,Condition normale pour la saison.
+MMA4094,2017-05-15,158.95,171.40,Condition normale pour la saison.
+MMA4094,2017-06-15,195.32,99.19,Condition normale pour la saison.
+MMA4094,2017-07-15,58.63,89.49,Condition normale pour la saison.
+MMA4094,2017-08-15,144.59,121.91,Légère variabilité observée.
+MMA4094,2017-09-15,159.17,190.57,Rien à signaler.
+MMA4094,2017-10-15,107.59,95.46,Condition normale pour la saison.
+MMA4096,2017-05-15,199.50,66.50,Condition normale pour la saison.
+MMA4096,2017-06-15,165.11,82.52,Condition normale pour la saison.
+MMA4096,2017-07-15,161.80,71.55,Condition normale pour la saison.
+MMA4096,2017-08-15,80.28,154.61,Rien à signaler.
+MMA4096,2017-09-15,97.14,84.15,Condition normale pour la saison.
+MMA4096,2017-10-15,185.98,131.73,Condition normale pour la saison.
+MMA4098,2017-05-15,143.07,89.13,Rien à signaler.
+MMA4098,2017-06-15,138.07,91.31,Légère variabilité observée.
+MMA4098,2017-07-15,88.21,132.46,Rien à signaler.
+MMA4098,2017-08-15,68.11,52.76,Condition normale pour la saison.
+MMA4098,2017-09-15,164.18,133.40,Condition normale pour la saison.
+MMA4098,2017-10-15,182.42,117.33,Rien à signaler.
+MMA4100,2017-05-15,53.00,100.93,Condition normale pour la saison.
+MMA4100,2017-06-15,155.70,107.59,Légère variabilité observée.
+MMA4100,2017-07-15,99.16,90.19,Légère variabilité observée.
+MMA4100,2017-08-15,117.47,164.82,Condition normale pour la saison.
+MMA4100,2017-09-15,71.05,70.08,Condition normale pour la saison.
+MMA4100,2017-10-15,57.60,189.42,Légère variabilité observée.
+MMB1002,2017-05-15,123.58,104.17,Rien à signaler.
+MMB1002,2017-06-15,168.23,123.81,Condition normale pour la saison.
+MMB1002,2017-07-15,65.39,160.21,Rien à signaler.
+MMB1002,2017-08-15,57.28,192.19,Légère variabilité observée.
+MMB1002,2017-09-15,123.38,164.56,Condition normale pour la saison.
+MMB1002,2017-10-15,50.76,171.02,Légère variabilité observée.
+MMB1004,2017-05-15,73.60,166.63,Rien à signaler.
+MMB1004,2017-06-15,83.52,136.87,Rien à signaler.
+MMB1004,2017-07-15,57.05,153.37,Condition normale pour la saison.
+MMB1004,2017-08-15,172.64,120.37,Condition normale pour la saison.
+MMB1004,2017-09-15,82.72,181.94,Condition normale pour la saison.
+MMB1004,2017-10-15,110.96,185.12,Légère variabilité observée.
+MMB1006,2017-05-15,92.59,179.69,Condition normale pour la saison.
+MMB1006,2017-06-15,154.30,157.31,Légère variabilité observée.
+MMB1006,2017-07-15,90.58,126.64,Rien à signaler.
+MMB1006,2017-08-15,72.79,113.77,Condition normale pour la saison.
+MMB1006,2017-09-15,51.86,165.17,Condition normale pour la saison.
+MMB1006,2017-10-15,140.42,142.75,Condition normale pour la saison.
+MMB1008,2017-05-15,71.08,149.14,Rien à signaler.
+MMB1008,2017-06-15,105.65,94.53,Rien à signaler.
+MMB1008,2017-07-15,115.67,57.45,Condition normale pour la saison.
+MMB1008,2017-08-15,112.87,130.34,Légère variabilité observée.
+MMB1008,2017-09-15,187.65,113.66,Légère variabilité observée.
+MMB1008,2017-10-15,115.58,66.16,Condition normale pour la saison.
+MMB1010,2017-05-15,143.52,56.10,Condition normale pour la saison.
+MMB1010,2017-06-15,95.03,56.45,Rien à signaler.
+MMB1010,2017-07-15,59.48,120.49,Rien à signaler.
+MMB1010,2017-08-15,100.91,152.96,Condition normale pour la saison.
+MMB1010,2017-09-15,66.28,56.65,Condition normale pour la saison.
+MMB1010,2017-10-15,101.65,110.54,Condition normale pour la saison.
+MMB1012,2017-05-15,160.98,54.83,Rien à signaler.
+MMB1012,2017-06-15,140.69,178.97,Condition normale pour la saison.
+MMB1012,2017-07-15,161.82,53.82,Condition normale pour la saison.
+MMB1012,2017-08-15,173.95,138.68,Rien à signaler.
+MMB1012,2017-09-15,112.74,139.80,Rien à signaler.
+MMB1012,2017-10-15,188.47,155.06,Rien à signaler.
+MMB1014,2017-05-15,190.93,179.94,Légère variabilité observée.
+MMB1014,2017-06-15,74.90,163.80,Rien à signaler.
+MMB1014,2017-07-15,198.03,163.16,Condition normale pour la saison.
+MMB1014,2017-08-15,74.18,141.58,Rien à signaler.
+MMB1014,2017-09-15,182.83,129.82,Légère variabilité observée.
+MMB1014,2017-10-15,54.84,178.22,Condition normale pour la saison.
+MMB1016,2017-05-15,188.06,64.12,Rien à signaler.
+MMB1016,2017-06-15,74.16,138.96,Légère variabilité observée.
+MMB1016,2017-07-15,153.85,61.18,Rien à signaler.
+MMB1016,2017-08-15,53.80,161.77,Légère variabilité observée.
+MMB1016,2017-09-15,83.60,59.78,Rien à signaler.
+MMB1016,2017-10-15,121.47,99.49,Condition normale pour la saison.
+MMB1018,2017-05-15,152.52,173.96,Condition normale pour la saison.
+MMB1018,2017-06-15,182.53,81.14,Condition normale pour la saison.
+MMB1018,2017-07-15,196.82,60.94,Rien à signaler.
+MMB1018,2017-08-15,149.88,157.86,Légère variabilité observée.
+MMB1018,2017-09-15,160.72,110.15,Condition normale pour la saison.
+MMB1018,2017-10-15,188.78,50.19,Condition normale pour la saison.
+MMB1020,2017-05-15,139.57,148.17,Légère variabilité observée.
+MMB1020,2017-06-15,180.88,62.85,Condition normale pour la saison.
+MMB1020,2017-07-15,71.46,162.60,Légère variabilité observée.
+MMB1020,2017-08-15,101.55,165.94,Condition normale pour la saison.
+MMB1020,2017-09-15,170.05,187.24,Légère variabilité observée.
+MMB1020,2017-10-15,81.30,171.64,Condition normale pour la saison.
+MMB1022,2017-05-15,169.75,118.04,Condition normale pour la saison.
+MMB1022,2017-06-15,142.19,68.85,Condition normale pour la saison.
+MMB1022,2017-07-15,179.35,95.65,Rien à signaler.
+MMB1022,2017-08-15,159.35,153.94,Condition normale pour la saison.
+MMB1022,2017-09-15,52.38,122.88,Condition normale pour la saison.
+MMB1022,2017-10-15,151.77,147.76,Légère variabilité observée.
+MMB1024,2017-05-15,104.38,133.11,Condition normale pour la saison.
+MMB1024,2017-06-15,82.07,95.13,Légère variabilité observée.
+MMB1024,2017-07-15,118.59,111.90,Légère variabilité observée.
+MMB1024,2017-08-15,187.47,158.87,Condition normale pour la saison.
+MMB1024,2017-09-15,116.77,153.50,Condition normale pour la saison.
+MMB1024,2017-10-15,53.82,134.91,Condition normale pour la saison.
+MMB1026,2017-05-15,175.53,106.56,Légère variabilité observée.
+MMB1026,2017-06-15,92.47,171.37,Légère variabilité observée.
+MMB1026,2017-07-15,50.57,140.46,Légère variabilité observée.
+MMB1026,2017-08-15,105.59,89.87,Légère variabilité observée.
+MMB1026,2017-09-15,127.46,60.58,Légère variabilité observée.
+MMB1026,2017-10-15,125.61,134.80,Légère variabilité observée.
+MMB1028,2017-05-15,159.59,87.63,Condition normale pour la saison.
+MMB1028,2017-06-15,144.89,134.79,Condition normale pour la saison.
+MMB1028,2017-07-15,93.53,134.99,Condition normale pour la saison.
+MMB1028,2017-08-15,102.80,173.79,Rien à signaler.
+MMB1028,2017-09-15,123.88,91.93,Condition normale pour la saison.
+MMB1028,2017-10-15,112.17,168.07,Rien à signaler.
+MMB1030,2017-05-15,99.44,82.04,Condition normale pour la saison.
+MMB1030,2017-06-15,68.03,144.41,Condition normale pour la saison.
+MMB1030,2017-07-15,140.43,107.55,Condition normale pour la saison.
+MMB1030,2017-08-15,113.71,164.75,Condition normale pour la saison.
+MMB1030,2017-09-15,132.76,118.31,Rien à signaler.
+MMB1030,2017-10-15,158.10,188.90,Rien à signaler.
+MMB1032,2017-05-15,83.02,120.75,Légère variabilité observée.
+MMB1032,2017-06-15,143.81,184.53,Légère variabilité observée.
+MMB1032,2017-07-15,160.96,54.39,Condition normale pour la saison.
+MMB1032,2017-08-15,157.98,102.03,Légère variabilité observée.
+MMB1032,2017-09-15,193.33,170.82,Condition normale pour la saison.
+MMB1032,2017-10-15,65.03,112.85,Rien à signaler.
+MMB1034,2017-05-15,133.96,153.42,Condition normale pour la saison.
+MMB1034,2017-06-15,77.05,72.07,Condition normale pour la saison.
+MMB1034,2017-07-15,134.29,74.41,Condition normale pour la saison.
+MMB1034,2017-08-15,163.97,53.63,Condition normale pour la saison.
+MMB1034,2017-09-15,163.82,73.47,Rien à signaler.
+MMB1034,2017-10-15,178.73,162.95,Condition normale pour la saison.
+MMB1036,2017-05-15,64.19,180.42,Légère variabilité observée.
+MMB1036,2017-06-15,195.21,196.80,Condition normale pour la saison.
+MMB1036,2017-07-15,146.79,155.37,Condition normale pour la saison.
+MMB1036,2017-08-15,194.56,179.25,Condition normale pour la saison.
+MMB1036,2017-09-15,172.48,79.29,Rien à signaler.
+MMB1036,2017-10-15,55.10,133.82,Rien à signaler.
+MMB1038,2017-05-15,119.14,157.89,Condition normale pour la saison.
+MMB1038,2017-06-15,187.09,160.18,Légère variabilité observée.
+MMB1038,2017-07-15,170.57,143.48,Condition normale pour la saison.
+MMB1038,2017-08-15,125.60,90.14,Condition normale pour la saison.
+MMB1038,2017-09-15,62.58,79.06,Condition normale pour la saison.
+MMB1038,2017-10-15,139.69,92.01,Rien à signaler.
+MMB1040,2017-05-15,166.65,79.55,Condition normale pour la saison.
+MMB1040,2017-06-15,122.18,153.93,Rien à signaler.
+MMB1040,2017-07-15,115.81,187.57,Condition normale pour la saison.
+MMB1040,2017-08-15,177.54,148.08,Légère variabilité observée.
+MMB1040,2017-09-15,163.52,130.28,Légère variabilité observée.
+MMB1040,2017-10-15,54.45,134.53,Condition normale pour la saison.
+MMB1042,2017-05-15,140.23,88.12,Légère variabilité observée.
+MMB1042,2017-06-15,108.30,54.01,Condition normale pour la saison.
+MMB1042,2017-07-15,59.33,190.82,Rien à signaler.
+MMB1042,2017-08-15,187.25,51.37,Condition normale pour la saison.
+MMB1042,2017-09-15,139.82,144.26,Rien à signaler.
+MMB1042,2017-10-15,186.96,72.47,Légère variabilité observée.
+MMB1044,2017-05-15,98.62,119.10,Rien à signaler.
+MMB1044,2017-06-15,93.66,166.01,Condition normale pour la saison.
+MMB1044,2017-07-15,143.31,95.90,Rien à signaler.
+MMB1044,2017-08-15,157.42,190.35,Condition normale pour la saison.
+MMB1044,2017-09-15,97.64,104.87,Condition normale pour la saison.
+MMB1044,2017-10-15,64.38,176.05,Condition normale pour la saison.
+MMB1046,2017-05-15,69.26,57.94,Légère variabilité observée.
+MMB1046,2017-06-15,64.43,197.10,Légère variabilité observée.
+MMB1046,2017-07-15,151.18,93.44,Légère variabilité observée.
+MMB1046,2017-08-15,126.77,131.79,Condition normale pour la saison.
+MMB1046,2017-09-15,155.60,116.57,Condition normale pour la saison.
+MMB1046,2017-10-15,142.41,174.38,Condition normale pour la saison.
+MMB1048,2017-05-15,98.45,126.78,Condition normale pour la saison.
+MMB1048,2017-06-15,77.77,160.34,Légère variabilité observée.
+MMB1048,2017-07-15,88.33,186.58,Rien à signaler.
+MMB1048,2017-08-15,123.00,149.94,Légère variabilité observée.
+MMB1048,2017-09-15,188.33,199.79,Condition normale pour la saison.
+MMB1048,2017-10-15,122.93,61.50,Condition normale pour la saison.
+MMB1050,2017-05-15,157.74,162.85,Légère variabilité observée.
+MMB1050,2017-06-15,183.14,79.27,Légère variabilité observée.
+MMB1050,2017-07-15,198.07,101.69,Condition normale pour la saison.
+MMB1050,2017-08-15,102.80,109.05,Rien à signaler.
+MMB1050,2017-09-15,181.70,54.54,Légère variabilité observée.
+MMB1050,2017-10-15,146.05,196.14,Rien à signaler.
+MMB1052,2017-05-15,120.91,60.93,Légère variabilité observée.
+MMB1052,2017-06-15,104.68,71.94,Condition normale pour la saison.
+MMB1052,2017-07-15,88.57,61.02,Condition normale pour la saison.
+MMB1052,2017-08-15,167.25,51.64,Condition normale pour la saison.
+MMB1052,2017-09-15,118.06,91.49,Condition normale pour la saison.
+MMB1052,2017-10-15,188.82,55.61,Condition normale pour la saison.
+MMB1054,2017-05-15,199.22,183.93,Condition normale pour la saison.
+MMB1054,2017-06-15,154.73,75.03,Légère variabilité observée.
+MMB1054,2017-07-15,61.74,150.65,Rien à signaler.
+MMB1054,2017-08-15,148.89,178.46,Légère variabilité observée.
+MMB1054,2017-09-15,161.80,168.90,Rien à signaler.
+MMB1054,2017-10-15,124.86,176.94,Rien à signaler.
+MMB1056,2017-05-15,126.99,82.38,Condition normale pour la saison.
+MMB1056,2017-06-15,75.69,155.23,Condition normale pour la saison.
+MMB1056,2017-07-15,148.80,60.09,Rien à signaler.
+MMB1056,2017-08-15,79.33,163.87,Légère variabilité observée.
+MMB1056,2017-09-15,175.99,72.30,Condition normale pour la saison.
+MMB1056,2017-10-15,80.17,173.07,Légère variabilité observée.
+MMB1058,2017-05-15,99.10,177.32,Légère variabilité observée.
+MMB1058,2017-06-15,185.87,154.58,Condition normale pour la saison.
+MMB1058,2017-07-15,111.61,98.74,Rien à signaler.
+MMB1058,2017-08-15,163.18,113.02,Condition normale pour la saison.
+MMB1058,2017-09-15,55.74,90.38,Légère variabilité observée.
+MMB1058,2017-10-15,137.70,126.48,Légère variabilité observée.
+MMB1060,2017-05-15,88.74,59.90,Condition normale pour la saison.
+MMB1060,2017-06-15,134.90,129.88,Rien à signaler.
+MMB1060,2017-07-15,193.97,112.91,Condition normale pour la saison.
+MMB1060,2017-08-15,72.88,72.00,Condition normale pour la saison.
+MMB1060,2017-09-15,148.77,99.09,Condition normale pour la saison.
+MMB1060,2017-10-15,76.12,79.33,Condition normale pour la saison.
+MMB1062,2017-05-15,94.73,129.96,Condition normale pour la saison.
+MMB1062,2017-06-15,103.87,112.47,Condition normale pour la saison.
+MMB1062,2017-07-15,110.08,165.48,Condition normale pour la saison.
+MMB1062,2017-08-15,78.13,182.35,Condition normale pour la saison.
+MMB1062,2017-09-15,83.90,58.54,Condition normale pour la saison.
+MMB1062,2017-10-15,90.13,197.69,Condition normale pour la saison.
+MMB1064,2017-05-15,75.00,185.43,Condition normale pour la saison.
+MMB1064,2017-06-15,179.16,160.55,Rien à signaler.
+MMB1064,2017-07-15,174.32,107.10,Rien à signaler.
+MMB1064,2017-08-15,199.02,85.94,Condition normale pour la saison.
+MMB1064,2017-09-15,151.00,180.04,Condition normale pour la saison.
+MMB1064,2017-10-15,156.00,94.26,Légère variabilité observée.
+MMB1066,2017-05-15,103.03,172.48,Condition normale pour la saison.
+MMB1066,2017-06-15,161.36,129.55,Condition normale pour la saison.
+MMB1066,2017-07-15,130.50,149.81,Légère variabilité observée.
+MMB1066,2017-08-15,195.33,57.51,Condition normale pour la saison.
+MMB1066,2017-09-15,60.33,155.61,Rien à signaler.
+MMB1066,2017-10-15,158.58,147.85,Condition normale pour la saison.
+MMB1068,2017-05-15,121.72,108.99,Rien à signaler.
+MMB1068,2017-06-15,193.09,190.12,Condition normale pour la saison.
+MMB1068,2017-07-15,60.87,108.78,Légère variabilité observée.
+MMB1068,2017-08-15,197.97,108.93,Rien à signaler.
+MMB1068,2017-09-15,80.23,103.03,Condition normale pour la saison.
+MMB1068,2017-10-15,104.25,152.56,Légère variabilité observée.
+MMB1070,2017-05-15,107.06,57.91,Légère variabilité observée.
+MMB1070,2017-06-15,80.66,55.17,Condition normale pour la saison.
+MMB1070,2017-07-15,175.58,153.96,Légère variabilité observée.
+MMB1070,2017-08-15,97.96,128.72,Condition normale pour la saison.
+MMB1070,2017-09-15,168.18,182.91,Condition normale pour la saison.
+MMB1070,2017-10-15,71.80,187.43,Condition normale pour la saison.
+MMB1072,2017-05-15,133.61,118.40,Rien à signaler.
+MMB1072,2017-06-15,159.97,141.88,Condition normale pour la saison.
+MMB1072,2017-07-15,95.45,83.90,Condition normale pour la saison.
+MMB1072,2017-08-15,96.80,91.11,Légère variabilité observée.
+MMB1072,2017-09-15,81.42,124.35,Rien à signaler.
+MMB1072,2017-10-15,117.58,181.15,Légère variabilité observée.
+MMB1074,2017-05-15,133.62,100.61,Condition normale pour la saison.
+MMB1074,2017-06-15,174.93,189.78,Condition normale pour la saison.
+MMB1074,2017-07-15,140.39,106.02,Condition normale pour la saison.
+MMB1074,2017-08-15,88.31,183.04,Condition normale pour la saison.
+MMB1074,2017-09-15,184.40,121.24,Condition normale pour la saison.
+MMB1074,2017-10-15,175.05,122.47,Légère variabilité observée.
+MMB1076,2017-05-15,121.90,56.49,Légère variabilité observée.
+MMB1076,2017-06-15,93.08,150.72,Condition normale pour la saison.
+MMB1076,2017-07-15,130.15,90.24,Condition normale pour la saison.
+MMB1076,2017-08-15,67.14,121.88,Rien à signaler.
+MMB1076,2017-09-15,54.32,63.93,Légère variabilité observée.
+MMB1076,2017-10-15,110.84,155.59,Condition normale pour la saison.
+MMB1078,2017-05-15,54.37,199.91,Rien à signaler.
+MMB1078,2017-06-15,109.70,139.40,Condition normale pour la saison.
+MMB1078,2017-07-15,153.65,159.43,Condition normale pour la saison.
+MMB1078,2017-08-15,63.20,173.61,Condition normale pour la saison.
+MMB1078,2017-09-15,71.41,129.42,Condition normale pour la saison.
+MMB1078,2017-10-15,96.28,106.75,Légère variabilité observée.
+MMB1080,2017-05-15,69.29,116.60,Condition normale pour la saison.
+MMB1080,2017-06-15,171.09,162.53,Rien à signaler.
+MMB1080,2017-07-15,67.94,111.64,Condition normale pour la saison.
+MMB1080,2017-08-15,93.18,77.60,Condition normale pour la saison.
+MMB1080,2017-09-15,161.02,138.93,Rien à signaler.
+MMB1080,2017-10-15,135.92,84.12,Condition normale pour la saison.
+MMB1082,2017-05-15,127.50,84.83,Condition normale pour la saison.
+MMB1082,2017-06-15,134.22,141.59,Condition normale pour la saison.
+MMB1082,2017-07-15,182.51,131.27,Légère variabilité observée.
+MMB1082,2017-08-15,155.80,180.43,Rien à signaler.
+MMB1082,2017-09-15,57.74,155.89,Condition normale pour la saison.
+MMB1082,2017-10-15,78.56,57.80,Condition normale pour la saison.
+MMB1084,2017-05-15,58.87,108.97,Condition normale pour la saison.
+MMB1084,2017-06-15,153.88,186.92,Rien à signaler.
+MMB1084,2017-07-15,122.63,185.66,Condition normale pour la saison.
+MMB1084,2017-08-15,178.93,167.39,Rien à signaler.
+MMB1084,2017-09-15,150.98,54.85,Condition normale pour la saison.
+MMB1084,2017-10-15,162.57,171.65,Condition normale pour la saison.
+MMB1086,2017-05-15,50.95,158.77,Rien à signaler.
+MMB1086,2017-06-15,74.54,85.14,Rien à signaler.
+MMB1086,2017-07-15,74.74,172.21,Rien à signaler.
+MMB1086,2017-08-15,94.71,103.00,Rien à signaler.
+MMB1086,2017-09-15,104.48,133.38,Légère variabilité observée.
+MMB1086,2017-10-15,118.15,173.91,Condition normale pour la saison.
+MMB1088,2017-05-15,110.42,59.32,Condition normale pour la saison.
+MMB1088,2017-06-15,136.10,141.19,Rien à signaler.
+MMB1088,2017-07-15,120.67,140.62,Rien à signaler.
+MMB1088,2017-08-15,198.24,158.08,Légère variabilité observée.
+MMB1088,2017-09-15,112.81,187.57,Rien à signaler.
+MMB1088,2017-10-15,126.19,81.78,Rien à signaler.
+MMB1090,2017-05-15,172.61,179.29,Condition normale pour la saison.
+MMB1090,2017-06-15,199.07,131.10,Légère variabilité observée.
+MMB1090,2017-07-15,98.96,58.72,Rien à signaler.
+MMB1090,2017-08-15,198.09,111.85,Légère variabilité observée.
+MMB1090,2017-09-15,71.91,190.91,Condition normale pour la saison.
+MMB1090,2017-10-15,158.84,194.12,Condition normale pour la saison.
+MMB1092,2017-05-15,165.44,99.55,Rien à signaler.
+MMB1092,2017-06-15,167.63,116.29,Condition normale pour la saison.
+MMB1092,2017-07-15,104.12,129.75,Légère variabilité observée.
+MMB1092,2017-08-15,159.35,127.10,Légère variabilité observée.
+MMB1092,2017-09-15,112.43,99.17,Légère variabilité observée.
+MMB1092,2017-10-15,184.48,140.06,Rien à signaler.
+MMB1094,2017-05-15,94.98,142.73,Rien à signaler.
+MMB1094,2017-06-15,139.15,152.88,Légère variabilité observée.
+MMB1094,2017-07-15,182.02,71.56,Légère variabilité observée.
+MMB1094,2017-08-15,176.50,177.75,Rien à signaler.
+MMB1094,2017-09-15,181.67,159.64,Légère variabilité observée.
+MMB1094,2017-10-15,134.51,169.08,Condition normale pour la saison.
+MMB1096,2017-05-15,164.25,108.47,Condition normale pour la saison.
+MMB1096,2017-06-15,74.42,69.19,Condition normale pour la saison.
+MMB1096,2017-07-15,135.86,123.65,Rien à signaler.
+MMB1096,2017-08-15,106.89,168.59,Condition normale pour la saison.
+MMB1096,2017-09-15,193.59,139.47,Condition normale pour la saison.
+MMB1096,2017-10-15,121.78,106.58,Condition normale pour la saison.
+MMB1098,2017-05-15,115.02,50.16,Rien à signaler.
+MMB1098,2017-06-15,182.04,169.88,Légère variabilité observée.
+MMB1098,2017-07-15,85.96,72.12,Condition normale pour la saison.
+MMB1098,2017-08-15,126.12,166.18,Condition normale pour la saison.
+MMB1098,2017-09-15,170.29,89.24,Condition normale pour la saison.
+MMB1098,2017-10-15,55.71,170.69,Condition normale pour la saison.
+MMB1100,2017-05-15,131.30,87.84,Rien à signaler.
+MMB1100,2017-06-15,62.52,88.66,Légère variabilité observée.
+MMB1100,2017-07-15,172.58,167.58,Rien à signaler.
+MMB1100,2017-08-15,95.41,195.80,Rien à signaler.
+MMB1100,2017-09-15,118.13,111.88,Rien à signaler.
+MMB1100,2017-10-15,60.22,143.72,Rien à signaler.
+MMB2002,2017-05-15,152.27,159.26,Condition normale pour la saison.
+MMB2002,2017-06-15,72.92,140.35,Légère variabilité observée.
+MMB2002,2017-07-15,190.64,89.99,Condition normale pour la saison.
+MMB2002,2017-08-15,72.82,108.59,Rien à signaler.
+MMB2002,2017-09-15,76.78,191.31,Condition normale pour la saison.
+MMB2002,2017-10-15,63.49,88.85,Rien à signaler.
+MMB2004,2017-05-15,83.35,107.33,Condition normale pour la saison.
+MMB2004,2017-06-15,96.32,69.98,Rien à signaler.
+MMB2004,2017-07-15,116.70,50.52,Condition normale pour la saison.
+MMB2004,2017-08-15,125.39,50.10,Rien à signaler.
+MMB2004,2017-09-15,81.25,126.67,Condition normale pour la saison.
+MMB2004,2017-10-15,165.12,152.26,Condition normale pour la saison.
+MMB2006,2017-05-15,82.18,148.04,Condition normale pour la saison.
+MMB2006,2017-06-15,99.55,63.10,Condition normale pour la saison.
+MMB2006,2017-07-15,187.59,99.83,Condition normale pour la saison.
+MMB2006,2017-08-15,153.17,89.94,Condition normale pour la saison.
+MMB2006,2017-09-15,182.15,169.73,Légère variabilité observée.
+MMB2006,2017-10-15,183.32,128.84,Légère variabilité observée.
+MMB2008,2017-05-15,160.46,124.18,Condition normale pour la saison.
+MMB2008,2017-06-15,131.72,79.54,Condition normale pour la saison.
+MMB2008,2017-07-15,86.49,105.65,Condition normale pour la saison.
+MMB2008,2017-08-15,143.63,184.19,Rien à signaler.
+MMB2008,2017-09-15,109.58,106.25,Légère variabilité observée.
+MMB2008,2017-10-15,125.81,155.93,Légère variabilité observée.
+MMB2010,2017-05-15,72.52,93.15,Condition normale pour la saison.
+MMB2010,2017-06-15,69.72,170.53,Condition normale pour la saison.
+MMB2010,2017-07-15,188.71,67.07,Légère variabilité observée.
+MMB2010,2017-08-15,60.92,98.73,Légère variabilité observée.
+MMB2010,2017-09-15,171.66,133.32,Légère variabilité observée.
+MMB2010,2017-10-15,178.95,94.24,Condition normale pour la saison.
+MMB2012,2017-05-15,54.25,187.73,Condition normale pour la saison.
+MMB2012,2017-06-15,147.47,164.51,Rien à signaler.
+MMB2012,2017-07-15,178.80,136.06,Légère variabilité observée.
+MMB2012,2017-08-15,146.24,130.64,Condition normale pour la saison.
+MMB2012,2017-09-15,139.86,115.93,Rien à signaler.
+MMB2012,2017-10-15,171.96,162.87,Condition normale pour la saison.
+MMB2014,2017-05-15,162.33,118.88,Condition normale pour la saison.
+MMB2014,2017-06-15,102.10,178.19,Rien à signaler.
+MMB2014,2017-07-15,51.25,79.81,Légère variabilité observée.
+MMB2014,2017-08-15,51.97,193.25,Condition normale pour la saison.
+MMB2014,2017-09-15,171.10,130.86,Condition normale pour la saison.
+MMB2014,2017-10-15,90.17,138.52,Légère variabilité observée.
+MMB2016,2017-05-15,97.31,61.18,Condition normale pour la saison.
+MMB2016,2017-06-15,167.96,180.78,Condition normale pour la saison.
+MMB2016,2017-07-15,62.02,159.53,Condition normale pour la saison.
+MMB2016,2017-08-15,105.17,62.85,Légère variabilité observée.
+MMB2016,2017-09-15,68.32,113.30,Légère variabilité observée.
+MMB2016,2017-10-15,122.32,105.79,Rien à signaler.
+MMB2018,2017-05-15,171.22,71.75,Condition normale pour la saison.
+MMB2018,2017-06-15,89.81,109.47,Condition normale pour la saison.
+MMB2018,2017-07-15,63.78,86.73,Légère variabilité observée.
+MMB2018,2017-08-15,174.58,143.54,Légère variabilité observée.
+MMB2018,2017-09-15,109.45,190.79,Condition normale pour la saison.
+MMB2018,2017-10-15,67.23,97.78,Condition normale pour la saison.
+MMB2020,2017-05-15,111.91,146.34,Condition normale pour la saison.
+MMB2020,2017-06-15,172.59,92.68,Condition normale pour la saison.
+MMB2020,2017-07-15,138.77,62.03,Rien à signaler.
+MMB2020,2017-08-15,163.47,127.63,Rien à signaler.
+MMB2020,2017-09-15,120.74,130.79,Légère variabilité observée.
+MMB2020,2017-10-15,135.48,53.96,Condition normale pour la saison.
+MMB2022,2017-05-15,53.44,69.11,Rien à signaler.
+MMB2022,2017-06-15,174.82,178.49,Condition normale pour la saison.
+MMB2022,2017-07-15,67.53,125.52,Rien à signaler.
+MMB2022,2017-08-15,198.63,160.58,Condition normale pour la saison.
+MMB2022,2017-09-15,192.85,92.81,Rien à signaler.
+MMB2022,2017-10-15,179.86,181.82,Condition normale pour la saison.
+MMB2024,2017-05-15,50.43,132.27,Condition normale pour la saison.
+MMB2024,2017-06-15,116.65,75.79,Condition normale pour la saison.
+MMB2024,2017-07-15,168.35,161.54,Légère variabilité observée.
+MMB2024,2017-08-15,60.08,136.56,Condition normale pour la saison.
+MMB2024,2017-09-15,144.79,85.57,Condition normale pour la saison.
+MMB2024,2017-10-15,123.12,150.73,Condition normale pour la saison.
+MMB2026,2017-05-15,59.35,189.06,Condition normale pour la saison.
+MMB2026,2017-06-15,193.33,102.93,Rien à signaler.
+MMB2026,2017-07-15,131.26,81.03,Légère variabilité observée.
+MMB2026,2017-08-15,141.98,58.28,Condition normale pour la saison.
+MMB2026,2017-09-15,169.25,168.70,Condition normale pour la saison.
+MMB2026,2017-10-15,147.04,52.64,Condition normale pour la saison.
+MMB2028,2017-05-15,145.45,165.78,Condition normale pour la saison.
+MMB2028,2017-06-15,84.26,69.13,Condition normale pour la saison.
+MMB2028,2017-07-15,123.67,171.95,Condition normale pour la saison.
+MMB2028,2017-08-15,191.12,86.37,Rien à signaler.
+MMB2028,2017-09-15,53.01,194.55,Légère variabilité observée.
+MMB2028,2017-10-15,179.79,144.96,Condition normale pour la saison.
+MMB2030,2017-05-15,167.58,167.44,Condition normale pour la saison.
+MMB2030,2017-06-15,87.66,141.66,Condition normale pour la saison.
+MMB2030,2017-07-15,192.22,191.52,Condition normale pour la saison.
+MMB2030,2017-08-15,192.28,112.93,Condition normale pour la saison.
+MMB2030,2017-09-15,111.96,135.86,Condition normale pour la saison.
+MMB2030,2017-10-15,152.15,148.29,Rien à signaler.
+MMB2032,2017-05-15,122.50,134.34,Légère variabilité observée.
+MMB2032,2017-06-15,171.60,140.55,Rien à signaler.
+MMB2032,2017-07-15,146.55,57.67,Condition normale pour la saison.
+MMB2032,2017-08-15,76.02,160.83,Rien à signaler.
+MMB2032,2017-09-15,175.46,95.16,Condition normale pour la saison.
+MMB2032,2017-10-15,181.01,87.46,Condition normale pour la saison.
+MMB2034,2017-05-15,175.62,158.62,Condition normale pour la saison.
+MMB2034,2017-06-15,138.94,169.93,Condition normale pour la saison.
+MMB2034,2017-07-15,166.19,165.00,Condition normale pour la saison.
+MMB2034,2017-08-15,129.86,120.04,Légère variabilité observée.
+MMB2034,2017-09-15,110.94,173.94,Condition normale pour la saison.
+MMB2034,2017-10-15,106.56,50.91,Légère variabilité observée.
+MMB2036,2017-05-15,161.66,163.67,Condition normale pour la saison.
+MMB2036,2017-06-15,54.49,81.42,Légère variabilité observée.
+MMB2036,2017-07-15,123.06,128.20,Rien à signaler.
+MMB2036,2017-08-15,191.53,197.27,Rien à signaler.
+MMB2036,2017-09-15,168.53,54.29,Légère variabilité observée.
+MMB2036,2017-10-15,50.09,151.33,Légère variabilité observée.
+MMB2038,2017-05-15,85.50,197.18,Légère variabilité observée.
+MMB2038,2017-06-15,112.93,124.48,Légère variabilité observée.
+MMB2038,2017-07-15,174.15,67.57,Condition normale pour la saison.
+MMB2038,2017-08-15,182.56,119.99,Condition normale pour la saison.
+MMB2038,2017-09-15,153.03,149.67,Condition normale pour la saison.
+MMB2038,2017-10-15,62.71,103.40,Légère variabilité observée.
+MMB2040,2017-05-15,145.75,101.85,Condition normale pour la saison.
+MMB2040,2017-06-15,59.82,177.52,Légère variabilité observée.
+MMB2040,2017-07-15,116.65,140.27,Condition normale pour la saison.
+MMB2040,2017-08-15,89.11,199.75,Légère variabilité observée.
+MMB2040,2017-09-15,180.74,188.51,Légère variabilité observée.
+MMB2040,2017-10-15,152.09,73.18,Condition normale pour la saison.
+MMB2042,2017-05-15,145.11,62.34,Légère variabilité observée.
+MMB2042,2017-06-15,183.81,85.80,Condition normale pour la saison.
+MMB2042,2017-07-15,59.06,74.27,Rien à signaler.
+MMB2042,2017-08-15,74.57,169.92,Condition normale pour la saison.
+MMB2042,2017-09-15,130.08,168.90,Rien à signaler.
+MMB2042,2017-10-15,72.01,68.36,Condition normale pour la saison.
+MMB2044,2017-05-15,96.95,181.22,Rien à signaler.
+MMB2044,2017-06-15,50.30,199.08,Condition normale pour la saison.
+MMB2044,2017-07-15,114.68,98.92,Condition normale pour la saison.
+MMB2044,2017-08-15,104.00,68.69,Légère variabilité observée.
+MMB2044,2017-09-15,175.52,151.32,Condition normale pour la saison.
+MMB2044,2017-10-15,124.74,181.74,Rien à signaler.
+MMB2046,2017-05-15,181.60,133.09,Condition normale pour la saison.
+MMB2046,2017-06-15,176.89,69.59,Légère variabilité observée.
+MMB2046,2017-07-15,169.27,197.80,Condition normale pour la saison.
+MMB2046,2017-08-15,158.33,139.11,Rien à signaler.
+MMB2046,2017-09-15,133.56,181.94,Condition normale pour la saison.
+MMB2046,2017-10-15,163.56,129.04,Condition normale pour la saison.
+MMB2048,2017-05-15,69.71,147.32,Condition normale pour la saison.
+MMB2048,2017-06-15,152.63,120.38,Condition normale pour la saison.
+MMB2048,2017-07-15,77.68,131.18,Condition normale pour la saison.
+MMB2048,2017-08-15,136.07,66.03,Condition normale pour la saison.
+MMB2048,2017-09-15,157.81,142.00,Condition normale pour la saison.
+MMB2048,2017-10-15,64.91,70.69,Rien à signaler.
+MMB2050,2017-05-15,183.98,186.60,Condition normale pour la saison.
+MMB2050,2017-06-15,130.69,97.14,Condition normale pour la saison.
+MMB2050,2017-07-15,169.37,187.66,Condition normale pour la saison.
+MMB2050,2017-08-15,112.72,134.71,Condition normale pour la saison.
+MMB2050,2017-09-15,113.97,118.19,Condition normale pour la saison.
+MMB2050,2017-10-15,130.52,59.49,Condition normale pour la saison.
+MMB2052,2017-05-15,168.71,188.30,Condition normale pour la saison.
+MMB2052,2017-06-15,177.89,108.39,Condition normale pour la saison.
+MMB2052,2017-07-15,116.95,120.50,Légère variabilité observée.
+MMB2052,2017-08-15,158.94,145.47,Légère variabilité observée.
+MMB2052,2017-09-15,179.32,133.11,Légère variabilité observée.
+MMB2052,2017-10-15,133.13,173.83,Condition normale pour la saison.
+MMB2054,2017-05-15,120.46,154.95,Condition normale pour la saison.
+MMB2054,2017-06-15,78.94,113.44,Condition normale pour la saison.
+MMB2054,2017-07-15,114.59,110.11,Légère variabilité observée.
+MMB2054,2017-08-15,186.29,148.16,Condition normale pour la saison.
+MMB2054,2017-09-15,95.89,166.03,Rien à signaler.
+MMB2054,2017-10-15,189.12,75.17,Rien à signaler.
+MMB2056,2017-05-15,86.35,128.66,Légère variabilité observée.
+MMB2056,2017-06-15,100.40,112.84,Condition normale pour la saison.
+MMB2056,2017-07-15,151.05,68.73,Condition normale pour la saison.
+MMB2056,2017-08-15,110.12,122.62,Rien à signaler.
+MMB2056,2017-09-15,131.22,73.94,Condition normale pour la saison.
+MMB2056,2017-10-15,196.47,53.01,Condition normale pour la saison.
+MMB2058,2017-05-15,116.05,58.28,Légère variabilité observée.
+MMB2058,2017-06-15,117.52,100.14,Condition normale pour la saison.
+MMB2058,2017-07-15,187.70,198.87,Condition normale pour la saison.
+MMB2058,2017-08-15,129.30,98.75,Rien à signaler.
+MMB2058,2017-09-15,190.99,88.19,Condition normale pour la saison.
+MMB2058,2017-10-15,127.86,137.98,Condition normale pour la saison.
+MMB2060,2017-05-15,118.97,119.22,Condition normale pour la saison.
+MMB2060,2017-06-15,147.80,144.64,Condition normale pour la saison.
+MMB2060,2017-07-15,142.80,71.48,Légère variabilité observée.
+MMB2060,2017-08-15,74.76,90.46,Condition normale pour la saison.
+MMB2060,2017-09-15,198.45,105.18,Condition normale pour la saison.
+MMB2060,2017-10-15,79.34,100.57,Légère variabilité observée.
+MMB2062,2017-05-15,91.68,64.75,Légère variabilité observée.
+MMB2062,2017-06-15,189.88,147.87,Rien à signaler.
+MMB2062,2017-07-15,134.51,152.95,Rien à signaler.
+MMB2062,2017-08-15,105.84,99.44,Rien à signaler.
+MMB2062,2017-09-15,125.48,66.00,Condition normale pour la saison.
+MMB2062,2017-10-15,142.13,143.08,Condition normale pour la saison.
+MMB2064,2017-05-15,131.72,87.92,Condition normale pour la saison.
+MMB2064,2017-06-15,82.96,177.18,Légère variabilité observée.
+MMB2064,2017-07-15,114.91,153.30,Légère variabilité observée.
+MMB2064,2017-08-15,194.16,95.86,Condition normale pour la saison.
+MMB2064,2017-09-15,153.05,149.37,Condition normale pour la saison.
+MMB2064,2017-10-15,119.29,78.82,Condition normale pour la saison.
+MMB2066,2017-05-15,69.47,151.63,Condition normale pour la saison.
+MMB2066,2017-06-15,175.42,127.92,Condition normale pour la saison.
+MMB2066,2017-07-15,69.13,106.11,Condition normale pour la saison.
+MMB2066,2017-08-15,112.61,130.65,Légère variabilité observée.
+MMB2066,2017-09-15,112.78,66.05,Condition normale pour la saison.
+MMB2066,2017-10-15,137.38,140.30,Condition normale pour la saison.
+MMB2068,2017-05-15,50.80,130.23,Condition normale pour la saison.
+MMB2068,2017-06-15,162.32,120.59,Condition normale pour la saison.
+MMB2068,2017-07-15,135.83,87.59,Condition normale pour la saison.
+MMB2068,2017-08-15,98.60,145.88,Légère variabilité observée.
+MMB2068,2017-09-15,122.18,186.95,Condition normale pour la saison.
+MMB2068,2017-10-15,188.18,143.80,Condition normale pour la saison.
+MMB2070,2017-05-15,185.02,94.96,Légère variabilité observée.
+MMB2070,2017-06-15,82.34,124.58,Légère variabilité observée.
+MMB2070,2017-07-15,54.99,164.64,Condition normale pour la saison.
+MMB2070,2017-08-15,98.17,125.84,Rien à signaler.
+MMB2070,2017-09-15,59.04,55.88,Légère variabilité observée.
+MMB2070,2017-10-15,173.81,64.50,Condition normale pour la saison.
+MMB2072,2017-05-15,119.51,120.18,Condition normale pour la saison.
+MMB2072,2017-06-15,64.97,159.74,Condition normale pour la saison.
+MMB2072,2017-07-15,185.76,78.06,Condition normale pour la saison.
+MMB2072,2017-08-15,82.47,72.10,Légère variabilité observée.
+MMB2072,2017-09-15,198.31,96.48,Légère variabilité observée.
+MMB2072,2017-10-15,50.20,116.86,Légère variabilité observée.
+MMB2074,2017-05-15,84.53,97.93,Condition normale pour la saison.
+MMB2074,2017-06-15,117.38,97.92,Condition normale pour la saison.
+MMB2074,2017-07-15,127.73,115.80,Condition normale pour la saison.
+MMB2074,2017-08-15,172.88,127.46,Rien à signaler.
+MMB2074,2017-09-15,86.87,93.39,Rien à signaler.
+MMB2074,2017-10-15,149.60,188.37,Rien à signaler.
+MMB2076,2017-05-15,111.71,162.06,Condition normale pour la saison.
+MMB2076,2017-06-15,142.45,62.12,Condition normale pour la saison.
+MMB2076,2017-07-15,168.58,165.95,Condition normale pour la saison.
+MMB2076,2017-08-15,59.60,196.24,Légère variabilité observée.
+MMB2076,2017-09-15,50.82,88.17,Condition normale pour la saison.
+MMB2076,2017-10-15,128.28,122.19,Légère variabilité observée.
+MMB2078,2017-05-15,127.18,75.17,Condition normale pour la saison.
+MMB2078,2017-06-15,80.95,171.93,Légère variabilité observée.
+MMB2078,2017-07-15,137.40,152.73,Condition normale pour la saison.
+MMB2078,2017-08-15,50.37,141.10,Légère variabilité observée.
+MMB2078,2017-09-15,161.26,100.71,Condition normale pour la saison.
+MMB2078,2017-10-15,94.58,184.29,Légère variabilité observée.
+MMB2080,2017-05-15,72.11,74.86,Rien à signaler.
+MMB2080,2017-06-15,130.54,110.09,Légère variabilité observée.
+MMB2080,2017-07-15,189.20,180.49,Condition normale pour la saison.
+MMB2080,2017-08-15,57.76,63.84,Légère variabilité observée.
+MMB2080,2017-09-15,158.71,56.85,Condition normale pour la saison.
+MMB2080,2017-10-15,161.47,184.55,Condition normale pour la saison.
+MMB2082,2017-05-15,172.02,56.17,Légère variabilité observée.
+MMB2082,2017-06-15,57.93,119.95,Légère variabilité observée.
+MMB2082,2017-07-15,117.54,134.18,Condition normale pour la saison.
+MMB2082,2017-08-15,141.46,147.56,Condition normale pour la saison.
+MMB2082,2017-09-15,150.51,63.98,Légère variabilité observée.
+MMB2082,2017-10-15,132.38,130.97,Rien à signaler.
+MMB2084,2017-05-15,191.78,73.39,Condition normale pour la saison.
+MMB2084,2017-06-15,78.28,142.16,Condition normale pour la saison.
+MMB2084,2017-07-15,80.46,76.75,Condition normale pour la saison.
+MMB2084,2017-08-15,118.79,143.93,Rien à signaler.
+MMB2084,2017-09-15,87.87,194.35,Condition normale pour la saison.
+MMB2084,2017-10-15,166.84,61.70,Rien à signaler.
+MMB2086,2017-05-15,141.86,93.86,Condition normale pour la saison.
+MMB2086,2017-06-15,142.04,175.03,Légère variabilité observée.
+MMB2086,2017-07-15,193.95,115.42,Rien à signaler.
+MMB2086,2017-08-15,50.89,189.53,Légère variabilité observée.
+MMB2086,2017-09-15,94.71,141.39,Condition normale pour la saison.
+MMB2086,2017-10-15,107.24,105.42,Rien à signaler.
+MMB2088,2017-05-15,136.54,87.41,Condition normale pour la saison.
+MMB2088,2017-06-15,95.59,161.45,Condition normale pour la saison.
+MMB2088,2017-07-15,153.07,131.48,Légère variabilité observée.
+MMB2088,2017-08-15,182.63,150.47,Légère variabilité observée.
+MMB2088,2017-09-15,52.98,125.49,Rien à signaler.
+MMB2088,2017-10-15,132.61,118.29,Légère variabilité observée.
+MMB2090,2017-05-15,58.94,62.34,Condition normale pour la saison.
+MMB2090,2017-06-15,65.69,53.99,Rien à signaler.
+MMB2090,2017-07-15,151.62,165.33,Condition normale pour la saison.
+MMB2090,2017-08-15,131.66,106.18,Condition normale pour la saison.
+MMB2090,2017-09-15,192.92,111.05,Légère variabilité observée.
+MMB2090,2017-10-15,162.37,138.41,Condition normale pour la saison.
+MMB2092,2017-05-15,94.60,87.83,Rien à signaler.
+MMB2092,2017-06-15,134.42,178.64,Rien à signaler.
+MMB2092,2017-07-15,127.20,76.66,Condition normale pour la saison.
+MMB2092,2017-08-15,127.32,79.63,Condition normale pour la saison.
+MMB2092,2017-09-15,142.90,180.61,Condition normale pour la saison.
+MMB2092,2017-10-15,56.95,181.73,Condition normale pour la saison.
+MMB2094,2017-05-15,83.74,87.83,Condition normale pour la saison.
+MMB2094,2017-06-15,96.14,115.61,Condition normale pour la saison.
+MMB2094,2017-07-15,168.21,87.39,Condition normale pour la saison.
+MMB2094,2017-08-15,166.07,197.54,Condition normale pour la saison.
+MMB2094,2017-09-15,102.46,112.76,Rien à signaler.
+MMB2094,2017-10-15,186.74,133.37,Condition normale pour la saison.
+MMB2096,2017-05-15,110.52,111.60,Condition normale pour la saison.
+MMB2096,2017-06-15,183.18,90.21,Condition normale pour la saison.
+MMB2096,2017-07-15,128.22,170.11,Condition normale pour la saison.
+MMB2096,2017-08-15,182.47,119.66,Légère variabilité observée.
+MMB2096,2017-09-15,158.18,92.78,Légère variabilité observée.
+MMB2096,2017-10-15,61.67,51.71,Rien à signaler.
+MMB2098,2017-05-15,137.22,104.19,Légère variabilité observée.
+MMB2098,2017-06-15,180.02,82.13,Condition normale pour la saison.
+MMB2098,2017-07-15,61.46,64.54,Condition normale pour la saison.
+MMB2098,2017-08-15,112.59,83.35,Condition normale pour la saison.
+MMB2098,2017-09-15,175.34,144.46,Condition normale pour la saison.
+MMB2098,2017-10-15,187.80,142.75,Rien à signaler.
+MMB2100,2017-05-15,162.23,91.77,Rien à signaler.
+MMB2100,2017-06-15,188.64,91.38,Condition normale pour la saison.
+MMB2100,2017-07-15,67.66,125.81,Condition normale pour la saison.
+MMB2100,2017-08-15,54.17,156.99,Condition normale pour la saison.
+MMB2100,2017-09-15,189.54,198.93,Légère variabilité observée.
+MMB2100,2017-10-15,129.24,187.34,Rien à signaler.
+MMB3002,2017-05-15,190.33,87.11,Condition normale pour la saison.
+MMB3002,2017-06-15,51.30,89.37,Rien à signaler.
+MMB3002,2017-07-15,196.12,71.29,Légère variabilité observée.
+MMB3002,2017-08-15,51.93,168.32,Condition normale pour la saison.
+MMB3002,2017-09-15,157.58,121.65,Rien à signaler.
+MMB3002,2017-10-15,120.99,56.29,Condition normale pour la saison.
+MMB3004,2017-05-15,91.03,168.79,Rien à signaler.
+MMB3004,2017-06-15,142.57,76.55,Condition normale pour la saison.
+MMB3004,2017-07-15,96.97,193.85,Condition normale pour la saison.
+MMB3004,2017-08-15,179.49,157.02,Condition normale pour la saison.
+MMB3004,2017-09-15,182.56,187.25,Condition normale pour la saison.
+MMB3004,2017-10-15,187.37,179.53,Rien à signaler.
+MMB3006,2017-05-15,83.86,102.40,Rien à signaler.
+MMB3006,2017-06-15,68.93,98.03,Condition normale pour la saison.
+MMB3006,2017-07-15,172.22,146.99,Condition normale pour la saison.
+MMB3006,2017-08-15,156.70,136.57,Rien à signaler.
+MMB3006,2017-09-15,199.55,78.36,Condition normale pour la saison.
+MMB3006,2017-10-15,65.72,150.01,Condition normale pour la saison.
+MMB3008,2017-05-15,199.23,148.99,Condition normale pour la saison.
+MMB3008,2017-06-15,77.04,119.62,Condition normale pour la saison.
+MMB3008,2017-07-15,60.78,198.27,Rien à signaler.
+MMB3008,2017-08-15,180.83,194.56,Légère variabilité observée.
+MMB3008,2017-09-15,128.34,177.79,Légère variabilité observée.
+MMB3008,2017-10-15,182.97,131.55,Condition normale pour la saison.
+MMB3010,2017-05-15,166.81,106.20,Rien à signaler.
+MMB3010,2017-06-15,159.69,155.23,Condition normale pour la saison.
+MMB3010,2017-07-15,57.93,102.61,Rien à signaler.
+MMB3010,2017-08-15,108.94,112.28,Condition normale pour la saison.
+MMB3010,2017-09-15,74.42,100.05,Légère variabilité observée.
+MMB3010,2017-10-15,68.82,155.19,Condition normale pour la saison.
+MMB3012,2017-05-15,154.57,70.24,Condition normale pour la saison.
+MMB3012,2017-06-15,184.77,112.23,Légère variabilité observée.
+MMB3012,2017-07-15,61.52,69.74,Rien à signaler.
+MMB3012,2017-08-15,160.69,85.74,Condition normale pour la saison.
+MMB3012,2017-09-15,106.93,55.56,Rien à signaler.
+MMB3012,2017-10-15,144.72,187.97,Condition normale pour la saison.
+MMB3014,2017-05-15,179.30,129.41,Rien à signaler.
+MMB3014,2017-06-15,121.26,168.41,Rien à signaler.
+MMB3014,2017-07-15,118.73,71.53,Condition normale pour la saison.
+MMB3014,2017-08-15,199.34,107.42,Condition normale pour la saison.
+MMB3014,2017-09-15,95.57,130.21,Condition normale pour la saison.
+MMB3014,2017-10-15,56.47,171.02,Condition normale pour la saison.
+MMB3016,2017-05-15,98.00,98.90,Condition normale pour la saison.
+MMB3016,2017-06-15,90.19,92.66,Rien à signaler.
+MMB3016,2017-07-15,154.35,133.02,Condition normale pour la saison.
+MMB3016,2017-08-15,114.56,54.54,Condition normale pour la saison.
+MMB3016,2017-09-15,137.09,193.69,Rien à signaler.
+MMB3016,2017-10-15,115.40,186.98,Condition normale pour la saison.
+MMB3018,2017-05-15,84.43,122.45,Condition normale pour la saison.
+MMB3018,2017-06-15,111.92,80.41,Légère variabilité observée.
+MMB3018,2017-07-15,192.71,169.00,Condition normale pour la saison.
+MMB3018,2017-08-15,73.75,140.28,Légère variabilité observée.
+MMB3018,2017-09-15,177.18,180.34,Condition normale pour la saison.
+MMB3018,2017-10-15,127.18,151.88,Légère variabilité observée.
+MMB3020,2017-05-15,89.43,166.06,Légère variabilité observée.
+MMB3020,2017-06-15,89.52,183.45,Légère variabilité observée.
+MMB3020,2017-07-15,187.97,199.27,Condition normale pour la saison.
+MMB3020,2017-08-15,197.03,162.44,Rien à signaler.
+MMB3020,2017-09-15,66.24,99.18,Rien à signaler.
+MMB3020,2017-10-15,92.71,161.44,Légère variabilité observée.
+MMB3022,2017-05-15,181.92,123.12,Condition normale pour la saison.
+MMB3022,2017-06-15,186.65,119.60,Condition normale pour la saison.
+MMB3022,2017-07-15,98.54,51.93,Condition normale pour la saison.
+MMB3022,2017-08-15,197.51,102.21,Condition normale pour la saison.
+MMB3022,2017-09-15,183.12,54.25,Rien à signaler.
+MMB3022,2017-10-15,176.47,139.32,Condition normale pour la saison.
+MMB3024,2017-05-15,92.24,194.65,Rien à signaler.
+MMB3024,2017-06-15,95.44,199.73,Condition normale pour la saison.
+MMB3024,2017-07-15,110.92,67.62,Légère variabilité observée.
+MMB3024,2017-08-15,184.73,127.77,Légère variabilité observée.
+MMB3024,2017-09-15,174.99,188.37,Rien à signaler.
+MMB3024,2017-10-15,116.93,69.78,Condition normale pour la saison.
+MMB3026,2017-05-15,96.64,150.63,Rien à signaler.
+MMB3026,2017-06-15,66.16,197.59,Légère variabilité observée.
+MMB3026,2017-07-15,174.43,103.52,Rien à signaler.
+MMB3026,2017-08-15,158.49,77.90,Condition normale pour la saison.
+MMB3026,2017-09-15,177.22,188.62,Condition normale pour la saison.
+MMB3026,2017-10-15,149.91,129.39,Rien à signaler.
+MMB3028,2017-05-15,137.37,152.92,Légère variabilité observée.
+MMB3028,2017-06-15,97.57,149.59,Condition normale pour la saison.
+MMB3028,2017-07-15,150.10,77.07,Légère variabilité observée.
+MMB3028,2017-08-15,171.55,126.99,Rien à signaler.
+MMB3028,2017-09-15,197.95,78.62,Condition normale pour la saison.
+MMB3028,2017-10-15,103.67,71.28,Condition normale pour la saison.
+MMB3030,2017-05-15,87.60,170.52,Rien à signaler.
+MMB3030,2017-06-15,152.58,146.62,Légère variabilité observée.
+MMB3030,2017-07-15,172.23,139.09,Rien à signaler.
+MMB3030,2017-08-15,139.07,180.46,Condition normale pour la saison.
+MMB3030,2017-09-15,187.72,145.65,Rien à signaler.
+MMB3030,2017-10-15,183.02,78.59,Condition normale pour la saison.
+MMB3032,2017-05-15,155.26,136.22,Rien à signaler.
+MMB3032,2017-06-15,96.09,144.01,Rien à signaler.
+MMB3032,2017-07-15,187.70,188.56,Condition normale pour la saison.
+MMB3032,2017-08-15,150.77,88.78,Condition normale pour la saison.
+MMB3032,2017-09-15,198.00,87.47,Condition normale pour la saison.
+MMB3032,2017-10-15,94.25,130.01,Condition normale pour la saison.
+MMB3034,2017-05-15,88.01,82.58,Condition normale pour la saison.
+MMB3034,2017-06-15,168.22,128.52,Légère variabilité observée.
+MMB3034,2017-07-15,109.16,66.49,Rien à signaler.
+MMB3034,2017-08-15,196.62,193.60,Rien à signaler.
+MMB3034,2017-09-15,131.02,187.73,Condition normale pour la saison.
+MMB3034,2017-10-15,73.77,61.43,Légère variabilité observée.
+MMB3036,2017-05-15,189.33,60.62,Rien à signaler.
+MMB3036,2017-06-15,81.60,50.85,Légère variabilité observée.
+MMB3036,2017-07-15,96.90,186.94,Légère variabilité observée.
+MMB3036,2017-08-15,197.00,66.11,Rien à signaler.
+MMB3036,2017-09-15,60.77,197.64,Légère variabilité observée.
+MMB3036,2017-10-15,104.87,191.73,Légère variabilité observée.
+MMB3038,2017-05-15,125.77,76.86,Rien à signaler.
+MMB3038,2017-06-15,51.89,159.40,Condition normale pour la saison.
+MMB3038,2017-07-15,138.90,65.67,Légère variabilité observée.
+MMB3038,2017-08-15,65.94,114.80,Rien à signaler.
+MMB3038,2017-09-15,168.69,171.49,Rien à signaler.
+MMB3038,2017-10-15,82.12,96.54,Légère variabilité observée.
+MMB3040,2017-05-15,163.40,199.80,Rien à signaler.
+MMB3040,2017-06-15,107.97,106.18,Condition normale pour la saison.
+MMB3040,2017-07-15,162.73,120.20,Condition normale pour la saison.
+MMB3040,2017-08-15,89.01,184.75,Condition normale pour la saison.
+MMB3040,2017-09-15,126.07,58.98,Légère variabilité observée.
+MMB3040,2017-10-15,154.35,102.38,Rien à signaler.
+MMB3042,2017-05-15,187.39,170.33,Légère variabilité observée.
+MMB3042,2017-06-15,156.94,173.08,Condition normale pour la saison.
+MMB3042,2017-07-15,186.54,122.56,Légère variabilité observée.
+MMB3042,2017-08-15,103.76,121.17,Condition normale pour la saison.
+MMB3042,2017-09-15,53.22,116.62,Légère variabilité observée.
+MMB3042,2017-10-15,99.72,182.54,Légère variabilité observée.
+MMB3044,2017-05-15,170.08,96.59,Rien à signaler.
+MMB3044,2017-06-15,59.90,63.66,Condition normale pour la saison.
+MMB3044,2017-07-15,110.77,100.30,Condition normale pour la saison.
+MMB3044,2017-08-15,156.53,166.35,Condition normale pour la saison.
+MMB3044,2017-09-15,100.08,197.34,Condition normale pour la saison.
+MMB3044,2017-10-15,76.48,72.78,Condition normale pour la saison.
+MMB3046,2017-05-15,91.99,133.30,Rien à signaler.
+MMB3046,2017-06-15,134.11,149.50,Condition normale pour la saison.
+MMB3046,2017-07-15,97.59,176.23,Légère variabilité observée.
+MMB3046,2017-08-15,188.87,124.58,Condition normale pour la saison.
+MMB3046,2017-09-15,158.97,179.22,Condition normale pour la saison.
+MMB3046,2017-10-15,174.35,169.57,Condition normale pour la saison.
+MMB3048,2017-05-15,80.09,132.54,Condition normale pour la saison.
+MMB3048,2017-06-15,155.90,107.89,Rien à signaler.
+MMB3048,2017-07-15,136.39,56.79,Condition normale pour la saison.
+MMB3048,2017-08-15,145.11,160.84,Condition normale pour la saison.
+MMB3048,2017-09-15,172.80,170.22,Condition normale pour la saison.
+MMB3048,2017-10-15,62.09,60.03,Condition normale pour la saison.
+MMB3050,2017-05-15,85.05,141.93,Légère variabilité observée.
+MMB3050,2017-06-15,167.75,139.93,Légère variabilité observée.
+MMB3050,2017-07-15,170.95,165.79,Condition normale pour la saison.
+MMB3050,2017-08-15,139.04,121.11,Condition normale pour la saison.
+MMB3050,2017-09-15,165.70,146.04,Rien à signaler.
+MMB3050,2017-10-15,196.10,159.65,Légère variabilité observée.
+MMB3052,2017-05-15,157.24,141.96,Condition normale pour la saison.
+MMB3052,2017-06-15,132.15,75.98,Condition normale pour la saison.
+MMB3052,2017-07-15,150.87,171.38,Légère variabilité observée.
+MMB3052,2017-08-15,57.99,199.57,Condition normale pour la saison.
+MMB3052,2017-09-15,81.19,144.51,Condition normale pour la saison.
+MMB3052,2017-10-15,168.92,94.52,Rien à signaler.
+MMB3054,2017-05-15,138.85,192.70,Rien à signaler.
+MMB3054,2017-06-15,161.21,141.40,Condition normale pour la saison.
+MMB3054,2017-07-15,126.19,63.62,Rien à signaler.
+MMB3054,2017-08-15,98.11,189.37,Condition normale pour la saison.
+MMB3054,2017-09-15,60.10,61.88,Condition normale pour la saison.
+MMB3054,2017-10-15,95.80,196.94,Condition normale pour la saison.
+MMB3056,2017-05-15,53.37,81.18,Légère variabilité observée.
+MMB3056,2017-06-15,152.75,74.31,Condition normale pour la saison.
+MMB3056,2017-07-15,83.38,69.54,Condition normale pour la saison.
+MMB3056,2017-08-15,140.70,84.84,Rien à signaler.
+MMB3056,2017-09-15,187.50,178.87,Condition normale pour la saison.
+MMB3056,2017-10-15,77.18,74.29,Rien à signaler.
+MMB3058,2017-05-15,144.65,190.45,Rien à signaler.
+MMB3058,2017-06-15,173.42,134.00,Condition normale pour la saison.
+MMB3058,2017-07-15,143.71,83.96,Légère variabilité observée.
+MMB3058,2017-08-15,156.13,187.72,Rien à signaler.
+MMB3058,2017-09-15,73.97,97.14,Condition normale pour la saison.
+MMB3058,2017-10-15,115.67,129.81,Rien à signaler.
+MMB3060,2017-05-15,193.29,196.47,Condition normale pour la saison.
+MMB3060,2017-06-15,199.25,175.18,Légère variabilité observée.
+MMB3060,2017-07-15,75.87,185.94,Rien à signaler.
+MMB3060,2017-08-15,140.19,95.55,Rien à signaler.
+MMB3060,2017-09-15,87.41,131.14,Condition normale pour la saison.
+MMB3060,2017-10-15,192.48,174.88,Condition normale pour la saison.
+MMB3062,2017-05-15,95.59,51.34,Condition normale pour la saison.
+MMB3062,2017-06-15,145.38,115.60,Rien à signaler.
+MMB3062,2017-07-15,69.49,142.27,Légère variabilité observée.
+MMB3062,2017-08-15,88.11,197.93,Rien à signaler.
+MMB3062,2017-09-15,176.61,105.33,Condition normale pour la saison.
+MMB3062,2017-10-15,123.84,162.53,Condition normale pour la saison.
+MMB3064,2017-05-15,129.85,147.55,Rien à signaler.
+MMB3064,2017-06-15,82.86,188.55,Condition normale pour la saison.
+MMB3064,2017-07-15,179.33,67.86,Condition normale pour la saison.
+MMB3064,2017-08-15,190.18,63.60,Légère variabilité observée.
+MMB3064,2017-09-15,95.92,198.62,Légère variabilité observée.
+MMB3064,2017-10-15,181.68,164.13,Condition normale pour la saison.
+MMB3066,2017-05-15,96.17,64.92,Rien à signaler.
+MMB3066,2017-06-15,103.48,94.98,Légère variabilité observée.
+MMB3066,2017-07-15,57.62,169.47,Légère variabilité observée.
+MMB3066,2017-08-15,152.19,130.03,Condition normale pour la saison.
+MMB3066,2017-09-15,156.64,131.08,Légère variabilité observée.
+MMB3066,2017-10-15,65.96,77.25,Condition normale pour la saison.
+MMB3068,2017-05-15,141.51,61.53,Légère variabilité observée.
+MMB3068,2017-06-15,58.36,184.32,Légère variabilité observée.
+MMB3068,2017-07-15,182.78,148.23,Rien à signaler.
+MMB3068,2017-08-15,154.48,122.07,Légère variabilité observée.
+MMB3068,2017-09-15,113.25,187.88,Rien à signaler.
+MMB3068,2017-10-15,189.68,51.16,Légère variabilité observée.
+MMB3070,2017-05-15,131.21,80.81,Rien à signaler.
+MMB3070,2017-06-15,168.69,177.71,Légère variabilité observée.
+MMB3070,2017-07-15,111.15,147.99,Légère variabilité observée.
+MMB3070,2017-08-15,87.42,101.84,Condition normale pour la saison.
+MMB3070,2017-09-15,114.17,187.99,Légère variabilité observée.
+MMB3070,2017-10-15,94.97,151.33,Condition normale pour la saison.
+MMB3072,2017-05-15,53.71,199.96,Condition normale pour la saison.
+MMB3072,2017-06-15,137.98,168.80,Condition normale pour la saison.
+MMB3072,2017-07-15,58.26,138.56,Condition normale pour la saison.
+MMB3072,2017-08-15,102.54,120.78,Rien à signaler.
+MMB3072,2017-09-15,156.54,65.64,Condition normale pour la saison.
+MMB3072,2017-10-15,85.37,149.99,Rien à signaler.
+MMB3074,2017-05-15,120.73,71.21,Rien à signaler.
+MMB3074,2017-06-15,66.34,195.39,Rien à signaler.
+MMB3074,2017-07-15,180.36,72.41,Condition normale pour la saison.
+MMB3074,2017-08-15,87.94,93.76,Légère variabilité observée.
+MMB3074,2017-09-15,70.48,190.36,Rien à signaler.
+MMB3074,2017-10-15,51.51,137.68,Légère variabilité observée.
+MMB3076,2017-05-15,182.57,74.49,Condition normale pour la saison.
+MMB3076,2017-06-15,142.06,65.58,Légère variabilité observée.
+MMB3076,2017-07-15,136.45,61.43,Condition normale pour la saison.
+MMB3076,2017-08-15,90.71,121.68,Rien à signaler.
+MMB3076,2017-09-15,81.10,196.71,Condition normale pour la saison.
+MMB3076,2017-10-15,160.41,76.52,Rien à signaler.
+MMB3078,2017-05-15,187.97,53.85,Rien à signaler.
+MMB3078,2017-06-15,106.73,149.25,Condition normale pour la saison.
+MMB3078,2017-07-15,80.06,67.24,Condition normale pour la saison.
+MMB3078,2017-08-15,173.40,71.58,Légère variabilité observée.
+MMB3078,2017-09-15,112.72,156.06,Condition normale pour la saison.
+MMB3078,2017-10-15,139.31,93.68,Rien à signaler.
+MMB3080,2017-05-15,135.68,53.13,Légère variabilité observée.
+MMB3080,2017-06-15,144.17,181.97,Légère variabilité observée.
+MMB3080,2017-07-15,95.06,128.43,Rien à signaler.
+MMB3080,2017-08-15,171.15,155.31,Rien à signaler.
+MMB3080,2017-09-15,119.50,78.63,Légère variabilité observée.
+MMB3080,2017-10-15,160.90,139.51,Légère variabilité observée.
+MMB3082,2017-05-15,110.85,142.49,Condition normale pour la saison.
+MMB3082,2017-06-15,178.08,59.15,Rien à signaler.
+MMB3082,2017-07-15,109.77,87.75,Légère variabilité observée.
+MMB3082,2017-08-15,97.13,108.78,Condition normale pour la saison.
+MMB3082,2017-09-15,107.21,116.36,Rien à signaler.
+MMB3082,2017-10-15,176.75,174.71,Rien à signaler.
+MMB3084,2017-05-15,147.05,75.46,Condition normale pour la saison.
+MMB3084,2017-06-15,168.77,184.45,Condition normale pour la saison.
+MMB3084,2017-07-15,50.58,196.74,Condition normale pour la saison.
+MMB3084,2017-08-15,114.68,154.86,Rien à signaler.
+MMB3084,2017-09-15,181.80,191.21,Légère variabilité observée.
+MMB3084,2017-10-15,100.06,174.28,Condition normale pour la saison.
+MMB3086,2017-05-15,199.20,107.76,Condition normale pour la saison.
+MMB3086,2017-06-15,85.38,152.24,Condition normale pour la saison.
+MMB3086,2017-07-15,192.15,50.55,Rien à signaler.
+MMB3086,2017-08-15,177.67,154.87,Condition normale pour la saison.
+MMB3086,2017-09-15,133.93,137.98,Condition normale pour la saison.
+MMB3086,2017-10-15,71.84,112.44,Condition normale pour la saison.
+MMB3088,2017-05-15,119.65,177.61,Condition normale pour la saison.
+MMB3088,2017-06-15,111.54,123.92,Rien à signaler.
+MMB3088,2017-07-15,163.61,182.72,Rien à signaler.
+MMB3088,2017-08-15,94.21,158.23,Légère variabilité observée.
+MMB3088,2017-09-15,151.44,93.85,Légère variabilité observée.
+MMB3088,2017-10-15,132.59,65.50,Condition normale pour la saison.
+MMB3090,2017-05-15,155.92,95.51,Condition normale pour la saison.
+MMB3090,2017-06-15,96.90,74.47,Condition normale pour la saison.
+MMB3090,2017-07-15,61.67,153.83,Condition normale pour la saison.
+MMB3090,2017-08-15,158.38,109.61,Condition normale pour la saison.
+MMB3090,2017-09-15,193.55,115.06,Rien à signaler.
+MMB3090,2017-10-15,193.56,129.04,Légère variabilité observée.
+MMB3092,2017-05-15,122.04,129.72,Légère variabilité observée.
+MMB3092,2017-06-15,80.59,167.49,Condition normale pour la saison.
+MMB3092,2017-07-15,99.78,174.68,Condition normale pour la saison.
+MMB3092,2017-08-15,82.92,51.96,Rien à signaler.
+MMB3092,2017-09-15,188.36,182.33,Légère variabilité observée.
+MMB3092,2017-10-15,174.67,186.81,Condition normale pour la saison.
+MMB3094,2017-05-15,139.50,55.35,Condition normale pour la saison.
+MMB3094,2017-06-15,140.08,92.84,Condition normale pour la saison.
+MMB3094,2017-07-15,130.10,90.60,Condition normale pour la saison.
+MMB3094,2017-08-15,93.18,152.18,Légère variabilité observée.
+MMB3094,2017-09-15,95.28,182.63,Rien à signaler.
+MMB3094,2017-10-15,69.17,133.12,Légère variabilité observée.
+MMB3096,2017-05-15,138.29,158.06,Légère variabilité observée.
+MMB3096,2017-06-15,131.12,183.43,Condition normale pour la saison.
+MMB3096,2017-07-15,152.86,122.02,Légère variabilité observée.
+MMB3096,2017-08-15,112.72,192.70,Condition normale pour la saison.
+MMB3096,2017-09-15,161.96,126.86,Condition normale pour la saison.
+MMB3096,2017-10-15,112.65,65.17,Légère variabilité observée.
+MMB3098,2017-05-15,107.55,117.04,Légère variabilité observée.
+MMB3098,2017-06-15,73.46,172.06,Condition normale pour la saison.
+MMB3098,2017-07-15,132.20,50.00,Légère variabilité observée.
+MMB3098,2017-08-15,114.16,129.43,Condition normale pour la saison.
+MMB3098,2017-09-15,181.21,125.89,Condition normale pour la saison.
+MMB3098,2017-10-15,116.04,106.57,Condition normale pour la saison.
+MMB3100,2017-05-15,160.73,123.25,Condition normale pour la saison.
+MMB3100,2017-06-15,151.24,187.40,Condition normale pour la saison.
+MMB3100,2017-07-15,61.35,65.64,Condition normale pour la saison.
+MMB3100,2017-08-15,163.06,79.53,Rien à signaler.
+MMB3100,2017-09-15,192.63,81.64,Rien à signaler.
+MMB3100,2017-10-15,142.76,181.49,Légère variabilité observée.
+MMB4002,2017-05-15,120.14,145.56,Rien à signaler.
+MMB4002,2017-06-15,199.20,82.43,Condition normale pour la saison.
+MMB4002,2017-07-15,143.36,70.03,Légère variabilité observée.
+MMB4002,2017-08-15,66.15,165.57,Rien à signaler.
+MMB4002,2017-09-15,61.38,50.87,Légère variabilité observée.
+MMB4002,2017-10-15,84.49,139.15,Légère variabilité observée.
+MMB4004,2017-05-15,181.97,172.27,Condition normale pour la saison.
+MMB4004,2017-06-15,173.89,114.74,Légère variabilité observée.
+MMB4004,2017-07-15,105.69,184.76,Condition normale pour la saison.
+MMB4004,2017-08-15,126.23,67.20,Légère variabilité observée.
+MMB4004,2017-09-15,169.72,102.43,Légère variabilité observée.
+MMB4004,2017-10-15,134.09,146.04,Condition normale pour la saison.
+MMB4006,2017-05-15,163.60,78.10,Condition normale pour la saison.
+MMB4006,2017-06-15,129.76,197.60,Condition normale pour la saison.
+MMB4006,2017-07-15,66.28,174.20,Condition normale pour la saison.
+MMB4006,2017-08-15,163.99,152.83,Condition normale pour la saison.
+MMB4006,2017-09-15,133.91,180.83,Condition normale pour la saison.
+MMB4006,2017-10-15,150.47,105.27,Rien à signaler.
+MMB4008,2017-05-15,150.33,183.47,Condition normale pour la saison.
+MMB4008,2017-06-15,162.41,87.37,Légère variabilité observée.
+MMB4008,2017-07-15,163.01,66.18,Condition normale pour la saison.
+MMB4008,2017-08-15,60.97,109.26,Condition normale pour la saison.
+MMB4008,2017-09-15,161.69,100.91,Rien à signaler.
+MMB4008,2017-10-15,185.51,186.39,Légère variabilité observée.
+MMB4010,2017-05-15,57.52,51.72,Condition normale pour la saison.
+MMB4010,2017-06-15,116.29,129.50,Condition normale pour la saison.
+MMB4010,2017-07-15,116.48,151.83,Rien à signaler.
+MMB4010,2017-08-15,85.68,71.39,Rien à signaler.
+MMB4010,2017-09-15,104.07,151.08,Condition normale pour la saison.
+MMB4010,2017-10-15,185.51,70.36,Condition normale pour la saison.
+MMB4012,2017-05-15,176.96,147.87,Légère variabilité observée.
+MMB4012,2017-06-15,189.63,137.43,Condition normale pour la saison.
+MMB4012,2017-07-15,195.09,199.90,Condition normale pour la saison.
+MMB4012,2017-08-15,147.08,186.08,Condition normale pour la saison.
+MMB4012,2017-09-15,168.71,199.89,Légère variabilité observée.
+MMB4012,2017-10-15,143.65,162.20,Légère variabilité observée.
+MMB4014,2017-05-15,114.67,135.43,Rien à signaler.
+MMB4014,2017-06-15,190.56,153.74,Condition normale pour la saison.
+MMB4014,2017-07-15,164.42,96.35,Condition normale pour la saison.
+MMB4014,2017-08-15,176.71,177.05,Légère variabilité observée.
+MMB4014,2017-09-15,84.64,76.06,Condition normale pour la saison.
+MMB4014,2017-10-15,110.00,101.41,Condition normale pour la saison.
+MMB4016,2017-05-15,132.07,161.47,Rien à signaler.
+MMB4016,2017-06-15,74.03,155.44,Rien à signaler.
+MMB4016,2017-07-15,79.37,170.19,Condition normale pour la saison.
+MMB4016,2017-08-15,95.74,77.96,Condition normale pour la saison.
+MMB4016,2017-09-15,59.88,55.79,Rien à signaler.
+MMB4016,2017-10-15,169.48,108.70,Légère variabilité observée.
+MMB4018,2017-05-15,66.75,156.79,Rien à signaler.
+MMB4018,2017-06-15,141.22,165.97,Rien à signaler.
+MMB4018,2017-07-15,64.14,150.24,Condition normale pour la saison.
+MMB4018,2017-08-15,162.02,184.44,Légère variabilité observée.
+MMB4018,2017-09-15,178.70,87.21,Rien à signaler.
+MMB4018,2017-10-15,143.89,138.64,Légère variabilité observée.
+MMB4020,2017-05-15,59.18,125.44,Rien à signaler.
+MMB4020,2017-06-15,137.96,126.41,Condition normale pour la saison.
+MMB4020,2017-07-15,182.87,78.86,Condition normale pour la saison.
+MMB4020,2017-08-15,130.43,97.36,Condition normale pour la saison.
+MMB4020,2017-09-15,65.19,61.57,Légère variabilité observée.
+MMB4020,2017-10-15,97.61,128.60,Rien à signaler.
+MMB4022,2017-05-15,161.45,133.28,Condition normale pour la saison.
+MMB4022,2017-06-15,172.97,180.81,Rien à signaler.
+MMB4022,2017-07-15,140.32,52.76,Rien à signaler.
+MMB4022,2017-08-15,150.62,92.40,Condition normale pour la saison.
+MMB4022,2017-09-15,78.30,130.73,Condition normale pour la saison.
+MMB4022,2017-10-15,195.26,66.75,Condition normale pour la saison.
+MMB4024,2017-05-15,121.79,72.22,Condition normale pour la saison.
+MMB4024,2017-06-15,59.78,126.91,Condition normale pour la saison.
+MMB4024,2017-07-15,53.09,173.36,Rien à signaler.
+MMB4024,2017-08-15,176.57,172.76,Condition normale pour la saison.
+MMB4024,2017-09-15,63.77,50.19,Légère variabilité observée.
+MMB4024,2017-10-15,174.09,93.98,Légère variabilité observée.
+MMB4026,2017-05-15,172.53,67.36,Légère variabilité observée.
+MMB4026,2017-06-15,92.38,121.70,Condition normale pour la saison.
+MMB4026,2017-07-15,102.68,82.88,Condition normale pour la saison.
+MMB4026,2017-08-15,137.27,68.70,Condition normale pour la saison.
+MMB4026,2017-09-15,54.43,167.85,Légère variabilité observée.
+MMB4026,2017-10-15,170.09,183.67,Rien à signaler.
+MMB4028,2017-05-15,145.60,124.83,Condition normale pour la saison.
+MMB4028,2017-06-15,182.06,195.07,Condition normale pour la saison.
+MMB4028,2017-07-15,148.69,138.51,Condition normale pour la saison.
+MMB4028,2017-08-15,69.67,199.80,Rien à signaler.
+MMB4028,2017-09-15,144.31,52.87,Légère variabilité observée.
+MMB4028,2017-10-15,140.07,92.45,Légère variabilité observée.
+MMB4030,2017-05-15,155.54,135.35,Rien à signaler.
+MMB4030,2017-06-15,163.56,154.56,Condition normale pour la saison.
+MMB4030,2017-07-15,132.84,142.32,Légère variabilité observée.
+MMB4030,2017-08-15,156.85,122.29,Condition normale pour la saison.
+MMB4030,2017-09-15,92.77,51.30,Légère variabilité observée.
+MMB4030,2017-10-15,70.95,144.22,Condition normale pour la saison.
+MMB4032,2017-05-15,186.49,176.41,Légère variabilité observée.
+MMB4032,2017-06-15,117.03,131.15,Légère variabilité observée.
+MMB4032,2017-07-15,57.37,87.97,Rien à signaler.
+MMB4032,2017-08-15,120.71,172.84,Légère variabilité observée.
+MMB4032,2017-09-15,192.61,77.82,Condition normale pour la saison.
+MMB4032,2017-10-15,166.18,176.59,Condition normale pour la saison.
+MMB4034,2017-05-15,160.60,74.79,Condition normale pour la saison.
+MMB4034,2017-06-15,138.39,119.55,Rien à signaler.
+MMB4034,2017-07-15,199.95,50.92,Condition normale pour la saison.
+MMB4034,2017-08-15,56.81,141.20,Condition normale pour la saison.
+MMB4034,2017-09-15,50.96,105.39,Condition normale pour la saison.
+MMB4034,2017-10-15,189.40,193.93,Rien à signaler.
+MMB4036,2017-05-15,160.98,65.21,Légère variabilité observée.
+MMB4036,2017-06-15,179.68,56.30,Légère variabilité observée.
+MMB4036,2017-07-15,166.84,107.52,Rien à signaler.
+MMB4036,2017-08-15,68.77,178.95,Légère variabilité observée.
+MMB4036,2017-09-15,110.49,131.31,Condition normale pour la saison.
+MMB4036,2017-10-15,94.02,165.93,Légère variabilité observée.
+MMB4038,2017-05-15,141.02,62.31,Légère variabilité observée.
+MMB4038,2017-06-15,140.73,111.70,Condition normale pour la saison.
+MMB4038,2017-07-15,154.16,192.21,Légère variabilité observée.
+MMB4038,2017-08-15,122.57,135.64,Condition normale pour la saison.
+MMB4038,2017-09-15,145.71,158.57,Condition normale pour la saison.
+MMB4038,2017-10-15,144.63,141.15,Rien à signaler.
+MMB4040,2017-05-15,183.46,135.77,Légère variabilité observée.
+MMB4040,2017-06-15,107.30,171.83,Condition normale pour la saison.
+MMB4040,2017-07-15,63.42,196.39,Condition normale pour la saison.
+MMB4040,2017-08-15,160.76,54.00,Condition normale pour la saison.
+MMB4040,2017-09-15,149.63,113.39,Condition normale pour la saison.
+MMB4040,2017-10-15,61.90,109.71,Condition normale pour la saison.
+MMB4042,2017-05-15,182.82,193.91,Rien à signaler.
+MMB4042,2017-06-15,101.10,137.09,Condition normale pour la saison.
+MMB4042,2017-07-15,78.37,54.47,Rien à signaler.
+MMB4042,2017-08-15,54.05,195.80,Rien à signaler.
+MMB4042,2017-09-15,142.84,161.91,Légère variabilité observée.
+MMB4042,2017-10-15,108.27,105.16,Condition normale pour la saison.
+MMB4044,2017-05-15,143.21,191.03,Condition normale pour la saison.
+MMB4044,2017-06-15,157.03,166.70,Rien à signaler.
+MMB4044,2017-07-15,75.42,132.26,Rien à signaler.
+MMB4044,2017-08-15,79.65,196.69,Rien à signaler.
+MMB4044,2017-09-15,184.39,83.88,Rien à signaler.
+MMB4044,2017-10-15,145.97,69.74,Légère variabilité observée.
+MMB4046,2017-05-15,76.67,144.25,Condition normale pour la saison.
+MMB4046,2017-06-15,91.07,198.16,Légère variabilité observée.
+MMB4046,2017-07-15,189.80,60.78,Condition normale pour la saison.
+MMB4046,2017-08-15,51.29,70.59,Rien à signaler.
+MMB4046,2017-09-15,113.86,182.64,Condition normale pour la saison.
+MMB4046,2017-10-15,60.97,152.70,Légère variabilité observée.
+MMB4048,2017-05-15,180.19,172.96,Rien à signaler.
+MMB4048,2017-06-15,64.03,161.96,Condition normale pour la saison.
+MMB4048,2017-07-15,98.38,90.53,Condition normale pour la saison.
+MMB4048,2017-08-15,54.15,124.16,Rien à signaler.
+MMB4048,2017-09-15,176.03,111.71,Condition normale pour la saison.
+MMB4048,2017-10-15,149.16,74.58,Légère variabilité observée.
+MMB4050,2017-05-15,179.06,57.67,Condition normale pour la saison.
+MMB4050,2017-06-15,79.39,168.64,Condition normale pour la saison.
+MMB4050,2017-07-15,126.71,190.52,Condition normale pour la saison.
+MMB4050,2017-08-15,193.76,124.22,Rien à signaler.
+MMB4050,2017-09-15,125.97,85.96,Condition normale pour la saison.
+MMB4050,2017-10-15,145.51,149.55,Rien à signaler.
+MMB4052,2017-05-15,197.99,188.69,Condition normale pour la saison.
+MMB4052,2017-06-15,142.73,138.10,Légère variabilité observée.
+MMB4052,2017-07-15,182.80,96.71,Rien à signaler.
+MMB4052,2017-08-15,165.39,115.29,Légère variabilité observée.
+MMB4052,2017-09-15,69.83,123.11,Condition normale pour la saison.
+MMB4052,2017-10-15,51.85,157.86,Légère variabilité observée.
+MMB4054,2017-05-15,131.69,85.46,Condition normale pour la saison.
+MMB4054,2017-06-15,97.86,76.44,Condition normale pour la saison.
+MMB4054,2017-07-15,78.81,167.71,Condition normale pour la saison.
+MMB4054,2017-08-15,183.34,98.57,Condition normale pour la saison.
+MMB4054,2017-09-15,152.05,194.89,Rien à signaler.
+MMB4054,2017-10-15,91.03,81.40,Rien à signaler.
+MMB4056,2017-05-15,98.58,137.75,Rien à signaler.
+MMB4056,2017-06-15,175.31,89.79,Légère variabilité observée.
+MMB4056,2017-07-15,66.48,87.30,Condition normale pour la saison.
+MMB4056,2017-08-15,158.17,51.40,Légère variabilité observée.
+MMB4056,2017-09-15,62.04,75.44,Condition normale pour la saison.
+MMB4056,2017-10-15,58.05,180.53,Condition normale pour la saison.
+MMB4058,2017-05-15,78.65,109.42,Condition normale pour la saison.
+MMB4058,2017-06-15,94.74,144.41,Légère variabilité observée.
+MMB4058,2017-07-15,108.08,124.24,Rien à signaler.
+MMB4058,2017-08-15,183.13,183.67,Rien à signaler.
+MMB4058,2017-09-15,133.80,92.95,Rien à signaler.
+MMB4058,2017-10-15,190.78,73.34,Condition normale pour la saison.
+MMB4060,2017-05-15,117.64,56.61,Condition normale pour la saison.
+MMB4060,2017-06-15,70.06,56.34,Condition normale pour la saison.
+MMB4060,2017-07-15,61.89,145.28,Légère variabilité observée.
+MMB4060,2017-08-15,140.65,162.82,Rien à signaler.
+MMB4060,2017-09-15,79.10,87.99,Légère variabilité observée.
+MMB4060,2017-10-15,65.50,162.54,Rien à signaler.
+MMB4062,2017-05-15,83.50,88.48,Légère variabilité observée.
+MMB4062,2017-06-15,161.35,72.24,Condition normale pour la saison.
+MMB4062,2017-07-15,60.94,62.80,Rien à signaler.
+MMB4062,2017-08-15,167.73,110.67,Rien à signaler.
+MMB4062,2017-09-15,122.40,123.04,Légère variabilité observée.
+MMB4062,2017-10-15,54.70,121.48,Rien à signaler.
+MMB4064,2017-05-15,85.62,193.18,Légère variabilité observée.
+MMB4064,2017-06-15,196.39,105.21,Condition normale pour la saison.
+MMB4064,2017-07-15,62.18,153.85,Condition normale pour la saison.
+MMB4064,2017-08-15,159.98,61.37,Condition normale pour la saison.
+MMB4064,2017-09-15,154.65,185.23,Condition normale pour la saison.
+MMB4064,2017-10-15,178.47,183.62,Rien à signaler.
+MMB4066,2017-05-15,159.78,199.08,Condition normale pour la saison.
+MMB4066,2017-06-15,58.19,184.44,Condition normale pour la saison.
+MMB4066,2017-07-15,163.30,154.77,Rien à signaler.
+MMB4066,2017-08-15,53.28,88.81,Condition normale pour la saison.
+MMB4066,2017-09-15,77.78,197.18,Condition normale pour la saison.
+MMB4066,2017-10-15,107.39,195.46,Condition normale pour la saison.
+MMB4068,2017-05-15,109.20,85.89,Légère variabilité observée.
+MMB4068,2017-06-15,139.91,67.63,Condition normale pour la saison.
+MMB4068,2017-07-15,191.71,106.05,Condition normale pour la saison.
+MMB4068,2017-08-15,56.48,111.86,Légère variabilité observée.
+MMB4068,2017-09-15,58.34,160.00,Condition normale pour la saison.
+MMB4068,2017-10-15,71.39,175.86,Légère variabilité observée.
+MMB4070,2017-05-15,59.90,174.35,Condition normale pour la saison.
+MMB4070,2017-06-15,109.24,108.62,Condition normale pour la saison.
+MMB4070,2017-07-15,144.57,161.49,Condition normale pour la saison.
+MMB4070,2017-08-15,82.38,145.77,Condition normale pour la saison.
+MMB4070,2017-09-15,80.06,186.61,Rien à signaler.
+MMB4070,2017-10-15,150.43,104.75,Légère variabilité observée.
+MMB4072,2017-05-15,137.90,150.46,Légère variabilité observée.
+MMB4072,2017-06-15,60.49,125.96,Condition normale pour la saison.
+MMB4072,2017-07-15,197.48,80.42,Condition normale pour la saison.
+MMB4072,2017-08-15,91.00,132.54,Condition normale pour la saison.
+MMB4072,2017-09-15,103.58,128.22,Condition normale pour la saison.
+MMB4072,2017-10-15,146.65,117.73,Légère variabilité observée.
+MMB4074,2017-05-15,158.94,91.93,Condition normale pour la saison.
+MMB4074,2017-06-15,71.85,139.37,Condition normale pour la saison.
+MMB4074,2017-07-15,84.81,64.44,Condition normale pour la saison.
+MMB4074,2017-08-15,107.37,154.84,Condition normale pour la saison.
+MMB4074,2017-09-15,140.95,97.95,Rien à signaler.
+MMB4074,2017-10-15,193.32,154.47,Condition normale pour la saison.
+MMB4076,2017-05-15,187.78,190.00,Condition normale pour la saison.
+MMB4076,2017-06-15,148.91,190.22,Légère variabilité observée.
+MMB4076,2017-07-15,131.38,120.35,Légère variabilité observée.
+MMB4076,2017-08-15,115.89,151.83,Légère variabilité observée.
+MMB4076,2017-09-15,62.29,81.12,Légère variabilité observée.
+MMB4076,2017-10-15,121.90,130.71,Légère variabilité observée.
+MMB4078,2017-05-15,139.09,86.62,Rien à signaler.
+MMB4078,2017-06-15,50.34,141.90,Condition normale pour la saison.
+MMB4078,2017-07-15,168.05,171.54,Condition normale pour la saison.
+MMB4078,2017-08-15,52.08,182.32,Condition normale pour la saison.
+MMB4078,2017-09-15,71.81,83.05,Condition normale pour la saison.
+MMB4078,2017-10-15,114.10,152.00,Condition normale pour la saison.
+MMB4080,2017-05-15,76.51,105.64,Condition normale pour la saison.
+MMB4080,2017-06-15,131.84,121.96,Légère variabilité observée.
+MMB4080,2017-07-15,146.20,119.90,Légère variabilité observée.
+MMB4080,2017-08-15,88.82,80.07,Rien à signaler.
+MMB4080,2017-09-15,167.06,52.98,Condition normale pour la saison.
+MMB4080,2017-10-15,83.95,55.63,Condition normale pour la saison.
+MMB4082,2017-05-15,87.62,167.85,Légère variabilité observée.
+MMB4082,2017-06-15,143.42,149.83,Condition normale pour la saison.
+MMB4082,2017-07-15,103.47,174.76,Condition normale pour la saison.
+MMB4082,2017-08-15,152.36,191.79,Condition normale pour la saison.
+MMB4082,2017-09-15,55.31,127.32,Condition normale pour la saison.
+MMB4082,2017-10-15,94.21,190.92,Rien à signaler.
+MMB4084,2017-05-15,197.78,94.22,Condition normale pour la saison.
+MMB4084,2017-06-15,58.69,109.72,Légère variabilité observée.
+MMB4084,2017-07-15,65.25,129.59,Légère variabilité observée.
+MMB4084,2017-08-15,158.30,81.13,Rien à signaler.
+MMB4084,2017-09-15,159.79,195.57,Condition normale pour la saison.
+MMB4084,2017-10-15,94.78,96.51,Rien à signaler.
+MMB4086,2017-05-15,72.28,181.58,Légère variabilité observée.
+MMB4086,2017-06-15,173.81,125.23,Condition normale pour la saison.
+MMB4086,2017-07-15,176.84,127.47,Condition normale pour la saison.
+MMB4086,2017-08-15,52.54,123.12,Rien à signaler.
+MMB4086,2017-09-15,65.29,125.49,Rien à signaler.
+MMB4086,2017-10-15,128.27,133.40,Condition normale pour la saison.
+MMB4088,2017-05-15,154.27,145.37,Condition normale pour la saison.
+MMB4088,2017-06-15,68.18,158.04,Condition normale pour la saison.
+MMB4088,2017-07-15,94.04,133.92,Rien à signaler.
+MMB4088,2017-08-15,110.16,186.15,Condition normale pour la saison.
+MMB4088,2017-09-15,128.13,159.48,Condition normale pour la saison.
+MMB4088,2017-10-15,83.70,131.71,Condition normale pour la saison.
+MMB4090,2017-05-15,124.83,124.50,Rien à signaler.
+MMB4090,2017-06-15,52.64,53.99,Légère variabilité observée.
+MMB4090,2017-07-15,148.54,122.51,Rien à signaler.
+MMB4090,2017-08-15,169.84,193.17,Rien à signaler.
+MMB4090,2017-09-15,59.68,162.82,Condition normale pour la saison.
+MMB4090,2017-10-15,189.77,68.55,Condition normale pour la saison.
+MMB4092,2017-05-15,128.96,159.20,Légère variabilité observée.
+MMB4092,2017-06-15,172.99,189.08,Légère variabilité observée.
+MMB4092,2017-07-15,168.48,62.27,Légère variabilité observée.
+MMB4092,2017-08-15,122.28,130.35,Condition normale pour la saison.
+MMB4092,2017-09-15,117.06,59.35,Condition normale pour la saison.
+MMB4092,2017-10-15,59.65,147.30,Légère variabilité observée.
+MMB4094,2017-05-15,139.58,156.20,Condition normale pour la saison.
+MMB4094,2017-06-15,123.35,103.30,Condition normale pour la saison.
+MMB4094,2017-07-15,156.68,174.86,Rien à signaler.
+MMB4094,2017-09-15,91.16,125.64,Condition normale pour la saison.
+MMB4094,2017-10-15,128.35,114.76,Condition normale pour la saison.
+MMB4096,2017-05-15,89.85,159.02,Rien à signaler.
+MMB4096,2017-06-15,51.46,161.76,Condition normale pour la saison.
+MMB4096,2017-07-15,193.02,122.82,Rien à signaler.
+MMB4096,2017-08-15,159.28,165.17,Condition normale pour la saison.
+MMB4096,2017-09-15,98.17,103.32,Condition normale pour la saison.
+MMB4096,2017-10-15,153.01,104.34,Condition normale pour la saison.
+MMB4098,2017-05-15,167.06,68.04,Légère variabilité observée.
+MMB4098,2017-06-15,110.58,165.03,Condition normale pour la saison.
+MMB4098,2017-07-15,126.77,100.15,Condition normale pour la saison.
+MMB4098,2017-08-15,84.45,164.41,Condition normale pour la saison.
+MMB4098,2017-09-15,52.27,105.76,Légère variabilité observée.
+MMB4098,2017-10-15,159.22,110.25,Condition normale pour la saison.
+MMB4100,2017-05-15,80.87,168.30,Légère variabilité observée.
+MMB4100,2017-06-15,167.49,166.96,Condition normale pour la saison.
+MMB4100,2017-07-15,132.69,121.10,Rien à signaler.
+MMB4100,2017-08-15,88.30,128.73,Légère variabilité observée.
+MMB4100,2017-09-15,121.38,100.19,Rien à signaler.
+MMB4100,2017-10-15,101.52,154.75,Condition normale pour la saison.

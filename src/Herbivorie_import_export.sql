@@ -12,7 +12,7 @@ COPY "Herbivorie".Plant TO '/tmp/Plant.csv' WITH CSV HEADER;
 COPY "Herbivorie".Plant_Note TO '/tmp/Plant_Note.csv' WITH CSV HEADER;
 COPY "Herbivorie".ObsDimension TO '/tmp/ObsDimension.csv' WITH CSV HEADER;
 COPY "Herbivorie".ObsFloraison TO '/tmp/ObsFloraison.csv' WITH CSV HEADER;
-COPY "Herbivorie".Etat TO '/tmp/Etat.csv' WITH CSV HEADER;
+COPY "Herbivorie".Etat TO '/tmp/Etat.csv.csv' WITH CSV HEADER;
 COPY "Herbivorie".ObsEtat TO '/tmp/ObsEtat.csv' WITH CSV HEADER;
 
 CREATE OR REPLACE VIEW "Herbivorie".v_hervivorie_template_export AS

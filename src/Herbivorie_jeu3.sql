@@ -24,7 +24,7 @@ dont les observations d’état ne sont pas encore disponibles. Le présent jeu3
 L’initialisation comportera donc quatre parties :
 
  1. Les données issues du protocole expérimental
-      (Etat, Peuplement, Taux, Arbre, Placette).
+      (Etat.csv, Peuplement, Taux, Arbre, Placette).
  2. Les observations recueillies par la suite sur le terrain.
       (Plant, ObsDimension, ObsFloraison, ObsEtat)
     ces dernières doivent être extraites des carnets de terrain.

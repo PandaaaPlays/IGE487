@@ -488,7 +488,7 @@ BEGIN
   CREATE TEMP TABLE tmp_etat_import (etat TEXT, description TEXT) ON COMMIT DROP;
   EXECUTE format('COPY tmp_etat_import FROM %L WITH (FORMAT CSV, HEADER true)', p_path);
   FOR r IN SELECT * FROM tmp_etat_import LOOP
-    IF r.etat IS NULL OR btrim(r.etat) = '' THEN RAISE WARNING 'Etat ignoré (etat vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
+    IF r.etat IS NULL OR btrim(r.etat) = '' THEN RAISE WARNING 'Etat.csv ignoré (etat vide): %', row_to_json(r); n_skip := n_skip + 1; CONTINUE; END IF;
     v_etat := r.etat::Etat_id;
     v_desc := COALESCE(r.description,'')::Description;
     BEGIN
@@ -498,7 +498,7 @@ BEGIN
       RAISE WARNING 'Erreur IMM pour etat % : %', r.etat, SQLERRM; n_skip := n_skip + 1;
     END;
   END LOOP;
-  RAISE NOTICE 'Import Etat terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
+  RAISE NOTICE 'Import Etat.csv terminé : % ok, % ignorées/erreurs.', n_ok, n_skip;
 END;
 $func$;
 

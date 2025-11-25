@@ -137,7 +137,7 @@ BEGIN
     END LOOP;
 END $$;
 
--- Etat
+-- Etat.csv
 INSERT INTO etat (etat, description)
 VALUES ('A', 'Excellent'),
        ('B', 'Bon'),

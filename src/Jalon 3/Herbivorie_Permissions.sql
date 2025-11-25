@@ -2,7 +2,7 @@ DO $$
 DECLARE
   db text := current_database();
   roles text[] := ARRAY[
-    'ige487_61','ige487_63','ige487_64','ige487_65','ige487_66','ige487_67','ige487_68','ige487_69','ige487_70'
+    'ige487_8','ige487_50','ige487_61','ige487_63','ige487_64','ige487_65','ige487_66','ige487_67','ige487_68','ige487_69','ige487_70'
   ];
   r text;
 BEGIN
@@ -14,13 +14,13 @@ END $$;
 DO $$
 DECLARE
   roles text[] := ARRAY[
-    'ige487_61','ige487_63','ige487_64','ige487_65','ige487_66','ige487_67','ige487_68','ige487_69','ige487_70'
+    'ige487_8','ige487_50','ige487_61','ige487_63','ige487_64','ige487_65','ige487_66','ige487_67','ige487_68','ige487_69','ige487_70'
   ];
   r text;
 BEGIN
   FOREACH r IN ARRAY roles LOOP
     EXECUTE format('GRANT USAGE ON SCHEMA "Herbivorie" TO %I', r);
-
+    EXECUTE format('GRANT SELECT ON ALL TABLES IN SCHEMA "Herbivorie" TO %I', r);
     EXECUTE format('GRANT EXECUTE ON FUNCTION imm_getall_arbre() TO %I', r);
     EXECUTE format('GRANT EXECUTE ON FUNCTION imm_getall_peuplement() TO %I', r);
     EXECUTE format('GRANT EXECUTE ON FUNCTION imm_getall_placette() TO %I', r);

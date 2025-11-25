@@ -1,0 +1,3614 @@
+id,id_plant,date_eco,note
+1,MCC4129,2025-06-05,Plante en bonne santé
+2,MCC4129,2025-12-10,Plante en bonne santé
+3,MCC4129,2025-10-03,Signes de stress hydrique
+4,MCC4129,2025-11-20,Plante en bonne santé
+5,MCC4129,2025-12-05,Feuilles abîmées
+6,MCC4841,2025-08-25,Insectes observés
+7,MCC4841,2025-08-28,Insectes observés
+8,MCC4841,2025-07-21,Croissance rapide
+9,MCC4841,2025-12-23,Feuilles abîmées
+10,MCA0268,2025-06-12,Feuilles abîmées
+11,MCA0268,2025-11-04,Feuilles abîmées
+12,MCC9519,2025-08-02,Signes de stress hydrique
+13,MCC9519,2025-09-10,Feuilles abîmées
+14,MCC9519,2025-07-16,Insectes observés
+15,MCC9519,2025-12-15,Plante en bonne santé
+16,MCA6765,2025-08-13,Insectes observés
+17,MCA6765,2025-12-23,Signes de stress hydrique
+18,MCA6765,2025-06-07,Feuilles abîmées
+19,MCA6765,2025-06-27,Plante en bonne santé
+20,MCC3441,2025-09-11,Plante en bonne santé
+21,MCC3441,2025-09-05,Feuilles abîmées
+22,MCC3441,2025-11-08,Feuilles abîmées
+23,MCC5331,2025-09-29,Insectes observés
+24,MCC5331,2025-08-20,Feuilles abîmées
+25,MCC5331,2025-11-14,Plante en bonne santé
+26,MCB0835,2025-07-03,Insectes observés
+27,MCB0835,2025-07-19,Feuilles abîmées
+28,MCA1247,2025-10-29,Insectes observés
+29,MCA1247,2025-09-17,Feuilles abîmées
+30,MCA1247,2025-07-18,Insectes observés
+31,MCA1247,2025-11-07,Plante en bonne santé
+32,MCA1247,2025-06-18,Plante en bonne santé
+33,MCC0459,2025-11-14,Plante en bonne santé
+34,MCC0459,2025-12-02,Insectes observés
+35,MCC0510,2025-11-01,Croissance rapide
+36,MCA2087,2025-06-29,Insectes observés
+37,MCA2087,2025-11-02,Insectes observés
+38,MCA2087,2025-12-13,Signes de stress hydrique
+39,MCA2087,2025-06-27,Feuilles abîmées
+40,MCA2087,2025-06-10,Croissance rapide
+41,MCB6653,2025-12-24,Plante en bonne santé
+42,MCB6653,2025-09-08,Insectes observés
+43,MCB6653,2025-12-25,Croissance rapide
+44,MCB8266,2025-06-02,Plante en bonne santé
+45,MCB8266,2025-12-30,Croissance rapide
+46,MCB8266,2025-09-10,Feuilles abîmées
+47,MCB8266,2025-06-14,Croissance rapide
+48,MCA5646,2025-11-18,Croissance rapide
+49,MCA5646,2025-10-27,Croissance rapide
+50,MCB7929,2025-11-01,Croissance rapide
+51,MCB9275,2025-06-29,Insectes observés
+52,MCB9275,2025-11-29,Croissance rapide
+53,MCB9275,2025-09-11,Feuilles abîmées
+54,MCB9275,2025-09-03,Plante en bonne santé
+55,MCB7404,2025-09-08,Signes de stress hydrique
+56,MCC3893,2025-11-02,Insectes observés
+57,MCC3893,2025-11-19,Plante en bonne santé
+58,MCA0458,2025-11-03,Feuilles abîmées
+59,MCA0458,2025-12-18,Insectes observés
+60,MCA0458,2025-12-24,Insectes observés
+61,MCB5117,2025-09-19,Plante en bonne santé
+62,MCA5557,2025-11-14,Plante en bonne santé
+63,MCA5557,2025-07-30,Insectes observés
+64,MCA5557,2025-09-05,Feuilles abîmées
+65,MCC8382,2025-06-03,Croissance rapide
+66,MCC8382,2025-08-26,Signes de stress hydrique
+67,MCC8382,2025-11-01,Plante en bonne santé
+68,MCC8382,2025-12-15,Feuilles abîmées
+69,MCC6193,2025-08-08,Feuilles abîmées
+70,MCC6193,2025-12-24,Signes de stress hydrique
+71,MCC6193,2025-11-21,Plante en bonne santé
+72,MCC6193,2025-08-25,Signes de stress hydrique
+73,MCA2405,2025-07-06,Insectes observés
+74,MCA2405,2025-08-20,Plante en bonne santé
+75,MCA2405,2025-09-12,Feuilles abîmées
+76,MCA7331,2025-08-12,Plante en bonne santé
+77,MCA7331,2025-09-11,Croissance rapide
+78,MCA7946,2025-06-14,Plante en bonne santé
+79,MCA7946,2025-07-21,Insectes observés
+80,MCA7946,2025-11-03,Feuilles abîmées
+81,MCA7946,2025-09-22,Insectes observés
+82,MCA7946,2025-08-07,Plante en bonne santé
+83,MCB8927,2025-09-12,Feuilles abîmées
+84,MCA7966,2025-10-23,Signes de stress hydrique
+85,MCA7966,2025-12-14,Feuilles abîmées
+86,MCA7966,2025-07-27,Feuilles abîmées
+87,MCA7966,2025-10-04,Insectes observés
+88,MCC5388,2025-09-05,Plante en bonne santé
+89,MCC5388,2025-06-16,Croissance rapide
+90,MCC5388,2025-07-10,Feuilles abîmées
+91,MCC5388,2025-08-30,Croissance rapide
+92,MCC5388,2025-12-19,Feuilles abîmées
+93,MCB5497,2025-11-10,Croissance rapide
+94,MCC0436,2025-07-04,Insectes observés
+95,MCC0436,2025-10-28,Croissance rapide
+96,MCC0436,2025-07-20,Insectes observés
+97,MCA6109,2025-08-28,Feuilles abîmées
+98,MCA6109,2025-06-06,Insectes observés
+99,MCA6109,2025-07-02,Signes de stress hydrique
+100,MCB6839,2025-06-30,Feuilles abîmées
+101,MCB6839,2025-12-12,Insectes observés
+102,MCB6839,2025-10-21,Insectes observés
+103,MCB6839,2025-06-18,Croissance rapide
+104,MCB6839,2025-06-28,Insectes observés
+105,MCB0635,2025-06-05,Feuilles abîmées
+106,MCB0635,2025-09-30,Signes de stress hydrique
+107,MCB0635,2025-06-02,Insectes observés
+108,MCB0869,2025-07-31,Signes de stress hydrique
+109,MCB0869,2025-09-02,Signes de stress hydrique
+110,MCB0869,2025-08-01,Insectes observés
+111,MCB9941,2025-06-23,Croissance rapide
+112,MCB9941,2025-10-23,Plante en bonne santé
+113,MCB9941,2025-12-19,Signes de stress hydrique
+114,MCA0380,2025-07-13,Feuilles abîmées
+115,MCA0380,2025-06-08,Signes de stress hydrique
+116,MCA0380,2025-07-29,Insectes observés
+117,MCA0380,2025-07-28,Croissance rapide
+118,MCA0380,2025-06-07,Plante en bonne santé
+119,MCB0263,2025-12-23,Feuilles abîmées
+120,MCB0263,2025-07-09,Insectes observés
+121,MCB0263,2025-08-29,Croissance rapide
+122,MCB0263,2025-07-11,Croissance rapide
+123,MCA8688,2025-09-18,Croissance rapide
+124,MCA8688,2025-06-17,Insectes observés
+125,MCA8688,2025-09-02,Croissance rapide
+126,MCA8688,2025-06-05,Croissance rapide
+127,MCC4049,2025-08-15,Plante en bonne santé
+128,MCC4049,2025-10-12,Plante en bonne santé
+129,MCC4049,2025-11-22,Croissance rapide
+130,MCC4049,2025-12-23,Plante en bonne santé
+131,MCC4049,2025-11-27,Plante en bonne santé
+132,MCB9637,2025-11-19,Feuilles abîmées
+133,MCB9637,2025-07-28,Feuilles abîmées
+134,MCC4048,2025-11-29,Feuilles abîmées
+135,MCC4048,2025-09-08,Insectes observés
+136,MCC4048,2025-08-30,Signes de stress hydrique
+137,MCC4048,2025-10-23,Feuilles abîmées
+138,MCC4048,2025-06-24,Insectes observés
+139,MCA2429,2025-11-09,Insectes observés
+140,MCA2429,2025-06-24,Plante en bonne santé
+141,MCA2429,2025-06-11,Signes de stress hydrique
+142,MCA2429,2025-11-28,Feuilles abîmées
+143,MCA2429,2025-09-11,Feuilles abîmées
+144,MCC3469,2025-09-17,Croissance rapide
+145,MCC3469,2025-06-26,Croissance rapide
+146,MCA0271,2025-10-09,Feuilles abîmées
+147,MCA0271,2025-11-22,Signes de stress hydrique
+148,MCC3107,2025-12-17,Signes de stress hydrique
+149,MCC6240,2025-12-18,Croissance rapide
+150,MCC6240,2025-07-01,Feuilles abîmées
+151,MCC6240,2025-07-02,Signes de stress hydrique
+152,MCC2114,2025-10-11,Feuilles abîmées
+153,MCC2114,2025-12-13,Signes de stress hydrique
+154,MCC2114,2025-11-13,Signes de stress hydrique
+155,MCB1587,2025-06-06,Signes de stress hydrique
+156,MCB1587,2025-10-17,Plante en bonne santé
+157,MCB1587,2025-06-18,Insectes observés
+158,MCB1587,2025-12-07,Croissance rapide
+159,MCC4834,2025-11-24,Croissance rapide
+160,MCC4834,2025-07-30,Insectes observés
+161,MCC0546,2025-06-01,Plante en bonne santé
+162,MCC0546,2025-08-03,Signes de stress hydrique
+163,MCC0546,2025-10-04,Croissance rapide
+164,MCC0546,2025-09-27,Plante en bonne santé
+165,MCA5744,2025-09-18,Plante en bonne santé
+166,MCA7285,2025-06-05,Insectes observés
+167,MCA7285,2025-06-12,Plante en bonne santé
+168,MCA7285,2025-06-26,Insectes observés
+169,MCC8602,2025-09-30,Plante en bonne santé
+170,MCC8602,2025-07-23,Croissance rapide
+171,MCC8602,2025-08-06,Croissance rapide
+172,MCB2789,2025-10-18,Croissance rapide
+173,MCC0896,2025-11-06,Plante en bonne santé
+174,MCC0896,2025-09-21,Croissance rapide
+175,MCC0896,2025-06-03,Feuilles abîmées
+176,MCC2291,2025-07-31,Plante en bonne santé
+177,MCC2291,2025-07-02,Feuilles abîmées
+178,MCC2291,2025-11-13,Plante en bonne santé
+179,MCC2291,2025-06-14,Signes de stress hydrique
+180,MCB0025,2025-07-22,Insectes observés
+181,MCB0025,2025-09-19,Feuilles abîmées
+182,MCA9919,2025-07-27,Feuilles abîmées
+183,MCA9919,2025-08-22,Signes de stress hydrique
+184,MCC4038,2025-12-28,Plante en bonne santé
+185,MCC2544,2025-10-28,Feuilles abîmées
+186,MCC2544,2025-11-03,Plante en bonne santé
+187,MCA1298,2025-11-15,Insectes observés
+188,MCA1298,2025-12-03,Plante en bonne santé
+189,MCA1298,2025-11-11,Insectes observés
+190,MCC4194,2025-06-17,Plante en bonne santé
+191,MCA1429,2025-10-10,Feuilles abîmées
+192,MCA1429,2025-11-07,Plante en bonne santé
+193,MCA1429,2025-06-23,Signes de stress hydrique
+194,MCA1429,2025-08-06,Croissance rapide
+195,MCB8222,2025-10-10,Signes de stress hydrique
+196,MCB8222,2025-06-07,Signes de stress hydrique
+197,MCC7650,2025-08-11,Plante en bonne santé
+198,MCC7650,2025-11-18,Plante en bonne santé
+199,MCC3680,2025-10-30,Plante en bonne santé
+200,MCA6840,2025-08-13,Croissance rapide
+201,MCB0521,2025-12-01,Feuilles abîmées
+202,MCB0521,2025-08-30,Plante en bonne santé
+203,MCB0521,2025-11-15,Croissance rapide
+204,MCB0521,2025-07-11,Signes de stress hydrique
+205,MCB3999,2025-10-26,Plante en bonne santé
+206,MCB3999,2025-06-11,Insectes observés
+207,MCA9565,2025-11-11,Insectes observés
+208,MCA9565,2025-10-07,Feuilles abîmées
+209,MCC7514,2025-11-23,Plante en bonne santé
+210,MCA0314,2025-06-29,Insectes observés
+211,MCA0314,2025-11-19,Croissance rapide
+212,MCA0314,2025-06-16,Insectes observés
+213,MCA0314,2025-10-23,Plante en bonne santé
+214,MCB4583,2025-10-06,Plante en bonne santé
+215,MCB4583,2025-10-28,Signes de stress hydrique
+216,MCB4583,2025-12-05,Insectes observés
+217,MCC7303,2025-11-26,Insectes observés
+218,MCC7303,2025-07-28,Croissance rapide
+219,MCC7303,2025-07-15,Insectes observés
+220,MCC7303,2025-10-31,Feuilles abîmées
+221,MCC0276,2025-08-16,Feuilles abîmées
+222,MCC0276,2025-09-03,Plante en bonne santé
+223,MCA4213,2025-11-03,Insectes observés
+224,MCC6764,2025-12-24,Insectes observés
+225,MCC6764,2025-10-16,Feuilles abîmées
+226,MCB0595,2025-10-11,Signes de stress hydrique
+227,MCB0595,2025-11-03,Feuilles abîmées
+228,MCB0595,2025-10-07,Insectes observés
+229,MCB0595,2025-06-12,Insectes observés
+230,MCB0595,2025-11-28,Insectes observés
+231,MCB7997,2025-12-30,Signes de stress hydrique
+232,MCB7997,2025-09-18,Insectes observés
+233,MCB7997,2025-12-01,Signes de stress hydrique
+234,MCA2167,2025-06-28,Croissance rapide
+235,MCA2167,2025-07-08,Signes de stress hydrique
+236,MCB1790,2025-06-25,Insectes observés
+237,MCA5183,2025-10-24,Signes de stress hydrique
+238,MCA5183,2025-06-19,Croissance rapide
+239,MCA5183,2025-10-27,Insectes observés
+240,MCA5183,2025-11-14,Croissance rapide
+241,MCA5183,2025-08-02,Insectes observés
+242,MCA1797,2025-12-16,Croissance rapide
+243,MCA1797,2025-08-22,Signes de stress hydrique
+244,MCA1797,2025-10-22,Signes de stress hydrique
+245,MCA1797,2025-06-29,Croissance rapide
+246,MCA1797,2025-11-21,Croissance rapide
+247,MCC6697,2025-10-02,Signes de stress hydrique
+248,MCC6697,2025-12-20,Signes de stress hydrique
+249,MCC6697,2025-11-23,Signes de stress hydrique
+250,MCC6697,2025-12-04,Signes de stress hydrique
+251,MCC3634,2025-06-08,Signes de stress hydrique
+252,MCC3634,2025-06-15,Feuilles abîmées
+253,MCA7266,2025-12-11,Croissance rapide
+254,MCA7266,2025-09-11,Plante en bonne santé
+255,MCA7266,2025-12-02,Insectes observés
+256,MCA7266,2025-11-11,Feuilles abîmées
+257,MCA7266,2025-12-24,Insectes observés
+258,MCC9868,2025-06-23,Plante en bonne santé
+259,MCC9868,2025-09-10,Signes de stress hydrique
+260,MCA5829,2025-11-09,Insectes observés
+261,MCA5829,2025-12-19,Plante en bonne santé
+262,MCA5829,2025-07-26,Croissance rapide
+263,MCB4768,2025-06-09,Plante en bonne santé
+264,MCB4768,2025-07-10,Plante en bonne santé
+265,MCB4768,2025-11-09,Plante en bonne santé
+266,MCB4768,2025-06-17,Signes de stress hydrique
+267,MCA0055,2025-12-21,Feuilles abîmées
+268,MCA0055,2025-10-05,Plante en bonne santé
+269,MCB4364,2025-08-28,Signes de stress hydrique
+270,MCB4364,2025-07-01,Feuilles abîmées
+271,MCB4364,2025-11-20,Insectes observés
+272,MCB4364,2025-09-27,Feuilles abîmées
+273,MCB4364,2025-12-29,Feuilles abîmées
+274,MCB7508,2025-07-12,Insectes observés
+275,MCB7508,2025-09-14,Feuilles abîmées
+276,MCB7508,2025-09-05,Plante en bonne santé
+277,MCB7508,2025-09-15,Signes de stress hydrique
+278,MCB7508,2025-08-09,Insectes observés
+279,MCC9340,2025-12-08,Insectes observés
+280,MCC9340,2025-07-09,Insectes observés
+281,MCC9340,2025-11-29,Signes de stress hydrique
+282,MCB3504,2025-11-09,Signes de stress hydrique
+283,MCC4251,2025-06-08,Plante en bonne santé
+284,MCC4251,2025-06-29,Insectes observés
+285,MCC4251,2025-06-17,Insectes observés
+286,MCC4251,2025-11-27,Insectes observés
+287,MCC5519,2025-08-20,Signes de stress hydrique
+288,MCC5519,2025-08-23,Feuilles abîmées
+289,MCC5519,2025-12-14,Plante en bonne santé
+290,MCC5519,2025-12-21,Insectes observés
+291,MCA1538,2025-10-25,Signes de stress hydrique
+292,MCA1538,2025-10-16,Plante en bonne santé
+293,MCA9259,2025-09-07,Plante en bonne santé
+294,MCA9259,2025-12-10,Signes de stress hydrique
+295,MCA9259,2025-07-13,Signes de stress hydrique
+296,MCA9259,2025-08-13,Signes de stress hydrique
+297,MCA9259,2025-07-28,Insectes observés
+298,MCC0153,2025-07-13,Plante en bonne santé
+299,MCC0153,2025-09-09,Feuilles abîmées
+300,MCC0153,2025-07-14,Plante en bonne santé
+301,MCB5159,2025-09-12,Croissance rapide
+302,MCB6952,2025-11-21,Insectes observés
+303,MCB6952,2025-06-20,Plante en bonne santé
+304,MCA6922,2025-09-16,Insectes observés
+305,MCA6922,2025-09-21,Plante en bonne santé
+306,MCA6922,2025-12-05,Feuilles abîmées
+307,MCB7618,2025-12-29,Feuilles abîmées
+308,MCB7618,2025-11-13,Plante en bonne santé
+309,MCB7618,2025-11-06,Feuilles abîmées
+310,MCB7618,2025-06-27,Feuilles abîmées
+311,MCA6040,2025-11-02,Insectes observés
+312,MCC9511,2025-08-03,Croissance rapide
+313,MCB9977,2025-07-06,Croissance rapide
+314,MCB9977,2025-09-25,Insectes observés
+315,MCB9977,2025-09-21,Plante en bonne santé
+316,MCC0605,2025-07-09,Croissance rapide
+317,MCC0605,2025-06-27,Insectes observés
+318,MCC0605,2025-12-17,Feuilles abîmées
+319,MCC3094,2025-09-30,Feuilles abîmées
+320,MCC3094,2025-06-27,Plante en bonne santé
+321,MCC3094,2025-09-16,Plante en bonne santé
+322,MCC3094,2025-09-05,Feuilles abîmées
+323,MCC3094,2025-10-17,Feuilles abîmées
+324,MCA8196,2025-10-19,Feuilles abîmées
+325,MCA8196,2025-07-16,Plante en bonne santé
+326,MCC8486,2025-08-25,Croissance rapide
+327,MCC8486,2025-06-08,Signes de stress hydrique
+328,MCA2551,2025-07-15,Plante en bonne santé
+329,MCA2551,2025-11-10,Feuilles abîmées
+330,MCC3356,2025-09-22,Insectes observés
+331,MCA6232,2025-09-26,Insectes observés
+332,MCA6232,2025-06-14,Signes de stress hydrique
+333,MCA6232,2025-10-11,Signes de stress hydrique
+334,MCB8021,2025-07-26,Insectes observés
+335,MCB8021,2025-06-13,Insectes observés
+336,MCB8021,2025-06-21,Feuilles abîmées
+337,MCB8021,2025-08-22,Feuilles abîmées
+338,MCB5781,2025-09-24,Feuilles abîmées
+339,MCB5781,2025-11-09,Signes de stress hydrique
+340,MCB5781,2025-08-25,Plante en bonne santé
+341,MCB5781,2025-07-15,Croissance rapide
+342,MCB5781,2025-07-08,Feuilles abîmées
+343,MCB4841,2025-06-08,Signes de stress hydrique
+344,MCB4841,2025-12-14,Feuilles abîmées
+345,MCB4841,2025-10-24,Plante en bonne santé
+346,MCB4841,2025-12-23,Plante en bonne santé
+347,MCB4841,2025-06-05,Plante en bonne santé
+348,MCB6464,2025-08-15,Croissance rapide
+349,MCB6464,2025-11-04,Plante en bonne santé
+350,MCB6464,2025-11-24,Signes de stress hydrique
+351,MCB6464,2025-09-16,Croissance rapide
+352,MCB9072,2025-10-18,Plante en bonne santé
+353,MCC4810,2025-08-16,Insectes observés
+354,MCC4810,2025-11-03,Croissance rapide
+355,MCC4810,2025-11-06,Signes de stress hydrique
+356,MCC8915,2025-07-16,Feuilles abîmées
+357,MCC8915,2025-12-21,Plante en bonne santé
+358,MCC8915,2025-06-25,Insectes observés
+359,MCC8915,2025-12-23,Plante en bonne santé
+360,MCC8915,2025-11-25,Feuilles abîmées
+361,MCA9756,2025-08-30,Feuilles abîmées
+362,MCA9756,2025-10-14,Insectes observés
+363,MCA9756,2025-07-07,Insectes observés
+364,MCA9756,2025-06-17,Plante en bonne santé
+365,MCB1219,2025-10-05,Signes de stress hydrique
+366,MCB1219,2025-07-28,Feuilles abîmées
+367,MCB1219,2025-07-18,Croissance rapide
+368,MCA9307,2025-10-03,Plante en bonne santé
+369,MCA9307,2025-12-07,Croissance rapide
+370,MCA9307,2025-08-17,Croissance rapide
+371,MCA9307,2025-11-12,Insectes observés
+372,MCA7287,2025-12-08,Croissance rapide
+373,MCC9739,2025-06-24,Croissance rapide
+374,MCC9739,2025-08-30,Plante en bonne santé
+375,MCA0707,2025-09-25,Insectes observés
+376,MCA0707,2025-12-26,Croissance rapide
+377,MCA0707,2025-08-03,Plante en bonne santé
+378,MCB0662,2025-07-12,Insectes observés
+379,MCB0662,2025-08-18,Croissance rapide
+380,MCB6171,2025-08-22,Croissance rapide
+381,MCB6171,2025-09-28,Insectes observés
+382,MCB6171,2025-12-29,Croissance rapide
+383,MCB6171,2025-09-16,Croissance rapide
+384,MCB6171,2025-11-11,Plante en bonne santé
+385,MCB6346,2025-12-28,Plante en bonne santé
+386,MCB6346,2025-10-22,Insectes observés
+387,MCB6346,2025-09-06,Feuilles abîmées
+388,MCB6346,2025-07-13,Signes de stress hydrique
+389,MCB6346,2025-08-12,Feuilles abîmées
+390,MCA8353,2025-12-01,Feuilles abîmées
+391,MCA6516,2025-06-08,Croissance rapide
+392,MCA6516,2025-06-06,Croissance rapide
+393,MCA6516,2025-08-30,Insectes observés
+394,MCA6516,2025-10-23,Feuilles abîmées
+395,MCA6516,2025-08-17,Feuilles abîmées
+396,MCA7526,2025-07-12,Croissance rapide
+397,MCA7526,2025-10-06,Insectes observés
+398,MCC9450,2025-06-08,Feuilles abîmées
+399,MCC9450,2025-07-01,Signes de stress hydrique
+400,MCC9450,2025-07-31,Feuilles abîmées
+401,MCC4116,2025-12-17,Signes de stress hydrique
+402,MCC4116,2025-07-17,Feuilles abîmées
+403,MCA2856,2025-11-23,Insectes observés
+404,MCA2856,2025-08-22,Plante en bonne santé
+405,MCB2907,2025-08-04,Feuilles abîmées
+406,MCB2907,2025-11-26,Signes de stress hydrique
+407,MCB2907,2025-10-31,Plante en bonne santé
+408,MCB2907,2025-12-25,Insectes observés
+409,MCB2907,2025-10-07,Croissance rapide
+410,MCC6986,2025-10-09,Insectes observés
+411,MCC6986,2025-08-08,Insectes observés
+412,MCC6986,2025-11-22,Insectes observés
+413,MCC8808,2025-06-15,Insectes observés
+414,MCC8808,2025-10-23,Croissance rapide
+415,MCC4869,2025-06-20,Plante en bonne santé
+416,MCC4869,2025-12-22,Insectes observés
+417,MCC4869,2025-06-23,Croissance rapide
+418,MCC4869,2025-09-30,Signes de stress hydrique
+419,MCC4869,2025-09-09,Insectes observés
+420,MCC1340,2025-12-06,Feuilles abîmées
+421,MCA6914,2025-07-13,Signes de stress hydrique
+422,MCC1714,2025-07-12,Plante en bonne santé
+423,MCC1714,2025-12-28,Plante en bonne santé
+424,MCC1714,2025-07-23,Insectes observés
+425,MCC1714,2025-07-04,Insectes observés
+426,MCC0749,2025-10-04,Signes de stress hydrique
+427,MCC0749,2025-06-03,Croissance rapide
+428,MCC0749,2025-07-09,Signes de stress hydrique
+429,MCC5385,2025-12-28,Insectes observés
+430,MCC5385,2025-10-29,Insectes observés
+431,MCC5385,2025-06-09,Insectes observés
+432,MCC5385,2025-09-30,Croissance rapide
+433,MCC3283,2025-12-01,Insectes observés
+434,MCC3283,2025-11-17,Feuilles abîmées
+435,MCC3283,2025-10-09,Croissance rapide
+436,MCC3283,2025-08-23,Signes de stress hydrique
+437,MCC3283,2025-08-07,Croissance rapide
+438,MCB4095,2025-12-06,Croissance rapide
+439,MCC0105,2025-12-25,Signes de stress hydrique
+440,MCB0300,2025-06-05,Plante en bonne santé
+441,MCB0300,2025-11-15,Insectes observés
+442,MCB0300,2025-12-09,Insectes observés
+443,MCB0300,2025-10-17,Plante en bonne santé
+444,MCA5092,2025-12-08,Feuilles abîmées
+445,MCA5092,2025-09-15,Plante en bonne santé
+446,MCA5092,2025-07-14,Feuilles abîmées
+447,MCA6753,2025-07-03,Feuilles abîmées
+448,MCA6753,2025-10-28,Insectes observés
+449,MCA6753,2025-07-09,Croissance rapide
+450,MCA8740,2025-06-18,Feuilles abîmées
+451,MCA8740,2025-09-02,Feuilles abîmées
+452,MCB7333,2025-10-15,Croissance rapide
+453,MCB7333,2025-12-12,Insectes observés
+454,MCA5299,2025-11-15,Signes de stress hydrique
+455,MCC3251,2025-11-11,Signes de stress hydrique
+456,MCC3251,2025-08-01,Feuilles abîmées
+457,MCC3251,2025-06-10,Feuilles abîmées
+458,MCA2486,2025-12-03,Insectes observés
+459,MCA2486,2025-07-29,Feuilles abîmées
+460,MCA2486,2025-10-12,Plante en bonne santé
+461,MCA2486,2025-10-26,Croissance rapide
+462,MCA2486,2025-11-23,Signes de stress hydrique
+463,MCB5439,2025-08-14,Insectes observés
+464,MCB5439,2025-09-02,Croissance rapide
+465,MCB9178,2025-12-02,Insectes observés
+466,MCB9178,2025-06-03,Plante en bonne santé
+467,MCB9178,2025-11-20,Feuilles abîmées
+468,MCB9178,2025-12-20,Feuilles abîmées
+469,MCC9485,2025-06-18,Signes de stress hydrique
+470,MCC9485,2025-09-22,Plante en bonne santé
+471,MCB9471,2025-12-29,Feuilles abîmées
+472,MCC8645,2025-10-11,Insectes observés
+473,MCC8645,2025-10-08,Croissance rapide
+474,MCA1724,2025-11-27,Plante en bonne santé
+475,MCC3774,2025-11-19,Croissance rapide
+476,MCC3774,2025-10-26,Croissance rapide
+477,MCC3774,2025-10-20,Croissance rapide
+478,MCC3774,2025-07-20,Plante en bonne santé
+479,MCB9969,2025-12-30,Signes de stress hydrique
+480,MCB9969,2025-09-12,Feuilles abîmées
+481,MCB9969,2025-08-09,Plante en bonne santé
+482,MCB9969,2025-09-14,Signes de stress hydrique
+483,MCA4590,2025-12-15,Plante en bonne santé
+484,MCA4590,2025-10-16,Plante en bonne santé
+485,MCA4590,2025-06-07,Feuilles abîmées
+486,MCA4590,2025-10-04,Feuilles abîmées
+487,MCA1687,2025-06-02,Signes de stress hydrique
+488,MCA4932,2025-10-15,Insectes observés
+489,MCA4932,2025-09-01,Plante en bonne santé
+490,MCA4932,2025-12-04,Feuilles abîmées
+491,MCA4932,2025-12-19,Plante en bonne santé
+492,MCA4932,2025-09-24,Feuilles abîmées
+493,MCB9373,2025-07-13,Insectes observés
+494,MCB9373,2025-09-07,Insectes observés
+495,MCB9373,2025-07-27,Feuilles abîmées
+496,MCB9373,2025-11-19,Signes de stress hydrique
+497,MCA7866,2025-11-24,Croissance rapide
+498,MCA7866,2025-11-25,Plante en bonne santé
+499,MCA7866,2025-10-06,Signes de stress hydrique
+500,MCA1821,2025-08-21,Signes de stress hydrique
+501,MCA1821,2025-06-24,Feuilles abîmées
+502,MCA1821,2025-06-07,Signes de stress hydrique
+503,MCB3534,2025-08-30,Croissance rapide
+504,MCB3534,2025-10-27,Croissance rapide
+505,MCB3534,2025-06-16,Signes de stress hydrique
+506,MCB3534,2025-11-24,Feuilles abîmées
+507,MCA3247,2025-08-23,Croissance rapide
+508,MCA3247,2025-07-25,Croissance rapide
+509,MCA3247,2025-09-02,Feuilles abîmées
+510,MCA3247,2025-06-15,Signes de stress hydrique
+511,MCA3247,2025-09-01,Croissance rapide
+512,MCB8718,2025-09-27,Signes de stress hydrique
+513,MCB8718,2025-12-16,Plante en bonne santé
+514,MCB8718,2025-07-28,Feuilles abîmées
+515,MCB8718,2025-11-14,Croissance rapide
+516,MCB8718,2025-12-21,Insectes observés
+517,MCC8181,2025-06-22,Signes de stress hydrique
+518,MCC8181,2025-07-28,Croissance rapide
+519,MCC8181,2025-06-16,Feuilles abîmées
+520,MCC8181,2025-10-21,Croissance rapide
+521,MCC8181,2025-06-21,Insectes observés
+522,MCA2289,2025-10-14,Feuilles abîmées
+523,MCB1033,2025-10-26,Feuilles abîmées
+524,MCC3433,2025-06-20,Plante en bonne santé
+525,MCC3433,2025-12-23,Feuilles abîmées
+526,MCC0461,2025-08-23,Croissance rapide
+527,MCC0461,2025-10-15,Insectes observés
+528,MCC0461,2025-11-24,Insectes observés
+529,MCC0461,2025-06-14,Signes de stress hydrique
+530,MCC0461,2025-10-10,Signes de stress hydrique
+531,MCB6868,2025-07-26,Croissance rapide
+532,MCA8853,2025-08-30,Plante en bonne santé
+533,MCA8853,2025-07-29,Plante en bonne santé
+534,MCA3474,2025-08-01,Croissance rapide
+535,MCA3474,2025-06-06,Plante en bonne santé
+536,MCA3474,2025-08-31,Feuilles abîmées
+537,MCA3474,2025-08-08,Croissance rapide
+538,MCC3415,2025-09-08,Signes de stress hydrique
+539,MCC3415,2025-12-30,Feuilles abîmées
+540,MCC3415,2025-06-17,Feuilles abîmées
+541,MCC3415,2025-10-24,Feuilles abîmées
+542,MCC5870,2025-11-27,Croissance rapide
+543,MCC5870,2025-12-27,Signes de stress hydrique
+544,MCC5870,2025-11-14,Feuilles abîmées
+545,MCC5870,2025-08-19,Signes de stress hydrique
+546,MCC0180,2025-10-19,Signes de stress hydrique
+547,MCC0180,2025-09-08,Feuilles abîmées
+548,MCC0180,2025-11-25,Plante en bonne santé
+549,MCC0180,2025-11-15,Insectes observés
+550,MCC0180,2025-09-28,Plante en bonne santé
+551,MCA5358,2025-07-19,Signes de stress hydrique
+552,MCA5358,2025-08-23,Feuilles abîmées
+553,MCB6465,2025-07-30,Signes de stress hydrique
+554,MCB6465,2025-08-24,Plante en bonne santé
+555,MCB6465,2025-11-09,Signes de stress hydrique
+556,MCB6465,2025-07-08,Feuilles abîmées
+557,MCB0757,2025-11-05,Plante en bonne santé
+558,MCB0757,2025-10-12,Croissance rapide
+559,MCB0757,2025-08-29,Feuilles abîmées
+560,MCB7317,2025-11-21,Insectes observés
+561,MCB7317,2025-06-30,Plante en bonne santé
+562,MCB7317,2025-09-19,Insectes observés
+563,MCB0368,2025-08-05,Signes de stress hydrique
+564,MCA4752,2025-11-27,Feuilles abîmées
+565,MCC3338,2025-07-15,Feuilles abîmées
+566,MCC3338,2025-12-07,Croissance rapide
+567,MCC3338,2025-10-06,Croissance rapide
+568,MCC3338,2025-11-11,Croissance rapide
+569,MCB6454,2025-09-06,Signes de stress hydrique
+570,MCB6454,2025-12-17,Croissance rapide
+571,MCB6454,2025-12-03,Plante en bonne santé
+572,MCB6454,2025-06-02,Croissance rapide
+573,MCB6454,2025-06-21,Croissance rapide
+574,MCC9647,2025-08-07,Plante en bonne santé
+575,MCC9647,2025-06-06,Croissance rapide
+576,MCC9647,2025-09-20,Croissance rapide
+577,MCC9647,2025-10-17,Plante en bonne santé
+578,MCA0491,2025-07-02,Croissance rapide
+579,MCA0491,2025-11-24,Feuilles abîmées
+580,MCA0491,2025-11-17,Croissance rapide
+581,MCA0491,2025-06-25,Insectes observés
+582,MCA0491,2025-06-07,Feuilles abîmées
+583,MCB5215,2025-06-30,Signes de stress hydrique
+584,MCB5215,2025-11-20,Croissance rapide
+585,MCC8311,2025-10-10,Insectes observés
+586,MCC8311,2025-09-27,Feuilles abîmées
+587,MCC8311,2025-10-23,Signes de stress hydrique
+588,MCC8311,2025-06-02,Croissance rapide
+589,MCC8311,2025-12-05,Feuilles abîmées
+590,MCB7645,2025-08-16,Feuilles abîmées
+591,MCB7645,2025-06-17,Croissance rapide
+592,MCB7645,2025-12-28,Feuilles abîmées
+593,MCB7645,2025-10-12,Croissance rapide
+594,MCB7645,2025-10-02,Insectes observés
+595,MCB3112,2025-07-16,Croissance rapide
+596,MCB3112,2025-11-26,Insectes observés
+597,MCB3112,2025-08-25,Insectes observés
+598,MCB3112,2025-12-24,Signes de stress hydrique
+599,MCA4284,2025-08-11,Insectes observés
+600,MCA4284,2025-12-02,Croissance rapide
+601,MCC7659,2025-10-14,Feuilles abîmées
+602,MCB1932,2025-07-19,Signes de stress hydrique
+603,MCB1932,2025-07-02,Signes de stress hydrique
+604,MCB1932,2025-06-13,Feuilles abîmées
+605,MCB1932,2025-07-12,Feuilles abîmées
+606,MCC2923,2025-10-20,Feuilles abîmées
+607,MCC2923,2025-06-29,Feuilles abîmées
+608,MCC2923,2025-06-27,Feuilles abîmées
+609,MCB5441,2025-10-23,Signes de stress hydrique
+610,MCB5441,2025-12-10,Signes de stress hydrique
+611,MCB5441,2025-07-13,Insectes observés
+612,MCA6892,2025-08-25,Insectes observés
+613,MCA6892,2025-06-22,Plante en bonne santé
+614,MCA6892,2025-11-27,Feuilles abîmées
+615,MCC0207,2025-06-08,Croissance rapide
+616,MCC0207,2025-07-08,Signes de stress hydrique
+617,MCC0207,2025-10-01,Insectes observés
+618,MCC0207,2025-08-10,Plante en bonne santé
+619,MCC0207,2025-11-04,Feuilles abîmées
+620,MCA4796,2025-07-24,Signes de stress hydrique
+621,MCA4796,2025-11-21,Insectes observés
+622,MCA4796,2025-09-22,Signes de stress hydrique
+623,MCA4796,2025-10-06,Croissance rapide
+624,MCB1214,2025-12-26,Croissance rapide
+625,MCB1214,2025-08-16,Plante en bonne santé
+626,MCC9676,2025-06-17,Feuilles abîmées
+627,MCC9676,2025-09-08,Insectes observés
+628,MCC9676,2025-10-04,Signes de stress hydrique
+629,MCA1401,2025-09-27,Signes de stress hydrique
+630,MCA1401,2025-06-12,Signes de stress hydrique
+631,MCC5661,2025-10-11,Croissance rapide
+632,MCC5661,2025-12-10,Signes de stress hydrique
+633,MCC5661,2025-07-12,Insectes observés
+634,MCC5661,2025-09-03,Croissance rapide
+635,MCC5661,2025-10-19,Croissance rapide
+636,MCC0827,2025-08-15,Croissance rapide
+637,MCC0827,2025-08-06,Feuilles abîmées
+638,MCC8719,2025-09-18,Signes de stress hydrique
+639,MCC7220,2025-10-23,Insectes observés
+640,MCC7220,2025-06-13,Feuilles abîmées
+641,MCC7220,2025-09-07,Signes de stress hydrique
+642,MCC7220,2025-07-21,Plante en bonne santé
+643,MCB2520,2025-12-24,Signes de stress hydrique
+644,MCB2520,2025-11-17,Insectes observés
+645,MCA7833,2025-09-16,Croissance rapide
+646,MCA7833,2025-07-11,Insectes observés
+647,MCA7833,2025-06-08,Feuilles abîmées
+648,MCA7833,2025-06-04,Plante en bonne santé
+649,MCC7701,2025-07-29,Signes de stress hydrique
+650,MCC7701,2025-12-03,Feuilles abîmées
+651,MCC7701,2025-10-06,Plante en bonne santé
+652,MCC7701,2025-09-06,Insectes observés
+653,MCC7701,2025-12-28,Plante en bonne santé
+654,MCC7865,2025-11-20,Feuilles abîmées
+655,MCC7865,2025-08-14,Feuilles abîmées
+656,MCB6360,2025-06-27,Plante en bonne santé
+657,MCB6360,2025-12-19,Insectes observés
+658,MCB1168,2025-08-02,Feuilles abîmées
+659,MCB1168,2025-10-16,Plante en bonne santé
+660,MCB1168,2025-08-23,Plante en bonne santé
+661,MCA8625,2025-09-26,Feuilles abîmées
+662,MCA8625,2025-09-08,Plante en bonne santé
+663,MCC4229,2025-10-24,Insectes observés
+664,MCB9568,2025-11-10,Croissance rapide
+665,MCB9568,2025-06-12,Insectes observés
+666,MCB9568,2025-11-06,Insectes observés
+667,MCB9568,2025-07-14,Feuilles abîmées
+668,MCC0263,2025-12-08,Insectes observés
+669,MCA8298,2025-10-13,Insectes observés
+670,MCA8298,2025-08-04,Signes de stress hydrique
+671,MCA5102,2025-09-26,Plante en bonne santé
+672,MCA7575,2025-10-21,Feuilles abîmées
+673,MCA7575,2025-06-17,Croissance rapide
+674,MCA7575,2025-12-30,Croissance rapide
+675,MCA7575,2025-09-20,Insectes observés
+676,MCA7575,2025-09-16,Plante en bonne santé
+677,MCC8417,2025-08-01,Feuilles abîmées
+678,MCC8417,2025-08-07,Plante en bonne santé
+679,MCC8417,2025-11-26,Feuilles abîmées
+680,MCC3099,2025-08-12,Feuilles abîmées
+681,MCC3099,2025-10-26,Feuilles abîmées
+682,MCC3099,2025-06-16,Signes de stress hydrique
+683,MCC3099,2025-12-26,Plante en bonne santé
+684,MCA6546,2025-10-09,Croissance rapide
+685,MCA6546,2025-12-11,Plante en bonne santé
+686,MCA6546,2025-06-22,Plante en bonne santé
+687,MCA6054,2025-10-30,Signes de stress hydrique
+688,MCB6177,2025-06-19,Feuilles abîmées
+689,MCA9489,2025-11-26,Croissance rapide
+690,MCA9489,2025-06-09,Plante en bonne santé
+691,MCA9489,2025-10-17,Feuilles abîmées
+692,MCA9489,2025-12-07,Signes de stress hydrique
+693,MCA2888,2025-10-13,Feuilles abîmées
+694,MCA2888,2025-11-19,Signes de stress hydrique
+695,MCA2888,2025-08-22,Insectes observés
+696,MCC0477,2025-07-19,Insectes observés
+697,MCC0477,2025-07-22,Insectes observés
+698,MCC0477,2025-09-16,Feuilles abîmées
+699,MCC0477,2025-06-10,Signes de stress hydrique
+700,MCC0477,2025-10-07,Feuilles abîmées
+701,MCC1874,2025-10-02,Insectes observés
+702,MCC6444,2025-11-07,Feuilles abîmées
+703,MCC6444,2025-06-09,Croissance rapide
+704,MCC6444,2025-10-18,Croissance rapide
+705,MCC6444,2025-11-03,Signes de stress hydrique
+706,MCA9470,2025-07-03,Croissance rapide
+707,MCA9470,2025-07-15,Signes de stress hydrique
+708,MCA9470,2025-09-10,Feuilles abîmées
+709,MCC2201,2025-08-15,Plante en bonne santé
+710,MCC1968,2025-12-29,Feuilles abîmées
+711,MCC1968,2025-10-12,Plante en bonne santé
+712,MCC1968,2025-10-23,Feuilles abîmées
+713,MCB8678,2025-06-09,Insectes observés
+714,MCB8678,2025-08-07,Croissance rapide
+715,MCA6586,2025-10-21,Signes de stress hydrique
+716,MCA6586,2025-07-27,Croissance rapide
+717,MCB8471,2025-12-22,Insectes observés
+718,MCB8471,2025-10-09,Feuilles abîmées
+719,MCB8471,2025-09-28,Croissance rapide
+720,MCB8471,2025-08-04,Plante en bonne santé
+721,MCB8471,2025-09-15,Insectes observés
+722,MCC1070,2025-10-18,Insectes observés
+723,MCC1070,2025-08-13,Insectes observés
+724,MCC1070,2025-09-13,Plante en bonne santé
+725,MCC1070,2025-07-18,Feuilles abîmées
+726,MCC1070,2025-10-24,Signes de stress hydrique
+727,MCC8215,2025-09-13,Croissance rapide
+728,MCC8215,2025-06-12,Signes de stress hydrique
+729,MCC8215,2025-08-22,Signes de stress hydrique
+730,MCB1132,2025-12-06,Croissance rapide
+731,MCB1132,2025-07-12,Insectes observés
+732,MCB1132,2025-09-09,Signes de stress hydrique
+733,MCB1132,2025-10-31,Croissance rapide
+734,MCC1358,2025-09-03,Plante en bonne santé
+735,MCC6544,2025-11-26,Signes de stress hydrique
+736,MCC6544,2025-08-17,Signes de stress hydrique
+737,MCB0943,2025-12-09,Feuilles abîmées
+738,MCB0943,2025-12-17,Signes de stress hydrique
+739,MCB0943,2025-10-01,Feuilles abîmées
+740,MCB0943,2025-10-15,Feuilles abîmées
+741,MCB0943,2025-09-15,Signes de stress hydrique
+742,MCB6314,2025-06-17,Feuilles abîmées
+743,MCB6314,2025-08-09,Feuilles abîmées
+744,MCB6314,2025-08-26,Feuilles abîmées
+745,MCB6314,2025-09-28,Insectes observés
+746,MCB6314,2025-09-13,Signes de stress hydrique
+747,MCA2221,2025-12-12,Insectes observés
+748,MCA2221,2025-11-21,Croissance rapide
+749,MCA2221,2025-06-09,Croissance rapide
+750,MCA2221,2025-10-03,Plante en bonne santé
+751,MCB0623,2025-12-18,Croissance rapide
+752,MCB0623,2025-07-16,Plante en bonne santé
+753,MCB4022,2025-11-01,Insectes observés
+754,MCB4022,2025-08-22,Plante en bonne santé
+755,MCB4022,2025-12-10,Croissance rapide
+756,MCB4022,2025-11-26,Croissance rapide
+757,MCB4022,2025-08-30,Feuilles abîmées
+758,MCC6461,2025-06-15,Croissance rapide
+759,MCA3411,2025-12-18,Croissance rapide
+760,MCA3411,2025-08-01,Insectes observés
+761,MCA3411,2025-08-07,Plante en bonne santé
+762,MCA3411,2025-11-28,Insectes observés
+763,MCB9943,2025-07-11,Insectes observés
+764,MCB9943,2025-11-30,Feuilles abîmées
+765,MCB9943,2025-12-29,Signes de stress hydrique
+766,MCB9943,2025-07-03,Plante en bonne santé
+767,MCB9943,2025-11-10,Croissance rapide
+768,MCB5240,2025-09-11,Insectes observés
+769,MCB5240,2025-09-23,Plante en bonne santé
+770,MCC4510,2025-12-01,Signes de stress hydrique
+771,MCC4510,2025-08-06,Feuilles abîmées
+772,MCC4510,2025-10-26,Insectes observés
+773,MCC4510,2025-10-11,Signes de stress hydrique
+774,MCB2346,2025-07-04,Plante en bonne santé
+775,MCB2346,2025-11-29,Croissance rapide
+776,MCB2346,2025-10-29,Plante en bonne santé
+777,MCB2241,2025-08-29,Plante en bonne santé
+778,MCB2241,2025-08-17,Insectes observés
+779,MCB2241,2025-12-10,Croissance rapide
+780,MCA8384,2025-06-05,Plante en bonne santé
+781,MCA8384,2025-09-30,Insectes observés
+782,MCA8384,2025-10-03,Plante en bonne santé
+783,MCA8384,2025-11-17,Plante en bonne santé
+784,MCA8384,2025-10-16,Feuilles abîmées
+785,MCB2565,2025-11-19,Insectes observés
+786,MCB2565,2025-08-15,Feuilles abîmées
+787,MCC0331,2025-06-26,Signes de stress hydrique
+788,MCC0331,2025-09-02,Feuilles abîmées
+789,MCC0331,2025-11-11,Signes de stress hydrique
+790,MCC0331,2025-06-05,Signes de stress hydrique
+791,MCA9707,2025-12-25,Croissance rapide
+792,MCA9707,2025-06-04,Signes de stress hydrique
+793,MCA9707,2025-07-27,Insectes observés
+794,MCA9707,2025-07-21,Plante en bonne santé
+795,MCA9707,2025-06-22,Insectes observés
+796,MCC5056,2025-09-22,Insectes observés
+797,MCC5056,2025-06-19,Insectes observés
+798,MCC5056,2025-08-09,Plante en bonne santé
+799,MCC5056,2025-11-28,Insectes observés
+800,MCC5486,2025-06-12,Croissance rapide
+801,MCC5486,2025-11-21,Feuilles abîmées
+802,MCC5486,2025-06-23,Insectes observés
+803,MCA1517,2025-10-20,Feuilles abîmées
+804,MCA1517,2025-09-14,Signes de stress hydrique
+805,MCC4162,2025-08-23,Plante en bonne santé
+806,MCC4162,2025-06-27,Feuilles abîmées
+807,MCC7968,2025-09-21,Signes de stress hydrique
+808,MCC7968,2025-11-05,Signes de stress hydrique
+809,MCC4138,2025-06-02,Croissance rapide
+810,MCC4138,2025-10-25,Croissance rapide
+811,MCA1063,2025-10-10,Insectes observés
+812,MCA4491,2025-11-09,Insectes observés
+813,MCA4491,2025-10-21,Croissance rapide
+814,MCC2980,2025-12-26,Feuilles abîmées
+815,MCC2980,2025-09-16,Plante en bonne santé
+816,MCC2980,2025-09-13,Plante en bonne santé
+817,MCC2980,2025-12-21,Plante en bonne santé
+818,MCC2980,2025-10-03,Plante en bonne santé
+819,MCB1565,2025-12-06,Insectes observés
+820,MCB1565,2025-10-25,Croissance rapide
+821,MCB1565,2025-09-30,Insectes observés
+822,MCB1565,2025-07-20,Croissance rapide
+823,MCA1161,2025-09-12,Insectes observés
+824,MCA1161,2025-07-17,Plante en bonne santé
+825,MCA1161,2025-10-28,Signes de stress hydrique
+826,MCA1161,2025-06-12,Signes de stress hydrique
+827,MCB8437,2025-12-02,Plante en bonne santé
+828,MCB8437,2025-09-03,Feuilles abîmées
+829,MCB8437,2025-11-29,Insectes observés
+830,MCB8437,2025-11-03,Signes de stress hydrique
+831,MCB8437,2025-09-29,Insectes observés
+832,MCC2134,2025-06-20,Feuilles abîmées
+833,MCC2134,2025-09-25,Insectes observés
+834,MCC2134,2025-11-07,Signes de stress hydrique
+835,MCC1224,2025-11-15,Feuilles abîmées
+836,MCB5904,2025-08-24,Croissance rapide
+837,MCB5904,2025-08-20,Croissance rapide
+838,MCB5904,2025-12-28,Croissance rapide
+839,MCC3174,2025-08-05,Plante en bonne santé
+840,MCC3174,2025-08-15,Croissance rapide
+841,MCC0427,2025-07-17,Feuilles abîmées
+842,MCB2339,2025-06-18,Croissance rapide
+843,MCC9443,2025-09-22,Croissance rapide
+844,MCC9443,2025-10-11,Signes de stress hydrique
+845,MCC9443,2025-07-12,Croissance rapide
+846,MCC9443,2025-11-19,Croissance rapide
+847,MCB9038,2025-06-17,Feuilles abîmées
+848,MCB9038,2025-08-29,Plante en bonne santé
+849,MCB9038,2025-10-14,Insectes observés
+850,MCB1789,2025-10-14,Croissance rapide
+851,MCB1789,2025-07-29,Insectes observés
+852,MCB1789,2025-07-18,Feuilles abîmées
+853,MCB1789,2025-11-07,Feuilles abîmées
+854,MCB1789,2025-10-02,Croissance rapide
+855,MCA4336,2025-07-17,Plante en bonne santé
+856,MCA4336,2025-09-13,Insectes observés
+857,MCA4336,2025-08-13,Insectes observés
+858,MCA4336,2025-11-23,Feuilles abîmées
+859,MCA4818,2025-12-08,Insectes observés
+860,MCA4818,2025-12-14,Insectes observés
+861,MCA4818,2025-11-10,Croissance rapide
+862,MCB9528,2025-06-27,Feuilles abîmées
+863,MCB9528,2025-12-15,Insectes observés
+864,MCB9528,2025-12-30,Croissance rapide
+865,MCB4091,2025-09-20,Feuilles abîmées
+866,MCB4091,2025-08-15,Plante en bonne santé
+867,MCB4091,2025-08-22,Plante en bonne santé
+868,MCB4091,2025-12-09,Signes de stress hydrique
+869,MCB4091,2025-09-13,Signes de stress hydrique
+870,MCC0809,2025-11-15,Croissance rapide
+871,MCC0809,2025-12-29,Insectes observés
+872,MCC2734,2025-11-17,Plante en bonne santé
+873,MCC2734,2025-10-07,Insectes observés
+874,MCA9388,2025-11-07,Plante en bonne santé
+875,MCA9388,2025-12-13,Feuilles abîmées
+876,MCA9388,2025-07-02,Signes de stress hydrique
+877,MCA5286,2025-12-22,Insectes observés
+878,MCA5286,2025-08-23,Signes de stress hydrique
+879,MCA5286,2025-11-27,Plante en bonne santé
+880,MCA5286,2025-06-19,Feuilles abîmées
+881,MCA9989,2025-07-11,Signes de stress hydrique
+882,MCA9989,2025-06-28,Croissance rapide
+883,MCA9989,2025-07-06,Plante en bonne santé
+884,MCB0106,2025-08-18,Insectes observés
+885,MCB0106,2025-07-29,Signes de stress hydrique
+886,MCB0106,2025-08-13,Croissance rapide
+887,MCB2857,2025-06-15,Feuilles abîmées
+888,MCB2857,2025-06-27,Plante en bonne santé
+889,MCC9032,2025-12-10,Croissance rapide
+890,MCC9032,2025-06-01,Signes de stress hydrique
+891,MCC9032,2025-11-14,Feuilles abîmées
+892,MCC9032,2025-10-24,Plante en bonne santé
+893,MCB2555,2025-12-13,Croissance rapide
+894,MCB2555,2025-10-27,Signes de stress hydrique
+895,MCB2555,2025-10-21,Insectes observés
+896,MCB2555,2025-08-27,Plante en bonne santé
+897,MCB2555,2025-08-14,Feuilles abîmées
+898,MCC0407,2025-08-25,Plante en bonne santé
+899,MCC0407,2025-11-10,Signes de stress hydrique
+900,MCC0407,2025-06-18,Insectes observés
+901,MCC3025,2025-11-19,Croissance rapide
+902,MCC3025,2025-10-07,Signes de stress hydrique
+903,MCC3025,2025-10-30,Feuilles abîmées
+904,MCC3025,2025-11-13,Feuilles abîmées
+905,MCC4898,2025-06-23,Insectes observés
+906,MCC4898,2025-10-14,Signes de stress hydrique
+907,MCC0340,2025-06-14,Signes de stress hydrique
+908,MCC0340,2025-08-19,Croissance rapide
+909,MCC0340,2025-11-23,Insectes observés
+910,MCB8245,2025-10-19,Plante en bonne santé
+911,MCB8245,2025-09-26,Croissance rapide
+912,MCB8245,2025-07-21,Signes de stress hydrique
+913,MCB8245,2025-12-22,Signes de stress hydrique
+914,MCC7951,2025-09-26,Insectes observés
+915,MCC7951,2025-07-19,Signes de stress hydrique
+916,MCC7951,2025-09-03,Croissance rapide
+917,MCA1926,2025-07-17,Feuilles abîmées
+918,MCA1926,2025-07-08,Croissance rapide
+919,MCA1926,2025-07-09,Feuilles abîmées
+920,MCC3572,2025-10-17,Signes de stress hydrique
+921,MCC3572,2025-07-03,Feuilles abîmées
+922,MCC3572,2025-08-23,Croissance rapide
+923,MCC3572,2025-08-18,Insectes observés
+924,MCC3572,2025-06-16,Feuilles abîmées
+925,MCC6017,2025-07-12,Feuilles abîmées
+926,MCC6017,2025-06-11,Feuilles abîmées
+927,MCC6017,2025-11-04,Croissance rapide
+928,MCC6017,2025-08-31,Feuilles abîmées
+929,MCA2524,2025-11-02,Plante en bonne santé
+930,MCA2524,2025-08-09,Plante en bonne santé
+931,MCA2524,2025-08-19,Insectes observés
+932,MCA2524,2025-10-17,Feuilles abîmées
+933,MCC2169,2025-11-06,Plante en bonne santé
+934,MCB0816,2025-11-06,Insectes observés
+935,MCB0816,2025-06-28,Plante en bonne santé
+936,MCB0816,2025-08-30,Plante en bonne santé
+937,MCB0816,2025-11-19,Feuilles abîmées
+938,MCB0816,2025-06-21,Signes de stress hydrique
+939,MCA3573,2025-09-14,Signes de stress hydrique
+940,MCB9351,2025-07-20,Plante en bonne santé
+941,MCB9351,2025-11-20,Feuilles abîmées
+942,MCB9351,2025-12-02,Croissance rapide
+943,MCB9351,2025-12-16,Insectes observés
+944,MCB9351,2025-06-16,Insectes observés
+945,MCB7867,2025-08-12,Signes de stress hydrique
+946,MCB7867,2025-07-26,Plante en bonne santé
+947,MCB0525,2025-09-01,Signes de stress hydrique
+948,MCB0525,2025-08-01,Plante en bonne santé
+949,MCB0525,2025-07-22,Feuilles abîmées
+950,MCB0525,2025-11-30,Plante en bonne santé
+951,MCB0525,2025-06-18,Feuilles abîmées
+952,MCA5032,2025-07-09,Croissance rapide
+953,MCA5032,2025-06-13,Feuilles abîmées
+954,MCA5032,2025-10-31,Insectes observés
+955,MCA5032,2025-11-09,Insectes observés
+956,MCB8003,2025-10-20,Feuilles abîmées
+957,MCB8003,2025-07-09,Plante en bonne santé
+958,MCB0622,2025-10-07,Signes de stress hydrique
+959,MCB0622,2025-07-11,Insectes observés
+960,MCB0622,2025-06-09,Feuilles abîmées
+961,MCB0622,2025-06-07,Croissance rapide
+962,MCC6060,2025-10-02,Plante en bonne santé
+963,MCC7729,2025-11-27,Croissance rapide
+964,MCC7729,2025-09-09,Feuilles abîmées
+965,MCB7154,2025-08-30,Plante en bonne santé
+966,MCB7154,2025-12-24,Feuilles abîmées
+967,MCB7154,2025-12-06,Croissance rapide
+968,MCB6498,2025-11-20,Insectes observés
+969,MCC4109,2025-08-03,Signes de stress hydrique
+970,MCC4109,2025-10-07,Signes de stress hydrique
+971,MCC4109,2025-12-19,Plante en bonne santé
+972,MCC4109,2025-10-15,Signes de stress hydrique
+973,MCC4109,2025-10-18,Croissance rapide
+974,MCA4592,2025-11-12,Feuilles abîmées
+975,MCA4592,2025-10-02,Insectes observés
+976,MCA4592,2025-11-29,Insectes observés
+977,MCA4592,2025-11-28,Croissance rapide
+978,MCA4592,2025-06-23,Insectes observés
+979,MCA0666,2025-10-05,Plante en bonne santé
+980,MCA0666,2025-10-06,Croissance rapide
+981,MCA0666,2025-06-03,Croissance rapide
+982,MCB2410,2025-12-19,Plante en bonne santé
+983,MCB2410,2025-10-04,Plante en bonne santé
+984,MCA7121,2025-11-16,Insectes observés
+985,MCA7121,2025-12-13,Signes de stress hydrique
+986,MCA1931,2025-12-18,Plante en bonne santé
+987,MCC0530,2025-07-03,Croissance rapide
+988,MCC0530,2025-11-05,Croissance rapide
+989,MCB0305,2025-11-13,Plante en bonne santé
+990,MCB0305,2025-12-04,Plante en bonne santé
+991,MCA3394,2025-12-24,Croissance rapide
+992,MCB9660,2025-09-01,Feuilles abîmées
+993,MCB9660,2025-11-02,Feuilles abîmées
+994,MCB9660,2025-10-09,Signes de stress hydrique
+995,MCB9660,2025-08-15,Signes de stress hydrique
+996,MCB6954,2025-06-23,Croissance rapide
+997,MCB6954,2025-12-09,Insectes observés
+998,MCB6954,2025-06-07,Feuilles abîmées
+999,MCB6954,2025-12-25,Feuilles abîmées
+1000,MCB6954,2025-08-31,Plante en bonne santé
+1001,MCB1749,2025-06-06,Insectes observés
+1002,MCB1749,2025-10-11,Croissance rapide
+1003,MCB1749,2025-07-07,Plante en bonne santé
+1004,MCB1749,2025-11-25,Plante en bonne santé
+1005,MCB1749,2025-09-04,Signes de stress hydrique
+1006,MCA0649,2025-08-15,Croissance rapide
+1007,MCA0649,2025-10-29,Croissance rapide
+1008,MCA0649,2025-11-27,Feuilles abîmées
+1009,MCA8918,2025-11-29,Feuilles abîmées
+1010,MCA8918,2025-07-20,Signes de stress hydrique
+1011,MCA8918,2025-09-24,Signes de stress hydrique
+1012,MCB5539,2025-06-13,Feuilles abîmées
+1013,MCB5539,2025-09-17,Croissance rapide
+1014,MCB5539,2025-06-01,Signes de stress hydrique
+1015,MCA4064,2025-10-22,Plante en bonne santé
+1016,MCA4064,2025-08-06,Insectes observés
+1017,MCA4064,2025-12-12,Croissance rapide
+1018,MCA4064,2025-11-26,Signes de stress hydrique
+1019,MCA4064,2025-08-04,Plante en bonne santé
+1020,MCA6259,2025-08-01,Plante en bonne santé
+1021,MCA6259,2025-09-25,Croissance rapide
+1022,MCA6259,2025-07-25,Plante en bonne santé
+1023,MCA6259,2025-09-26,Plante en bonne santé
+1024,MCC6144,2025-10-20,Signes de stress hydrique
+1025,MCC6144,2025-12-29,Croissance rapide
+1026,MCC6144,2025-11-06,Signes de stress hydrique
+1027,MCA9599,2025-07-20,Plante en bonne santé
+1028,MCA9599,2025-10-07,Insectes observés
+1029,MCA9599,2025-06-30,Plante en bonne santé
+1030,MCA9599,2025-09-22,Feuilles abîmées
+1031,MCB6490,2025-09-11,Croissance rapide
+1032,MCB6490,2025-10-10,Signes de stress hydrique
+1033,MCB6490,2025-07-20,Croissance rapide
+1034,MCB6490,2025-11-09,Croissance rapide
+1035,MCB3174,2025-10-22,Signes de stress hydrique
+1036,MCB3174,2025-12-12,Plante en bonne santé
+1037,MCB3174,2025-12-11,Croissance rapide
+1038,MCB3174,2025-09-20,Insectes observés
+1039,MCB3174,2025-10-23,Insectes observés
+1040,MCA1731,2025-09-20,Plante en bonne santé
+1041,MCA1731,2025-12-24,Insectes observés
+1042,MCA8583,2025-11-15,Feuilles abîmées
+1043,MCA8583,2025-12-30,Croissance rapide
+1044,MCA8583,2025-09-23,Plante en bonne santé
+1045,MCB6698,2025-06-14,Signes de stress hydrique
+1046,MCB6698,2025-07-19,Croissance rapide
+1047,MCB6698,2025-09-10,Insectes observés
+1048,MCB6698,2025-12-03,Croissance rapide
+1049,MCB5963,2025-06-08,Insectes observés
+1050,MCB5963,2025-08-07,Croissance rapide
+1051,MCB5963,2025-09-08,Croissance rapide
+1052,MCB5963,2025-07-08,Plante en bonne santé
+1053,MCA7782,2025-12-08,Signes de stress hydrique
+1054,MCA7782,2025-08-13,Feuilles abîmées
+1055,MCA7782,2025-10-24,Signes de stress hydrique
+1056,MCA7782,2025-09-28,Feuilles abîmées
+1057,MCA7782,2025-06-24,Plante en bonne santé
+1058,MCA1431,2025-06-25,Signes de stress hydrique
+1059,MCA1431,2025-11-28,Insectes observés
+1060,MCA1431,2025-07-28,Croissance rapide
+1061,MCA0705,2025-09-02,Feuilles abîmées
+1062,MCA0705,2025-12-17,Feuilles abîmées
+1063,MCA0705,2025-06-28,Plante en bonne santé
+1064,MCC2254,2025-06-12,Croissance rapide
+1065,MCC2254,2025-12-05,Insectes observés
+1066,MCB5121,2025-06-25,Croissance rapide
+1067,MCB5121,2025-10-11,Croissance rapide
+1068,MCB5121,2025-06-05,Feuilles abîmées
+1069,MCB5121,2025-12-29,Insectes observés
+1070,MCB5121,2025-08-10,Feuilles abîmées
+1071,MCC3057,2025-07-01,Insectes observés
+1072,MCA8034,2025-10-29,Insectes observés
+1073,MCA8034,2025-08-28,Croissance rapide
+1074,MCA8034,2025-08-27,Insectes observés
+1075,MCA8034,2025-08-12,Croissance rapide
+1076,MCA8034,2025-07-14,Feuilles abîmées
+1077,MCC2049,2025-11-29,Croissance rapide
+1078,MCB0545,2025-09-26,Croissance rapide
+1079,MCB0545,2025-09-14,Croissance rapide
+1080,MCB0545,2025-10-20,Croissance rapide
+1081,MCB0545,2025-07-04,Plante en bonne santé
+1082,MCA1309,2025-07-14,Insectes observés
+1083,MCC2297,2025-10-13,Plante en bonne santé
+1084,MCB9464,2025-11-09,Croissance rapide
+1085,MCB9464,2025-09-15,Croissance rapide
+1086,MCB9464,2025-11-13,Signes de stress hydrique
+1087,MCB9464,2025-10-20,Insectes observés
+1088,MCC2638,2025-12-08,Feuilles abîmées
+1089,MCC2638,2025-11-02,Insectes observés
+1090,MCC2638,2025-10-10,Plante en bonne santé
+1091,MCC2638,2025-11-03,Feuilles abîmées
+1092,MCA1213,2025-06-22,Feuilles abîmées
+1093,MCA1213,2025-12-03,Signes de stress hydrique
+1094,MCA1213,2025-11-01,Plante en bonne santé
+1095,MCC6087,2025-11-29,Croissance rapide
+1096,MCC6087,2025-06-06,Signes de stress hydrique
+1097,MCC8521,2025-08-09,Croissance rapide
+1098,MCC8521,2025-06-26,Croissance rapide
+1099,MCC8521,2025-09-06,Insectes observés
+1100,MCC2101,2025-09-12,Signes de stress hydrique
+1101,MCC2101,2025-07-27,Plante en bonne santé
+1102,MCC2101,2025-07-29,Feuilles abîmées
+1103,MCC8609,2025-11-14,Insectes observés
+1104,MCA0077,2025-08-13,Croissance rapide
+1105,MCA0077,2025-11-24,Insectes observés
+1106,MCA0077,2025-09-12,Signes de stress hydrique
+1107,MCA0077,2025-06-23,Croissance rapide
+1108,MCB5625,2025-12-08,Signes de stress hydrique
+1109,MCB5625,2025-08-25,Croissance rapide
+1110,MCB5625,2025-10-20,Croissance rapide
+1111,MCB5625,2025-12-03,Signes de stress hydrique
+1112,MCC0904,2025-07-09,Feuilles abîmées
+1113,MCC0904,2025-08-30,Signes de stress hydrique
+1114,MCC0904,2025-06-08,Signes de stress hydrique
+1115,MCC0904,2025-12-13,Plante en bonne santé
+1116,MCC8039,2025-08-02,Croissance rapide
+1117,MCC8039,2025-07-05,Signes de stress hydrique
+1118,MCC8039,2025-09-07,Plante en bonne santé
+1119,MCC8039,2025-07-31,Insectes observés
+1120,MCA7532,2025-10-02,Croissance rapide
+1121,MCA7532,2025-12-26,Plante en bonne santé
+1122,MCA7532,2025-09-02,Croissance rapide
+1123,MCA7532,2025-08-30,Signes de stress hydrique
+1124,MCC9589,2025-12-09,Insectes observés
+1125,MCC9589,2025-07-24,Plante en bonne santé
+1126,MCC9589,2025-08-12,Insectes observés
+1127,MCC9589,2025-12-08,Insectes observés
+1128,MCA7421,2025-10-06,Insectes observés
+1129,MCA7421,2025-11-03,Plante en bonne santé
+1130,MCC7574,2025-12-01,Feuilles abîmées
+1131,MCC7574,2025-08-19,Feuilles abîmées
+1132,MCC9174,2025-11-11,Insectes observés
+1133,MCC9174,2025-12-22,Feuilles abîmées
+1134,MCC9174,2025-10-09,Feuilles abîmées
+1135,MCC9174,2025-11-16,Signes de stress hydrique
+1136,MCC9174,2025-11-03,Signes de stress hydrique
+1137,MCC0146,2025-07-11,Plante en bonne santé
+1138,MCB1328,2025-09-23,Insectes observés
+1139,MCB1328,2025-12-21,Croissance rapide
+1140,MCB1328,2025-08-30,Croissance rapide
+1141,MCB1328,2025-12-25,Plante en bonne santé
+1142,MCB1328,2025-08-16,Feuilles abîmées
+1143,MCA7580,2025-08-05,Insectes observés
+1144,MCA7580,2025-07-17,Feuilles abîmées
+1145,MCA7580,2025-09-28,Plante en bonne santé
+1146,MCA7580,2025-08-17,Signes de stress hydrique
+1147,MCA6272,2025-08-30,Insectes observés
+1148,MCA6272,2025-10-09,Croissance rapide
+1149,MCA2491,2025-11-04,Feuilles abîmées
+1150,MCA2491,2025-12-16,Plante en bonne santé
+1151,MCA2491,2025-09-24,Plante en bonne santé
+1152,MCC9390,2025-06-19,Croissance rapide
+1153,MCC7221,2025-11-06,Signes de stress hydrique
+1154,MCC7221,2025-09-28,Feuilles abîmées
+1155,MCC7221,2025-11-20,Insectes observés
+1156,MCC7221,2025-06-28,Insectes observés
+1157,MCA7818,2025-09-03,Insectes observés
+1158,MCA7818,2025-06-04,Plante en bonne santé
+1159,MCA7818,2025-07-14,Signes de stress hydrique
+1160,MCA7818,2025-10-12,Feuilles abîmées
+1161,MCA7818,2025-12-05,Signes de stress hydrique
+1162,MCB1814,2025-06-22,Signes de stress hydrique
+1163,MCB1814,2025-09-12,Insectes observés
+1164,MCB1814,2025-08-09,Feuilles abîmées
+1165,MCB1814,2025-06-07,Insectes observés
+1166,MCB1814,2025-07-08,Insectes observés
+1167,MCB6884,2025-12-02,Insectes observés
+1168,MCB6884,2025-09-20,Insectes observés
+1169,MCB6884,2025-10-16,Croissance rapide
+1170,MCB6884,2025-10-13,Signes de stress hydrique
+1171,MCB2487,2025-06-15,Feuilles abîmées
+1172,MCB2487,2025-06-27,Insectes observés
+1173,MCB2487,2025-08-03,Croissance rapide
+1174,MCB8783,2025-06-26,Croissance rapide
+1175,MCB8783,2025-08-13,Signes de stress hydrique
+1176,MCB8783,2025-07-26,Croissance rapide
+1177,MCA8744,2025-12-09,Plante en bonne santé
+1178,MCA8744,2025-10-06,Plante en bonne santé
+1179,MCC2653,2025-07-24,Signes de stress hydrique
+1180,MCB3632,2025-09-12,Croissance rapide
+1181,MCB1519,2025-07-16,Insectes observés
+1182,MCB1519,2025-07-01,Feuilles abîmées
+1183,MCB1519,2025-10-29,Croissance rapide
+1184,MCB1519,2025-11-27,Signes de stress hydrique
+1185,MCB1519,2025-09-24,Croissance rapide
+1186,MCC7699,2025-08-28,Plante en bonne santé
+1187,MCC7513,2025-09-22,Plante en bonne santé
+1188,MCC7513,2025-08-08,Insectes observés
+1189,MCC7513,2025-10-07,Croissance rapide
+1190,MCC7513,2025-10-24,Feuilles abîmées
+1191,MCC7513,2025-06-18,Plante en bonne santé
+1192,MCC1310,2025-07-09,Croissance rapide
+1193,MCC1310,2025-06-15,Feuilles abîmées
+1194,MCC1310,2025-08-29,Signes de stress hydrique
+1195,MCC1310,2025-09-28,Croissance rapide
+1196,MCC1310,2025-08-20,Signes de stress hydrique
+1197,MCB7913,2025-12-07,Insectes observés
+1198,MCB7913,2025-08-11,Signes de stress hydrique
+1199,MCB7913,2025-12-20,Insectes observés
+1200,MCB7065,2025-08-22,Plante en bonne santé
+1201,MCC0389,2025-07-10,Feuilles abîmées
+1202,MCC0389,2025-07-20,Croissance rapide
+1203,MCC9522,2025-12-22,Croissance rapide
+1204,MCC9522,2025-09-26,Insectes observés
+1205,MCC8662,2025-09-15,Insectes observés
+1206,MCC8662,2025-06-22,Plante en bonne santé
+1207,MCC8662,2025-12-02,Plante en bonne santé
+1208,MCC8662,2025-07-17,Insectes observés
+1209,MCC1294,2025-06-08,Croissance rapide
+1210,MCC1294,2025-06-20,Insectes observés
+1211,MCC1294,2025-08-29,Signes de stress hydrique
+1212,MCA1458,2025-10-11,Croissance rapide
+1213,MCA1458,2025-11-05,Insectes observés
+1214,MCA1458,2025-11-15,Feuilles abîmées
+1215,MCA1458,2025-09-08,Croissance rapide
+1216,MCB0077,2025-12-10,Feuilles abîmées
+1217,MCB0077,2025-12-08,Plante en bonne santé
+1218,MCB0077,2025-07-05,Plante en bonne santé
+1219,MCB8451,2025-07-17,Signes de stress hydrique
+1220,MCB8451,2025-08-31,Plante en bonne santé
+1221,MCB8451,2025-08-28,Signes de stress hydrique
+1222,MCB1979,2025-09-22,Insectes observés
+1223,MCB1979,2025-07-08,Signes de stress hydrique
+1224,MCB1979,2025-11-13,Plante en bonne santé
+1225,MCB1979,2025-11-06,Feuilles abîmées
+1226,MCB1979,2025-12-25,Feuilles abîmées
+1227,MCB2326,2025-06-27,Croissance rapide
+1228,MCB2326,2025-08-18,Plante en bonne santé
+1229,MCB2326,2025-12-18,Plante en bonne santé
+1230,MCB2326,2025-06-25,Signes de stress hydrique
+1231,MCB2326,2025-08-05,Signes de stress hydrique
+1232,MCA8037,2025-11-01,Feuilles abîmées
+1233,MCA8037,2025-06-25,Feuilles abîmées
+1234,MCA8037,2025-12-14,Plante en bonne santé
+1235,MCA8037,2025-12-24,Signes de stress hydrique
+1236,MCB2572,2025-08-24,Croissance rapide
+1237,MCB2572,2025-08-28,Croissance rapide
+1238,MCB2572,2025-08-18,Croissance rapide
+1239,MCB7998,2025-06-26,Croissance rapide
+1240,MCC0152,2025-12-30,Signes de stress hydrique
+1241,MCC0152,2025-11-01,Plante en bonne santé
+1242,MCA5946,2025-09-30,Croissance rapide
+1243,MCB0676,2025-08-09,Plante en bonne santé
+1244,MCB0676,2025-10-31,Croissance rapide
+1245,MCB4847,2025-07-22,Signes de stress hydrique
+1246,MCB4847,2025-06-29,Croissance rapide
+1247,MCA2291,2025-07-11,Croissance rapide
+1248,MCA2291,2025-09-11,Feuilles abîmées
+1249,MCA2291,2025-12-26,Plante en bonne santé
+1250,MCA2373,2025-11-13,Insectes observés
+1251,MCA2373,2025-11-11,Feuilles abîmées
+1252,MCA2373,2025-09-26,Plante en bonne santé
+1253,MCB5525,2025-08-13,Croissance rapide
+1254,MCC9057,2025-08-19,Feuilles abîmées
+1255,MCC9057,2025-06-02,Plante en bonne santé
+1256,MCC9057,2025-10-04,Signes de stress hydrique
+1257,MCC9057,2025-06-08,Croissance rapide
+1258,MCC9057,2025-11-02,Plante en bonne santé
+1259,MCB2974,2025-08-31,Signes de stress hydrique
+1260,MCB2974,2025-08-06,Plante en bonne santé
+1261,MCB4328,2025-10-23,Insectes observés
+1262,MCB4328,2025-12-14,Feuilles abîmées
+1263,MCC1704,2025-06-01,Croissance rapide
+1264,MCC1704,2025-09-16,Plante en bonne santé
+1265,MCA6740,2025-07-14,Croissance rapide
+1266,MCA6740,2025-07-30,Signes de stress hydrique
+1267,MCA6740,2025-10-18,Croissance rapide
+1268,MCA5362,2025-10-01,Feuilles abîmées
+1269,MCA5362,2025-10-28,Insectes observés
+1270,MCA5362,2025-11-23,Feuilles abîmées
+1271,MCA5362,2025-12-29,Croissance rapide
+1272,MCB5832,2025-06-30,Croissance rapide
+1273,MCB5832,2025-11-21,Croissance rapide
+1274,MCB5832,2025-06-25,Insectes observés
+1275,MCB5832,2025-07-28,Croissance rapide
+1276,MCB5611,2025-12-24,Plante en bonne santé
+1277,MCA6300,2025-07-17,Insectes observés
+1278,MCC7696,2025-11-30,Signes de stress hydrique
+1279,MCC7696,2025-10-06,Feuilles abîmées
+1280,MCC7696,2025-09-21,Plante en bonne santé
+1281,MCC7696,2025-09-14,Signes de stress hydrique
+1282,MCC7696,2025-09-07,Feuilles abîmées
+1283,MCC3698,2025-11-11,Signes de stress hydrique
+1284,MCC3698,2025-12-18,Signes de stress hydrique
+1285,MCC3698,2025-06-04,Plante en bonne santé
+1286,MCC3698,2025-11-24,Insectes observés
+1287,MCA9266,2025-06-30,Signes de stress hydrique
+1288,MCA9266,2025-07-08,Plante en bonne santé
+1289,MCC2831,2025-08-28,Croissance rapide
+1290,MCC2831,2025-07-13,Insectes observés
+1291,MCC2831,2025-11-12,Signes de stress hydrique
+1292,MCC2831,2025-07-11,Insectes observés
+1293,MCC3337,2025-12-24,Plante en bonne santé
+1294,MCC3337,2025-11-07,Insectes observés
+1295,MCC3337,2025-09-25,Signes de stress hydrique
+1296,MCC3337,2025-10-12,Croissance rapide
+1297,MCC3337,2025-06-07,Plante en bonne santé
+1298,MCC9549,2025-10-06,Insectes observés
+1299,MCC9549,2025-09-05,Plante en bonne santé
+1300,MCC9549,2025-09-25,Croissance rapide
+1301,MCC9549,2025-12-12,Croissance rapide
+1302,MCC3406,2025-07-11,Insectes observés
+1303,MCC3406,2025-09-12,Croissance rapide
+1304,MCC3406,2025-11-20,Feuilles abîmées
+1305,MCC3406,2025-08-07,Croissance rapide
+1306,MCA5227,2025-09-19,Signes de stress hydrique
+1307,MCA5227,2025-11-04,Feuilles abîmées
+1308,MCA5227,2025-08-03,Plante en bonne santé
+1309,MCA5227,2025-08-29,Feuilles abîmées
+1310,MCA5227,2025-09-06,Plante en bonne santé
+1311,MCA2402,2025-12-13,Insectes observés
+1312,MCA2402,2025-06-24,Feuilles abîmées
+1313,MCC5070,2025-12-21,Feuilles abîmées
+1314,MCC5070,2025-08-08,Feuilles abîmées
+1315,MCC5070,2025-09-01,Plante en bonne santé
+1316,MCC5070,2025-10-30,Plante en bonne santé
+1317,MCB8530,2025-07-07,Croissance rapide
+1318,MCB8530,2025-09-25,Insectes observés
+1319,MCB8530,2025-11-14,Feuilles abîmées
+1320,MCB8530,2025-06-22,Signes de stress hydrique
+1321,MCC6279,2025-07-04,Croissance rapide
+1322,MCC6279,2025-07-24,Insectes observés
+1323,MCB8758,2025-08-20,Feuilles abîmées
+1324,MCB8758,2025-10-19,Signes de stress hydrique
+1325,MCB8758,2025-07-10,Croissance rapide
+1326,MCB8758,2025-10-13,Signes de stress hydrique
+1327,MCC6479,2025-11-04,Insectes observés
+1328,MCC6479,2025-11-02,Insectes observés
+1329,MCC6479,2025-09-23,Croissance rapide
+1330,MCC4787,2025-08-25,Feuilles abîmées
+1331,MCB9947,2025-06-21,Insectes observés
+1332,MCC2786,2025-12-17,Croissance rapide
+1333,MCC2786,2025-11-16,Feuilles abîmées
+1334,MCC2786,2025-10-21,Insectes observés
+1335,MCC2786,2025-10-03,Insectes observés
+1336,MCA8708,2025-06-19,Croissance rapide
+1337,MCC2554,2025-12-02,Feuilles abîmées
+1338,MCC2554,2025-10-10,Signes de stress hydrique
+1339,MCC2554,2025-12-15,Feuilles abîmées
+1340,MCC2554,2025-11-10,Feuilles abîmées
+1341,MCA7422,2025-10-15,Croissance rapide
+1342,MCC5833,2025-12-10,Croissance rapide
+1343,MCC5833,2025-10-13,Insectes observés
+1344,MCC5833,2025-07-19,Insectes observés
+1345,MCC5833,2025-07-30,Insectes observés
+1346,MCA4046,2025-08-06,Plante en bonne santé
+1347,MCA4046,2025-10-02,Signes de stress hydrique
+1348,MCA4046,2025-06-06,Croissance rapide
+1349,MCA4046,2025-11-27,Signes de stress hydrique
+1350,MCA4046,2025-08-05,Plante en bonne santé
+1351,MCB7047,2025-11-21,Signes de stress hydrique
+1352,MCB7047,2025-07-03,Insectes observés
+1353,MCB7047,2025-09-16,Feuilles abîmées
+1354,MCB7047,2025-07-30,Signes de stress hydrique
+1355,MCB9842,2025-12-03,Insectes observés
+1356,MCB9842,2025-07-20,Insectes observés
+1357,MCB9842,2025-10-13,Feuilles abîmées
+1358,MCB9842,2025-11-17,Croissance rapide
+1359,MCB9842,2025-06-01,Plante en bonne santé
+1360,MCC4088,2025-10-10,Croissance rapide
+1361,MCC4088,2025-08-19,Plante en bonne santé
+1362,MCC4088,2025-10-28,Croissance rapide
+1363,MCC5337,2025-08-17,Insectes observés
+1364,MCC5337,2025-11-21,Signes de stress hydrique
+1365,MCC5337,2025-11-24,Croissance rapide
+1366,MCC5337,2025-07-09,Signes de stress hydrique
+1367,MCC2288,2025-12-05,Feuilles abîmées
+1368,MCC2288,2025-11-02,Signes de stress hydrique
+1369,MCC2288,2025-07-21,Croissance rapide
+1370,MCA6959,2025-06-02,Insectes observés
+1371,MCA6959,2025-06-03,Plante en bonne santé
+1372,MCB2928,2025-11-21,Croissance rapide
+1373,MCB2928,2025-09-14,Feuilles abîmées
+1374,MCB2928,2025-07-15,Insectes observés
+1375,MCC1671,2025-08-27,Feuilles abîmées
+1376,MCC1671,2025-11-05,Plante en bonne santé
+1377,MCC1671,2025-06-20,Insectes observés
+1378,MCA1346,2025-09-22,Insectes observés
+1379,MCA1346,2025-08-24,Signes de stress hydrique
+1380,MCA1346,2025-08-16,Feuilles abîmées
+1381,MCA1346,2025-10-06,Plante en bonne santé
+1382,MCA2430,2025-09-29,Plante en bonne santé
+1383,MCA1375,2025-06-28,Plante en bonne santé
+1384,MCA1375,2025-08-17,Plante en bonne santé
+1385,MCA1375,2025-12-02,Feuilles abîmées
+1386,MCA1375,2025-09-16,Feuilles abîmées
+1387,MCA1375,2025-11-06,Signes de stress hydrique
+1388,MCC1235,2025-12-26,Plante en bonne santé
+1389,MCC1235,2025-12-13,Plante en bonne santé
+1390,MCB9501,2025-08-06,Insectes observés
+1391,MCB9501,2025-12-15,Signes de stress hydrique
+1392,MCA6238,2025-10-24,Insectes observés
+1393,MCA6238,2025-11-01,Croissance rapide
+1394,MCA6238,2025-08-25,Plante en bonne santé
+1395,MCB6600,2025-06-29,Feuilles abîmées
+1396,MCA0579,2025-11-02,Insectes observés
+1397,MCA2109,2025-08-17,Croissance rapide
+1398,MCA2109,2025-10-23,Plante en bonne santé
+1399,MCA2109,2025-10-27,Insectes observés
+1400,MCB8990,2025-11-28,Croissance rapide
+1401,MCC5430,2025-06-10,Signes de stress hydrique
+1402,MCC5292,2025-10-07,Feuilles abîmées
+1403,MCA0210,2025-10-24,Feuilles abîmées
+1404,MCA0210,2025-08-24,Signes de stress hydrique
+1405,MCA0210,2025-09-06,Plante en bonne santé
+1406,MCA0210,2025-06-06,Croissance rapide
+1407,MCA0210,2025-07-28,Signes de stress hydrique
+1408,MCB3252,2025-08-18,Feuilles abîmées
+1409,MCA4695,2025-12-26,Insectes observés
+1410,MCB9620,2025-06-14,Insectes observés
+1411,MCB9620,2025-07-06,Feuilles abîmées
+1412,MCB9620,2025-08-15,Croissance rapide
+1413,MCC1900,2025-08-29,Insectes observés
+1414,MCC1900,2025-06-29,Croissance rapide
+1415,MCC1900,2025-08-09,Croissance rapide
+1416,MCC1900,2025-12-12,Signes de stress hydrique
+1417,MCC1900,2025-06-06,Signes de stress hydrique
+1418,MCB7029,2025-09-11,Signes de stress hydrique
+1419,MCB7029,2025-12-15,Plante en bonne santé
+1420,MCB7029,2025-09-10,Plante en bonne santé
+1421,MCB7029,2025-09-15,Insectes observés
+1422,MCB2531,2025-12-28,Insectes observés
+1423,MCB2531,2025-12-24,Insectes observés
+1424,MCB3743,2025-09-10,Signes de stress hydrique
+1425,MCA0245,2025-07-17,Plante en bonne santé
+1426,MCA0245,2025-08-23,Insectes observés
+1427,MCA0245,2025-09-30,Feuilles abîmées
+1428,MCA0245,2025-08-30,Plante en bonne santé
+1429,MCC8476,2025-10-26,Croissance rapide
+1430,MCC8476,2025-11-29,Feuilles abîmées
+1431,MCC8476,2025-06-08,Signes de stress hydrique
+1432,MCA2146,2025-10-13,Insectes observés
+1433,MCA2146,2025-09-11,Insectes observés
+1434,MCA2146,2025-09-30,Croissance rapide
+1435,MCB6324,2025-07-07,Plante en bonne santé
+1436,MCB6324,2025-07-11,Signes de stress hydrique
+1437,MCB6324,2025-06-02,Insectes observés
+1438,MCB6324,2025-12-18,Feuilles abîmées
+1439,MCA6035,2025-11-30,Insectes observés
+1440,MCA6035,2025-12-12,Croissance rapide
+1441,MCA6035,2025-10-06,Feuilles abîmées
+1442,MCA3138,2025-08-02,Feuilles abîmées
+1443,MCB1062,2025-07-06,Insectes observés
+1444,MCB1062,2025-11-11,Feuilles abîmées
+1445,MCB1062,2025-07-18,Insectes observés
+1446,MCB1062,2025-07-02,Feuilles abîmées
+1447,MCB1062,2025-08-14,Feuilles abîmées
+1448,MCB6238,2025-12-20,Feuilles abîmées
+1449,MCB6238,2025-08-02,Signes de stress hydrique
+1450,MCB6238,2025-11-21,Plante en bonne santé
+1451,MCC1954,2025-12-26,Feuilles abîmées
+1452,MCC1954,2025-12-25,Croissance rapide
+1453,MCC2384,2025-07-06,Feuilles abîmées
+1454,MCC2384,2025-09-22,Croissance rapide
+1455,MCC2384,2025-07-21,Feuilles abîmées
+1456,MCC2384,2025-11-23,Signes de stress hydrique
+1457,MCB2310,2025-06-20,Signes de stress hydrique
+1458,MCB2310,2025-07-14,Signes de stress hydrique
+1459,MCB2310,2025-10-29,Croissance rapide
+1460,MCB2310,2025-08-15,Croissance rapide
+1461,MCB2310,2025-09-30,Insectes observés
+1462,MCC5516,2025-09-18,Plante en bonne santé
+1463,MCA8528,2025-11-07,Plante en bonne santé
+1464,MCA8528,2025-07-28,Feuilles abîmées
+1465,MCA8528,2025-06-20,Insectes observés
+1466,MCA8528,2025-11-15,Croissance rapide
+1467,MCA8528,2025-11-23,Signes de stress hydrique
+1468,MCB4096,2025-09-01,Feuilles abîmées
+1469,MCB4096,2025-08-19,Insectes observés
+1470,MCB4096,2025-12-25,Plante en bonne santé
+1471,MCB4096,2025-10-02,Signes de stress hydrique
+1472,MCC5958,2025-07-13,Signes de stress hydrique
+1473,MCB1341,2025-08-28,Plante en bonne santé
+1474,MCA8951,2025-11-05,Plante en bonne santé
+1475,MCC8982,2025-06-23,Insectes observés
+1476,MCC8982,2025-10-02,Signes de stress hydrique
+1477,MCC8982,2025-07-28,Signes de stress hydrique
+1478,MCC8982,2025-10-11,Feuilles abîmées
+1479,MCC8982,2025-10-21,Insectes observés
+1480,MCA8491,2025-08-24,Feuilles abîmées
+1481,MCA8491,2025-10-31,Insectes observés
+1482,MCA8491,2025-08-21,Signes de stress hydrique
+1483,MCA8491,2025-09-13,Signes de stress hydrique
+1484,MCC6486,2025-08-16,Insectes observés
+1485,MCC6486,2025-08-19,Insectes observés
+1486,MCC6486,2025-07-16,Signes de stress hydrique
+1487,MCC6486,2025-11-11,Signes de stress hydrique
+1488,MCB8940,2025-11-18,Signes de stress hydrique
+1489,MCB8940,2025-06-01,Insectes observés
+1490,MCB8940,2025-10-03,Feuilles abîmées
+1491,MCB8940,2025-09-12,Feuilles abîmées
+1492,MCC5308,2025-12-24,Feuilles abîmées
+1493,MCC5308,2025-06-13,Signes de stress hydrique
+1494,MCC5308,2025-11-28,Insectes observés
+1495,MCC5308,2025-06-22,Feuilles abîmées
+1496,MCC5308,2025-11-22,Insectes observés
+1497,MCC2089,2025-12-02,Plante en bonne santé
+1498,MCA8664,2025-11-24,Signes de stress hydrique
+1499,MCA8664,2025-10-12,Insectes observés
+1500,MCA8664,2025-06-17,Plante en bonne santé
+1501,MCA8664,2025-09-21,Plante en bonne santé
+1502,MCC7620,2025-11-18,Plante en bonne santé
+1503,MCC7620,2025-06-23,Signes de stress hydrique
+1504,MCC7620,2025-12-24,Signes de stress hydrique
+1505,MCB6039,2025-12-09,Insectes observés
+1506,MCB6039,2025-11-19,Insectes observés
+1507,MCB6039,2025-06-27,Feuilles abîmées
+1508,MCB6039,2025-12-12,Croissance rapide
+1509,MCB6039,2025-10-10,Feuilles abîmées
+1510,MCC5186,2025-09-14,Signes de stress hydrique
+1511,MCC5186,2025-09-23,Feuilles abîmées
+1512,MCC5186,2025-11-29,Signes de stress hydrique
+1513,MCC5186,2025-08-18,Signes de stress hydrique
+1514,MCC5186,2025-06-11,Plante en bonne santé
+1515,MCC2433,2025-12-10,Signes de stress hydrique
+1516,MCC2433,2025-10-31,Signes de stress hydrique
+1517,MCC2433,2025-09-28,Signes de stress hydrique
+1518,MCA6435,2025-07-03,Plante en bonne santé
+1519,MCA6435,2025-08-30,Croissance rapide
+1520,MCA6435,2025-11-29,Insectes observés
+1521,MCA6435,2025-07-06,Insectes observés
+1522,MCC8002,2025-07-24,Insectes observés
+1523,MCC8002,2025-06-22,Feuilles abîmées
+1524,MCC8002,2025-10-02,Croissance rapide
+1525,MCC8002,2025-06-17,Signes de stress hydrique
+1526,MCC8002,2025-10-10,Signes de stress hydrique
+1527,MCB4750,2025-10-03,Insectes observés
+1528,MCC6632,2025-07-03,Plante en bonne santé
+1529,MCB6878,2025-10-11,Croissance rapide
+1530,MCB6878,2025-08-30,Signes de stress hydrique
+1531,MCB6878,2025-07-09,Insectes observés
+1532,MCB6878,2025-07-15,Croissance rapide
+1533,MCA7520,2025-06-01,Feuilles abîmées
+1534,MCA7520,2025-09-19,Croissance rapide
+1535,MCA7520,2025-11-27,Feuilles abîmées
+1536,MCA7520,2025-10-06,Feuilles abîmées
+1537,MCA7520,2025-11-04,Croissance rapide
+1538,MCC2157,2025-12-16,Signes de stress hydrique
+1539,MCC2157,2025-11-20,Croissance rapide
+1540,MCC2157,2025-11-19,Feuilles abîmées
+1541,MCC2157,2025-06-20,Feuilles abîmées
+1542,MCC0574,2025-08-26,Feuilles abîmées
+1543,MCC0574,2025-11-30,Croissance rapide
+1544,MCC0574,2025-12-13,Feuilles abîmées
+1545,MCC0574,2025-07-13,Signes de stress hydrique
+1546,MCC0574,2025-10-31,Insectes observés
+1547,MCB2140,2025-08-01,Plante en bonne santé
+1548,MCB2140,2025-11-18,Insectes observés
+1549,MCB2140,2025-06-27,Croissance rapide
+1550,MCB2140,2025-07-18,Insectes observés
+1551,MCA3957,2025-10-19,Insectes observés
+1552,MCB0162,2025-10-02,Plante en bonne santé
+1553,MCC5370,2025-10-31,Croissance rapide
+1554,MCC5370,2025-11-21,Feuilles abîmées
+1555,MCC5370,2025-06-04,Croissance rapide
+1556,MCC5370,2025-06-08,Plante en bonne santé
+1557,MCB0680,2025-07-02,Signes de stress hydrique
+1558,MCB0680,2025-09-24,Signes de stress hydrique
+1559,MCC8594,2025-09-27,Croissance rapide
+1560,MCC8594,2025-12-14,Insectes observés
+1561,MCC8594,2025-10-14,Plante en bonne santé
+1562,MCC8594,2025-09-05,Feuilles abîmées
+1563,MCA3364,2025-07-18,Feuilles abîmées
+1564,MCA3364,2025-11-18,Plante en bonne santé
+1565,MCA3364,2025-11-21,Plante en bonne santé
+1566,MCA3364,2025-07-07,Signes de stress hydrique
+1567,MCB7824,2025-10-09,Insectes observés
+1568,MCA9412,2025-11-16,Signes de stress hydrique
+1569,MCC1650,2025-09-21,Plante en bonne santé
+1570,MCC1650,2025-11-06,Insectes observés
+1571,MCC1650,2025-07-14,Croissance rapide
+1572,MCC1650,2025-09-17,Plante en bonne santé
+1573,MCC1650,2025-06-29,Insectes observés
+1574,MCB9673,2025-10-24,Signes de stress hydrique
+1575,MCB8866,2025-11-05,Insectes observés
+1576,MCB8866,2025-06-28,Croissance rapide
+1577,MCA3182,2025-10-26,Insectes observés
+1578,MCB3799,2025-06-14,Croissance rapide
+1579,MCB3799,2025-11-12,Insectes observés
+1580,MCB3799,2025-08-25,Signes de stress hydrique
+1581,MCB3799,2025-09-02,Croissance rapide
+1582,MCB2619,2025-08-05,Feuilles abîmées
+1583,MCB2619,2025-06-15,Plante en bonne santé
+1584,MCB2619,2025-11-30,Insectes observés
+1585,MCB2619,2025-11-09,Insectes observés
+1586,MCA0040,2025-08-31,Feuilles abîmées
+1587,MCA0040,2025-10-20,Plante en bonne santé
+1588,MCA0040,2025-11-13,Feuilles abîmées
+1589,MCA1011,2025-06-02,Croissance rapide
+1590,MCA1011,2025-11-08,Croissance rapide
+1591,MCA1011,2025-12-04,Feuilles abîmées
+1592,MCA3189,2025-06-29,Plante en bonne santé
+1593,MCA9248,2025-07-13,Feuilles abîmées
+1594,MCB0717,2025-08-10,Feuilles abîmées
+1595,MCB0717,2025-08-21,Croissance rapide
+1596,MCB0717,2025-06-13,Signes de stress hydrique
+1597,MCC9221,2025-08-05,Feuilles abîmées
+1598,MCC9221,2025-12-01,Signes de stress hydrique
+1599,MCC9221,2025-07-23,Insectes observés
+1600,MCC9221,2025-08-30,Insectes observés
+1601,MCC9221,2025-11-07,Feuilles abîmées
+1602,MCB9886,2025-12-17,Signes de stress hydrique
+1603,MCB9886,2025-06-08,Signes de stress hydrique
+1604,MCB9886,2025-06-29,Croissance rapide
+1605,MCB9886,2025-11-20,Insectes observés
+1606,MCB9886,2025-08-26,Feuilles abîmées
+1607,MCA3329,2025-07-09,Insectes observés
+1608,MCA3329,2025-12-08,Feuilles abîmées
+1609,MCA3329,2025-12-10,Insectes observés
+1610,MCA3329,2025-09-25,Feuilles abîmées
+1611,MCA3329,2025-11-19,Plante en bonne santé
+1612,MCA2822,2025-11-06,Croissance rapide
+1613,MCA2822,2025-07-23,Signes de stress hydrique
+1614,MCA2822,2025-11-11,Insectes observés
+1615,MCA6289,2025-12-19,Plante en bonne santé
+1616,MCA6289,2025-10-17,Signes de stress hydrique
+1617,MCA6289,2025-10-27,Feuilles abîmées
+1618,MCA6289,2025-11-27,Feuilles abîmées
+1619,MCA6289,2025-07-27,Feuilles abîmées
+1620,MCB2666,2025-07-19,Croissance rapide
+1621,MCC1964,2025-11-15,Feuilles abîmées
+1622,MCC1964,2025-07-15,Croissance rapide
+1623,MCB5200,2025-10-16,Signes de stress hydrique
+1624,MCB5200,2025-11-21,Plante en bonne santé
+1625,MCB2570,2025-11-05,Plante en bonne santé
+1626,MCB2570,2025-06-13,Croissance rapide
+1627,MCB2570,2025-11-30,Signes de stress hydrique
+1628,MCA9859,2025-10-20,Insectes observés
+1629,MCA9859,2025-12-26,Croissance rapide
+1630,MCA9859,2025-12-20,Feuilles abîmées
+1631,MCA9859,2025-10-15,Insectes observés
+1632,MCA9859,2025-12-05,Feuilles abîmées
+1633,MCA6595,2025-11-25,Croissance rapide
+1634,MCA6595,2025-08-19,Feuilles abîmées
+1635,MCA6595,2025-11-14,Insectes observés
+1636,MCA6595,2025-10-12,Signes de stress hydrique
+1637,MCB3369,2025-07-31,Croissance rapide
+1638,MCB3369,2025-11-11,Insectes observés
+1639,MCB3369,2025-07-15,Insectes observés
+1640,MCA3765,2025-10-23,Insectes observés
+1641,MCC1200,2025-08-20,Feuilles abîmées
+1642,MCC1200,2025-06-07,Insectes observés
+1643,MCA0371,2025-08-03,Feuilles abîmées
+1644,MCA0371,2025-08-01,Feuilles abîmées
+1645,MCA0371,2025-08-16,Insectes observés
+1646,MCA2343,2025-06-20,Feuilles abîmées
+1647,MCA2343,2025-10-02,Plante en bonne santé
+1648,MCB9768,2025-08-17,Plante en bonne santé
+1649,MCB9768,2025-12-13,Croissance rapide
+1650,MCB9768,2025-07-31,Signes de stress hydrique
+1651,MCB9768,2025-06-07,Insectes observés
+1652,MCB6529,2025-07-29,Plante en bonne santé
+1653,MCB6529,2025-08-24,Signes de stress hydrique
+1654,MCB6529,2025-08-28,Plante en bonne santé
+1655,MCB1154,2025-12-12,Feuilles abîmées
+1656,MCA2324,2025-06-13,Plante en bonne santé
+1657,MCA2324,2025-06-09,Croissance rapide
+1658,MCA2324,2025-11-15,Signes de stress hydrique
+1659,MCA2324,2025-08-08,Insectes observés
+1660,MCB3483,2025-08-15,Croissance rapide
+1661,MCB3483,2025-12-07,Plante en bonne santé
+1662,MCB3483,2025-08-26,Insectes observés
+1663,MCB5193,2025-11-26,Signes de stress hydrique
+1664,MCB5193,2025-10-26,Feuilles abîmées
+1665,MCC6039,2025-12-17,Feuilles abîmées
+1666,MCC6039,2025-06-01,Croissance rapide
+1667,MCA2202,2025-10-04,Signes de stress hydrique
+1668,MCA2202,2025-06-24,Croissance rapide
+1669,MCA2202,2025-09-29,Plante en bonne santé
+1670,MCA2202,2025-08-23,Feuilles abîmées
+1671,MCB8575,2025-11-06,Signes de stress hydrique
+1672,MCB8575,2025-09-24,Signes de stress hydrique
+1673,MCB8575,2025-07-02,Signes de stress hydrique
+1674,MCB4425,2025-07-09,Croissance rapide
+1675,MCB4425,2025-12-11,Signes de stress hydrique
+1676,MCB4425,2025-11-18,Feuilles abîmées
+1677,MCB4425,2025-10-01,Croissance rapide
+1678,MCB4425,2025-08-08,Croissance rapide
+1679,MCB6448,2025-11-30,Signes de stress hydrique
+1680,MCB6448,2025-08-19,Feuilles abîmées
+1681,MCC4173,2025-11-10,Signes de stress hydrique
+1682,MCC4173,2025-10-13,Insectes observés
+1683,MCC4173,2025-10-19,Feuilles abîmées
+1684,MCC4173,2025-08-19,Insectes observés
+1685,MCC4173,2025-12-09,Feuilles abîmées
+1686,MCC3654,2025-12-09,Signes de stress hydrique
+1687,MCB7370,2025-12-24,Feuilles abîmées
+1688,MCB7370,2025-12-29,Signes de stress hydrique
+1689,MCB7370,2025-11-24,Croissance rapide
+1690,MCB7370,2025-12-11,Signes de stress hydrique
+1691,MCB7124,2025-11-16,Feuilles abîmées
+1692,MCB7124,2025-06-29,Signes de stress hydrique
+1693,MCB7124,2025-09-02,Croissance rapide
+1694,MCA8978,2025-08-04,Insectes observés
+1695,MCA8978,2025-11-07,Plante en bonne santé
+1696,MCC3591,2025-08-16,Plante en bonne santé
+1697,MCC3591,2025-06-28,Signes de stress hydrique
+1698,MCC3591,2025-07-29,Feuilles abîmées
+1699,MCC3591,2025-06-20,Croissance rapide
+1700,MCB5264,2025-11-21,Signes de stress hydrique
+1701,MCB5264,2025-09-08,Feuilles abîmées
+1702,MCB5264,2025-07-02,Feuilles abîmées
+1703,MCB5264,2025-09-04,Insectes observés
+1704,MCB5264,2025-09-21,Croissance rapide
+1705,MCC9125,2025-09-23,Signes de stress hydrique
+1706,MCC9125,2025-10-17,Insectes observés
+1707,MCC9125,2025-08-21,Signes de stress hydrique
+1708,MCC9125,2025-10-14,Feuilles abîmées
+1709,MCC9125,2025-10-13,Plante en bonne santé
+1710,MCB2639,2025-07-28,Plante en bonne santé
+1711,MCA9906,2025-10-12,Croissance rapide
+1712,MCB3351,2025-09-09,Croissance rapide
+1713,MCA1226,2025-12-23,Signes de stress hydrique
+1714,MCA1226,2025-07-16,Feuilles abîmées
+1715,MCA1226,2025-12-03,Insectes observés
+1716,MCC8369,2025-07-19,Signes de stress hydrique
+1717,MCC8369,2025-07-14,Croissance rapide
+1718,MCC8369,2025-11-12,Signes de stress hydrique
+1719,MCC8369,2025-07-10,Feuilles abîmées
+1720,MCB5070,2025-09-21,Croissance rapide
+1721,MCB5070,2025-10-26,Insectes observés
+1722,MCB5070,2025-07-10,Feuilles abîmées
+1723,MCB5070,2025-09-16,Insectes observés
+1724,MCC1544,2025-09-13,Signes de stress hydrique
+1725,MCC1544,2025-06-22,Insectes observés
+1726,MCC1544,2025-06-08,Feuilles abîmées
+1727,MCC1544,2025-06-25,Croissance rapide
+1728,MCC9916,2025-08-22,Feuilles abîmées
+1729,MCC9916,2025-12-28,Insectes observés
+1730,MCC9916,2025-09-13,Feuilles abîmées
+1731,MCC9255,2025-12-23,Plante en bonne santé
+1732,MCC9255,2025-08-04,Plante en bonne santé
+1733,MCB4211,2025-10-12,Signes de stress hydrique
+1734,MCB4211,2025-12-27,Plante en bonne santé
+1735,MCB4211,2025-07-28,Signes de stress hydrique
+1736,MCB4211,2025-12-04,Croissance rapide
+1737,MCB4211,2025-12-24,Insectes observés
+1738,MCC1789,2025-11-08,Feuilles abîmées
+1739,MCA9815,2025-12-29,Feuilles abîmées
+1740,MCA9815,2025-06-25,Croissance rapide
+1741,MCA9815,2025-10-13,Signes de stress hydrique
+1742,MCA9815,2025-09-25,Feuilles abîmées
+1743,MCA9815,2025-08-16,Croissance rapide
+1744,MCA0207,2025-10-13,Insectes observés
+1745,MCA0207,2025-08-26,Plante en bonne santé
+1746,MCA0207,2025-12-23,Plante en bonne santé
+1747,MCA0207,2025-06-24,Signes de stress hydrique
+1748,MCC8644,2025-09-26,Feuilles abîmées
+1749,MCC8644,2025-09-20,Plante en bonne santé
+1750,MCC8644,2025-08-02,Croissance rapide
+1751,MCC8644,2025-08-30,Plante en bonne santé
+1752,MCC8644,2025-10-17,Plante en bonne santé
+1753,MCB2188,2025-12-18,Insectes observés
+1754,MCB2188,2025-12-19,Croissance rapide
+1755,MCB2188,2025-10-24,Plante en bonne santé
+1756,MCB2188,2025-07-13,Signes de stress hydrique
+1757,MCB4007,2025-09-28,Croissance rapide
+1758,MCB4007,2025-12-02,Croissance rapide
+1759,MCB4007,2025-12-09,Feuilles abîmées
+1760,MCA3006,2025-09-24,Croissance rapide
+1761,MCA3006,2025-10-17,Signes de stress hydrique
+1762,MCA3006,2025-09-12,Croissance rapide
+1763,MCA2711,2025-07-26,Feuilles abîmées
+1764,MCA4057,2025-09-07,Plante en bonne santé
+1765,MCA4057,2025-11-10,Feuilles abîmées
+1766,MCA4057,2025-11-06,Feuilles abîmées
+1767,MCA4057,2025-11-03,Insectes observés
+1768,MCB6927,2025-08-26,Signes de stress hydrique
+1769,MCA1626,2025-12-29,Signes de stress hydrique
+1770,MCA1626,2025-11-01,Plante en bonne santé
+1771,MCA9868,2025-12-17,Insectes observés
+1772,MCA9868,2025-10-04,Croissance rapide
+1773,MCA9868,2025-11-09,Signes de stress hydrique
+1774,MCA9868,2025-12-12,Insectes observés
+1775,MCB0774,2025-06-11,Feuilles abîmées
+1776,MCC6359,2025-12-20,Plante en bonne santé
+1777,MCC6359,2025-09-22,Insectes observés
+1778,MCC6359,2025-10-25,Feuilles abîmées
+1779,MCA1690,2025-10-20,Insectes observés
+1780,MCA1690,2025-10-18,Signes de stress hydrique
+1781,MCB3513,2025-09-08,Insectes observés
+1782,MCB3513,2025-08-18,Croissance rapide
+1783,MCB3513,2025-11-22,Signes de stress hydrique
+1784,MCA2725,2025-10-19,Signes de stress hydrique
+1785,MCA2725,2025-06-13,Signes de stress hydrique
+1786,MCA2725,2025-06-08,Plante en bonne santé
+1787,MCC8461,2025-06-08,Signes de stress hydrique
+1788,MCC8461,2025-09-19,Plante en bonne santé
+1789,MCB3782,2025-06-04,Signes de stress hydrique
+1790,MCA0362,2025-11-02,Signes de stress hydrique
+1791,MCA0362,2025-06-07,Feuilles abîmées
+1792,MCA0362,2025-10-26,Croissance rapide
+1793,MCA0362,2025-07-14,Signes de stress hydrique
+1794,MCA0362,2025-10-10,Signes de stress hydrique
+1795,MCB8620,2025-08-23,Feuilles abîmées
+1796,MCB8620,2025-07-30,Signes de stress hydrique
+1797,MCB8620,2025-06-23,Feuilles abîmées
+1798,MCB8620,2025-08-18,Plante en bonne santé
+1799,MCB8620,2025-11-07,Feuilles abîmées
+1800,MCA3760,2025-10-24,Feuilles abîmées
+1801,MCA3760,2025-06-04,Feuilles abîmées
+1802,MCA3760,2025-07-25,Feuilles abîmées
+1803,MCA3760,2025-06-03,Signes de stress hydrique
+1804,MCA3760,2025-11-29,Insectes observés
+1805,MCC9788,2025-12-16,Plante en bonne santé
+1806,MCC9788,2025-06-15,Croissance rapide
+1807,MCC9788,2025-12-07,Plante en bonne santé
+1808,MCC9788,2025-12-18,Croissance rapide
+1809,MCC9788,2025-06-26,Croissance rapide
+1810,MCB7523,2025-08-30,Signes de stress hydrique
+1811,MCB7523,2025-07-06,Plante en bonne santé
+1812,MCB7355,2025-06-04,Insectes observés
+1813,MCB7355,2025-07-28,Feuilles abîmées
+1814,MCB7355,2025-09-23,Croissance rapide
+1815,MCB7355,2025-09-17,Feuilles abîmées
+1816,MCB6614,2025-08-27,Croissance rapide
+1817,MCB4313,2025-06-12,Croissance rapide
+1818,MCB4313,2025-09-03,Signes de stress hydrique
+1819,MCB4313,2025-07-28,Feuilles abîmées
+1820,MCB4313,2025-09-19,Insectes observés
+1821,MCC1411,2025-12-27,Feuilles abîmées
+1822,MCC1411,2025-08-31,Insectes observés
+1823,MCC1411,2025-12-16,Croissance rapide
+1824,MCC1411,2025-06-09,Plante en bonne santé
+1825,MCC1411,2025-07-10,Insectes observés
+1826,MCC2381,2025-12-25,Plante en bonne santé
+1827,MCC2381,2025-12-02,Croissance rapide
+1828,MCC2381,2025-08-17,Signes de stress hydrique
+1829,MCC2381,2025-07-15,Insectes observés
+1830,MCB4212,2025-10-07,Insectes observés
+1831,MCB4212,2025-07-11,Insectes observés
+1832,MCC1324,2025-11-11,Insectes observés
+1833,MCB3779,2025-08-07,Insectes observés
+1834,MCB3779,2025-11-10,Croissance rapide
+1835,MCB3779,2025-09-22,Insectes observés
+1836,MCB3779,2025-07-25,Croissance rapide
+1837,MCA9683,2025-07-04,Signes de stress hydrique
+1838,MCA9683,2025-06-23,Croissance rapide
+1839,MCC8269,2025-09-12,Plante en bonne santé
+1840,MCC8269,2025-08-09,Croissance rapide
+1841,MCC8269,2025-12-11,Plante en bonne santé
+1842,MCC8269,2025-08-29,Signes de stress hydrique
+1843,MCB8897,2025-11-23,Insectes observés
+1844,MCB8897,2025-08-25,Insectes observés
+1845,MCB8897,2025-09-14,Plante en bonne santé
+1846,MCB8897,2025-07-29,Insectes observés
+1847,MCA7074,2025-10-28,Feuilles abîmées
+1848,MCA7074,2025-12-25,Plante en bonne santé
+1849,MCA7074,2025-10-16,Plante en bonne santé
+1850,MCA3966,2025-08-27,Plante en bonne santé
+1851,MCA3966,2025-11-01,Croissance rapide
+1852,MCA3966,2025-12-01,Plante en bonne santé
+1853,MCA3966,2025-10-19,Plante en bonne santé
+1854,MCA3966,2025-11-03,Plante en bonne santé
+1855,MCA9818,2025-07-23,Croissance rapide
+1856,MCA9818,2025-07-01,Plante en bonne santé
+1857,MCA9818,2025-08-08,Plante en bonne santé
+1858,MCA9818,2025-09-14,Plante en bonne santé
+1859,MCA9818,2025-12-28,Croissance rapide
+1860,MCB0148,2025-06-01,Plante en bonne santé
+1861,MCB0148,2025-09-01,Croissance rapide
+1862,MCC5857,2025-06-15,Feuilles abîmées
+1863,MCC5857,2025-07-05,Signes de stress hydrique
+1864,MCC4391,2025-08-23,Signes de stress hydrique
+1865,MCC4391,2025-11-25,Signes de stress hydrique
+1866,MCC4391,2025-07-31,Croissance rapide
+1867,MCC4391,2025-07-15,Feuilles abîmées
+1868,MCA0466,2025-10-18,Feuilles abîmées
+1869,MCA0466,2025-06-28,Plante en bonne santé
+1870,MCA0466,2025-09-28,Feuilles abîmées
+1871,MCA0466,2025-07-11,Feuilles abîmées
+1872,MCA3741,2025-08-06,Signes de stress hydrique
+1873,MCA3741,2025-09-11,Signes de stress hydrique
+1874,MCA3741,2025-09-16,Insectes observés
+1875,MCA3741,2025-12-09,Croissance rapide
+1876,MCA3741,2025-08-13,Insectes observés
+1877,MCA6571,2025-10-17,Signes de stress hydrique
+1878,MCB9239,2025-12-30,Signes de stress hydrique
+1879,MCB9239,2025-11-26,Croissance rapide
+1880,MCA4113,2025-11-28,Croissance rapide
+1881,MCA4113,2025-11-23,Plante en bonne santé
+1882,MCA8272,2025-12-01,Croissance rapide
+1883,MCA8272,2025-12-14,Plante en bonne santé
+1884,MCB6980,2025-09-02,Signes de stress hydrique
+1885,MCC5564,2025-09-02,Signes de stress hydrique
+1886,MCC5564,2025-08-31,Croissance rapide
+1887,MCC5564,2025-09-21,Plante en bonne santé
+1888,MCA0992,2025-09-30,Croissance rapide
+1889,MCA0992,2025-09-16,Signes de stress hydrique
+1890,MCA0992,2025-10-01,Signes de stress hydrique
+1891,MCC5939,2025-07-07,Plante en bonne santé
+1892,MCC5939,2025-09-27,Plante en bonne santé
+1893,MCC3187,2025-11-30,Feuilles abîmées
+1894,MCC3187,2025-07-08,Signes de stress hydrique
+1895,MCC2257,2025-06-28,Insectes observés
+1896,MCC3911,2025-12-15,Plante en bonne santé
+1897,MCC3911,2025-07-12,Croissance rapide
+1898,MCB0276,2025-06-30,Signes de stress hydrique
+1899,MCC6612,2025-08-12,Feuilles abîmées
+1900,MCC6612,2025-09-07,Plante en bonne santé
+1901,MCC6612,2025-09-04,Signes de stress hydrique
+1902,MCC6612,2025-10-30,Feuilles abîmées
+1903,MCA8921,2025-09-08,Feuilles abîmées
+1904,MCA8921,2025-07-23,Feuilles abîmées
+1905,MCA8921,2025-10-17,Plante en bonne santé
+1906,MCB7057,2025-09-17,Plante en bonne santé
+1907,MCB7057,2025-08-09,Croissance rapide
+1908,MCB7057,2025-06-06,Insectes observés
+1909,MCB7057,2025-11-10,Signes de stress hydrique
+1910,MCC9698,2025-08-07,Insectes observés
+1911,MCC9698,2025-06-06,Croissance rapide
+1912,MCC9698,2025-08-31,Croissance rapide
+1913,MCC9698,2025-11-19,Signes de stress hydrique
+1914,MCA3878,2025-06-14,Croissance rapide
+1915,MCA3878,2025-10-08,Signes de stress hydrique
+1916,MCA3878,2025-10-18,Plante en bonne santé
+1917,MCA3878,2025-08-25,Plante en bonne santé
+1918,MCA3878,2025-06-16,Plante en bonne santé
+1919,MCB1560,2025-11-28,Insectes observés
+1920,MCB1560,2025-09-23,Croissance rapide
+1921,MCC3756,2025-08-07,Insectes observés
+1922,MCC3756,2025-12-05,Insectes observés
+1923,MCA6972,2025-11-30,Croissance rapide
+1924,MCA6972,2025-06-22,Plante en bonne santé
+1925,MCB3961,2025-07-12,Plante en bonne santé
+1926,MCB3961,2025-10-08,Croissance rapide
+1927,MCB3961,2025-12-28,Croissance rapide
+1928,MCB3961,2025-12-23,Insectes observés
+1929,MCA9244,2025-07-27,Plante en bonne santé
+1930,MCA7869,2025-06-06,Insectes observés
+1931,MCA7869,2025-10-24,Insectes observés
+1932,MCA7869,2025-09-20,Croissance rapide
+1933,MCB2998,2025-07-26,Insectes observés
+1934,MCB2998,2025-07-25,Feuilles abîmées
+1935,MCB2998,2025-11-04,Feuilles abîmées
+1936,MCB2998,2025-06-20,Signes de stress hydrique
+1937,MCA2496,2025-07-23,Feuilles abîmées
+1938,MCA2496,2025-12-24,Plante en bonne santé
+1939,MCA2496,2025-08-11,Insectes observés
+1940,MCA2496,2025-09-30,Plante en bonne santé
+1941,MCA2496,2025-10-25,Plante en bonne santé
+1942,MCC1965,2025-12-25,Feuilles abîmées
+1943,MCC1965,2025-11-23,Plante en bonne santé
+1944,MCC1965,2025-08-27,Signes de stress hydrique
+1945,MCC1965,2025-06-01,Feuilles abîmées
+1946,MCC1965,2025-08-14,Signes de stress hydrique
+1947,MCC7695,2025-11-13,Insectes observés
+1948,MCC7695,2025-12-12,Plante en bonne santé
+1949,MCA2724,2025-06-25,Insectes observés
+1950,MCA2724,2025-06-28,Plante en bonne santé
+1951,MCA2724,2025-09-05,Feuilles abîmées
+1952,MCC8866,2025-06-23,Signes de stress hydrique
+1953,MCB9345,2025-09-12,Insectes observés
+1954,MCB9345,2025-12-26,Feuilles abîmées
+1955,MCB9345,2025-08-09,Plante en bonne santé
+1956,MCA5574,2025-08-05,Plante en bonne santé
+1957,MCB9925,2025-09-08,Croissance rapide
+1958,MCA2915,2025-07-05,Insectes observés
+1959,MCC7641,2025-09-13,Croissance rapide
+1960,MCC7641,2025-06-18,Signes de stress hydrique
+1961,MCC7641,2025-08-31,Insectes observés
+1962,MCC7641,2025-10-06,Plante en bonne santé
+1963,MCC7641,2025-07-02,Plante en bonne santé
+1964,MCA1570,2025-06-25,Feuilles abîmées
+1965,MCA1570,2025-08-11,Feuilles abîmées
+1966,MCB7026,2025-10-22,Insectes observés
+1967,MCB8390,2025-06-22,Croissance rapide
+1968,MCB8390,2025-10-04,Feuilles abîmées
+1969,MCB8390,2025-06-16,Croissance rapide
+1970,MCB2813,2025-07-17,Signes de stress hydrique
+1971,MCA7706,2025-10-20,Signes de stress hydrique
+1972,MCA7706,2025-08-20,Signes de stress hydrique
+1973,MCA7706,2025-09-11,Plante en bonne santé
+1974,MCA7706,2025-12-01,Signes de stress hydrique
+1975,MCA7706,2025-06-07,Feuilles abîmées
+1976,MCB2309,2025-11-25,Feuilles abîmées
+1977,MCB2309,2025-07-23,Feuilles abîmées
+1978,MCB2309,2025-08-09,Signes de stress hydrique
+1979,MCB4054,2025-11-05,Feuilles abîmées
+1980,MCB4054,2025-07-25,Plante en bonne santé
+1981,MCB4054,2025-08-03,Croissance rapide
+1982,MCB4054,2025-11-10,Signes de stress hydrique
+1983,MCB4054,2025-08-28,Plante en bonne santé
+1984,MCA1696,2025-12-12,Signes de stress hydrique
+1985,MCA1696,2025-11-18,Croissance rapide
+1986,MCA1696,2025-11-06,Plante en bonne santé
+1987,MCA1696,2025-08-21,Insectes observés
+1988,MCC6586,2025-12-08,Croissance rapide
+1989,MCB9060,2025-07-13,Signes de stress hydrique
+1990,MCB9060,2025-08-01,Feuilles abîmées
+1991,MCB3550,2025-10-14,Signes de stress hydrique
+1992,MCB3550,2025-08-11,Feuilles abîmées
+1993,MCB3550,2025-09-17,Feuilles abîmées
+1994,MCB3550,2025-06-05,Insectes observés
+1995,MCB2274,2025-12-28,Signes de stress hydrique
+1996,MCB2274,2025-11-03,Insectes observés
+1997,MCA9510,2025-10-02,Insectes observés
+1998,MCA9510,2025-07-10,Signes de stress hydrique
+1999,MCA9510,2025-07-01,Feuilles abîmées
+2000,MCA9510,2025-11-12,Feuilles abîmées
+2001,MCA9510,2025-06-22,Feuilles abîmées
+2002,MCB8770,2025-11-30,Croissance rapide
+2003,MCB8770,2025-10-21,Plante en bonne santé
+2004,MCB8770,2025-11-23,Feuilles abîmées
+2005,MCB8770,2025-12-13,Insectes observés
+2006,MCB8770,2025-07-29,Insectes observés
+2007,MCC8467,2025-06-30,Plante en bonne santé
+2008,MCC8467,2025-12-23,Insectes observés
+2009,MCA9886,2025-10-03,Signes de stress hydrique
+2010,MCA9886,2025-07-29,Signes de stress hydrique
+2011,MCA9886,2025-09-16,Signes de stress hydrique
+2012,MCC2395,2025-08-07,Croissance rapide
+2013,MCC2395,2025-10-17,Signes de stress hydrique
+2014,MCC2395,2025-10-21,Signes de stress hydrique
+2015,MCC2395,2025-06-27,Plante en bonne santé
+2016,MCC9499,2025-09-29,Insectes observés
+2017,MCA7434,2025-12-30,Croissance rapide
+2018,MCA7434,2025-09-20,Insectes observés
+2019,MCC3795,2025-08-26,Feuilles abîmées
+2020,MCC3795,2025-09-13,Plante en bonne santé
+2021,MCC3795,2025-07-24,Plante en bonne santé
+2022,MCB7077,2025-11-16,Insectes observés
+2023,MCB7077,2025-12-01,Croissance rapide
+2024,MCB7077,2025-07-11,Plante en bonne santé
+2025,MCA0650,2025-06-13,Plante en bonne santé
+2026,MCB9572,2025-08-29,Feuilles abîmées
+2027,MCB9572,2025-12-20,Feuilles abîmées
+2028,MCB9572,2025-10-19,Feuilles abîmées
+2029,MCB8667,2025-07-03,Feuilles abîmées
+2030,MCB8667,2025-11-07,Plante en bonne santé
+2031,MCB8667,2025-11-01,Plante en bonne santé
+2032,MCB8667,2025-08-21,Feuilles abîmées
+2033,MCB5461,2025-10-09,Insectes observés
+2034,MCB5461,2025-08-04,Feuilles abîmées
+2035,MCB5461,2025-10-25,Signes de stress hydrique
+2036,MCB5461,2025-09-01,Insectes observés
+2037,MCB5461,2025-10-11,Croissance rapide
+2038,MCC7349,2025-10-06,Insectes observés
+2039,MCC7349,2025-07-02,Plante en bonne santé
+2040,MCC7349,2025-11-04,Insectes observés
+2041,MCC7349,2025-11-14,Signes de stress hydrique
+2042,MCC4130,2025-12-24,Signes de stress hydrique
+2043,MCC4130,2025-10-05,Insectes observés
+2044,MCC4130,2025-11-30,Signes de stress hydrique
+2045,MCC4130,2025-07-24,Signes de stress hydrique
+2046,MCA8417,2025-07-16,Feuilles abîmées
+2047,MCA8417,2025-10-18,Plante en bonne santé
+2048,MCA8417,2025-09-03,Signes de stress hydrique
+2049,MCA6767,2025-10-03,Feuilles abîmées
+2050,MCA6767,2025-06-24,Croissance rapide
+2051,MCC2019,2025-07-25,Feuilles abîmées
+2052,MCB0968,2025-06-04,Plante en bonne santé
+2053,MCB0968,2025-12-02,Insectes observés
+2054,MCB0968,2025-07-19,Feuilles abîmées
+2055,MCB0968,2025-09-15,Plante en bonne santé
+2056,MCB0968,2025-10-26,Signes de stress hydrique
+2057,MCA2239,2025-12-06,Feuilles abîmées
+2058,MCA2239,2025-06-15,Feuilles abîmées
+2059,MCA2239,2025-10-22,Signes de stress hydrique
+2060,MCA8305,2025-08-24,Signes de stress hydrique
+2061,MCC8551,2025-11-29,Signes de stress hydrique
+2062,MCC8551,2025-06-10,Feuilles abîmées
+2063,MCC8551,2025-09-24,Croissance rapide
+2064,MCA3198,2025-07-16,Croissance rapide
+2065,MCA3198,2025-07-12,Feuilles abîmées
+2066,MCA3198,2025-06-03,Croissance rapide
+2067,MCA3198,2025-11-17,Feuilles abîmées
+2068,MCB3937,2025-07-12,Croissance rapide
+2069,MCB3937,2025-09-09,Plante en bonne santé
+2070,MCB3937,2025-11-13,Croissance rapide
+2071,MCC4335,2025-06-29,Signes de stress hydrique
+2072,MCC4335,2025-11-17,Signes de stress hydrique
+2073,MCC4335,2025-07-01,Signes de stress hydrique
+2074,MCC4335,2025-06-08,Feuilles abîmées
+2075,MCC4335,2025-09-22,Feuilles abîmées
+2076,MCB9484,2025-12-14,Feuilles abîmées
+2077,MCB9484,2025-07-14,Plante en bonne santé
+2078,MCB9484,2025-08-27,Croissance rapide
+2079,MCB9484,2025-10-28,Feuilles abîmées
+2080,MCB9484,2025-06-05,Insectes observés
+2081,MCC8462,2025-07-24,Signes de stress hydrique
+2082,MCA2317,2025-12-22,Feuilles abîmées
+2083,MCA2317,2025-07-09,Plante en bonne santé
+2084,MCB3166,2025-06-28,Plante en bonne santé
+2085,MCB3166,2025-10-07,Plante en bonne santé
+2086,MCB6870,2025-10-01,Croissance rapide
+2087,MCB6870,2025-10-09,Insectes observés
+2088,MCB6870,2025-11-29,Feuilles abîmées
+2089,MCC3586,2025-09-06,Plante en bonne santé
+2090,MCA4258,2025-11-23,Feuilles abîmées
+2091,MCA9958,2025-11-15,Feuilles abîmées
+2092,MCB0624,2025-06-11,Croissance rapide
+2093,MCC8408,2025-07-05,Insectes observés
+2094,MCC8408,2025-06-05,Feuilles abîmées
+2095,MCC8408,2025-07-26,Plante en bonne santé
+2096,MCC8408,2025-06-19,Feuilles abîmées
+2097,MCC8408,2025-09-08,Signes de stress hydrique
+2098,MCB4519,2025-10-15,Signes de stress hydrique
+2099,MCB4519,2025-08-21,Signes de stress hydrique
+2100,MCB4519,2025-11-29,Plante en bonne santé
+2101,MCB2143,2025-11-14,Insectes observés
+2102,MCB2143,2025-08-05,Feuilles abîmées
+2103,MCB2194,2025-10-31,Insectes observés
+2104,MCB2194,2025-11-20,Feuilles abîmées
+2105,MCB2194,2025-07-23,Croissance rapide
+2106,MCA8564,2025-08-30,Insectes observés
+2107,MCA8564,2025-06-16,Insectes observés
+2108,MCA8564,2025-12-23,Plante en bonne santé
+2109,MCA8564,2025-11-05,Insectes observés
+2110,MCA8564,2025-06-03,Signes de stress hydrique
+2111,MCB8282,2025-12-08,Feuilles abîmées
+2112,MCB8282,2025-08-14,Insectes observés
+2113,MCB5818,2025-12-24,Signes de stress hydrique
+2114,MCB5818,2025-12-22,Insectes observés
+2115,MCA0676,2025-10-22,Feuilles abîmées
+2116,MCA0676,2025-11-16,Signes de stress hydrique
+2117,MCA0676,2025-06-21,Plante en bonne santé
+2118,MCA0676,2025-06-29,Croissance rapide
+2119,MCA5596,2025-08-31,Insectes observés
+2120,MCB4128,2025-07-14,Insectes observés
+2121,MCB4128,2025-06-17,Signes de stress hydrique
+2122,MCB4128,2025-10-25,Plante en bonne santé
+2123,MCB4128,2025-07-15,Feuilles abîmées
+2124,MCB6677,2025-09-01,Plante en bonne santé
+2125,MCB6677,2025-12-18,Signes de stress hydrique
+2126,MCB6677,2025-08-16,Signes de stress hydrique
+2127,MCB6677,2025-11-07,Insectes observés
+2128,MCB7892,2025-11-25,Croissance rapide
+2129,MCB1102,2025-08-28,Insectes observés
+2130,MCB1102,2025-11-10,Plante en bonne santé
+2131,MCB1102,2025-09-29,Plante en bonne santé
+2132,MCB1102,2025-08-23,Insectes observés
+2133,MCA9350,2025-12-03,Feuilles abîmées
+2134,MCA9350,2025-09-12,Plante en bonne santé
+2135,MCA9350,2025-09-29,Feuilles abîmées
+2136,MCA9350,2025-12-09,Croissance rapide
+2137,MCA9350,2025-09-19,Insectes observés
+2138,MCC0653,2025-10-08,Croissance rapide
+2139,MCC0653,2025-11-24,Plante en bonne santé
+2140,MCC0653,2025-11-05,Croissance rapide
+2141,MCC0653,2025-10-23,Croissance rapide
+2142,MCC0653,2025-11-21,Signes de stress hydrique
+2143,MCC4521,2025-08-22,Signes de stress hydrique
+2144,MCC4521,2025-06-10,Signes de stress hydrique
+2145,MCC4521,2025-09-27,Croissance rapide
+2146,MCC4521,2025-09-01,Feuilles abîmées
+2147,MCC5291,2025-09-03,Feuilles abîmées
+2148,MCC5291,2025-09-01,Signes de stress hydrique
+2149,MCB1517,2025-12-08,Plante en bonne santé
+2150,MCB1517,2025-09-25,Plante en bonne santé
+2151,MCB1517,2025-10-27,Plante en bonne santé
+2152,MCC6509,2025-07-30,Signes de stress hydrique
+2153,MCC6509,2025-08-15,Plante en bonne santé
+2154,MCC5252,2025-07-16,Croissance rapide
+2155,MCC5252,2025-07-15,Croissance rapide
+2156,MCB0497,2025-10-04,Feuilles abîmées
+2157,MCB0497,2025-10-11,Plante en bonne santé
+2158,MCB0497,2025-12-02,Plante en bonne santé
+2159,MCB0497,2025-11-17,Croissance rapide
+2160,MCB6589,2025-08-14,Feuilles abîmées
+2161,MCB6589,2025-11-11,Insectes observés
+2162,MCB6589,2025-08-23,Croissance rapide
+2163,MCB6589,2025-07-21,Plante en bonne santé
+2164,MCA9602,2025-10-07,Plante en bonne santé
+2165,MCC6342,2025-10-20,Croissance rapide
+2166,MCC6342,2025-07-24,Plante en bonne santé
+2167,MCC6342,2025-11-20,Signes de stress hydrique
+2168,MCC5035,2025-08-02,Feuilles abîmées
+2169,MCC5035,2025-10-07,Feuilles abîmées
+2170,MCC5035,2025-11-06,Croissance rapide
+2171,MCC5035,2025-06-29,Insectes observés
+2172,MCC5035,2025-09-05,Croissance rapide
+2173,MCC8325,2025-09-21,Signes de stress hydrique
+2174,MCC8325,2025-06-08,Plante en bonne santé
+2175,MCC8325,2025-07-26,Croissance rapide
+2176,MCB0647,2025-08-07,Feuilles abîmées
+2177,MCB0647,2025-10-18,Signes de stress hydrique
+2178,MCB0647,2025-11-27,Plante en bonne santé
+2179,MCB0647,2025-12-04,Feuilles abîmées
+2180,MCC0347,2025-10-20,Signes de stress hydrique
+2181,MCC0347,2025-08-17,Insectes observés
+2182,MCC1447,2025-12-25,Croissance rapide
+2183,MCC8264,2025-06-12,Signes de stress hydrique
+2184,MCA7095,2025-08-23,Feuilles abîmées
+2185,MCA7095,2025-11-29,Feuilles abîmées
+2186,MCA7095,2025-09-23,Feuilles abîmées
+2187,MCA7095,2025-07-26,Croissance rapide
+2188,MCB3933,2025-08-24,Signes de stress hydrique
+2189,MCB3933,2025-06-11,Plante en bonne santé
+2190,MCB3933,2025-07-27,Signes de stress hydrique
+2191,MCB3933,2025-11-16,Feuilles abîmées
+2192,MCC5961,2025-12-08,Plante en bonne santé
+2193,MCA2013,2025-07-13,Signes de stress hydrique
+2194,MCA2013,2025-11-17,Feuilles abîmées
+2195,MCA2013,2025-08-17,Croissance rapide
+2196,MCA2013,2025-09-13,Croissance rapide
+2197,MCA6469,2025-08-26,Signes de stress hydrique
+2198,MCA6469,2025-12-12,Croissance rapide
+2199,MCA6469,2025-06-10,Feuilles abîmées
+2200,MCA6469,2025-09-09,Croissance rapide
+2201,MCB1846,2025-07-17,Plante en bonne santé
+2202,MCB1846,2025-10-16,Plante en bonne santé
+2203,MCB1846,2025-11-14,Croissance rapide
+2204,MCA8099,2025-12-11,Signes de stress hydrique
+2205,MCC6648,2025-07-08,Insectes observés
+2206,MCC6648,2025-12-30,Insectes observés
+2207,MCA1491,2025-11-06,Feuilles abîmées
+2208,MCA1491,2025-10-05,Signes de stress hydrique
+2209,MCA1491,2025-08-16,Plante en bonne santé
+2210,MCA9536,2025-11-21,Signes de stress hydrique
+2211,MCA9536,2025-09-18,Signes de stress hydrique
+2212,MCA9536,2025-11-26,Signes de stress hydrique
+2213,MCB2683,2025-12-04,Croissance rapide
+2214,MCB2683,2025-10-13,Signes de stress hydrique
+2215,MCB2683,2025-08-29,Signes de stress hydrique
+2216,MCB2683,2025-06-30,Plante en bonne santé
+2217,MCB2683,2025-08-10,Signes de stress hydrique
+2218,MCC7745,2025-10-11,Plante en bonne santé
+2219,MCC7745,2025-09-04,Plante en bonne santé
+2220,MCC7745,2025-10-20,Feuilles abîmées
+2221,MCC2018,2025-11-09,Plante en bonne santé
+2222,MCC2018,2025-08-18,Feuilles abîmées
+2223,MCC7673,2025-11-02,Signes de stress hydrique
+2224,MCC7673,2025-08-19,Insectes observés
+2225,MCC7673,2025-12-12,Insectes observés
+2226,MCC7673,2025-11-29,Croissance rapide
+2227,MCA0743,2025-08-29,Signes de stress hydrique
+2228,MCA0743,2025-10-04,Plante en bonne santé
+2229,MCA0743,2025-06-28,Croissance rapide
+2230,MCA0743,2025-10-03,Feuilles abîmées
+2231,MCA0743,2025-09-20,Insectes observés
+2232,MCA9620,2025-08-07,Insectes observés
+2233,MCA9620,2025-10-13,Feuilles abîmées
+2234,MCB2959,2025-10-01,Croissance rapide
+2235,MCB2959,2025-12-26,Plante en bonne santé
+2236,MCB2959,2025-12-22,Plante en bonne santé
+2237,MCB2959,2025-12-06,Plante en bonne santé
+2238,MCB5809,2025-07-09,Insectes observés
+2239,MCA8088,2025-12-13,Feuilles abîmées
+2240,MCA8088,2025-10-03,Signes de stress hydrique
+2241,MCA8088,2025-07-09,Insectes observés
+2242,MCA8088,2025-10-30,Feuilles abîmées
+2243,MCA8088,2025-10-23,Croissance rapide
+2244,MCB3214,2025-07-01,Plante en bonne santé
+2245,MCB3214,2025-07-23,Signes de stress hydrique
+2246,MCB3214,2025-10-18,Insectes observés
+2247,MCB3214,2025-12-16,Feuilles abîmées
+2248,MCB3214,2025-08-06,Feuilles abîmées
+2249,MCB7003,2025-12-04,Croissance rapide
+2250,MCB7003,2025-10-23,Signes de stress hydrique
+2251,MCB7003,2025-10-27,Signes de stress hydrique
+2252,MCC8313,2025-08-09,Signes de stress hydrique
+2253,MCC8313,2025-11-19,Signes de stress hydrique
+2254,MCC8313,2025-07-20,Plante en bonne santé
+2255,MCA4360,2025-08-06,Signes de stress hydrique
+2256,MCA4360,2025-10-17,Croissance rapide
+2257,MCC5736,2025-07-22,Feuilles abîmées
+2258,MCC5736,2025-09-22,Insectes observés
+2259,MCC9639,2025-06-02,Croissance rapide
+2260,MCB0295,2025-08-02,Feuilles abîmées
+2261,MCB0295,2025-07-18,Insectes observés
+2262,MCB0295,2025-10-11,Insectes observés
+2263,MCB0295,2025-10-28,Croissance rapide
+2264,MCB8916,2025-07-08,Croissance rapide
+2265,MCB8916,2025-10-24,Plante en bonne santé
+2266,MCB8916,2025-08-12,Feuilles abîmées
+2267,MCB3398,2025-10-28,Croissance rapide
+2268,MCB3398,2025-07-19,Signes de stress hydrique
+2269,MCB3398,2025-10-15,Feuilles abîmées
+2270,MCB3398,2025-11-09,Plante en bonne santé
+2271,MCC8886,2025-06-19,Insectes observés
+2272,MCC8886,2025-11-24,Insectes observés
+2273,MCC8886,2025-11-06,Plante en bonne santé
+2274,MCC8886,2025-09-25,Plante en bonne santé
+2275,MCB1689,2025-09-04,Feuilles abîmées
+2276,MCC7915,2025-12-18,Plante en bonne santé
+2277,MCB5093,2025-10-06,Feuilles abîmées
+2278,MCB5093,2025-07-21,Plante en bonne santé
+2279,MCC1796,2025-06-20,Feuilles abîmées
+2280,MCC1796,2025-07-02,Croissance rapide
+2281,MCC1796,2025-09-01,Plante en bonne santé
+2282,MCC0878,2025-11-10,Feuilles abîmées
+2283,MCC0878,2025-11-04,Signes de stress hydrique
+2284,MCC0878,2025-07-22,Insectes observés
+2285,MCB1064,2025-09-07,Insectes observés
+2286,MCB1064,2025-12-10,Croissance rapide
+2287,MCA6551,2025-11-29,Feuilles abîmées
+2288,MCA6551,2025-08-31,Signes de stress hydrique
+2289,MCA6551,2025-07-02,Feuilles abîmées
+2290,MCA6551,2025-11-01,Plante en bonne santé
+2291,MCC3287,2025-12-14,Plante en bonne santé
+2292,MCC3287,2025-12-04,Insectes observés
+2293,MCC4210,2025-09-05,Feuilles abîmées
+2294,MCC4210,2025-06-13,Croissance rapide
+2295,MCC4210,2025-06-25,Feuilles abîmées
+2296,MCC4210,2025-08-13,Signes de stress hydrique
+2297,MCC4210,2025-11-17,Croissance rapide
+2298,MCB1809,2025-09-28,Insectes observés
+2299,MCB1809,2025-09-17,Signes de stress hydrique
+2300,MCB1809,2025-08-25,Feuilles abîmées
+2301,MCB1809,2025-10-31,Croissance rapide
+2302,MCB8117,2025-06-12,Signes de stress hydrique
+2303,MCB8117,2025-12-29,Croissance rapide
+2304,MCA3325,2025-09-16,Croissance rapide
+2305,MCB5248,2025-10-24,Croissance rapide
+2306,MCB5248,2025-12-21,Signes de stress hydrique
+2307,MCB5248,2025-09-17,Plante en bonne santé
+2308,MCB5248,2025-12-02,Croissance rapide
+2309,MCB5248,2025-07-25,Feuilles abîmées
+2310,MCB8420,2025-07-28,Signes de stress hydrique
+2311,MCB8420,2025-09-06,Insectes observés
+2312,MCB8420,2025-07-18,Signes de stress hydrique
+2313,MCB8420,2025-06-29,Plante en bonne santé
+2314,MCA8665,2025-09-13,Insectes observés
+2315,MCA8665,2025-06-19,Feuilles abîmées
+2316,MCA8665,2025-08-11,Insectes observés
+2317,MCA8665,2025-12-01,Plante en bonne santé
+2318,MCA8665,2025-11-05,Feuilles abîmées
+2319,MCC6190,2025-09-04,Insectes observés
+2320,MCC6190,2025-12-10,Feuilles abîmées
+2321,MCC6190,2025-11-12,Feuilles abîmées
+2322,MCC4565,2025-07-12,Insectes observés
+2323,MCA6794,2025-10-19,Croissance rapide
+2324,MCA6794,2025-06-04,Feuilles abîmées
+2325,MCA6794,2025-10-08,Plante en bonne santé
+2326,MCA6794,2025-09-13,Feuilles abîmées
+2327,MCA4574,2025-09-23,Insectes observés
+2328,MCA4207,2025-07-23,Feuilles abîmées
+2329,MCB5977,2025-08-18,Insectes observés
+2330,MCB5977,2025-10-15,Plante en bonne santé
+2331,MCB5977,2025-07-28,Insectes observés
+2332,MCC7633,2025-10-04,Feuilles abîmées
+2333,MCC7633,2025-06-01,Signes de stress hydrique
+2334,MCC7633,2025-10-13,Plante en bonne santé
+2335,MCC6467,2025-09-30,Feuilles abîmées
+2336,MCC6467,2025-06-14,Feuilles abîmées
+2337,MCC6467,2025-08-28,Feuilles abîmées
+2338,MCC6467,2025-08-19,Plante en bonne santé
+2339,MCA2068,2025-10-23,Signes de stress hydrique
+2340,MCA2068,2025-06-14,Insectes observés
+2341,MCA2068,2025-07-05,Insectes observés
+2342,MCB1400,2025-06-29,Plante en bonne santé
+2343,MCB1400,2025-09-09,Feuilles abîmées
+2344,MCB1400,2025-10-01,Plante en bonne santé
+2345,MCB1400,2025-06-25,Signes de stress hydrique
+2346,MCB1400,2025-11-13,Croissance rapide
+2347,MCB5066,2025-11-15,Feuilles abîmées
+2348,MCB5066,2025-10-11,Croissance rapide
+2349,MCB5066,2025-11-19,Insectes observés
+2350,MCB5066,2025-08-30,Signes de stress hydrique
+2351,MCA2626,2025-12-19,Insectes observés
+2352,MCA2626,2025-10-07,Feuilles abîmées
+2353,MCA2626,2025-09-30,Signes de stress hydrique
+2354,MCA2626,2025-11-20,Signes de stress hydrique
+2355,MCA2626,2025-06-10,Feuilles abîmées
+2356,MCC3927,2025-06-19,Signes de stress hydrique
+2357,MCC3927,2025-07-08,Signes de stress hydrique
+2358,MCC3927,2025-09-21,Feuilles abîmées
+2359,MCC3927,2025-08-03,Croissance rapide
+2360,MCC3927,2025-11-06,Signes de stress hydrique
+2361,MCB8752,2025-12-16,Signes de stress hydrique
+2362,MCB8752,2025-10-17,Feuilles abîmées
+2363,MCB8752,2025-10-11,Insectes observés
+2364,MCB9537,2025-10-29,Feuilles abîmées
+2365,MCB9537,2025-07-30,Plante en bonne santé
+2366,MCB9537,2025-11-08,Signes de stress hydrique
+2367,MCB1355,2025-08-18,Feuilles abîmées
+2368,MCB7318,2025-06-22,Croissance rapide
+2369,MCC5718,2025-07-26,Croissance rapide
+2370,MCC5718,2025-07-03,Plante en bonne santé
+2371,MCC1698,2025-12-19,Feuilles abîmées
+2372,MCC1698,2025-12-24,Plante en bonne santé
+2373,MCC1698,2025-08-02,Plante en bonne santé
+2374,MCC1698,2025-11-18,Feuilles abîmées
+2375,MCC1698,2025-11-08,Croissance rapide
+2376,MCA0322,2025-08-20,Insectes observés
+2377,MCA0322,2025-08-06,Insectes observés
+2378,MCA0322,2025-07-15,Plante en bonne santé
+2379,MCA9799,2025-09-25,Feuilles abîmées
+2380,MCA9799,2025-08-01,Feuilles abîmées
+2381,MCA9799,2025-06-14,Plante en bonne santé
+2382,MCA9799,2025-06-11,Feuilles abîmées
+2383,MCA9799,2025-07-02,Signes de stress hydrique
+2384,MCA5110,2025-11-18,Signes de stress hydrique
+2385,MCA5110,2025-07-05,Insectes observés
+2386,MCC5402,2025-08-20,Signes de stress hydrique
+2387,MCC5402,2025-06-30,Feuilles abîmées
+2388,MCC5402,2025-07-17,Signes de stress hydrique
+2389,MCA8526,2025-08-21,Signes de stress hydrique
+2390,MCA8526,2025-12-02,Croissance rapide
+2391,MCA8526,2025-10-19,Croissance rapide
+2392,MCA8526,2025-08-16,Croissance rapide
+2393,MCA5749,2025-12-04,Signes de stress hydrique
+2394,MCA5749,2025-07-18,Feuilles abîmées
+2395,MCA5749,2025-12-22,Signes de stress hydrique
+2396,MCA9200,2025-12-08,Plante en bonne santé
+2397,MCA9200,2025-09-09,Croissance rapide
+2398,MCA9200,2025-10-18,Plante en bonne santé
+2399,MCA9200,2025-06-04,Croissance rapide
+2400,MCA9200,2025-06-30,Insectes observés
+2401,MCB3713,2025-08-31,Signes de stress hydrique
+2402,MCB3713,2025-11-04,Plante en bonne santé
+2403,MCB3713,2025-07-18,Plante en bonne santé
+2404,MCB3713,2025-11-22,Signes de stress hydrique
+2405,MCB3713,2025-09-28,Insectes observés
+2406,MCB0846,2025-07-04,Signes de stress hydrique
+2407,MCB0846,2025-09-24,Feuilles abîmées
+2408,MCC8247,2025-10-10,Croissance rapide
+2409,MCC8247,2025-09-27,Signes de stress hydrique
+2410,MCA1861,2025-10-13,Plante en bonne santé
+2411,MCA1861,2025-07-01,Insectes observés
+2412,MCA1861,2025-08-08,Plante en bonne santé
+2413,MCA1861,2025-10-01,Croissance rapide
+2414,MCC2838,2025-10-22,Plante en bonne santé
+2415,MCA4678,2025-11-14,Feuilles abîmées
+2416,MCA4678,2025-10-20,Plante en bonne santé
+2417,MCA4678,2025-10-16,Plante en bonne santé
+2418,MCA4678,2025-12-30,Insectes observés
+2419,MCA4678,2025-06-29,Insectes observés
+2420,MCC8034,2025-10-11,Croissance rapide
+2421,MCC9129,2025-07-10,Signes de stress hydrique
+2422,MCC9129,2025-12-09,Feuilles abîmées
+2423,MCC9129,2025-09-02,Plante en bonne santé
+2424,MCC9129,2025-07-20,Croissance rapide
+2425,MCA1440,2025-08-23,Feuilles abîmées
+2426,MCA7157,2025-09-25,Insectes observés
+2427,MCB6275,2025-06-08,Signes de stress hydrique
+2428,MCB6275,2025-06-16,Croissance rapide
+2429,MCB6275,2025-09-17,Insectes observés
+2430,MCB6275,2025-06-13,Plante en bonne santé
+2431,MCB6275,2025-06-21,Plante en bonne santé
+2432,MCA5354,2025-09-12,Insectes observés
+2433,MCA5354,2025-06-04,Croissance rapide
+2434,MCA5354,2025-10-16,Feuilles abîmées
+2435,MCC1185,2025-09-15,Feuilles abîmées
+2436,MCC1185,2025-11-24,Croissance rapide
+2437,MCC1185,2025-12-30,Signes de stress hydrique
+2438,MCC1185,2025-07-11,Plante en bonne santé
+2439,MCB7363,2025-06-28,Insectes observés
+2440,MCB7363,2025-09-15,Croissance rapide
+2441,MCB7363,2025-11-01,Croissance rapide
+2442,MCB0803,2025-11-13,Feuilles abîmées
+2443,MCB0803,2025-09-21,Feuilles abîmées
+2444,MCB0803,2025-11-23,Feuilles abîmées
+2445,MCB0803,2025-06-22,Feuilles abîmées
+2446,MCB0803,2025-11-22,Insectes observés
+2447,MCB4971,2025-07-30,Signes de stress hydrique
+2448,MCB4971,2025-10-15,Plante en bonne santé
+2449,MCA7867,2025-10-15,Plante en bonne santé
+2450,MCA7867,2025-06-02,Feuilles abîmées
+2451,MCA7867,2025-11-06,Signes de stress hydrique
+2452,MCA7867,2025-08-03,Feuilles abîmées
+2453,MCA7867,2025-10-06,Feuilles abîmées
+2454,MCA4865,2025-07-03,Feuilles abîmées
+2455,MCA4865,2025-06-10,Croissance rapide
+2456,MCA4865,2025-07-29,Feuilles abîmées
+2457,MCA4865,2025-08-16,Insectes observés
+2458,MCA4865,2025-12-28,Insectes observés
+2459,MCC2887,2025-06-03,Signes de stress hydrique
+2460,MCC2887,2025-06-17,Feuilles abîmées
+2461,MCB6406,2025-07-31,Croissance rapide
+2462,MCB6406,2025-10-15,Croissance rapide
+2463,MCB6406,2025-11-04,Feuilles abîmées
+2464,MCB6406,2025-09-01,Insectes observés
+2465,MCB6406,2025-11-26,Plante en bonne santé
+2466,MCB6245,2025-08-03,Croissance rapide
+2467,MCB6245,2025-12-17,Croissance rapide
+2468,MCC4564,2025-09-08,Signes de stress hydrique
+2469,MCC4564,2025-08-26,Feuilles abîmées
+2470,MCC4564,2025-07-12,Insectes observés
+2471,MCC4564,2025-07-10,Plante en bonne santé
+2472,MCC4564,2025-08-03,Croissance rapide
+2473,MCB1802,2025-07-25,Plante en bonne santé
+2474,MCC7901,2025-08-04,Plante en bonne santé
+2475,MCC6201,2025-12-04,Croissance rapide
+2476,MCC6201,2025-09-30,Plante en bonne santé
+2477,MCC6201,2025-12-19,Croissance rapide
+2478,MCC6201,2025-12-18,Insectes observés
+2479,MCC0833,2025-08-15,Croissance rapide
+2480,MCC0833,2025-12-19,Croissance rapide
+2481,MCC0833,2025-09-30,Signes de stress hydrique
+2482,MCC0833,2025-10-23,Plante en bonne santé
+2483,MCC0833,2025-08-19,Croissance rapide
+2484,MCA5839,2025-08-27,Insectes observés
+2485,MCA5839,2025-06-06,Insectes observés
+2486,MCA5839,2025-09-11,Croissance rapide
+2487,MCA5839,2025-11-24,Signes de stress hydrique
+2488,MCA5839,2025-06-22,Plante en bonne santé
+2489,MCB8459,2025-12-12,Insectes observés
+2490,MCB3520,2025-12-12,Signes de stress hydrique
+2491,MCB3520,2025-10-24,Croissance rapide
+2492,MCB3520,2025-11-30,Signes de stress hydrique
+2493,MCA1142,2025-09-13,Insectes observés
+2494,MCA1142,2025-11-11,Feuilles abîmées
+2495,MCA1142,2025-11-23,Insectes observés
+2496,MCB9981,2025-07-27,Insectes observés
+2497,MCB9981,2025-10-29,Signes de stress hydrique
+2498,MCB9981,2025-12-21,Insectes observés
+2499,MCB9981,2025-08-28,Croissance rapide
+2500,MCA4087,2025-07-05,Croissance rapide
+2501,MCA4087,2025-08-02,Plante en bonne santé
+2502,MCA4087,2025-07-10,Plante en bonne santé
+2503,MCA4087,2025-09-13,Plante en bonne santé
+2504,MCA6716,2025-11-01,Insectes observés
+2505,MCA9239,2025-10-31,Feuilles abîmées
+2506,MCC2964,2025-09-08,Feuilles abîmées
+2507,MCC2964,2025-12-19,Plante en bonne santé
+2508,MCC2964,2025-12-09,Signes de stress hydrique
+2509,MCA9365,2025-11-01,Feuilles abîmées
+2510,MCA9365,2025-07-15,Croissance rapide
+2511,MCA9365,2025-10-30,Signes de stress hydrique
+2512,MCA9365,2025-06-05,Insectes observés
+2513,MCC8921,2025-12-22,Feuilles abîmées
+2514,MCC8921,2025-09-16,Insectes observés
+2515,MCC8921,2025-06-26,Signes de stress hydrique
+2516,MCC3585,2025-09-04,Plante en bonne santé
+2517,MCC3585,2025-07-24,Insectes observés
+2518,MCC3585,2025-07-08,Feuilles abîmées
+2519,MCA4210,2025-10-24,Croissance rapide
+2520,MCA4210,2025-07-27,Signes de stress hydrique
+2521,MCA4210,2025-10-20,Plante en bonne santé
+2522,MCB7931,2025-08-13,Feuilles abîmées
+2523,MCB7931,2025-10-11,Insectes observés
+2524,MCB7931,2025-12-12,Signes de stress hydrique
+2525,MCC8908,2025-07-04,Plante en bonne santé
+2526,MCA9301,2025-11-16,Feuilles abîmées
+2527,MCA9301,2025-10-26,Insectes observés
+2528,MCA9301,2025-07-12,Feuilles abîmées
+2529,MCB5432,2025-09-30,Feuilles abîmées
+2530,MCB5432,2025-11-20,Plante en bonne santé
+2531,MCB5432,2025-09-17,Croissance rapide
+2532,MCB5432,2025-12-12,Insectes observés
+2533,MCB5432,2025-06-09,Signes de stress hydrique
+2534,MCB7660,2025-11-07,Plante en bonne santé
+2535,MCC3527,2025-08-18,Feuilles abîmées
+2536,MCC3527,2025-08-03,Signes de stress hydrique
+2537,MCC3527,2025-12-05,Croissance rapide
+2538,MCC3527,2025-08-29,Signes de stress hydrique
+2539,MCC3527,2025-12-24,Plante en bonne santé
+2540,MCA4263,2025-11-28,Plante en bonne santé
+2541,MCA4263,2025-11-05,Signes de stress hydrique
+2542,MCA4263,2025-09-22,Croissance rapide
+2543,MCB9339,2025-12-19,Feuilles abîmées
+2544,MCC9911,2025-11-24,Plante en bonne santé
+2545,MCC9911,2025-10-17,Croissance rapide
+2546,MCC9911,2025-11-17,Signes de stress hydrique
+2547,MCC9911,2025-09-27,Feuilles abîmées
+2548,MCC9911,2025-11-19,Insectes observés
+2549,MCC0144,2025-08-20,Feuilles abîmées
+2550,MCC2329,2025-08-21,Croissance rapide
+2551,MCC2329,2025-06-30,Croissance rapide
+2552,MCC2329,2025-11-18,Insectes observés
+2553,MCC2329,2025-06-11,Feuilles abîmées
+2554,MCC1035,2025-09-05,Plante en bonne santé
+2555,MCC1035,2025-09-18,Feuilles abîmées
+2556,MCC1035,2025-09-29,Signes de stress hydrique
+2557,MCA3365,2025-10-16,Croissance rapide
+2558,MCA3365,2025-08-26,Signes de stress hydrique
+2559,MCA3365,2025-08-16,Signes de stress hydrique
+2560,MCB7815,2025-08-02,Signes de stress hydrique
+2561,MCB7815,2025-07-20,Signes de stress hydrique
+2562,MCB7815,2025-09-24,Croissance rapide
+2563,MCB7815,2025-07-25,Plante en bonne santé
+2564,MCB7815,2025-09-19,Signes de stress hydrique
+2565,MCC7536,2025-10-25,Insectes observés
+2566,MCC7536,2025-09-05,Plante en bonne santé
+2567,MCC7536,2025-06-23,Feuilles abîmées
+2568,MCC9013,2025-09-03,Feuilles abîmées
+2569,MCB6144,2025-10-12,Signes de stress hydrique
+2570,MCB6144,2025-06-14,Signes de stress hydrique
+2571,MCB6144,2025-06-09,Plante en bonne santé
+2572,MCB6144,2025-09-27,Insectes observés
+2573,MCB6144,2025-07-20,Feuilles abîmées
+2574,MCC3879,2025-10-21,Croissance rapide
+2575,MCC3879,2025-09-08,Feuilles abîmées
+2576,MCC3879,2025-07-18,Insectes observés
+2577,MCB5175,2025-12-02,Insectes observés
+2578,MCB5175,2025-09-13,Plante en bonne santé
+2579,MCB0416,2025-07-05,Feuilles abîmées
+2580,MCA2821,2025-12-16,Plante en bonne santé
+2581,MCA2821,2025-06-09,Insectes observés
+2582,MCB1198,2025-06-09,Insectes observés
+2583,MCB1198,2025-07-18,Signes de stress hydrique
+2584,MCB1198,2025-08-12,Insectes observés
+2585,MCB2391,2025-11-27,Signes de stress hydrique
+2586,MCB2391,2025-11-28,Croissance rapide
+2587,MCC8306,2025-11-25,Feuilles abîmées
+2588,MCC8306,2025-07-23,Croissance rapide
+2589,MCC8306,2025-09-18,Croissance rapide
+2590,MCC8306,2025-07-04,Croissance rapide
+2591,MCC8852,2025-11-02,Insectes observés
+2592,MCB6447,2025-12-24,Croissance rapide
+2593,MCB6507,2025-06-29,Plante en bonne santé
+2594,MCB6507,2025-07-15,Insectes observés
+2595,MCA0970,2025-07-26,Feuilles abîmées
+2596,MCA0970,2025-06-18,Feuilles abîmées
+2597,MCA0970,2025-07-29,Signes de stress hydrique
+2598,MCA0970,2025-09-17,Croissance rapide
+2599,MCA9938,2025-12-10,Feuilles abîmées
+2600,MCA9938,2025-10-25,Feuilles abîmées
+2601,MCA9938,2025-10-12,Insectes observés
+2602,MCA9938,2025-12-18,Feuilles abîmées
+2603,MCC9070,2025-06-25,Feuilles abîmées
+2604,MCC9070,2025-06-17,Plante en bonne santé
+2605,MCC9070,2025-09-26,Insectes observés
+2606,MCC9070,2025-06-19,Feuilles abîmées
+2607,MCC9070,2025-11-02,Feuilles abîmées
+2608,MCB5854,2025-07-03,Feuilles abîmées
+2609,MCB5854,2025-06-06,Signes de stress hydrique
+2610,MCB5854,2025-10-30,Feuilles abîmées
+2611,MCB5854,2025-09-18,Insectes observés
+2612,MCB5854,2025-09-12,Feuilles abîmées
+2613,MCA4152,2025-11-12,Insectes observés
+2614,MCA4152,2025-10-16,Croissance rapide
+2615,MCA4152,2025-07-16,Signes de stress hydrique
+2616,MCC9799,2025-12-24,Signes de stress hydrique
+2617,MCC9799,2025-09-10,Feuilles abîmées
+2618,MCA4653,2025-12-04,Croissance rapide
+2619,MCA4653,2025-11-12,Croissance rapide
+2620,MCA4653,2025-11-22,Plante en bonne santé
+2621,MCA4653,2025-11-28,Feuilles abîmées
+2622,MCA8772,2025-09-17,Plante en bonne santé
+2623,MCA8772,2025-08-05,Croissance rapide
+2624,MCA8772,2025-12-08,Plante en bonne santé
+2625,MCB8574,2025-12-26,Insectes observés
+2626,MCA7714,2025-07-17,Insectes observés
+2627,MCC9826,2025-09-09,Insectes observés
+2628,MCA5075,2025-12-16,Plante en bonne santé
+2629,MCA5075,2025-11-09,Plante en bonne santé
+2630,MCA5075,2025-06-11,Croissance rapide
+2631,MCA6096,2025-10-13,Signes de stress hydrique
+2632,MCA6096,2025-08-29,Croissance rapide
+2633,MCA6096,2025-07-22,Croissance rapide
+2634,MCA6096,2025-07-01,Feuilles abîmées
+2635,MCA5835,2025-10-07,Insectes observés
+2636,MCA5835,2025-08-23,Plante en bonne santé
+2637,MCA5835,2025-06-23,Feuilles abîmées
+2638,MCA5835,2025-07-21,Insectes observés
+2639,MCA2685,2025-07-06,Feuilles abîmées
+2640,MCA2685,2025-12-08,Signes de stress hydrique
+2641,MCC3230,2025-10-01,Signes de stress hydrique
+2642,MCA6162,2025-07-19,Feuilles abîmées
+2643,MCA6162,2025-09-30,Signes de stress hydrique
+2644,MCA6162,2025-07-07,Croissance rapide
+2645,MCA6162,2025-06-15,Croissance rapide
+2646,MCB1222,2025-07-28,Signes de stress hydrique
+2647,MCB1222,2025-09-21,Croissance rapide
+2648,MCB1222,2025-06-01,Croissance rapide
+2649,MCB1222,2025-10-09,Insectes observés
+2650,MCB0689,2025-07-14,Plante en bonne santé
+2651,MCB0689,2025-07-01,Croissance rapide
+2652,MCB0689,2025-09-20,Signes de stress hydrique
+2653,MCC6716,2025-06-07,Signes de stress hydrique
+2654,MCC6716,2025-09-13,Signes de stress hydrique
+2655,MCC6716,2025-06-25,Insectes observés
+2656,MCB9726,2025-10-21,Croissance rapide
+2657,MCB9726,2025-08-20,Insectes observés
+2658,MCB9726,2025-12-06,Feuilles abîmées
+2659,MCB9726,2025-06-01,Signes de stress hydrique
+2660,MCB9726,2025-10-02,Plante en bonne santé
+2661,MCB8979,2025-06-30,Croissance rapide
+2662,MCB2568,2025-09-22,Insectes observés
+2663,MCB2568,2025-11-12,Croissance rapide
+2664,MCB2568,2025-12-01,Feuilles abîmées
+2665,MCB2568,2025-09-03,Insectes observés
+2666,MCA0078,2025-09-30,Signes de stress hydrique
+2667,MCA0078,2025-09-11,Croissance rapide
+2668,MCA0078,2025-12-18,Croissance rapide
+2669,MCA0078,2025-09-26,Signes de stress hydrique
+2670,MCA0078,2025-06-13,Croissance rapide
+2671,MCA0237,2025-07-08,Insectes observés
+2672,MCA0237,2025-07-15,Insectes observés
+2673,MCA0237,2025-11-05,Feuilles abîmées
+2674,MCA0237,2025-11-08,Plante en bonne santé
+2675,MCA0237,2025-10-26,Plante en bonne santé
+2676,MCC2694,2025-11-07,Insectes observés
+2677,MCC2694,2025-10-30,Signes de stress hydrique
+2678,MCC2694,2025-10-06,Insectes observés
+2679,MCB2045,2025-10-04,Signes de stress hydrique
+2680,MCB2045,2025-09-29,Feuilles abîmées
+2681,MCB2045,2025-09-03,Croissance rapide
+2682,MCB2045,2025-08-16,Feuilles abîmées
+2683,MCA3997,2025-08-17,Insectes observés
+2684,MCA3997,2025-08-10,Plante en bonne santé
+2685,MCA3997,2025-11-26,Insectes observés
+2686,MCA3997,2025-09-15,Insectes observés
+2687,MCB9415,2025-11-21,Insectes observés
+2688,MCB9415,2025-10-29,Insectes observés
+2689,MCB9415,2025-06-15,Croissance rapide
+2690,MCB9429,2025-10-29,Signes de stress hydrique
+2691,MCB9429,2025-10-04,Feuilles abîmées
+2692,MCA6186,2025-06-01,Signes de stress hydrique
+2693,MCA6186,2025-09-02,Signes de stress hydrique
+2694,MCB9197,2025-10-12,Feuilles abîmées
+2695,MCB9197,2025-06-27,Signes de stress hydrique
+2696,MCB9197,2025-06-02,Feuilles abîmées
+2697,MCB9197,2025-06-04,Plante en bonne santé
+2698,MCA6589,2025-12-14,Signes de stress hydrique
+2699,MCA6589,2025-07-21,Croissance rapide
+2700,MCC7952,2025-09-22,Croissance rapide
+2701,MCC7952,2025-08-16,Croissance rapide
+2702,MCC7952,2025-10-19,Croissance rapide
+2703,MCC7952,2025-07-20,Feuilles abîmées
+2704,MCA5626,2025-11-27,Insectes observés
+2705,MCA5626,2025-10-26,Feuilles abîmées
+2706,MCA5626,2025-12-26,Insectes observés
+2707,MCA5626,2025-10-22,Croissance rapide
+2708,MCA5626,2025-08-24,Plante en bonne santé
+2709,MCA1489,2025-07-15,Croissance rapide
+2710,MCA1489,2025-10-13,Feuilles abîmées
+2711,MCA1489,2025-09-09,Plante en bonne santé
+2712,MCA5867,2025-07-19,Plante en bonne santé
+2713,MCA5867,2025-11-07,Insectes observés
+2714,MCB7169,2025-06-15,Feuilles abîmées
+2715,MCB7169,2025-09-20,Plante en bonne santé
+2716,MCB7169,2025-06-09,Croissance rapide
+2717,MCC6378,2025-10-01,Feuilles abîmées
+2718,MCC6378,2025-07-20,Signes de stress hydrique
+2719,MCA7633,2025-07-18,Insectes observés
+2720,MCA7633,2025-12-16,Plante en bonne santé
+2721,MCB2407,2025-08-12,Signes de stress hydrique
+2722,MCB2407,2025-09-14,Signes de stress hydrique
+2723,MCA3087,2025-09-06,Plante en bonne santé
+2724,MCA3087,2025-09-02,Signes de stress hydrique
+2725,MCA3087,2025-06-07,Plante en bonne santé
+2726,MCA0607,2025-10-05,Plante en bonne santé
+2727,MCA8864,2025-06-14,Plante en bonne santé
+2728,MCA8864,2025-07-21,Plante en bonne santé
+2729,MCA8864,2025-11-09,Insectes observés
+2730,MCA8864,2025-11-24,Croissance rapide
+2731,MCB5547,2025-06-02,Croissance rapide
+2732,MCB5547,2025-09-26,Croissance rapide
+2733,MCB5547,2025-11-17,Feuilles abîmées
+2734,MCB5547,2025-10-18,Feuilles abîmées
+2735,MCB0494,2025-11-09,Croissance rapide
+2736,MCB0494,2025-10-30,Feuilles abîmées
+2737,MCB0494,2025-09-20,Plante en bonne santé
+2738,MCC0961,2025-10-03,Croissance rapide
+2739,MCC0961,2025-09-14,Signes de stress hydrique
+2740,MCC0961,2025-10-20,Insectes observés
+2741,MCC0961,2025-11-26,Plante en bonne santé
+2742,MCC0961,2025-06-17,Signes de stress hydrique
+2743,MCC7099,2025-07-01,Croissance rapide
+2744,MCA7919,2025-12-02,Signes de stress hydrique
+2745,MCC6947,2025-12-12,Signes de stress hydrique
+2746,MCC6947,2025-09-30,Feuilles abîmées
+2747,MCC6947,2025-06-12,Signes de stress hydrique
+2748,MCC6947,2025-12-24,Feuilles abîmées
+2749,MCC6947,2025-08-24,Insectes observés
+2750,MCB0331,2025-10-08,Croissance rapide
+2751,MCB0331,2025-07-10,Insectes observés
+2752,MCB0331,2025-10-21,Feuilles abîmées
+2753,MCA1494,2025-11-19,Insectes observés
+2754,MCC3781,2025-06-12,Feuilles abîmées
+2755,MCB0823,2025-12-15,Signes de stress hydrique
+2756,MCB0823,2025-11-04,Plante en bonne santé
+2757,MCC0278,2025-10-01,Plante en bonne santé
+2758,MCC0278,2025-08-03,Plante en bonne santé
+2759,MCC0278,2025-12-29,Feuilles abîmées
+2760,MCA5426,2025-07-04,Croissance rapide
+2761,MCA5426,2025-07-27,Plante en bonne santé
+2762,MCA5426,2025-11-03,Signes de stress hydrique
+2763,MCA5426,2025-08-14,Signes de stress hydrique
+2764,MCA0476,2025-12-01,Croissance rapide
+2765,MCA0476,2025-06-10,Insectes observés
+2766,MCA2240,2025-09-29,Plante en bonne santé
+2767,MCA2240,2025-10-04,Insectes observés
+2768,MCA2240,2025-06-03,Insectes observés
+2769,MCA2240,2025-07-21,Signes de stress hydrique
+2770,MCB5333,2025-07-21,Insectes observés
+2771,MCC5852,2025-11-24,Insectes observés
+2772,MCC5852,2025-07-20,Insectes observés
+2773,MCC5852,2025-08-21,Feuilles abîmées
+2774,MCC5852,2025-08-01,Plante en bonne santé
+2775,MCC0071,2025-09-17,Plante en bonne santé
+2776,MCC0071,2025-08-07,Croissance rapide
+2777,MCC0071,2025-07-13,Croissance rapide
+2778,MCC0071,2025-12-19,Plante en bonne santé
+2779,MCC0071,2025-06-29,Signes de stress hydrique
+2780,MCA4906,2025-09-18,Feuilles abîmées
+2781,MCA4906,2025-12-01,Plante en bonne santé
+2782,MCC1834,2025-06-29,Plante en bonne santé
+2783,MCC1834,2025-09-06,Insectes observés
+2784,MCC1834,2025-09-08,Plante en bonne santé
+2785,MCC1834,2025-12-14,Signes de stress hydrique
+2786,MCC1834,2025-10-05,Feuilles abîmées
+2787,MCA3081,2025-10-25,Insectes observés
+2788,MCA3081,2025-12-20,Plante en bonne santé
+2789,MCA3081,2025-09-22,Insectes observés
+2790,MCA3081,2025-07-24,Feuilles abîmées
+2791,MCC7455,2025-10-23,Signes de stress hydrique
+2792,MCC7455,2025-12-06,Insectes observés
+2793,MCC7455,2025-11-02,Feuilles abîmées
+2794,MCC7455,2025-08-27,Plante en bonne santé
+2795,MCC6346,2025-12-25,Signes de stress hydrique
+2796,MCC6346,2025-12-26,Insectes observés
+2797,MCC6346,2025-08-09,Feuilles abîmées
+2798,MCC4881,2025-06-23,Insectes observés
+2799,MCC4881,2025-11-12,Signes de stress hydrique
+2800,MCC8692,2025-09-28,Insectes observés
+2801,MCC8692,2025-07-02,Plante en bonne santé
+2802,MCA3086,2025-08-14,Signes de stress hydrique
+2803,MCA3086,2025-07-14,Feuilles abîmées
+2804,MCA3086,2025-09-29,Insectes observés
+2805,MCA3086,2025-07-06,Feuilles abîmées
+2806,MCA9435,2025-09-15,Signes de stress hydrique
+2807,MCA9435,2025-10-03,Insectes observés
+2808,MCA9435,2025-12-16,Feuilles abîmées
+2809,MCB1375,2025-06-30,Plante en bonne santé
+2810,MCB1375,2025-11-01,Feuilles abîmées
+2811,MCB1375,2025-07-19,Croissance rapide
+2812,MCB1375,2025-10-19,Insectes observés
+2813,MCB1375,2025-07-27,Insectes observés
+2814,MCC6983,2025-11-27,Croissance rapide
+2815,MCC6983,2025-07-28,Croissance rapide
+2816,MCC6983,2025-10-14,Insectes observés
+2817,MCC7096,2025-06-18,Signes de stress hydrique
+2818,MCB1851,2025-09-10,Insectes observés
+2819,MCB1851,2025-07-31,Signes de stress hydrique
+2820,MCB1851,2025-08-28,Feuilles abîmées
+2821,MCC1044,2025-06-28,Feuilles abîmées
+2822,MCC1044,2025-11-14,Croissance rapide
+2823,MCC1044,2025-11-26,Feuilles abîmées
+2824,MCC1044,2025-07-19,Feuilles abîmées
+2825,MCC1317,2025-07-18,Croissance rapide
+2826,MCC1317,2025-12-20,Insectes observés
+2827,MCC1317,2025-09-06,Feuilles abîmées
+2828,MCA4410,2025-12-09,Insectes observés
+2829,MCA4410,2025-06-15,Croissance rapide
+2830,MCA4410,2025-12-21,Plante en bonne santé
+2831,MCA4410,2025-06-04,Croissance rapide
+2832,MCA4410,2025-10-31,Croissance rapide
+2833,MCB2324,2025-06-12,Plante en bonne santé
+2834,MCB2324,2025-12-09,Feuilles abîmées
+2835,MCB2324,2025-07-08,Croissance rapide
+2836,MCB2324,2025-07-17,Feuilles abîmées
+2837,MCA9719,2025-07-02,Feuilles abîmées
+2838,MCA9719,2025-08-23,Insectes observés
+2839,MCA9719,2025-07-03,Plante en bonne santé
+2840,MCA9719,2025-10-11,Feuilles abîmées
+2841,MCA9719,2025-09-04,Signes de stress hydrique
+2842,MCA7685,2025-09-10,Insectes observés
+2843,MCA7685,2025-07-30,Croissance rapide
+2844,MCA7685,2025-07-01,Signes de stress hydrique
+2845,MCA7685,2025-07-27,Insectes observés
+2846,MCC3867,2025-10-31,Signes de stress hydrique
+2847,MCC3867,2025-07-28,Insectes observés
+2848,MCC3867,2025-06-30,Feuilles abîmées
+2849,MCA4831,2025-07-08,Croissance rapide
+2850,MCB8030,2025-07-08,Insectes observés
+2851,MCB8030,2025-11-27,Plante en bonne santé
+2852,MCB0608,2025-12-14,Feuilles abîmées
+2853,MCB0608,2025-12-20,Plante en bonne santé
+2854,MCB0608,2025-12-30,Plante en bonne santé
+2855,MCB3899,2025-08-04,Feuilles abîmées
+2856,MCB3899,2025-07-12,Insectes observés
+2857,MCB3899,2025-11-29,Croissance rapide
+2858,MCB3899,2025-07-05,Feuilles abîmées
+2859,MCB3899,2025-09-04,Plante en bonne santé
+2860,MCC1649,2025-11-19,Signes de stress hydrique
+2861,MCC1649,2025-09-01,Feuilles abîmées
+2862,MCC1649,2025-06-06,Feuilles abîmées
+2863,MCC1649,2025-06-02,Feuilles abîmées
+2864,MCC1649,2025-12-03,Feuilles abîmées
+2865,MCC5876,2025-09-20,Croissance rapide
+2866,MCC4441,2025-10-08,Insectes observés
+2867,MCA8635,2025-06-27,Plante en bonne santé
+2868,MCA8635,2025-10-30,Feuilles abîmées
+2869,MCA8635,2025-09-17,Feuilles abîmées
+2870,MCA8635,2025-07-02,Insectes observés
+2871,MCA8635,2025-07-08,Feuilles abîmées
+2872,MCB2868,2025-11-10,Feuilles abîmées
+2873,MCC4937,2025-08-02,Plante en bonne santé
+2874,MCC4937,2025-09-27,Feuilles abîmées
+2875,MCC4937,2025-09-12,Plante en bonne santé
+2876,MCC2534,2025-08-10,Feuilles abîmées
+2877,MCC0429,2025-12-16,Feuilles abîmées
+2878,MCC0429,2025-12-13,Insectes observés
+2879,MCC0429,2025-09-27,Signes de stress hydrique
+2880,MCC0429,2025-08-20,Signes de stress hydrique
+2881,MCC0429,2025-06-21,Croissance rapide
+2882,MCC5775,2025-09-04,Feuilles abîmées
+2883,MCC5775,2025-12-07,Croissance rapide
+2884,MCC5775,2025-10-04,Feuilles abîmées
+2885,MCC7637,2025-10-15,Croissance rapide
+2886,MCC2912,2025-10-01,Plante en bonne santé
+2887,MCC2912,2025-12-25,Croissance rapide
+2888,MCB4670,2025-09-25,Plante en bonne santé
+2889,MCB4670,2025-06-10,Croissance rapide
+2890,MCC7547,2025-10-08,Signes de stress hydrique
+2891,MCC7547,2025-09-21,Insectes observés
+2892,MCC7547,2025-08-08,Insectes observés
+2893,MCA3178,2025-12-24,Croissance rapide
+2894,MCA3178,2025-11-26,Plante en bonne santé
+2895,MCA3178,2025-07-14,Feuilles abîmées
+2896,MCA3178,2025-06-05,Croissance rapide
+2897,MCB1810,2025-10-06,Insectes observés
+2898,MCB1810,2025-11-17,Insectes observés
+2899,MCB1810,2025-08-13,Feuilles abîmées
+2900,MCA4466,2025-09-21,Insectes observés
+2901,MCB7729,2025-06-05,Croissance rapide
+2902,MCB7729,2025-06-10,Plante en bonne santé
+2903,MCB7729,2025-10-13,Signes de stress hydrique
+2904,MCC8993,2025-09-05,Insectes observés
+2905,MCA5490,2025-07-27,Croissance rapide
+2906,MCA4479,2025-08-15,Signes de stress hydrique
+2907,MCA4479,2025-11-01,Plante en bonne santé
+2908,MCA4479,2025-06-17,Insectes observés
+2909,MCA5523,2025-08-01,Plante en bonne santé
+2910,MCA5523,2025-08-08,Feuilles abîmées
+2911,MCC1292,2025-08-02,Feuilles abîmées
+2912,MCC1292,2025-08-08,Croissance rapide
+2913,MCA2400,2025-06-18,Signes de stress hydrique
+2914,MCA2400,2025-07-12,Signes de stress hydrique
+2915,MCA2400,2025-11-21,Signes de stress hydrique
+2916,MCA2400,2025-11-17,Feuilles abîmées
+2917,MCA2400,2025-10-19,Croissance rapide
+2918,MCC6419,2025-12-13,Croissance rapide
+2919,MCC3951,2025-08-08,Insectes observés
+2920,MCC3951,2025-12-28,Croissance rapide
+2921,MCC3951,2025-12-04,Croissance rapide
+2922,MCC3951,2025-09-06,Croissance rapide
+2923,MCC3951,2025-11-15,Plante en bonne santé
+2924,MCB1985,2025-10-28,Plante en bonne santé
+2925,MCB1985,2025-07-09,Plante en bonne santé
+2926,MCB5996,2025-08-27,Insectes observés
+2927,MCB5996,2025-08-13,Signes de stress hydrique
+2928,MCB5996,2025-09-19,Signes de stress hydrique
+2929,MCB5996,2025-07-08,Plante en bonne santé
+2930,MCB5996,2025-11-03,Croissance rapide
+2931,MCC1021,2025-09-19,Croissance rapide
+2932,MCC1021,2025-06-07,Signes de stress hydrique
+2933,MCB1499,2025-11-03,Plante en bonne santé
+2934,MCB1499,2025-07-25,Plante en bonne santé
+2935,MCB1499,2025-08-26,Signes de stress hydrique
+2936,MCC6906,2025-06-07,Feuilles abîmées
+2937,MCC6906,2025-07-07,Plante en bonne santé
+2938,MCC6906,2025-10-16,Signes de stress hydrique
+2939,MCA3024,2025-09-11,Signes de stress hydrique
+2940,MCA3024,2025-11-07,Feuilles abîmées
+2941,MCA3024,2025-08-23,Plante en bonne santé
+2942,MCA3024,2025-07-12,Signes de stress hydrique
+2943,MCA3024,2025-06-08,Croissance rapide
+2944,MCB3424,2025-10-28,Signes de stress hydrique
+2945,MCB4693,2025-12-04,Plante en bonne santé
+2946,MCB4693,2025-10-04,Plante en bonne santé
+2947,MCB4693,2025-11-13,Signes de stress hydrique
+2948,MCB3090,2025-08-12,Signes de stress hydrique
+2949,MCC4337,2025-11-23,Insectes observés
+2950,MCC4337,2025-08-17,Plante en bonne santé
+2951,MCC4337,2025-09-11,Croissance rapide
+2952,MCC4337,2025-11-18,Feuilles abîmées
+2953,MCC4337,2025-12-30,Plante en bonne santé
+2954,MCC7730,2025-09-19,Plante en bonne santé
+2955,MCC7730,2025-06-24,Feuilles abîmées
+2956,MCC7730,2025-12-29,Insectes observés
+2957,MCA2111,2025-07-09,Insectes observés
+2958,MCA2111,2025-09-01,Insectes observés
+2959,MCA2111,2025-06-04,Signes de stress hydrique
+2960,MCA2111,2025-08-14,Croissance rapide
+2961,MCC6596,2025-09-04,Croissance rapide
+2962,MCC6596,2025-12-03,Insectes observés
+2963,MCC6596,2025-11-29,Feuilles abîmées
+2964,MCC6596,2025-08-08,Feuilles abîmées
+2965,MCC6596,2025-11-17,Insectes observés
+2966,MCA6146,2025-11-26,Plante en bonne santé
+2967,MCA6146,2025-06-29,Croissance rapide
+2968,MCC0283,2025-09-25,Insectes observés
+2969,MCC0283,2025-10-17,Plante en bonne santé
+2970,MCA5784,2025-06-03,Feuilles abîmées
+2971,MCA5784,2025-12-11,Feuilles abîmées
+2972,MCC1872,2025-11-05,Insectes observés
+2973,MCC1872,2025-12-28,Croissance rapide
+2974,MCC1872,2025-11-07,Croissance rapide
+2975,MCC1872,2025-09-06,Plante en bonne santé
+2976,MCC1872,2025-06-24,Feuilles abîmées
+2977,MCB3845,2025-09-12,Insectes observés
+2978,MCB3845,2025-12-06,Signes de stress hydrique
+2979,MCB9629,2025-08-28,Insectes observés
+2980,MCB9629,2025-10-05,Plante en bonne santé
+2981,MCB9629,2025-07-06,Feuilles abîmées
+2982,MCB9629,2025-06-29,Croissance rapide
+2983,MCA5059,2025-09-23,Plante en bonne santé
+2984,MCA5059,2025-12-22,Croissance rapide
+2985,MCA5059,2025-08-17,Signes de stress hydrique
+2986,MCB1632,2025-08-12,Croissance rapide
+2987,MCB7790,2025-07-05,Croissance rapide
+2988,MCB7790,2025-07-18,Feuilles abîmées
+2989,MCB7790,2025-08-19,Feuilles abîmées
+2990,MCB7790,2025-06-16,Feuilles abîmées
+2991,MCB7790,2025-09-06,Plante en bonne santé
+2992,MCC5758,2025-06-27,Croissance rapide
+2993,MCC5758,2025-06-18,Croissance rapide
+2994,MCC5758,2025-12-17,Insectes observés
+2995,MCC5758,2025-09-25,Feuilles abîmées
+2996,MCA2809,2025-10-07,Insectes observés
+2997,MCA2809,2025-07-13,Croissance rapide
+2998,MCA2809,2025-11-02,Signes de stress hydrique
+2999,MCA2809,2025-08-04,Croissance rapide
+3000,MCB4878,2025-07-24,Signes de stress hydrique
+3001,MCB4878,2025-09-18,Signes de stress hydrique
+3002,MCB4878,2025-09-06,Signes de stress hydrique
+3003,MCB4878,2025-08-19,Plante en bonne santé
+3004,MCB4878,2025-12-17,Insectes observés
+3005,MCA0629,2025-12-20,Insectes observés
+3006,MCA0629,2025-12-27,Feuilles abîmées
+3007,MCC6499,2025-07-16,Signes de stress hydrique
+3008,MCC6499,2025-08-12,Insectes observés
+3009,MCC6499,2025-11-17,Insectes observés
+3010,MCC6499,2025-06-21,Plante en bonne santé
+3011,MCC6499,2025-10-15,Croissance rapide
+3012,MCC6169,2025-08-14,Croissance rapide
+3013,MCC6169,2025-12-14,Plante en bonne santé
+3014,MCC6169,2025-11-13,Signes de stress hydrique
+3015,MCB7823,2025-08-05,Croissance rapide
+3016,MCB7823,2025-06-12,Insectes observés
+3017,MCC2174,2025-08-24,Croissance rapide
+3018,MCA9206,2025-06-28,Signes de stress hydrique
+3019,MCA9206,2025-07-19,Plante en bonne santé
+3020,MCB3613,2025-10-06,Signes de stress hydrique
+3021,MCB3613,2025-07-09,Plante en bonne santé
+3022,MCB3613,2025-11-29,Plante en bonne santé
+3023,MCB3613,2025-08-27,Insectes observés
+3024,MCB6890,2025-09-25,Plante en bonne santé
+3025,MCB6890,2025-06-25,Plante en bonne santé
+3026,MCB6890,2025-10-16,Signes de stress hydrique
+3027,MCB6890,2025-10-23,Signes de stress hydrique
+3028,MCB6890,2025-07-10,Insectes observés
+3029,MCB3712,2025-11-24,Signes de stress hydrique
+3030,MCB8944,2025-11-18,Croissance rapide
+3031,MCB8944,2025-12-02,Feuilles abîmées
+3032,MCB9192,2025-10-22,Feuilles abîmées
+3033,MCB9192,2025-12-30,Insectes observés
+3034,MCB9192,2025-07-24,Insectes observés
+3035,MCB9192,2025-10-06,Signes de stress hydrique
+3036,MCB9192,2025-07-21,Insectes observés
+3037,MCB4423,2025-10-11,Croissance rapide
+3038,MCB4423,2025-12-14,Feuilles abîmées
+3039,MCB4423,2025-11-08,Insectes observés
+3040,MCB4423,2025-11-12,Insectes observés
+3041,MCB4423,2025-12-03,Feuilles abîmées
+3042,MCB5486,2025-06-23,Plante en bonne santé
+3043,MCB5486,2025-08-27,Signes de stress hydrique
+3044,MCB5486,2025-08-21,Insectes observés
+3045,MCC2563,2025-06-04,Croissance rapide
+3046,MCA8697,2025-08-31,Signes de stress hydrique
+3047,MCA8697,2025-11-13,Croissance rapide
+3048,MCC0734,2025-07-04,Insectes observés
+3049,MCC0734,2025-07-18,Croissance rapide
+3050,MCC0734,2025-10-20,Signes de stress hydrique
+3051,MCC0734,2025-09-23,Plante en bonne santé
+3052,MCA2407,2025-11-16,Insectes observés
+3053,MCA2407,2025-10-27,Plante en bonne santé
+3054,MCC1481,2025-09-05,Signes de stress hydrique
+3055,MCC1481,2025-08-07,Insectes observés
+3056,MCC1481,2025-08-11,Insectes observés
+3057,MCC1481,2025-10-19,Insectes observés
+3058,MCC1481,2025-08-17,Feuilles abîmées
+3059,MCA0441,2025-11-30,Insectes observés
+3060,MCA0441,2025-07-03,Croissance rapide
+3061,MCA0441,2025-06-09,Insectes observés
+3062,MCB5615,2025-08-23,Croissance rapide
+3063,MCA8561,2025-12-15,Signes de stress hydrique
+3064,MCA8561,2025-08-11,Plante en bonne santé
+3065,MCA8561,2025-08-29,Plante en bonne santé
+3066,MCA8561,2025-06-14,Plante en bonne santé
+3067,MCA8561,2025-09-29,Insectes observés
+3068,MCB6966,2025-12-28,Plante en bonne santé
+3069,MCB6966,2025-07-25,Plante en bonne santé
+3070,MCB6966,2025-12-06,Feuilles abîmées
+3071,MCB6966,2025-09-04,Plante en bonne santé
+3072,MCA0859,2025-07-09,Plante en bonne santé
+3073,MCB3060,2025-07-09,Croissance rapide
+3074,MCA3690,2025-12-17,Insectes observés
+3075,MCA3690,2025-07-23,Croissance rapide
+3076,MCA3690,2025-12-01,Signes de stress hydrique
+3077,MCA3690,2025-10-23,Plante en bonne santé
+3078,MCC9248,2025-08-15,Insectes observés
+3079,MCC9248,2025-09-17,Signes de stress hydrique
+3080,MCC9248,2025-11-30,Croissance rapide
+3081,MCC9248,2025-09-12,Croissance rapide
+3082,MCC2981,2025-06-15,Croissance rapide
+3083,MCC2981,2025-11-26,Plante en bonne santé
+3084,MCB3031,2025-08-04,Insectes observés
+3085,MCB3031,2025-11-27,Signes de stress hydrique
+3086,MCB3031,2025-11-19,Insectes observés
+3087,MCB3031,2025-06-10,Plante en bonne santé
+3088,MCB3031,2025-08-09,Signes de stress hydrique
+3089,MCB2626,2025-07-21,Insectes observés
+3090,MCB2626,2025-08-12,Plante en bonne santé
+3091,MCB2626,2025-07-22,Plante en bonne santé
+3092,MCA2045,2025-09-20,Insectes observés
+3093,MCA9654,2025-09-22,Insectes observés
+3094,MCA4617,2025-07-14,Plante en bonne santé
+3095,MCA4617,2025-10-25,Signes de stress hydrique
+3096,MCA4617,2025-09-13,Plante en bonne santé
+3097,MCA9469,2025-07-20,Croissance rapide
+3098,MCC4606,2025-08-06,Insectes observés
+3099,MCC4606,2025-07-07,Plante en bonne santé
+3100,MCC4606,2025-07-20,Signes de stress hydrique
+3101,MCC4606,2025-07-06,Signes de stress hydrique
+3102,MCB2929,2025-10-30,Signes de stress hydrique
+3103,MCB2929,2025-06-10,Signes de stress hydrique
+3104,MCB2929,2025-07-06,Signes de stress hydrique
+3105,MCB2929,2025-07-01,Croissance rapide
+3106,MCA9689,2025-08-19,Croissance rapide
+3107,MCA9689,2025-10-19,Plante en bonne santé
+3108,MCA9689,2025-10-28,Insectes observés
+3109,MCA9689,2025-12-16,Insectes observés
+3110,MCA9689,2025-10-03,Plante en bonne santé
+3111,MCB9758,2025-12-25,Plante en bonne santé
+3112,MCB9758,2025-07-21,Insectes observés
+3113,MCB9758,2025-11-16,Signes de stress hydrique
+3114,MCB9758,2025-07-02,Feuilles abîmées
+3115,MCB9758,2025-12-16,Plante en bonne santé
+3116,MCC7880,2025-09-09,Signes de stress hydrique
+3117,MCA8392,2025-12-24,Feuilles abîmées
+3118,MCA0323,2025-11-10,Croissance rapide
+3119,MCA0323,2025-11-27,Insectes observés
+3120,MCA0323,2025-10-02,Signes de stress hydrique
+3121,MCA0323,2025-08-17,Feuilles abîmées
+3122,MCA0323,2025-12-29,Feuilles abîmées
+3123,MCB6382,2025-09-24,Croissance rapide
+3124,MCB6382,2025-09-20,Croissance rapide
+3125,MCB6382,2025-06-24,Insectes observés
+3126,MCB6382,2025-07-19,Feuilles abîmées
+3127,MCA0332,2025-06-17,Feuilles abîmées
+3128,MCA0332,2025-08-27,Insectes observés
+3129,MCA0332,2025-06-26,Insectes observés
+3130,MCB4851,2025-09-08,Croissance rapide
+3131,MCB1003,2025-06-22,Plante en bonne santé
+3132,MCB1003,2025-11-15,Plante en bonne santé
+3133,MCB1003,2025-10-25,Insectes observés
+3134,MCC0729,2025-09-11,Croissance rapide
+3135,MCC0729,2025-08-09,Croissance rapide
+3136,MCB8060,2025-06-25,Plante en bonne santé
+3137,MCB8060,2025-10-30,Feuilles abîmées
+3138,MCB8060,2025-06-14,Plante en bonne santé
+3139,MCB8060,2025-06-30,Signes de stress hydrique
+3140,MCB8060,2025-10-17,Signes de stress hydrique
+3141,MCA4150,2025-10-12,Signes de stress hydrique
+3142,MCA4150,2025-08-28,Signes de stress hydrique
+3143,MCA4150,2025-09-23,Insectes observés
+3144,MCA4150,2025-06-15,Plante en bonne santé
+3145,MCB2249,2025-11-18,Signes de stress hydrique
+3146,MCB2249,2025-12-15,Insectes observés
+3147,MCA5196,2025-07-31,Signes de stress hydrique
+3148,MCA5196,2025-10-10,Croissance rapide
+3149,MCC0973,2025-07-09,Croissance rapide
+3150,MCC0973,2025-11-23,Plante en bonne santé
+3151,MCC0973,2025-12-17,Croissance rapide
+3152,MCC0973,2025-08-26,Insectes observés
+3153,MCA3554,2025-11-23,Croissance rapide
+3154,MCA3554,2025-08-15,Insectes observés
+3155,MCA5911,2025-10-09,Croissance rapide
+3156,MCA5911,2025-07-25,Signes de stress hydrique
+3157,MCB2222,2025-10-22,Feuilles abîmées
+3158,MCA8848,2025-08-15,Signes de stress hydrique
+3159,MCA8848,2025-06-20,Feuilles abîmées
+3160,MCA8848,2025-09-03,Feuilles abîmées
+3161,MCA8848,2025-10-17,Signes de stress hydrique
+3162,MCA3052,2025-08-09,Croissance rapide
+3163,MCA3052,2025-11-09,Plante en bonne santé
+3164,MCA7457,2025-10-25,Croissance rapide
+3165,MCA7457,2025-11-12,Signes de stress hydrique
+3166,MCA7457,2025-07-16,Feuilles abîmées
+3167,MCA7457,2025-07-06,Croissance rapide
+3168,MCA2761,2025-06-27,Feuilles abîmées
+3169,MCA2761,2025-12-12,Plante en bonne santé
+3170,MCB4225,2025-12-27,Croissance rapide
+3171,MCB4225,2025-12-25,Feuilles abîmées
+3172,MCB4225,2025-09-02,Insectes observés
+3173,MCB4225,2025-08-16,Signes de stress hydrique
+3174,MCB4225,2025-07-16,Feuilles abîmées
+3175,MCB0831,2025-12-04,Croissance rapide
+3176,MCB0831,2025-07-17,Croissance rapide
+3177,MCB0831,2025-07-24,Signes de stress hydrique
+3178,MCB0831,2025-07-30,Signes de stress hydrique
+3179,MCB4247,2025-10-05,Feuilles abîmées
+3180,MCC9836,2025-12-30,Signes de stress hydrique
+3181,MCB9458,2025-09-03,Insectes observés
+3182,MCB9458,2025-11-22,Insectes observés
+3183,MCB9458,2025-10-16,Signes de stress hydrique
+3184,MCB9458,2025-12-29,Feuilles abîmées
+3185,MCB9458,2025-10-23,Feuilles abîmées
+3186,MCC6020,2025-08-06,Signes de stress hydrique
+3187,MCC6020,2025-11-17,Insectes observés
+3188,MCC6020,2025-09-08,Insectes observés
+3189,MCB8910,2025-06-06,Croissance rapide
+3190,MCB8910,2025-11-08,Feuilles abîmées
+3191,MCB8910,2025-12-29,Plante en bonne santé
+3192,MCB8910,2025-12-02,Signes de stress hydrique
+3193,MCB8910,2025-12-04,Croissance rapide
+3194,MCC9962,2025-07-23,Signes de stress hydrique
+3195,MCC9962,2025-09-15,Signes de stress hydrique
+3196,MCC9962,2025-08-16,Plante en bonne santé
+3197,MCC9962,2025-11-29,Plante en bonne santé
+3198,MCA9827,2025-07-07,Croissance rapide
+3199,MCA9827,2025-06-04,Feuilles abîmées
+3200,MCA0726,2025-12-15,Feuilles abîmées
+3201,MCA0726,2025-12-14,Signes de stress hydrique
+3202,MCA6362,2025-06-12,Croissance rapide
+3203,MCA6362,2025-08-04,Feuilles abîmées
+3204,MCA2376,2025-09-01,Insectes observés
+3205,MCA2376,2025-11-15,Insectes observés
+3206,MCA2376,2025-07-02,Feuilles abîmées
+3207,MCA2376,2025-11-14,Insectes observés
+3208,MCA2376,2025-10-29,Insectes observés
+3209,MCC3012,2025-11-10,Insectes observés
+3210,MCC3012,2025-07-26,Signes de stress hydrique
+3211,MCC3012,2025-10-07,Croissance rapide
+3212,MCA8135,2025-09-17,Feuilles abîmées
+3213,MCA8135,2025-09-04,Croissance rapide
+3214,MCA8135,2025-11-26,Feuilles abîmées
+3215,MCA8135,2025-08-13,Insectes observés
+3216,MCA8135,2025-09-05,Croissance rapide
+3217,MCB8022,2025-11-04,Signes de stress hydrique
+3218,MCB8022,2025-08-27,Plante en bonne santé
+3219,MCB8022,2025-06-11,Insectes observés
+3220,MCB0056,2025-08-30,Insectes observés
+3221,MCB0056,2025-06-03,Croissance rapide
+3222,MCB0056,2025-08-02,Feuilles abîmées
+3223,MCC2567,2025-11-06,Feuilles abîmées
+3224,MCB2549,2025-08-24,Croissance rapide
+3225,MCB2549,2025-12-28,Signes de stress hydrique
+3226,MCB2549,2025-12-20,Signes de stress hydrique
+3227,MCB2549,2025-07-06,Plante en bonne santé
+3228,MCB2549,2025-08-17,Croissance rapide
+3229,MCB7837,2025-12-25,Feuilles abîmées
+3230,MCB8153,2025-11-16,Insectes observés
+3231,MCB8153,2025-08-23,Feuilles abîmées
+3232,MCB8153,2025-11-27,Feuilles abîmées
+3233,MCB8153,2025-06-07,Croissance rapide
+3234,MCB8153,2025-07-10,Feuilles abîmées
+3235,MCB4505,2025-06-06,Signes de stress hydrique
+3236,MCB4505,2025-07-30,Feuilles abîmées
+3237,MCB4505,2025-07-15,Insectes observés
+3238,MCB5604,2025-07-24,Insectes observés
+3239,MCB5604,2025-10-11,Plante en bonne santé
+3240,MCB5604,2025-08-14,Croissance rapide
+3241,MCB5604,2025-11-14,Feuilles abîmées
+3242,MCB5604,2025-11-10,Signes de stress hydrique
+3243,MCA9545,2025-10-25,Signes de stress hydrique
+3244,MCA9545,2025-06-16,Feuilles abîmées
+3245,MCA9545,2025-09-11,Croissance rapide
+3246,MCA9545,2025-06-06,Plante en bonne santé
+3247,MCC0836,2025-11-22,Insectes observés
+3248,MCC0836,2025-06-21,Croissance rapide
+3249,MCC0836,2025-12-07,Croissance rapide
+3250,MCC0836,2025-08-06,Insectes observés
+3251,MCC3240,2025-09-01,Plante en bonne santé
+3252,MCC3240,2025-12-02,Signes de stress hydrique
+3253,MCC3240,2025-07-17,Plante en bonne santé
+3254,MCC3240,2025-11-18,Feuilles abîmées
+3255,MCA5921,2025-09-24,Signes de stress hydrique
+3256,MCA5921,2025-09-13,Insectes observés
+3257,MCA5921,2025-10-12,Insectes observés
+3258,MCA5921,2025-07-30,Feuilles abîmées
+3259,MCA6321,2025-07-27,Plante en bonne santé
+3260,MCA6321,2025-10-12,Plante en bonne santé
+3261,MCA6321,2025-09-19,Signes de stress hydrique
+3262,MCA6321,2025-06-23,Signes de stress hydrique
+3263,MCA6321,2025-10-17,Insectes observés
+3264,MCB2005,2025-09-03,Feuilles abîmées
+3265,MCB2005,2025-12-16,Insectes observés
+3266,MCB2005,2025-10-15,Feuilles abîmées
+3267,MCB2005,2025-10-28,Feuilles abîmées
+3268,MCC8272,2025-12-29,Feuilles abîmées
+3269,MCC8272,2025-08-13,Croissance rapide
+3270,MCC8272,2025-07-05,Signes de stress hydrique
+3271,MCC8272,2025-08-06,Insectes observés
+3272,MCC9474,2025-07-20,Croissance rapide
+3273,MCC9474,2025-06-15,Signes de stress hydrique
+3274,MCC9474,2025-07-07,Plante en bonne santé
+3275,MCC9474,2025-07-04,Plante en bonne santé
+3276,MCB1337,2025-10-19,Insectes observés
+3277,MCB1337,2025-12-26,Feuilles abîmées
+3278,MCB1337,2025-10-16,Insectes observés
+3279,MCB1337,2025-06-03,Insectes observés
+3280,MCB1337,2025-08-05,Feuilles abîmées
+3281,MCC3126,2025-10-22,Insectes observés
+3282,MCC3126,2025-12-24,Plante en bonne santé
+3283,MCC8557,2025-12-28,Feuilles abîmées
+3284,MCC8557,2025-07-28,Feuilles abîmées
+3285,MCC8557,2025-07-24,Croissance rapide
+3286,MCC0154,2025-09-25,Plante en bonne santé
+3287,MCA5627,2025-12-23,Feuilles abîmées
+3288,MCA5627,2025-10-04,Croissance rapide
+3289,MCA5627,2025-09-22,Signes de stress hydrique
+3290,MCA5627,2025-10-14,Croissance rapide
+3291,MCB1458,2025-07-27,Feuilles abîmées
+3292,MCB1458,2025-08-30,Feuilles abîmées
+3293,MCB1458,2025-09-04,Feuilles abîmées
+3294,MCB1458,2025-12-12,Insectes observés
+3295,MCA7292,2025-12-23,Signes de stress hydrique
+3296,MCA7292,2025-11-21,Feuilles abîmées
+3297,MCA7292,2025-12-08,Croissance rapide
+3298,MCA7292,2025-10-16,Feuilles abîmées
+3299,MCB0144,2025-12-13,Signes de stress hydrique
+3300,MCB4191,2025-12-12,Plante en bonne santé
+3301,MCB4191,2025-11-11,Plante en bonne santé
+3302,MCB4191,2025-06-22,Signes de stress hydrique
+3303,MCB4191,2025-07-15,Feuilles abîmées
+3304,MCB4191,2025-09-09,Feuilles abîmées
+3305,MCB6420,2025-10-30,Plante en bonne santé
+3306,MCB6420,2025-07-12,Signes de stress hydrique
+3307,MCB6420,2025-06-08,Signes de stress hydrique
+3308,MCC2776,2025-12-20,Insectes observés
+3309,MCC2776,2025-11-03,Feuilles abîmées
+3310,MCC2776,2025-11-19,Croissance rapide
+3311,MCA4848,2025-08-24,Insectes observés
+3312,MCA8641,2025-07-12,Croissance rapide
+3313,MCA8641,2025-10-01,Croissance rapide
+3314,MCB5151,2025-07-01,Signes de stress hydrique
+3315,MCB5151,2025-11-04,Plante en bonne santé
+3316,MCB5151,2025-06-24,Signes de stress hydrique
+3317,MCB5151,2025-06-06,Insectes observés
+3318,MCB5151,2025-06-03,Plante en bonne santé
+3319,MCA2025,2025-07-07,Insectes observés
+3320,MCA2025,2025-10-30,Insectes observés
+3321,MCA2025,2025-11-21,Insectes observés
+3322,MCA2025,2025-11-15,Insectes observés
+3323,MCA2025,2025-10-23,Croissance rapide
+3324,MCB9200,2025-11-15,Signes de stress hydrique
+3325,MCB9200,2025-11-12,Feuilles abîmées
+3326,MCB9200,2025-11-26,Signes de stress hydrique
+3327,MCB9552,2025-12-06,Plante en bonne santé
+3328,MCB9552,2025-07-24,Insectes observés
+3329,MCB9552,2025-10-09,Insectes observés
+3330,MCB9552,2025-07-07,Feuilles abîmées
+3331,MCB9552,2025-12-27,Croissance rapide
+3332,MCA6627,2025-08-31,Insectes observés
+3333,MCA9395,2025-12-19,Plante en bonne santé
+3334,MCA9395,2025-12-03,Insectes observés
+3335,MCC0981,2025-10-06,Insectes observés
+3336,MCB2610,2025-12-27,Plante en bonne santé
+3337,MCC6950,2025-06-30,Signes de stress hydrique
+3338,MCA9406,2025-10-28,Feuilles abîmées
+3339,MCA9406,2025-07-01,Croissance rapide
+3340,MCA9406,2025-07-30,Plante en bonne santé
+3341,MCB3425,2025-11-25,Plante en bonne santé
+3342,MCB3425,2025-07-24,Feuilles abîmées
+3343,MCB3425,2025-07-15,Feuilles abîmées
+3344,MCB3425,2025-09-26,Feuilles abîmées
+3345,MCB9342,2025-07-16,Insectes observés
+3346,MCB9342,2025-06-05,Croissance rapide
+3347,MCB0926,2025-10-17,Feuilles abîmées
+3348,MCC3670,2025-07-17,Croissance rapide
+3349,MCC3670,2025-08-18,Insectes observés
+3350,MCC3670,2025-11-06,Feuilles abîmées
+3351,MCC3670,2025-10-22,Feuilles abîmées
+3352,MCC3670,2025-10-25,Insectes observés
+3353,MCB6953,2025-07-05,Plante en bonne santé
+3354,MCB6953,2025-08-02,Signes de stress hydrique
+3355,MCB6953,2025-11-30,Insectes observés
+3356,MCC6235,2025-08-30,Plante en bonne santé
+3357,MCC6235,2025-10-01,Feuilles abîmées
+3358,MCC6235,2025-11-30,Croissance rapide
+3359,MCC6235,2025-08-27,Signes de stress hydrique
+3360,MCA3867,2025-06-27,Croissance rapide
+3361,MCA3867,2025-08-13,Croissance rapide
+3362,MCB2468,2025-08-22,Signes de stress hydrique
+3363,MCB2468,2025-12-03,Croissance rapide
+3364,MCB2468,2025-06-14,Signes de stress hydrique
+3365,MCC2805,2025-12-22,Feuilles abîmées
+3366,MCC2805,2025-06-14,Insectes observés
+3367,MCA7034,2025-07-22,Signes de stress hydrique
+3368,MCA7034,2025-12-25,Croissance rapide
+3369,MCA7034,2025-12-14,Insectes observés
+3370,MCA5915,2025-09-14,Insectes observés
+3371,MCA5915,2025-06-22,Insectes observés
+3372,MCA5915,2025-10-25,Signes de stress hydrique
+3373,MCA5915,2025-07-16,Insectes observés
+3374,MCA5915,2025-11-02,Plante en bonne santé
+3375,MCA1736,2025-09-09,Signes de stress hydrique
+3376,MCA1736,2025-06-01,Insectes observés
+3377,MCA1736,2025-10-17,Feuilles abîmées
+3378,MCA1736,2025-09-03,Insectes observés
+3379,MCC6523,2025-11-25,Feuilles abîmées
+3380,MCA6147,2025-09-06,Insectes observés
+3381,MCA6147,2025-12-14,Croissance rapide
+3382,MCB3974,2025-06-29,Plante en bonne santé
+3383,MCB3974,2025-07-19,Signes de stress hydrique
+3384,MCB3974,2025-12-13,Signes de stress hydrique
+3385,MCB3974,2025-09-24,Feuilles abîmées
+3386,MCC3706,2025-06-27,Signes de stress hydrique
+3387,MCC3706,2025-09-12,Insectes observés
+3388,MCA4290,2025-09-15,Signes de stress hydrique
+3389,MCA4290,2025-07-31,Signes de stress hydrique
+3390,MCA4290,2025-11-15,Plante en bonne santé
+3391,MCA4290,2025-12-30,Feuilles abîmées
+3392,MCC2782,2025-11-23,Feuilles abîmées
+3393,MCC2782,2025-12-09,Feuilles abîmées
+3394,MCC2782,2025-06-26,Plante en bonne santé
+3395,MCC1580,2025-06-20,Signes de stress hydrique
+3396,MCC1580,2025-12-03,Insectes observés
+3397,MCC1580,2025-07-17,Insectes observés
+3398,MCC1580,2025-11-16,Insectes observés
+3399,MCC9066,2025-09-13,Feuilles abîmées
+3400,MCA8494,2025-07-01,Signes de stress hydrique
+3401,MCA8494,2025-12-19,Signes de stress hydrique
+3402,MCA8494,2025-12-30,Plante en bonne santé
+3403,MCA8494,2025-08-17,Signes de stress hydrique
+3404,MCC4020,2025-12-10,Plante en bonne santé
+3405,MCC4020,2025-08-10,Feuilles abîmées
+3406,MCC4020,2025-07-04,Plante en bonne santé
+3407,MCC4020,2025-09-18,Plante en bonne santé
+3408,MCC6961,2025-07-30,Insectes observés
+3409,MCB7806,2025-10-25,Croissance rapide
+3410,MCB7806,2025-07-26,Croissance rapide
+3411,MCB7806,2025-12-06,Signes de stress hydrique
+3412,MCB7806,2025-08-16,Insectes observés
+3413,MCB1953,2025-11-16,Signes de stress hydrique
+3414,MCB1953,2025-09-08,Signes de stress hydrique
+3415,MCB1953,2025-08-28,Plante en bonne santé
+3416,MCB1953,2025-11-19,Feuilles abîmées
+3417,MCC4168,2025-07-31,Plante en bonne santé
+3418,MCC4168,2025-08-05,Signes de stress hydrique
+3419,MCC4168,2025-12-21,Plante en bonne santé
+3420,MCC4168,2025-08-08,Signes de stress hydrique
+3421,MCB5688,2025-09-14,Signes de stress hydrique
+3422,MCB5688,2025-09-24,Plante en bonne santé
+3423,MCC7411,2025-10-30,Plante en bonne santé
+3424,MCC7411,2025-07-24,Plante en bonne santé
+3425,MCC7411,2025-10-12,Plante en bonne santé
+3426,MCC7411,2025-07-12,Croissance rapide
+3427,MCC7411,2025-11-23,Plante en bonne santé
+3428,MCC8980,2025-11-10,Croissance rapide
+3429,MCC8980,2025-10-21,Insectes observés
+3430,MCC8980,2025-09-18,Signes de stress hydrique
+3431,MCC8980,2025-10-03,Plante en bonne santé
+3432,MCC8980,2025-12-04,Signes de stress hydrique
+3433,MCB2427,2025-10-21,Insectes observés
+3434,MCB2427,2025-12-21,Feuilles abîmées
+3435,MCB2427,2025-06-21,Croissance rapide
+3436,MCB2427,2025-08-09,Insectes observés
+3437,MCB2427,2025-11-27,Plante en bonne santé
+3438,MCA3509,2025-07-15,Signes de stress hydrique
+3439,MCC2940,2025-09-14,Croissance rapide
+3440,MCC2940,2025-11-20,Plante en bonne santé
+3441,MCC2940,2025-12-09,Croissance rapide
+3442,MCC2940,2025-07-02,Signes de stress hydrique
+3443,MCC2940,2025-12-07,Insectes observés
+3444,MCB1243,2025-10-13,Plante en bonne santé
+3445,MCC6161,2025-07-30,Signes de stress hydrique
+3446,MCC6161,2025-07-14,Feuilles abîmées
+3447,MCC6161,2025-08-29,Feuilles abîmées
+3448,MCC6161,2025-10-21,Feuilles abîmées
+3449,MCC4246,2025-11-13,Feuilles abîmées
+3450,MCC4246,2025-11-23,Insectes observés
+3451,MCC4246,2025-08-18,Insectes observés
+3452,MCC4246,2025-10-07,Signes de stress hydrique
+3453,MCC4246,2025-09-29,Feuilles abîmées
+3454,MCC8192,2025-10-06,Plante en bonne santé
+3455,MCC8192,2025-08-16,Croissance rapide
+3456,MCC8192,2025-07-24,Croissance rapide
+3457,MCC3998,2025-09-27,Signes de stress hydrique
+3458,MCC3998,2025-12-23,Plante en bonne santé
+3459,MCC3998,2025-11-02,Insectes observés
+3460,MCC3998,2025-10-18,Signes de stress hydrique
+3461,MCA9291,2025-06-27,Signes de stress hydrique
+3462,MCA9291,2025-08-31,Croissance rapide
+3463,MCA9291,2025-07-16,Feuilles abîmées
+3464,MCA9291,2025-12-24,Feuilles abîmées
+3465,MCA9291,2025-09-23,Signes de stress hydrique
+3466,MCA2588,2025-11-26,Plante en bonne santé
+3467,MCA2588,2025-07-15,Croissance rapide
+3468,MCA2588,2025-07-18,Insectes observés
+3469,MCA2588,2025-07-21,Feuilles abîmées
+3470,MCA2433,2025-11-28,Croissance rapide
+3471,MCA2089,2025-06-10,Plante en bonne santé
+3472,MCA2089,2025-06-30,Plante en bonne santé
+3473,MCA2089,2025-07-08,Croissance rapide
+3474,MCA2089,2025-08-12,Croissance rapide
+3475,MCA2089,2025-11-11,Plante en bonne santé
+3476,MCC3885,2025-08-24,Croissance rapide
+3477,MCC3885,2025-10-01,Signes de stress hydrique
+3478,MCC3885,2025-11-29,Croissance rapide
+3479,MCC3885,2025-12-23,Feuilles abîmées
+3480,MCC3885,2025-07-04,Signes de stress hydrique
+3481,MCA5485,2025-12-03,Plante en bonne santé
+3482,MCA5485,2025-09-06,Signes de stress hydrique
+3483,MCA5485,2025-07-29,Feuilles abîmées
+3484,MCA7310,2025-10-07,Plante en bonne santé
+3485,MCA7310,2025-11-19,Croissance rapide
+3486,MCA7310,2025-07-27,Croissance rapide
+3487,MCA7310,2025-12-24,Plante en bonne santé
+3488,MCB1900,2025-08-03,Feuilles abîmées
+3489,MCA4841,2025-08-25,Signes de stress hydrique
+3490,MCA4841,2025-06-13,Signes de stress hydrique
+3491,MCC9937,2025-10-04,Signes de stress hydrique
+3492,MCC9937,2025-09-19,Insectes observés
+3493,MCC9404,2025-09-02,Insectes observés
+3494,MCC9404,2025-09-11,Feuilles abîmées
+3495,MCC9404,2025-08-23,Insectes observés
+3496,MCB7764,2025-11-02,Croissance rapide
+3497,MCB7764,2025-12-20,Croissance rapide
+3498,MCB7764,2025-08-16,Signes de stress hydrique
+3499,MCC2161,2025-06-26,Feuilles abîmées
+3500,MCA6375,2025-11-13,Signes de stress hydrique
+3501,MCA6375,2025-07-18,Signes de stress hydrique
+3502,MCA6375,2025-07-14,Insectes observés
+3503,MCA6375,2025-12-04,Signes de stress hydrique
+3504,MCB3279,2025-12-30,Insectes observés
+3505,MCB2629,2025-08-13,Plante en bonne santé
+3506,MCB2629,2025-11-07,Croissance rapide
+3507,MCC6207,2025-09-08,Croissance rapide
+3508,MCC6207,2025-09-10,Insectes observés
+3509,MCC6207,2025-06-29,Insectes observés
+3510,MCC6207,2025-06-03,Plante en bonne santé
+3511,MCC6207,2025-12-03,Plante en bonne santé
+3512,MCB0554,2025-06-05,Feuilles abîmées
+3513,MCB0554,2025-07-18,Croissance rapide
+3514,MCC3554,2025-07-10,Insectes observés
+3515,MCC3554,2025-08-05,Feuilles abîmées
+3516,MCC3554,2025-12-13,Feuilles abîmées
+3517,MCC3554,2025-10-08,Insectes observés
+3518,MCC3554,2025-08-16,Feuilles abîmées
+3519,MCB5474,2025-07-17,Croissance rapide
+3520,MCB5474,2025-12-18,Insectes observés
+3521,MCB5474,2025-09-09,Feuilles abîmées
+3522,MCB0177,2025-12-12,Signes de stress hydrique
+3523,MCB0177,2025-11-21,Signes de stress hydrique
+3524,MCB0177,2025-09-22,Feuilles abîmées
+3525,MCA7046,2025-07-21,Insectes observés
+3526,MCA7046,2025-07-10,Feuilles abîmées
+3527,MCA7046,2025-09-04,Insectes observés
+3528,MCA7046,2025-06-13,Signes de stress hydrique
+3529,MCA7046,2025-10-25,Insectes observés
+3530,MCC4703,2025-10-30,Insectes observés
+3531,MCC4703,2025-09-10,Croissance rapide
+3532,MCC4703,2025-08-14,Croissance rapide
+3533,MCC4703,2025-09-04,Feuilles abîmées
+3534,MCC4703,2025-11-16,Signes de stress hydrique
+3535,MCA0346,2025-11-17,Insectes observés
+3536,MCA0346,2025-06-15,Croissance rapide
+3537,MCA0346,2025-07-25,Signes de stress hydrique
+3538,MCC2821,2025-11-09,Signes de stress hydrique
+3539,MCC2821,2025-09-09,Feuilles abîmées
+3540,MCC2821,2025-07-12,Croissance rapide
+3541,MCC2821,2025-12-10,Signes de stress hydrique
+3542,MCC2821,2025-09-22,Insectes observés
+3543,MCB6221,2025-12-26,Signes de stress hydrique
+3544,MCB6221,2025-08-30,Insectes observés
+3545,MCB2854,2025-07-02,Signes de stress hydrique
+3546,MCB2854,2025-09-25,Feuilles abîmées
+3547,MCB2854,2025-06-17,Plante en bonne santé
+3548,MCB2854,2025-06-24,Croissance rapide
+3549,MCB2854,2025-06-07,Croissance rapide
+3550,MCB6506,2025-12-21,Signes de stress hydrique
+3551,MCB6506,2025-09-25,Feuilles abîmées
+3552,MCB4956,2025-10-21,Insectes observés
+3553,MCB4956,2025-11-25,Plante en bonne santé
+3554,MCB4956,2025-11-15,Signes de stress hydrique
+3555,MCB4956,2025-06-17,Signes de stress hydrique
+3556,MCA7542,2025-10-05,Plante en bonne santé
+3557,MCB2897,2025-11-13,Feuilles abîmées
+3558,MCB2897,2025-07-28,Signes de stress hydrique
+3559,MCB2897,2025-08-06,Croissance rapide
+3560,MCB2897,2025-06-16,Plante en bonne santé
+3561,MCC0568,2025-06-19,Croissance rapide
+3562,MCC0568,2025-08-31,Croissance rapide
+3563,MCC0568,2025-06-14,Croissance rapide
+3564,MCC0568,2025-08-26,Signes de stress hydrique
+3565,MCC5431,2025-08-22,Signes de stress hydrique
+3566,MCC5431,2025-09-15,Insectes observés
+3567,MCC5431,2025-11-02,Signes de stress hydrique
+3568,MCC5431,2025-06-11,Croissance rapide
+3569,MCA7921,2025-07-16,Croissance rapide
+3570,MCA7921,2025-08-21,Feuilles abîmées
+3571,MCA7921,2025-10-09,Feuilles abîmées
+3572,MCA7921,2025-09-12,Croissance rapide
+3573,MCB7171,2025-10-25,Feuilles abîmées
+3574,MCB7171,2025-09-18,Croissance rapide
+3575,MCA4734,2025-11-04,Signes de stress hydrique
+3576,MCA4734,2025-07-07,Insectes observés
+3577,MCA4734,2025-12-29,Plante en bonne santé
+3578,MCA3046,2025-09-16,Plante en bonne santé
+3579,MCC0728,2025-12-02,Plante en bonne santé
+3580,MCB0381,2025-07-09,Croissance rapide
+3581,MCB0381,2025-12-09,Plante en bonne santé
+3582,MCB0381,2025-06-01,Feuilles abîmées
+3583,MCB2332,2025-07-28,Croissance rapide
+3584,MCB2332,2025-07-04,Croissance rapide
+3585,MCB2332,2025-06-08,Feuilles abîmées
+3586,MCB2332,2025-09-20,Plante en bonne santé
+3587,MCB2332,2025-07-08,Feuilles abîmées
+3588,MCC2842,2025-10-29,Signes de stress hydrique
+3589,MCC2842,2025-12-13,Signes de stress hydrique
+3590,MCC2842,2025-09-20,Insectes observés
+3591,MCC2842,2025-12-30,Feuilles abîmées
+3592,MCC2842,2025-07-29,Plante en bonne santé
+3593,MCB7303,2025-12-01,Signes de stress hydrique
+3594,MCB7303,2025-10-26,Feuilles abîmées
+3595,MCB7303,2025-12-19,Feuilles abîmées
+3596,MCB7303,2025-06-25,Croissance rapide
+3597,MCB7303,2025-12-12,Feuilles abîmées
+3598,MCB6858,2025-10-18,Signes de stress hydrique
+3599,MCB6858,2025-10-16,Plante en bonne santé
+3600,MCB6858,2025-10-06,Feuilles abîmées
+3601,MCB6858,2025-11-01,Feuilles abîmées
+3602,MCB6858,2025-12-03,Croissance rapide
+3603,MCC9245,2025-12-22,Signes de stress hydrique
+3604,MCC9245,2025-06-24,Signes de stress hydrique
+3605,MCC9245,2025-07-01,Croissance rapide
+3606,MCC9245,2025-07-16,Insectes observés
+3607,MCA8424,2025-09-25,Signes de stress hydrique
+3608,MCA8424,2025-09-07,Plante en bonne santé
+3609,MCC6900,2025-12-01,Insectes observés
+3610,MCC6900,2025-10-09,Plante en bonne santé
+3611,MCC6900,2025-11-18,Plante en bonne santé
+3612,MCC6900,2025-06-16,Feuilles abîmées
+3613,MCA7850,2025-06-27,Plante en bonne santé
