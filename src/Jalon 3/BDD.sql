@@ -44,7 +44,7 @@ CREATE TABLE Dim_Plant (
 DROP TABLE IF EXISTS Dim_Arbre CASCADE;
 CREATE TABLE Dim_Arbre (
     id_interne SERIAL PRIMARY KEY,
-    arbre_id VARCHAR(50) UNIQUE,
+    nom_arbre VARCHAR(50) UNIQUE,
     description TEXT
 );
 
@@ -159,7 +159,7 @@ CREATE TABLE Fact_Note (
 );
 
 -- =============================================================================
--- Facts: Processus du développement d'une placette
+-- Facts: Environnement d'une placette
 -- =============================================================================
 
 DROP TABLE IF EXISTS Fact_Couverture CASCADE;
@@ -184,9 +184,9 @@ CREATE TABLE Fact_Obstruction (
 DROP TABLE IF EXISTS Fact_Arbre CASCADE;
 CREATE TABLE Fact_Arbre (
     id_interne_placette INTEGER,
-    id_arbre_arbre INTEGER,
+    id_interne_arbre INTEGER,
     date DATE,
     rang INTEGER,
     FOREIGN KEY (id_interne_placette) REFERENCES Dim_Placette(id_interne),
-    FOREIGN KEY (id_arbre_arbre) REFERENCES Dim_Arbre(id_interne)
+    FOREIGN KEY (id_interne_arbre) REFERENCES Dim_Arbre(id_interne)
 );
