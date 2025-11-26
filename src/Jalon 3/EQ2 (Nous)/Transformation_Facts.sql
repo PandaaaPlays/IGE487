@@ -1,63 +1,4 @@
 -- =============================================================================
--- Dimensions
--- =============================================================================
-
--- Dim_Site
-COPY (
-SELECT DISTINCT
-       nom AS nom_site,
-       code AS code_site
-FROM staging_site
-) TO 'Dim_Site.csv' WITH (FORMAT CSV, HEADER);
-
--- Dim_Zone
-COPY (
-SELECT DISTINCT
-       code AS code_zone,
-       code_site AS code_site,
-       nom AS nom_zone,
-       description AS description
-FROM staging_zone
-) TO 'Dim_Zone.csv' WITH (FORMAT CSV, HEADER);
-
--- Dim_Placette
-COPY (
-SELECT DISTINCT
-       plac AS placette_id,
-       zone AS code_zone,
-       date_eco AS date_creation
-FROM staging_placette
-) TO 'Dim_Placette.csv' WITH (FORMAT CSV, HEADER);
-
--- Dim_Parcelle
-COPY (
-SELECT DISTINCT
-       pa.parcelle_id AS parcelle_id,
-       pa.placette_id AS placette_id,
-       pe.description AS peuplement,
-       pa.position AS position
-FROM staging_parcelle pa
-JOIN staging_peuplement pe
-ON pa.peuplement = pe.peuplement
-) TO 'Dim_Parcelle.csv' WITH (FORMAT CSV, HEADER);
-
--- Dim_Plant
-COPY (
-SELECT DISTINCT
-       id AS plant_id,
-       date_eco AS date_decouverte
-FROM staging_plant
-) TO 'Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
-
--- Dim_Arbre
-COPY (
-SELECT DISTINCT
-       arbre AS nom_arbre,
-       description AS description
-FROM staging_arbre
-) TO 'Dim_Arbre.csv' WITH (FORMAT CSV, HEADER);
-
--- =============================================================================
 -- Facts: Processus de l'évolution de la météo
 -- =============================================================================
 
@@ -72,7 +13,7 @@ SELECT z.id_interne AS id_interne_zone,
        c.note AS note
 FROM staging_carnetmeteo c
 JOIN Dim_Zone z ON c.zone = z.code_zone
-) TO 'Fact_Temperature.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Temperature.csv' WITH (FORMAT CSV, HEADER);
 --manquant: id_interne_zone
 
 -- Fact_Humidite
@@ -84,7 +25,7 @@ SELECT c.date_eco AS date,
        CAST((c.hum_max - c.hum_min) AS DECIMAL(5,2)) AS variation,
        c.note AS note
 FROM staging_carnetmeteo c
-) TO 'Fact_Humidite.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Humidite.csv' WITH (FORMAT CSV, HEADER);
 --manquant: id_interne_zone
 
 -- Fact_Vents
@@ -96,7 +37,7 @@ SELECT date_eco AS date,
        CAST((c.vent_max - c.vent_min) AS DECIMAL(5,2)) AS variation,
        note AS note
 from staging_carnetmeteo c
-) TO 'Fact_Vents.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Vents.csv' WITH (FORMAT CSV, HEADER);
 --manquant: id_interne_zone
 
 -- Fact_Pression
@@ -108,7 +49,7 @@ SELECT date_eco AS date,
        CAST((c.pres_max - c.pres_min) AS DECIMAL(5,2)) AS variation,
        note AS note
 FROM staging_carnetmeteo c
-) TO 'Fact_Pression.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Pression.csv' WITH (FORMAT CSV, HEADER);
 --manquant: id_interne_zone
 
 -- Fact_Precipitation
@@ -119,7 +60,7 @@ SELECT cm.date_eco AS date,
 FROM staging_carnetmeteo cm
 JOIN staging_typeprecipitations tp
 ON cm.prec_nat = tp.code
-) TO 'Fact_Precipitation.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Precipitation.csv' WITH (FORMAT CSV, HEADER);
 --manquant: id_interne_zone
 
 -- =============================================================================
@@ -134,7 +75,7 @@ SELECT date_eco AS date,
        CAST(d.longueur * d.largeur AS DECIMAL(10,2)) AS superficie,
        note AS note
 FROM staging_obsdimension d
-) TO 'Fact_Dimension.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Dimension.csv' WITH (FORMAT CSV, HEADER);
 -- manquant: id_interne_plant, id_interne_parcelle
 
 -- Fact_Etat
@@ -145,7 +86,7 @@ SELECT ob.date_eco AS date,
 FROM staging_obsetat ob
 JOIN staging_etat et
 ON ob.etat = et.etat
-) TO 'Fact_Etat.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Etat.csv' WITH (FORMAT CSV, HEADER);
 -- manquant: id_interne_plant, id_interne_parcelle
 
 -- Fact_Floraison
@@ -153,7 +94,7 @@ COPY (
 SELECT date_eco AS date,
        note AS note
 FROM staging_obsfloraison
-) TO 'Fact_Floraison.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Floraison.csv' WITH (FORMAT CSV, HEADER);
 -- manquant: id_interne_plant, id_interne_parcelle
 
 -- Fact_Note
@@ -161,7 +102,7 @@ COPY (
 SELECT date_eco AS date,
        note AS note
 FROM staging_plant_note
-) TO 'Fact_Note.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Note.csv' WITH (FORMAT CSV, HEADER);
 --manquant: id_interne_plant, id_interne_parcelle
 
 -- =============================================================================
@@ -173,7 +114,7 @@ COPY (
 SELECT type_couverture AS type_couverture,
        taux AS taux
 FROM staging_placette_couverture
-) TO 'Fact_Couverture.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Couverture.csv' WITH (FORMAT CSV, HEADER);
 -- manquant: id_interne_placette, date
 
 -- Fact_Obstruction
@@ -182,13 +123,13 @@ SELECT type_obs AS type_obstruction,
        hauteur AS hauteur,
        taux AS taux
 FROM staging_placette_obstruction
-) TO 'Fact_Obstruction.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Obstruction.csv' WITH (FORMAT CSV, HEADER);
 --manquant: id_interne_placette, date
 
 -- Fact_Arbre
 COPY (
 SELECT rang AS rang
 FROM staging_placette_arbre
-) TO 'Fact_Arbre.csv' WITH (FORMAT CSV, HEADER);
+) TO '/EQ2/Loading/Fact_Arbre.csv' WITH (FORMAT CSV, HEADER);
 -- manquant: id_interne_placette, id_interne_arbre, date
 
