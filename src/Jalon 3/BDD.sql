@@ -98,6 +98,7 @@ CREATE TABLE Fact_Temperature (
     temp_moyenne DECIMAL(5, 2),
     variation DECIMAL(5, 2),
     note TEXT,
+    PRIMARY KEY (id_interne_zone, date),
     FOREIGN KEY (id_interne_zone) REFERENCES Dim_Zone(id_interne)
 );
 
@@ -110,6 +111,7 @@ CREATE TABLE Fact_Humidite (
     temp_moyenne DECIMAL(5, 2),
     variation DECIMAL(5, 2),
     note TEXT,
+    PRIMARY KEY (id_interne_zone, date),
     FOREIGN KEY (id_interne_zone) REFERENCES Dim_Zone(id_interne)
 );
 
@@ -122,6 +124,7 @@ CREATE TABLE Fact_Vents (
     temp_moyenne DECIMAL(5, 2),
     variation DECIMAL(5, 2),
     note TEXT,
+    PRIMARY KEY (id_interne_zone, date),
     FOREIGN KEY (id_interne_zone) REFERENCES Dim_Zone(id_interne)
 );
 
@@ -134,6 +137,7 @@ CREATE TABLE Fact_Pression (
     temp_moyenne DECIMAL(5, 2),
     variation DECIMAL(5, 2),
     note TEXT,
+    PRIMARY KEY (id_interne_zone, date),
     FOREIGN KEY (id_interne_zone) REFERENCES Dim_Zone(id_interne)
 );
 
@@ -144,6 +148,7 @@ CREATE TABLE Fact_Precipitation (
     prec_tot DECIMAL(5,2),
     prec_nature VARCHAR(50),
     note TEXT,
+    PRIMARY KEY (id_interne_zone, date),
     FOREIGN KEY (id_interne_zone) REFERENCES Dim_Zone(id_interne)
 );
 
@@ -159,6 +164,7 @@ CREATE TABLE Fact_Dimension (
     largeur DECIMAL(10,2),
     superficie DECIMAL(10,2),
     note TEXT,
+    PRIMARY KEY (id_interne_plant, date),
     FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
@@ -168,6 +174,7 @@ CREATE TABLE Fact_Etat (
     date DATE,
     etat VARCHAR(50),
     note TEXT,
+    PRIMARY KEY (id_interne_plant, date),
     FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
@@ -176,6 +183,7 @@ CREATE TABLE Fact_Floraison (
     id_interne_plant INTEGER,
     date DATE,
     note TEXT,
+    PRIMARY KEY (id_interne_plant, date),
     FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
@@ -184,6 +192,7 @@ CREATE TABLE Fact_Note (
     id_interne_plant INTEGER,
     date DATE,
     note TEXT,
+    PRIMARY KEY (id_interne_plant, date),
     FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
@@ -197,6 +206,7 @@ CREATE TABLE Fact_Couverture (
     date DATE,
     type_couverture VARCHAR(50),
     taux DECIMAL(5,2),
+    PRIMARY KEY (id_interne_placette, date),
     FOREIGN KEY (id_interne_placette) REFERENCES Dim_Placette(id_interne)
 );
 
@@ -207,6 +217,7 @@ CREATE TABLE Fact_Obstruction (
     type_obstruction VARCHAR(50),
     hauteur DECIMAL(5,2),
     taux DECIMAL(5,2),
+    PRIMARY KEY (id_interne_placette, date),
     FOREIGN KEY (id_interne_placette) REFERENCES Dim_Placette(id_interne)
 );
 
@@ -216,6 +227,7 @@ CREATE TABLE Fact_Arbre (
     id_interne_arbre INTEGER,
     date DATE,
     rang INTEGER,
+    PRIMARY KEY (id_interne_placette, date),
     FOREIGN KEY (id_interne_placette) REFERENCES Dim_Placette(id_interne),
     FOREIGN KEY (id_interne_arbre) REFERENCES Dim_Arbre(id_interne)
 );

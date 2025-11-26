@@ -8,8 +8,8 @@ SELECT z.id_interne AS id_interne_zone,
        c.date_eco AS date,
        c.temp_min AS temp_min,
        c.temp_max AS temp_max,
-       CAST((c.temp_min + c.temp_max) / 2.0 AS DECIMAL(5,2)) AS temp_moyenne,
-       CAST((c.temp_max - c.temp_min) AS DECIMAL(5,2)) AS variation,
+       CAST((CAST(c.temp_min AS DECIMAL) + CAST(c.temp_max AS DECIMAL)) / 2.0 AS DECIMAL(5,2)) AS temp_moyenne,
+       CAST((CAST(c.temp_min AS DECIMAL) - CAST(c.temp_max AS DECIMAL)) AS DECIMAL(5,2)) AS variation,
        c.note AS note
 FROM staging_carnetmeteo c
 JOIN Dim_Zone z ON c.zone = z.code_zone
