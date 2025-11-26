@@ -45,6 +45,7 @@ ON pa.peuplement = pe.peuplement
 COPY (
 SELECT DISTINCT
        id AS plant_id,
+       parcelle_id AS parcelle_id,
        date_eco AS date_decouverte
 FROM staging_plant
 ) TO '/EQ2/Loading/Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
