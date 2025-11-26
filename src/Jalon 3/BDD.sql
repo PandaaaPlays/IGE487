@@ -132,10 +132,10 @@ DROP TABLE IF EXISTS Fact_Pression CASCADE;
 CREATE TABLE Fact_Pression (
     id_interne_zone INTEGER,
     date DATE,
-    pres_min DECIMAL(6,2),
-    pres_max DECIMAL(6,2),
-    temp_moyenne DECIMAL(5, 2),
-    variation DECIMAL(5, 2),
+    pres_min DECIMAL(7,2),
+    pres_max DECIMAL(7,2),
+    temp_moyenne DECIMAL(7, 2),
+    variation DECIMAL(7, 2),
     note TEXT,
     PRIMARY KEY (id_interne_zone, date),
     FOREIGN KEY (id_interne_zone) REFERENCES Dim_Zone(id_interne)
@@ -205,8 +205,9 @@ CREATE TABLE Fact_Couverture (
     id_interne_placette INTEGER,
     date DATE,
     type_couverture VARCHAR(50),
-    taux DECIMAL(5,2),
-    PRIMARY KEY (id_interne_placette, date),
+    taux DECIMAL,
+    incertitude DECIMAL,
+    PRIMARY KEY (id_interne_placette, date, type_couverture),
     FOREIGN KEY (id_interne_placette) REFERENCES Dim_Placette(id_interne)
 );
 
@@ -216,8 +217,9 @@ CREATE TABLE Fact_Obstruction (
     date DATE,
     type_obstruction VARCHAR(50),
     hauteur DECIMAL(5,2),
-    taux DECIMAL(5,2),
-    PRIMARY KEY (id_interne_placette, date),
+    taux DECIMAL,
+    incertitude DECIMAL,
+    PRIMARY KEY (id_interne_placette, date, type_obstruction, hauteur),
     FOREIGN KEY (id_interne_placette) REFERENCES Dim_Placette(id_interne)
 );
 
@@ -227,7 +229,7 @@ CREATE TABLE Fact_Arbre (
     id_interne_arbre INTEGER,
     date DATE,
     rang INTEGER,
-    PRIMARY KEY (id_interne_placette, date),
+    PRIMARY KEY (id_interne_placette, id_interne_arbre, date),
     FOREIGN KEY (id_interne_placette) REFERENCES Dim_Placette(id_interne),
     FOREIGN KEY (id_interne_arbre) REFERENCES Dim_Arbre(id_interne)
 );

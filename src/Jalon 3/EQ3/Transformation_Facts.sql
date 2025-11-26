@@ -1,13 +1,3 @@
--- =============================================================================
--- Transformation Script for EQ3 - Facts
--- Generates CSV files for Facts
--- Requires Dimensions to be loaded in the database
--- =============================================================================
-
--- =============================================================================
--- Facts: Processus de l'évolution de la météo
--- =============================================================================
-
 -- Fact_Temperature
 COPY (
 SELECT
@@ -55,10 +45,10 @@ COPY (
 SELECT
     z.id_interne AS id_interne_zone,
     s.date AS date,
-    CAST(s.pres_min AS DECIMAL(6,2)) AS pres_min,
-    CAST(s.pres_max AS DECIMAL(6,2)) AS pres_max,
-    CAST((s.pres_min + s.pres_max) / 2.0 AS DECIMAL(5,2)) AS temp_moyenne,
-    CAST((s.pres_max - s.pres_min) AS DECIMAL(5,2)) AS variation,
+    CAST(s.pres_min AS DECIMAL(7,2)) AS pres_min,
+    CAST(s.pres_max AS DECIMAL(7,2)) AS pres_max,
+    CAST((s.pres_min + s.pres_max) / 2.0 AS DECIMAL(7,2)) AS temp_moyenne,
+    CAST((s.pres_max - s.pres_min) AS DECIMAL(7,2)) AS variation,
     s.note
 FROM Staging_CarnetMeteo s
 JOIN Dim_Zone z ON s.zone_id = z.code_zone
@@ -84,7 +74,6 @@ JOIN Dim_Zone z ON s.zone_id = z.code_zone
 COPY (
 SELECT
     dp.id_interne AS id_interne_plant,
-    dpar.id_interne AS id_interne_parcelle,
     s.date_observation AS date,
     s.longueur,
     s.largeur,
@@ -100,7 +89,6 @@ JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 COPY (
 SELECT
     dp.id_interne AS id_interne_plant,
-    dpar.id_interne AS id_interne_parcelle,
     s.date_observation AS date,
     s.etat_id AS etat,
     '' AS note
@@ -114,7 +102,6 @@ JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 COPY (
 SELECT
     dp.id_interne AS id_interne_plant,
-    dpar.id_interne AS id_interne_parcelle,
     s.date_observation AS date,
     CASE WHEN s.est_fruit = 'Oui' THEN 'Fruit' ELSE 'Fleur' END AS note
 FROM Staging_floraison s
@@ -127,7 +114,6 @@ JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 COPY (
 SELECT
     dp.id_interne AS id_interne_plant,
-    dpar.id_interne AS id_interne_parcelle,
     s.date_identification AS date,
     s.note AS note
 FROM Staging_plant s
@@ -147,9 +133,10 @@ SELECT
     dp.id_interne AS id_interne_placette,
     sp.date AS date,
     s.couverture_type AS type_couverture,
-    CAST(s.taux AS DECIMAL(5,2)) AS taux
+    CAST(s.taux AS DECIMAL(5,2)) AS taux,
+    0 AS incertitude
 FROM Staging_couverturesol s
-JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || '-' || CAST(s.placette_id AS VARCHAR) = dp.placette_id
+JOIN Dim_Placette dp ON dp.placette_id = s.placette_id
 JOIN Staging_placette sp ON s.placette_id = CAST(sp.numero AS VARCHAR) AND s.zone_id = sp.zone_id
 ) TO '/EQ3/Loading/Fact_Couverture.csv' WITH (FORMAT CSV, HEADER);
 
@@ -160,9 +147,10 @@ SELECT
     sp.date AS date,
     s.obstruction_type AS type_obstruction,
     s.hauteur,
-    CAST(s.taux AS DECIMAL(5,2)) AS taux
+    CAST(s.taux AS DECIMAL(5,2)) AS taux,
+    0 AS incertitude
 FROM Staging_obstructionlaterale s
-JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || '-' || CAST(s.placette_id AS VARCHAR) = dp.placette_id
+JOIN Dim_Placette dp ON dp.placette_id = s.placette_id
 JOIN Staging_placette sp ON s.placette_id = CAST(sp.numero AS VARCHAR) AND s.zone_id = sp.zone_id
 ) TO '/EQ3/Loading/Fact_Obstruction.csv' WITH (FORMAT CSV, HEADER);
 
@@ -174,7 +162,7 @@ SELECT
     sp.date AS date,
     s.rang AS rang
 FROM Staging_ArbreDominant s
-JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || '-' || CAST(s.placette_id AS VARCHAR) = dp.placette_id
+JOIN Dim_Placette dp ON s.placette_id = dp.placette_id
 JOIN Dim_Arbre da ON s.arbre_id = da.nom_arbre
 JOIN Staging_placette sp ON s.placette_id = CAST(sp.numero AS VARCHAR) AND s.zone_id = sp.zone_id
 ) TO '/EQ3/Loading/Fact_Arbre.csv' WITH (FORMAT CSV, HEADER);
