@@ -6,8 +6,9 @@ COPY Dim_Placette(placette_id, code_zone, date_creation) FROM '/EQ8/Loading/Dim_
 
 COPY Dim_Parcelle(parcelle_id, placette_id, peuplement, position) FROM '/EQ8/Loading/Dim_Parcelle.csv' WITH (FORMAT CSV, HEADER);
 
-COPY Dim_Plant(plant_id, date_decouverte) FROM '/EQ8/Loading/Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
+COPY Dim_Plant(plant_id, parcelle_id, date_decouverte) FROM '/EQ8/Loading/Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
 
+DROP TABLE IF EXISTS dim_arbre_stage;
 CREATE TABLE dim_arbre_stage(
     nom_arbre TEXT,
     description TEXT

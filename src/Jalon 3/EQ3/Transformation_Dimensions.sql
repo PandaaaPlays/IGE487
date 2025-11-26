@@ -1,54 +1,60 @@
+-- =============================================================================
+-- Dimensions
+-- =============================================================================
+
 -- Dim_Site
 COPY (
 SELECT DISTINCT
-       id AS code_site,
-       nom AS nom_site
-FROM Staging_site
+       nom AS nom_site,
+       id AS code_site
+FROM staging_site
 ) TO '/EQ3/Loading/Dim_Site.csv' WITH (FORMAT CSV, HEADER);
 
 -- Dim_Zone
 COPY (
 SELECT DISTINCT
-       z.id AS code_zone,
-       z.site_id AS code_site,
-       '' AS nom_zone,
-       z.description AS description
-FROM Staging_zone z
+       id AS code_zone,
+       site_id AS code_site,
+       NULL AS nom_zone,
+       description AS description
+FROM staging_zone
 ) TO '/EQ3/Loading/Dim_Zone.csv' WITH (FORMAT CSV, HEADER);
 
 -- Dim_Placette
 COPY (
 SELECT DISTINCT
-       CAST(p.zone_id AS VARCHAR) || CAST(p.numero AS VARCHAR) AS placette_id,
-       p.zone_id AS code_zone,
-       p.date AS date_creation
-FROM Staging_placette p
+       numero AS placette_id,
+       zone_id AS code_zone,
+       date AS date_creation
+FROM staging_placette
 ) TO '/EQ3/Loading/Dim_Placette.csv' WITH (FORMAT CSV, HEADER);
 
 -- Dim_Parcelle
 COPY (
 SELECT DISTINCT
-       CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) || CAST(ep.parcelle AS VARCHAR) AS parcelle_id,
-       CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) AS placette_id,
-       p.description AS peuplement,
-       '' AS position
-FROM Staging_emplacementplant ep
-LEFT JOIN Staging_placette pl ON ep.placette_id = CAST(pl.numero AS VARCHAR) AND ep.zone_id = pl.zone_id
-LEFT JOIN Staging_peuplement p ON pl.peuplement_id = p.id
+       pa.parcelle_id AS parcelle_id,
+       pa.placette_id AS placette_id,
+       pe.description AS peuplement,
+       pa.position AS position
+FROM staging_parcelle pa
+JOIN staging_peuplement pe
+ON pa.peuplement = pe.id
 ) TO '/EQ3/Loading/Dim_Parcelle.csv' WITH (FORMAT CSV, HEADER);
 
 -- Dim_Plant
 COPY (
 SELECT DISTINCT
-       p.id AS plant_id,
-       p.date_identification AS date_decouverte
-FROM Staging_plant p
+       id AS plant_id,
+       opl.parcelleid AS parcelle_id,
+       date_identification AS date_decouverte
+FROM staging_plant
+LEFT JOIN staging_obsplantlocalisation opl ON opl.plantid = id
 ) TO '/EQ3/Loading/Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
 
 -- Dim_Arbre
 COPY (
 SELECT DISTINCT
-       a.id AS arbre_id,
-       a.description AS description
-FROM Staging_Arbre a
+       id AS nom_arbre,
+       description AS description
+FROM staging_arbre
 ) TO '/EQ3/Loading/Dim_Arbre.csv' WITH (FORMAT CSV, HEADER);

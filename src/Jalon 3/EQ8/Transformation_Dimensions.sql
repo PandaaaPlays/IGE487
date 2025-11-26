@@ -15,7 +15,7 @@ COPY (
     SELECT DISTINCT 
         z.zoneid AS code_zone,
         z.siteid AS code_site,
-        NULL AS nom_zone, -- Pad de nom adans Staging_Zone
+        NULL AS nom_zone, -- Pas de nom adans Staging_Zone
         NULL AS description -- Pas de description dans Staging_Zone
     FROM Staging_Zone z
 ) TO '/EQ8/Loading/Dim_Zone.csv' WITH (FORMAT CSV, HEADER);
@@ -23,7 +23,7 @@ COPY (
 -- 1.3 Dim_Placette
 COPY (
     SELECT DISTINCT 
-        CAST(p.zoneid AS VARCHAR) || CAST(p.placetteid AS VARCHAR) AS placette_id,
+        p.placetteid AS placette_id,
         p.zoneid AS code_zone,
         CURRENT_DATE AS date_creation
     FROM Staging_Placette p
@@ -32,8 +32,8 @@ COPY (
 -- 1.4 Dim_Parcelle
 COPY (
     SELECT DISTINCT 
-        CAST(pa.zoneid AS VARCHAR) || CAST(pa.placetteid AS VARCHAR) || CAST(pa.parcelleid AS VARCHAR) AS placette_id,
-        CAST(pa.zoneid AS VARCHAR) || CAST(pa.placetteid AS VARCHAR) AS placette_id,
+        pa.parcelleid AS placette_id,
+        pa.placetteid AS placette_id,
         'Inconnu' AS peuplement,
         '0' AS position
     FROM Staging_Parcelle pa
@@ -43,10 +43,11 @@ COPY (
 COPY (
     SELECT 
         p.plantid AS plant_id,
+        opl.parcelleid AS parcelle_id,
         MIN(opl.dateobservation) AS date_decouverte
     FROM Staging_Plant p
     LEFT JOIN Staging_ObsPlantLocalisation opl ON p.plantid = opl.plantid
-    GROUP BY p.plantid
+    GROUP BY p.plantid, opl.parcelleid
 ) TO '/EQ8/Loading/Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
 
 -- 1.6 Dim_Arbre

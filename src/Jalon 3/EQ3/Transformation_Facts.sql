@@ -93,7 +93,7 @@ SELECT
 FROM Staging_dimension s
 JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id AND s.date_observation BETWEEN ep.date_debut AND ep.date_fin
-JOIN Dim_Parcelle dpar ON CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) || CAST(ep.parcelle AS VARCHAR) = dpar.parcelle_id
+JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 ) TO '/EQ3/Loading/Fact_Dimension.csv' WITH (FORMAT CSV, HEADER);
 
 -- Fact_Etat
@@ -107,7 +107,7 @@ SELECT
 FROM Staging_etat s
 JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id AND s.date_observation BETWEEN ep.date_debut AND ep.date_fin
-JOIN Dim_Parcelle dpar ON CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) || CAST(ep.parcelle AS VARCHAR) = dpar.parcelle_id
+JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 ) TO '/EQ3/Loading/Fact_Etat.csv' WITH (FORMAT CSV, HEADER);
 
 -- Fact_Floraison
@@ -120,7 +120,7 @@ SELECT
 FROM Staging_floraison s
 JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id AND s.date_observation BETWEEN ep.date_debut AND ep.date_fin
-JOIN Dim_Parcelle dpar ON CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) || CAST(ep.parcelle AS VARCHAR) = dpar.parcelle_id
+JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 ) TO '/EQ3/Loading/Fact_Floraison.csv' WITH (FORMAT CSV, HEADER);
 
 -- Fact_Note
@@ -133,7 +133,7 @@ SELECT
 FROM Staging_plant s
 JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id
-JOIN Dim_Parcelle dpar ON CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) || CAST(ep.parcelle AS VARCHAR) = dpar.parcelle_id
+JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 WHERE s.note IS NOT NULL
 ) TO '/EQ3/Loading/Fact_Note.csv' WITH (FORMAT CSV, HEADER);
 
@@ -149,7 +149,7 @@ SELECT
     s.couverture_type AS type_couverture,
     CAST(s.taux AS DECIMAL(5,2)) AS taux
 FROM Staging_couverturesol s
-JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || CAST(s.placette_id AS VARCHAR) = dp.placette_id
+JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || '-' || CAST(s.placette_id AS VARCHAR) = dp.placette_id
 JOIN Staging_placette sp ON s.placette_id = CAST(sp.numero AS VARCHAR) AND s.zone_id = sp.zone_id
 ) TO '/EQ3/Loading/Fact_Couverture.csv' WITH (FORMAT CSV, HEADER);
 
@@ -162,7 +162,7 @@ SELECT
     s.hauteur,
     CAST(s.taux AS DECIMAL(5,2)) AS taux
 FROM Staging_obstructionlaterale s
-JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || CAST(s.placette_id AS VARCHAR) = dp.placette_id
+JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || '-' || CAST(s.placette_id AS VARCHAR) = dp.placette_id
 JOIN Staging_placette sp ON s.placette_id = CAST(sp.numero AS VARCHAR) AND s.zone_id = sp.zone_id
 ) TO '/EQ3/Loading/Fact_Obstruction.csv' WITH (FORMAT CSV, HEADER);
 
@@ -174,7 +174,7 @@ SELECT
     sp.date AS date,
     s.rang AS rang
 FROM Staging_ArbreDominant s
-JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || CAST(s.placette_id AS VARCHAR) = dp.placette_id
+JOIN Dim_Placette dp ON CAST(s.zone_id AS VARCHAR) || '-' || CAST(s.placette_id AS VARCHAR) = dp.placette_id
 JOIN Dim_Arbre da ON s.arbre_id = da.nom_arbre
 JOIN Staging_placette sp ON s.placette_id = CAST(sp.numero AS VARCHAR) AND s.zone_id = sp.zone_id
 ) TO '/EQ3/Loading/Fact_Arbre.csv' WITH (FORMAT CSV, HEADER);

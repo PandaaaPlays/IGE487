@@ -1,50 +1,87 @@
 DROP TABLE IF EXISTS Dim_Site CASCADE;
 CREATE TABLE Dim_Site (
     id_interne SERIAL PRIMARY KEY,
-    code_site VARCHAR(50) UNIQUE,
+    code_site VARCHAR(50),
     nom_site VARCHAR(100)
 );
 
 DROP TABLE IF EXISTS Dim_Zone CASCADE;
 CREATE TABLE Dim_Zone (
     id_interne SERIAL PRIMARY KEY,
-    code_zone VARCHAR(50) UNIQUE,
+    code_zone VARCHAR(50),
     code_site VARCHAR(50),
     nom_zone VARCHAR(100),
-    description TEXT,
-    FOREIGN KEY (code_site) REFERENCES Dim_Site(code_site)
+    description TEXT
 );
 
 DROP TABLE IF EXISTS Dim_Placette CASCADE;
 CREATE TABLE Dim_Placette (
     id_interne SERIAL PRIMARY KEY,
-    placette_id VARCHAR(50) UNIQUE,
+    placette_id VARCHAR(50),
     code_zone VARCHAR(50),
-    date_creation DATE,
-    FOREIGN KEY (code_zone) REFERENCES Dim_Zone(code_zone)
+    date_creation DATE
 );
 
 DROP TABLE IF EXISTS Dim_Parcelle CASCADE;
 CREATE TABLE Dim_Parcelle (
     id_interne SERIAL PRIMARY KEY,
-    parcelle_id VARCHAR(50) UNIQUE,
+    parcelle_id VARCHAR(50),
     placette_id VARCHAR(50),
     peuplement VARCHAR(100),
-    position VARCHAR(50),
-    FOREIGN KEY (placette_id) REFERENCES Dim_Placette(placette_id)
+    position VARCHAR(50)
 );
 
 DROP TABLE IF EXISTS Dim_Plant CASCADE;
 CREATE TABLE Dim_Plant (
     id_interne SERIAL PRIMARY KEY,
-    plant_id VARCHAR(50) UNIQUE,
+    parcelle_id VARCHAR(50),
+    plant_id VARCHAR(50),
+    date_decouverte DATE
+);
+
+DROP TABLE IF EXISTS Dim_Arbre CASCADE;
+CREATE TABLE Dim_Arbre (
+    nom_site VARCHAR(100)
+);
+
+DROP TABLE IF EXISTS Dim_Zone CASCADE;
+CREATE TABLE Dim_Zone (
+    id_interne SERIAL PRIMARY KEY,
+    code_zone VARCHAR(50),
+    code_site VARCHAR(50),
+    nom_zone VARCHAR(100),
+    description TEXT
+);
+
+DROP TABLE IF EXISTS Dim_Placette CASCADE;
+CREATE TABLE Dim_Placette (
+    id_interne SERIAL PRIMARY KEY,
+    placette_id VARCHAR(50),
+    code_zone VARCHAR(50),
+    date_creation DATE
+);
+
+DROP TABLE IF EXISTS Dim_Parcelle CASCADE;
+CREATE TABLE Dim_Parcelle (
+    id_interne SERIAL PRIMARY KEY,
+    parcelle_id VARCHAR(50),
+    placette_id VARCHAR(50),
+    peuplement VARCHAR(100),
+    position VARCHAR(50)
+);
+
+DROP TABLE IF EXISTS Dim_Plant CASCADE;
+CREATE TABLE Dim_Plant (
+    id_interne SERIAL PRIMARY KEY,
+    parcelle_id VARCHAR(50),
+    plant_id VARCHAR(50),
     date_decouverte DATE
 );
 
 DROP TABLE IF EXISTS Dim_Arbre CASCADE;
 CREATE TABLE Dim_Arbre (
     id_interne SERIAL PRIMARY KEY,
-    nom_arbre VARCHAR(50) UNIQUE,
+    nom_arbre VARCHAR(50),
     description TEXT
 );
 
@@ -117,45 +154,37 @@ CREATE TABLE Fact_Precipitation (
 DROP TABLE IF EXISTS Fact_Dimension CASCADE;
 CREATE TABLE Fact_Dimension (
     id_interne_plant INTEGER,
-    id_interne_parcelle INTEGER,
     date DATE,
     longueur DECIMAL(10,2),
     largeur DECIMAL(10,2),
     superficie DECIMAL(10,2),
     note TEXT,
-    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne),
-    FOREIGN KEY (id_interne_parcelle) REFERENCES Dim_Parcelle(id_interne)
+    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
 DROP TABLE IF EXISTS Fact_Etat CASCADE;
 CREATE TABLE Fact_Etat (
     id_interne_plant INTEGER,
-    id_interne_parcelle INTEGER,
     date DATE,
     etat VARCHAR(50),
     note TEXT,
-    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne),
-    FOREIGN KEY (id_interne_parcelle) REFERENCES Dim_Parcelle(id_interne)
+    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
 DROP TABLE IF EXISTS Fact_Floraison CASCADE;
 CREATE TABLE Fact_Floraison (
     id_interne_plant INTEGER,
-    id_interne_parcelle INTEGER,
     date DATE,
     note TEXT,
-    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne),
-    FOREIGN KEY (id_interne_parcelle) REFERENCES Dim_Parcelle(id_interne)
+    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
 DROP TABLE IF EXISTS Fact_Note CASCADE;
 CREATE TABLE Fact_Note (
     id_interne_plant INTEGER,
-    id_interne_parcelle INTEGER,
     date DATE,
     note TEXT,
-    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne),
-    FOREIGN KEY (id_interne_parcelle) REFERENCES Dim_Parcelle(id_interne)
+    FOREIGN KEY (id_interne_plant) REFERENCES Dim_Plant(id_interne)
 );
 
 -- =============================================================================
