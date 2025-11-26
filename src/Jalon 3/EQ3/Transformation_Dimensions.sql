@@ -19,7 +19,7 @@ FROM Staging_zone z
 -- Dim_Placette
 COPY (
 SELECT DISTINCT
-       CAST(p.numero AS VARCHAR) AS placette_id,
+       CAST(p.zone_id AS VARCHAR) || CAST(p.numero AS VARCHAR) AS placette_id,
        p.zone_id AS code_zone,
        p.date AS date_creation
 FROM Staging_placette p
@@ -28,8 +28,8 @@ FROM Staging_placette p
 -- Dim_Parcelle
 COPY (
 SELECT DISTINCT
-       ep.parcelle AS parcelle_id,
-       ep.placette_id AS placette_id,
+       CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) || CAST(ep.parcelle AS VARCHAR) AS parcelle_id,
+       CAST(ep.zone_id AS VARCHAR) || CAST(ep.placette_id AS VARCHAR) AS placette_id,
        p.description AS peuplement,
        '' AS position
 FROM Staging_emplacementplant ep
