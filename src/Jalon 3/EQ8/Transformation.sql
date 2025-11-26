@@ -20,7 +20,7 @@ COPY (
     SELECT DISTINCT
         siteid AS code_site,
         description AS nom_site
-    FROM Site
+    FROM "Site"
 ) TO '/EQ8/Loading/Dim_Site.csv' WITH (FORMAT CSV, HEADER);
 
 -- 1.2 Dim_Zone
@@ -30,7 +30,7 @@ COPY (
         'EQ8' AS code_site,
         z.zoneid AS nom_zone,
         z.description AS description
-    FROM Zone z
+    FROM "Zone" z
 ) TO '/EQ8/Loading/Dim_Zone.csv' WITH (FORMAT CSV, HEADER);
 
 -- 1.3 Dim_Placette
@@ -39,7 +39,7 @@ COPY (
         p.placetteid AS placette_id,
         p.zoneid AS code_zone,
         CURRENT_DATE AS date_creation
-    FROM Placette p
+    FROM "Placette" p
 ) TO '/EQ8/Loading/Dim_Placette.csv' WITH (FORMAT CSV, HEADER);
 
 -- 1.4 Dim_Parcelle
@@ -49,7 +49,7 @@ COPY (
         pa.placetteid AS placette_id,
         'Inconnu' AS peuplement,
         '0' AS position
-    FROM Parcelle pa
+    FROM "Parcelle" pa
 ) TO '/EQ8/Loading/Dim_Parcelle.csv' WITH (FORMAT CSV, HEADER);
 
 -- 1.5 Dim_Plant
@@ -57,8 +57,8 @@ COPY (
     SELECT
         p.plantid AS plant_id,
         MIN(opl.dateobservation) AS date_decouverte
-    FROM Plant p
-    LEFT JOIN ObsPlantLocalisation opl ON p.plantid = opl.plantid
+    FROM "Plant" p
+    LEFT JOIN "ObsPlantLocalisation" opl ON p.plantid = opl.plantid
     GROUP BY p.plantid
 ) TO '/EQ8/Loading/Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
 
@@ -67,7 +67,7 @@ COPY (
     SELECT DISTINCT
         arbreid AS arbre_id,
         description
-    FROM Arbre
+    FROM "Arbre"
 ) TO '/EQ8/Loading/Dim_Arbre.csv' WITH (FORMAT CSV, HEADER);
 
 -- ===========================================================================
@@ -85,8 +85,8 @@ COPY (
         od.largeur,
         (od.longueur * od.largeur) AS superficie,
         od.note
-    FROM ObsDimension od
-    LEFT JOIN ObsPlantLocalisation opl ON od.plantid = opl.plantid AND od.dateobservation = opl.dateobservation
+    FROM "ObsDimension" od
+    LEFT JOIN "ObsPlantLocalisation" opl ON od.plantid = opl.plantid AND od.dateobservation = opl.dateobservation
 ) TO '/EQ8/Loading/Fact_Dimension.csv' WITH (FORMAT CSV, HEADER);
 
 -- 2.2 Fact_Etat
@@ -97,8 +97,8 @@ COPY (
         oe.dateobservation AS date,
         oe.etat,
         oe.note
-    FROM ObsEtat oe
-    LEFT JOIN ObsPlantLocalisation opl ON oe.plantid = opl.plantid AND oe.dateobservation = opl.dateobservation
+    FROM "ObsEtat" oe
+    LEFT JOIN "ObsPlantLocalisation" opl ON oe.plantid = opl.plantid AND oe.dateobservation = opl.dateobservation
 ) TO '/EQ8/Loading/Fact_Etat.csv' WITH (FORMAT CSV, HEADER);
 
 -- 2.3 Fact_Floraison
@@ -108,8 +108,8 @@ COPY (
         COALESCE(opl.parcelleid, 'INCONNU') AS parcelle_id,
         ofl.dateobservation AS date,
         ofl.note
-    FROM ObsFloraison ofl
-    LEFT JOIN ObsPlantLocalisation opl ON ofl.plantid = opl.plantid AND ofl.dateobservation = opl.dateobservation
+    FROM "ObsFloraison" ofl
+    LEFT JOIN "ObsPlantLocalisation" opl ON ofl.plantid = opl.plantid AND ofl.dateobservation = opl.dateobservation
 ) TO '/EQ8/Loading/Fact_Floraison.csv' WITH (FORMAT CSV, HEADER);
 
 -- ===========================================================================
@@ -126,7 +126,7 @@ COPY (
         (ot.temperaturemin + ot.temperaturemax) / 2 AS temp_moyenne,
         (ot.temperaturemax - ot.temperaturemin) AS variation,
         ot.note
-    FROM ObsTemperature ot
+    FROM "ObsTemperature" ot
 ) TO '/EQ8/Loading/Fact_Temperature.csv' WITH (FORMAT CSV, HEADER);
 
 -- 3.2 Fact_Humidite
@@ -139,7 +139,7 @@ COPY (
         NULL::DECIMAL(5,2) AS temp_moyenne,
         (oh.humiditemax - oh.humiditemin) AS variation,
         oh.note
-    FROM ObsHumidite oh
+    FROM "ObsHumidite" oh
 ) TO '/EQ8/Loading/Fact_Humidite.csv' WITH (FORMAT CSV, HEADER);
 
 -- 3.3 Fact_Vents
@@ -152,7 +152,7 @@ COPY (
         NULL::DECIMAL(5,2) AS temp_moyenne,
         0 AS variation,
         ov.note
-    FROM ObsVents ov
+    FROM "ObsVents" ov
 ) TO '/EQ8/Loading/Fact_Vents.csv' WITH (FORMAT CSV, HEADER);
 
 -- 3.4 Fact_Pression
@@ -165,7 +165,7 @@ COPY (
         NULL::DECIMAL(5,2) AS temp_moyenne,
         (op.pressionmax - op.pressionmin) AS variation,
         op.note
-    FROM ObsPression op
+    FROM "ObsPression" op
 ) TO '/EQ8/Loading/Fact_Pression.csv' WITH (FORMAT CSV, HEADER);
 
 -- 3.5 Fact_Precipitation
@@ -176,7 +176,7 @@ COPY (
         opr.precipitationtotale AS prec_tot,
         opr.typeprecipitation AS prec_nature,
         opr.note
-    FROM ObsPrecipitation opr
+    FROM "ObsPrecipitation" opr
 ) TO '/EQ8/Loading/Fact_Precipitation.csv' WITH (FORMAT CSV, HEADER);
 
 -- ===========================================================================
@@ -190,21 +190,21 @@ COPY (
         oc.dateobservation AS date,
         'Mousses' AS type_couverture,
         oc.tauxmousses AS taux
-    FROM obscouverture oc
+    FROM "obscouverture" oc
     UNION ALL
     SELECT
         oc.placetteid AS placette_id,
         oc.dateobservation AS date,
         'Graminées' AS type_couverture,
         oc.tauxgraminees AS taux
-    FROM obscouverture oc
+    FROM "obscouverture" oc
     UNION ALL
     SELECT
         oc.placetteid AS placette_id,
         oc.dateobservation AS date,
         'Fougères' AS type_couverture,
         oc.tauxfougeres AS taux
-    FROM obscouverture oc
+    FROM "obscouverture" oc
 ) TO '/EQ8/Loading/Fact_Couverture.csv' WITH (FORMAT CSV, HEADER);
 
 -- 4.2 Fact_Obstruction
@@ -215,7 +215,7 @@ COPY (
         'Feuillu' AS type_obstruction,
         oo.hauteur,
         oo.tauxfeuillu AS taux
-    FROM ObsObstruction oo
+    FROM "ObsObstruction" oo
     UNION ALL
     SELECT
         oo.placetteid AS placette_id,
@@ -223,7 +223,7 @@ COPY (
         'Conifère' AS type_obstruction,
         oo.hauteur,
         oo.tauxconifere AS taux
-    FROM ObsObstruction oo
+    FROM "ObsObstruction" oo
 ) TO '/EQ8/Loading/Fact_Obstruction.csv' WITH (FORMAT CSV, HEADER);
 
 -- 4.3 Fact_Arbre
@@ -233,5 +233,5 @@ COPY (
         oad.arbreid AS arbre_id,
         oad.dateobservation AS date,
         oad.rang
-    FROM ObsArbreDominants oad
+    FROM "ObsArbreDominants" oad
 ) TO '/EQ8/Loading/Fact_Arbre.csv' WITH (FORMAT CSV, HEADER);
