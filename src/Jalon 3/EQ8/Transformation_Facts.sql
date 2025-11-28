@@ -71,7 +71,7 @@ COPY (
         oh.dateobservation AS date,
         oh.humiditemin AS hum_min,
         oh.humiditemax AS hum_max,
-        NULL::DECIMAL(5,2) AS temp_moyenne,
+        (oh.humiditemax + oh.humiditemin) / 2 AS hum_moyenne,
         (oh.humiditemax - oh.humiditemin) AS variation,
         oh.note
     FROM Staging_ObsHumidite oh
@@ -85,8 +85,8 @@ COPY (
         ov.dateobservation AS date,
         ov.ventmin AS vent_min,
         ov.ventmax AS vent_max,
-        NULL::DECIMAL(5,2) AS temp_moyenne,
-        0 AS variation,
+        (ov.ventmax + ov.ventmin) / 2 AS vent_moyenne,
+        (ov.ventmax - ov.ventmin) AS variation,
         ov.note
     FROM Staging_ObsVents ov
     JOIN Dim_Zone dz ON dz.code_zone = ov.zoneid AND dz.code_site = ov.siteid
@@ -99,7 +99,7 @@ COPY (
         op.dateobservation AS date,
         op.pressionmin AS pres_min,
         op.pressionmax AS pres_max,
-        NULL::DECIMAL(5,2) AS temp_moyenne,
+        (op.pressionmax + op.pressionmin) / 2 AS pres_moyenne,
         (op.pressionmax - op.pressionmin) AS variation,
         op.note
     FROM Staging_ObsPression op
@@ -149,7 +149,7 @@ COPY (
     JOIN Dim_Placette dp ON dp.placette_id = oc.placetteid AND dp.code_zone = oc.zoneid
 ) TO '/EQ8/Loading/Fact_Couverture.csv' WITH (FORMAT CSV, HEADER);
 
--- 4.2 Fact_Obstruction
+-- 4.Loading Fact_Obstruction
 COPY (
     SELECT
         dp.id_interne AS id_interne_placette,

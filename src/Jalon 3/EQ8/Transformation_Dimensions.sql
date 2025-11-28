@@ -32,7 +32,7 @@ COPY (
 -- 1.4 Dim_Parcelle
 COPY (
     SELECT DISTINCT 
-        pa.parcelleid AS placette_id,
+        pa.parcelleid AS parcelle_id,
         pa.placetteid AS placette_id,
         'Inconnu' AS peuplement,
         '0' AS position

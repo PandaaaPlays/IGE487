@@ -1,10 +1,10 @@
 COPY Fact_Temperature(id_interne_zone, date, temp_min, temp_max, temp_moyenne, variation, note) FROM '/EQ3/Loading/Fact_Temperature.csv' WITH (FORMAT CSV, HEADER);
 
-COPY Fact_Humidite(id_interne_zone, date, hum_min, hum_max, temp_moyenne, variation, note) FROM '/EQ3/Loading/Fact_Humidite.csv' WITH (FORMAT CSV, HEADER);
+COPY Fact_Humidite(id_interne_zone, date, hum_min, hum_max, hum_moyenne, variation, note) FROM '/EQ3/Loading/Fact_Humidite.csv' WITH (FORMAT CSV, HEADER);
 
-COPY Fact_Vents(id_interne_zone, date, vent_min, vent_max, temp_moyenne, variation, note) FROM '/EQ3/Loading/Fact_Vents.csv' WITH (FORMAT CSV, HEADER);
+COPY Fact_Vents(id_interne_zone, date, vent_min, vent_max, vent_moyenne, variation, note) FROM '/EQ3/Loading/Fact_Vents.csv' WITH (FORMAT CSV, HEADER);
 
-COPY Fact_Pression(id_interne_zone, date, pres_min, pres_max, temp_moyenne, variation, note) FROM '/EQ3/Loading/Fact_Pression.csv' WITH (FORMAT CSV, HEADER);
+COPY Fact_Pression(id_interne_zone, date, pres_min, pres_max, pres_moyenne, variation, note) FROM '/EQ3/Loading/Fact_Pression.csv' WITH (FORMAT CSV, HEADER);
 
 COPY Fact_Precipitation(id_interne_zone, date, prec_tot, prec_nature, note) FROM '/EQ3/Loading/Fact_Precipitation.csv' WITH (FORMAT CSV, HEADER);
 

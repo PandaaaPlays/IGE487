@@ -32,23 +32,23 @@ FROM staging_placette
 -- Dim_Parcelle
 COPY (
 SELECT DISTINCT
-       pa.parcelle_id AS parcelle_id,
-       pa.placette_id AS placette_id,
+       ep.parcelle AS parcelle_id,
+       ep.placette_id AS placette_id,
        pe.description AS peuplement,
-       pa.position AS position
-FROM staging_parcelle pa
-JOIN staging_peuplement pe
-ON pa.peuplement = pe.id
+       NULL AS position
+FROM staging_emplacementplant ep
+LEFT JOIN staging_placette p ON CAST(p.numero AS TEXT) = ep.placette_id
+JOIN staging_peuplement pe ON p.peuplement_id = pe.id
 ) TO '/EQ3/Loading/Dim_Parcelle.csv' WITH (FORMAT CSV, HEADER);
 
 -- Dim_Plant
 COPY (
 SELECT DISTINCT
        id AS plant_id,
-       opl.parcelleid AS parcelle_id,
+       ep.parcelle AS parcelle_id,
        date_identification AS date_decouverte
 FROM staging_plant
-LEFT JOIN staging_obsplantlocalisation opl ON opl.plantid = id
+LEFT JOIN staging_emplacementplant ep ON ep.plant_id = id
 ) TO '/EQ3/Loading/Dim_Plant.csv' WITH (FORMAT CSV, HEADER);
 
 -- Dim_Arbre

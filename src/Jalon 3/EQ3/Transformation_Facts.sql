@@ -80,9 +80,8 @@ SELECT
     CAST(s.longueur * s.largeur AS DECIMAL(10,2)) AS superficie,
     '' AS note
 FROM Staging_dimension s
-JOIN Dim_Plant dp ON s.id = dp.plant_id
+LEFT JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id AND s.date_observation BETWEEN ep.date_debut AND ep.date_fin
-JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 ) TO '/EQ3/Loading/Fact_Dimension.csv' WITH (FORMAT CSV, HEADER);
 
 -- Fact_Etat
@@ -95,7 +94,6 @@ SELECT
 FROM Staging_etat s
 JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id AND s.date_observation BETWEEN ep.date_debut AND ep.date_fin
-JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 ) TO '/EQ3/Loading/Fact_Etat.csv' WITH (FORMAT CSV, HEADER);
 
 -- Fact_Floraison
@@ -107,7 +105,6 @@ SELECT
 FROM Staging_floraison s
 JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id AND s.date_observation BETWEEN ep.date_debut AND ep.date_fin
-JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 ) TO '/EQ3/Loading/Fact_Floraison.csv' WITH (FORMAT CSV, HEADER);
 
 -- Fact_Note
@@ -119,7 +116,6 @@ SELECT
 FROM Staging_plant s
 JOIN Dim_Plant dp ON s.id = dp.plant_id
 JOIN Staging_emplacementplant ep ON s.id = ep.plant_id
-JOIN Dim_Parcelle dpar ON ep.parcelle = dpar.parcelle_id
 WHERE s.note IS NOT NULL
 ) TO '/EQ3/Loading/Fact_Note.csv' WITH (FORMAT CSV, HEADER);
 
