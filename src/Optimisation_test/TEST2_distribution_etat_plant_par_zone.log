@@ -1,0 +1,44 @@
+HashAggregate  (cost=324.62..325.02 rows=40 width=13) (actual time=5.932..5.944 rows=40 loops=1)
+"  Group Key: z.code, oe.etat"
+  Batches: 1  Memory Usage: 24kB
+  Buffers: shared hit=46 read=8
+  ->  Hash Join  (cost=222.06..311.48 rows=1752 width=5) (actual time=3.047..5.424 rows=1701 loops=1)
+        Hash Cond: ((plct.zone)::text = (z.code)::text)
+        Buffers: shared hit=46 read=8
+        ->  Hash Join  (cost=220.95..301.87 rows=1752 width=5) (actual time=2.994..4.992 rows=1701 loops=1)
+              Hash Cond: ((p.placette_id)::text = (plct.plac)::text)
+              Buffers: shared hit=45 read=8
+              ->  Hash Join  (cost=213.10..289.35 rows=1752 width=5) (actual time=2.802..4.355 rows=1701 loops=1)
+                    Hash Cond: (pl.parcelle_id = p.parcelle_id)
+                    Buffers: shared hit=43 read=8
+                    ->  Hash Join  (cost=142.33..213.97 rows=1752 width=6) (actual time=2.004..3.037 rows=1701 loops=1)
+                          Hash Cond: ((oe.id)::text = (pl.id)::text)
+                          Buffers: shared hit=29 read=8
+                          ->  Index Only Scan using idx_obsetat_date_etat_plant on obsetat oe  (cost=0.30..67.34 rows=1752 width=10) (actual time=0.181..0.573 rows=1701 loops=1)
+                                Index Cond: ((date >= (current_setting('myvars.start_date'::text))::date) AND (date <= (current_setting('myvars.end_date'::text))::date))
+                                Heap Fetches: 0
+                                Buffers: shared hit=1 read=8
+                          ->  Hash  (cost=78.68..78.68 rows=5068 width=12) (actual time=1.806..1.807 rows=5068 loops=1)
+                                Buckets: 8192  Batches: 1  Memory Usage: 282kB
+                                Buffers: shared hit=28
+                                ->  Seq Scan on plant pl  (cost=0.00..78.68 rows=5068 width=12) (actual time=0.009..0.914 rows=5068 loops=1)
+                                      Buffers: shared hit=28
+                    ->  Hash  (cost=39.23..39.23 rows=2523 width=7) (actual time=0.787..0.787 rows=2523 loops=1)
+                          Buckets: 4096  Batches: 1  Memory Usage: 129kB
+                          Buffers: shared hit=14
+                          ->  Seq Scan on parcelle p  (cost=0.00..39.23 rows=2523 width=7) (actual time=0.009..0.332 rows=2523 loops=1)
+                                Buffers: shared hit=14
+              ->  Hash  (cost=4.60..4.60 rows=260 width=6) (actual time=0.186..0.186 rows=260 loops=1)
+                    Buckets: 1024  Batches: 1  Memory Usage: 18kB
+                    Buffers: shared hit=2
+                    ->  Seq Scan on placette plct  (cost=0.00..4.60 rows=260 width=6) (actual time=0.007..0.036 rows=260 loops=1)
+                          Buffers: shared hit=2
+        ->  Hash  (cost=1.05..1.05 rows=5 width=3) (actual time=0.017..0.018 rows=5 loops=1)
+              Buckets: 1024  Batches: 1  Memory Usage: 9kB
+              Buffers: shared hit=1
+              ->  Seq Scan on zone z  (cost=0.00..1.05 rows=5 width=3) (actual time=0.012..0.013 rows=5 loops=1)
+                    Buffers: shared hit=1
+Planning:
+  Buffers: shared hit=74 read=2
+Planning Time: 1.514 ms
+Execution Time: 6.082 ms

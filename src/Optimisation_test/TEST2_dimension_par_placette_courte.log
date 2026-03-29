@@ -1,0 +1,31 @@
+HashAggregate  (cost=247.85..249.11 rows=84 width=75) (actual time=4.963..5.046 rows=91 loops=1)
+  Group Key: p.placette_id
+  Batches: 1  Memory Usage: 48kB
+  Buffers: shared hit=101 read=2
+  ->  Hash Join  (cost=167.46..244.89 rows=296 width=19) (actual time=2.571..4.390 rows=1440 loops=1)
+        Hash Cond: (pl.parcelle_id = p.parcelle_id)
+        Buffers: shared hit=101 read=2
+        ->  Hash Join  (cost=149.36..226.02 rows=296 width=20) (actual time=1.624..2.926 rows=1440 loops=1)
+              Hash Cond: ((od.id)::text = (pl.id)::text)
+              Buffers: shared hit=87 read=2
+              ->  Bitmap Heap Scan on obsdimension od  (cost=7.33..83.21 rows=296 width=16) (actual time=0.100..0.640 rows=1440 loops=1)
+                    Recheck Cond: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))
+                    Heap Blocks: exact=58
+                    Buffers: shared hit=59 read=2
+                    ->  Bitmap Index Scan on idx_obsdim_date  (cost=0.00..7.26 rows=296 width=0) (actual time=0.082..0.083 rows=1440 loops=1)
+                          Index Cond: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))
+                          Buffers: shared hit=1 read=2
+              ->  Hash  (cost=78.68..78.68 rows=5068 width=12) (actual time=1.501..1.502 rows=5068 loops=1)
+                    Buckets: 8192  Batches: 1  Memory Usage: 282kB
+                    Buffers: shared hit=28
+                    ->  Seq Scan on plant pl  (cost=0.00..78.68 rows=5068 width=12) (actual time=0.011..0.695 rows=5068 loops=1)
+                          Buffers: shared hit=28
+        ->  Hash  (cost=15.82..15.82 rows=182 width=7) (actual time=0.940..0.941 rows=2523 loops=1)
+              Buckets: 4096 (originally 1024)  Batches: 1 (originally 1)  Memory Usage: 131kB
+              Buffers: shared hit=14
+              ->  Seq Scan on parcelle p  (cost=0.00..15.82 rows=182 width=7) (actual time=0.016..0.466 rows=2523 loops=1)
+                    Buffers: shared hit=14
+Planning:
+  Buffers: shared hit=51 read=6
+Planning Time: 0.714 ms
+Execution Time: 5.127 ms

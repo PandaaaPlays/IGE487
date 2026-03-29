@@ -62,14 +62,6 @@ INSERT INTO Peuplement VALUES
   ('ERSA', 'érablière à sapin'),
   ('PEBO', 'pessière à bouleau');
 
-INSERT INTO Taux VALUES
-  ('A', 76, 100),
-  ('B', 51, 75),
-  ('C', 26, 50),
-  ('D', 6, 25),
-  ('E', 1, 5),
-  ('F', 0, 0);
-
 INSERT INTO Arbre VALUES
   ('ABIBAL', 'Abies balsamea'),
   ('ACESAC', 'Acer saccharum'),
@@ -95,7 +87,7 @@ INSERT INTO Placette VALUES
 --
 -- Partie 2
 --
-INSERT INTO Plant (id, placette, parcelle, date, note) VALUES
+INSERT INTO Plant (id, date) VALUES
   ('MMA1040', 'A1', 4, '2017-05-08', ''),
   ('MMB1305', 'B1', 11, '2017-06-04', '' ),
   ('MMB7103', 'B7', 6, '2017-06-01', '' ),

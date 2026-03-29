@@ -1,0 +1,28 @@
+GroupAggregate  (cost=119.48..119.84 rows=13 width=75) (actual time=12.214..12.610 rows=91 loops=1)
+  Group Key: p.placette_id
+  Buffers: shared hit=4415
+  ->  Sort  (cost=119.48..119.51 rows=13 width=19) (actual time=12.193..12.263 rows=1440 loops=1)
+        Sort Key: p.placette_id
+        Sort Method: quicksort  Memory: 105kB
+        Buffers: shared hit=4415
+        ->  Nested Loop  (cost=33.94..119.24 rows=13 width=19) (actual time=1.526..11.534 rows=1440 loops=1)
+              Buffers: shared hit=4415
+              ->  Hash Join  (cost=33.67..110.75 rows=13 width=20) (actual time=1.512..9.390 rows=1440 loops=1)
+                    Hash Cond: ((od.id)::text = (pl.id)::text)
+                    Buffers: shared hit=95
+                    ->  Seq Scan on obsdimension od  (cost=0.00..77.05 rows=13 width=16) (actual time=0.015..7.339 rows=1440 loops=1)
+                          Filter: (((date)::date >= (current_setting('myvars.start_date'::text))::date) AND ((date)::date <= (current_setting('myvars.end_date'::text))::date))
+                          Rows Removed by Filter: 8690
+                          Buffers: shared hit=67
+                    ->  Hash  (cost=30.52..30.52 rows=252 width=12) (actual time=1.490..1.491 rows=5068 loops=1)
+                          Buckets: 8192 (originally 1024)  Batches: 1 (originally 1)  Memory Usage: 282kB
+                          Buffers: shared hit=28
+                          ->  Seq Scan on plant pl  (cost=0.00..30.52 rows=252 width=12) (actual time=0.008..0.691 rows=5068 loops=1)
+                                Buffers: shared hit=28
+              ->  Index Scan using parcelle_cc on parcelle p  (cost=0.27..0.65 rows=1 width=7) (actual time=0.001..0.001 rows=1 loops=1440)
+                    Index Cond: (parcelle_id = pl.parcelle_id)
+                    Buffers: shared hit=4320
+Planning:
+  Buffers: shared hit=29 dirtied=1
+Planning Time: 0.459 ms
+Execution Time: 12.661 ms
